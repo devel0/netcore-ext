@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>netstandard2.1</TargetFramework>
+		<RootNamespace>SearchAThing</RootNamespace>
+		<LangVersion>10</LangVersion>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+		<GenerateDocumentationFile>true</GenerateDocumentationFile>
+		<PackageId>netcore-ext</PackageId>
+		<PackageVersion>1.0.0</PackageVersion>
+		<Title>net core ext</Title>
+		<Description></Description>
+		<Authors>Lorenzo Delana</Authors>
+		<PackageTags>netcore ext</PackageTags>
+		<PackageProjectUrl>https://github.com/devel0/netcore-ext</PackageProjectUrl>
+		<PackageLicenseExpression>MIT</PackageLicenseExpression>
+		<NoWarn>1591</NoWarn>
+	</PropertyGroup>
+
+	<ItemGroup>
+	  <PackageReference Include="Newtonsoft.Json" Version="13.0.2" />
+	</ItemGroup>
+
+</Project>
