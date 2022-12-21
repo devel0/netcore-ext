@@ -10,7 +10,9 @@
 <hr/>
 
 <!-- TOC -->
-
+* [Quickstart](#quickstart)
+* [Unit tests](#unit-tests)
+* [How this project was built](#how-this-project-was-built)
 <!-- TOCEND -->
 
 <hr/>
