@@ -249,6 +249,12 @@ namespace SearchAThing
             return new List<T>(en);
         }
 
+        /// <summary>
+        /// Convert given enumerable to observable collection
+        /// </summary>
+        public static ObservableCollection<T> ToObservableCollection<T>(this IEnumerable<T> en) =>
+            new ObservableCollection<T>(en);
+
     }
 
 }
