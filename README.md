@@ -23,7 +23,14 @@
 
 ## Quickstart
 
-- [nuget package](https://www.nuget.org/packages/netcore-ext/)
+```sh
+dotnet new console --use-program-main -n test
+cd test
+dotnet add package netcore-ext
+dotnet run
+```
+
+- copy [usings](src/ext/usings.ext.cs) to the source folder
 
 - [extension methods](https://devel0.github.io/netcore-ext/html/class_search_a_thing_1_1_ext.html)
 
@@ -66,8 +73,6 @@ class Program
 
 ### with-index-is-last
 
-- [WithIndexIsLast](https://devel0.github.io/netcore-util/html/class_search_a_thing_1_1_util_ext.html#a17c5dc6f76a3fcce1f5d2a567f9db3ef)
-
 ```csharp
 namespace SearchAThing.Ext.Examples;
 
@@ -99,8 +104,6 @@ class Program
 ```
 
 ### exec
-
-- [Exec](https://devel0.github.io/netcore-util/html/class_search_a_thing_1_1_util_toolkit.html#a2aa4cf2d7debacfc62deacf9d1f93313)
 
 ```csharp
 using System.Threading;
