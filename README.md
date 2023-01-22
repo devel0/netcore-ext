@@ -30,7 +30,7 @@ dotnet add package netcore-ext
 dotnet run
 ```
 
-- copy [usings](src/ext/usings.ext.cs) to the source folder
+- copy [usings.ext.cs](src/ext/usings.ext.cs) global usings to the source folder
 
 - [extension methods](https://devel0.github.io/netcore-ext/html/class_search_a_thing_1_1_ext.html)
 
