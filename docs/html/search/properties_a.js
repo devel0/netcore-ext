@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['type_354',['Type',['../class_search_a_thing_1_1_paper_size.html#a09c7c2a24cbc7972e3dd5eabdd11dac6',1,'SearchAThing::PaperSize']]]
+  ['widthmm_297',['WidthMM',['../class_paper_size.html#a86dbf3813fe650127c98503f6fb29b70',1,'PaperSize']]]
 ];

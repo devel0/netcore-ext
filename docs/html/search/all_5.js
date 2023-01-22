@@ -1,5 +1,17 @@
 var searchData=
 [
-  ['fn_3c_20t_2c_20u_20_3e_58',['Fn&lt; T, U &gt;',['../class_search_a_thing_1_1_ext.html#a8a5e6b16b69b4f5fd7e2632a2138a596',1,'SearchAThing::Ext']]],
-  ['foreach_3c_20t_20_3e_59',['Foreach&lt; T &gt;',['../class_search_a_thing_1_1_ext.html#a1443d843563ec9074a5f561cf33f30a1',1,'SearchAThing::Ext']]]
+  ['getembeddedfilecontentbytes_51',['GetEmbeddedFileContentBytes',['../class_toolkit.html#a83c7c9cef7469733cf254e733bc971d7',1,'Toolkit']]],
+  ['getembeddedfilecontentstring_52',['GetEmbeddedFileContentString',['../class_toolkit.html#a9475ebca41f42e2a2970c0441b26cc52',1,'Toolkit']]],
+  ['getembeddedfilecontentstring_3c_20t_20_3e_53',['GetEmbeddedFileContentString&lt; T &gt;',['../class_toolkit.html#a452bb5628f16b9978766c20c4c684ab8',1,'Toolkit']]],
+  ['getembeddedresourcenames_54',['GetEmbeddedResourceNames',['../class_toolkit.html#a9c08d6eb5ebdd16bc9465e64e86be202',1,'Toolkit']]],
+  ['getembeddedresourceslist_3c_20t_20_3e_55',['GetEmbeddedResourcesList&lt; T &gt;',['../class_toolkit.html#a54647fed3a79d5bfb44c150d588828d8',1,'Toolkit']]],
+  ['getenumerator_56',['GetEnumerator',['../class_read_only_hash_set.html#ae1e55eb7d0e05ce68ae24567466b8804',1,'ReadOnlyHashSet']]],
+  ['getmembername_3c_20t_20_3e_57',['GetMemberName&lt; T &gt;',['../class_toolkit.html#a2d84fbe27034293d2a0660e5a5b7ebf8',1,'Toolkit.GetMemberName&lt; T &gt;(Expression&lt; Func&lt; T, object &gt;&gt; membersExpr)'],['../class_toolkit.html#ad341eec3d4fc661cfce5e4380a5ce755',1,'Toolkit.GetMemberName&lt; T &gt;(T obj, Expression&lt; Func&lt; T, object &gt;&gt; membersExpr)']]],
+  ['getmembernames_3c_20t_20_3e_58',['GetMemberNames&lt; T &gt;',['../class_toolkit.html#abef880ca992608c7a16c209cf6926e45',1,'Toolkit.GetMemberNames&lt; T &gt;(T obj, Expression&lt; Func&lt; T, object &gt;&gt; membersExpr)'],['../class_toolkit.html#a9c43a2d425ad67ff19dcb2d1e335a1be',1,'Toolkit.GetMemberNames&lt; T &gt;(Expression&lt; Func&lt; T, object &gt;&gt; membersExpr)']]],
+  ['getmembernamesext_3c_20t_20_3e_59',['GetMemberNamesExt&lt; T &gt;',['../class_toolkit.html#a2d8f0c8be03c5ab3aad332eee986fae1',1,'Toolkit']]],
+  ['getnext_60',['GetNext',['../class_string_wrapper_line_reader.html#a04b2ca8ce59ec5a9f850fe49887bcb0d',1,'StringWrapperLineReader']]],
+  ['getter_61',['getter',['../class_ext.html#af34acf106f7089fc830d96ae7304b9a1',1,'Ext']]],
+  ['getvarname_3c_20t_20_3e_62',['GetVarName&lt; T &gt;',['../class_toolkit.html#ae929ae73991085d9205b4c6343dd5880',1,'Toolkit']]],
+  ['greatthanorequalstol_63',['GreatThanOrEqualsTol',['../class_ext.html#a447cbda8ab3936babf02e5ae61fb6f09',1,'Ext']]],
+  ['greatthantol_64',['GreatThanTol',['../class_ext.html#a07ed7ed7cb1786a707edb5f1322310af',1,'Ext']]]
 ];

@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['name_350',['Name',['../class_search_a_thing_1_1_docker_network_nfo.html#a7ee9065718e6628dc7791b756fa6c0f9',1,'SearchAThing.DockerNetworkNfo.Name()'],['../class_search_a_thing_1_1_docker_container_nfo.html#a7ee9065718e6628dc7791b756fa6c0f9',1,'SearchAThing.DockerContainerNfo.Name()']]]
+  ['strw_294',['Strw',['../class_string_wrapper_line_reader.html#a66d6c7766f0f90f03acdb58d6700de3b',1,'StringWrapperLineReader']]]
 ];

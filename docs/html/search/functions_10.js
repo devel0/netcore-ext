@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['unspecifiedasutcdatetime_289',['UnspecifiedAsUTCDateTime',['../class_search_a_thing_1_1_ext.html#a1c4e56cfd5cf7f6f2b8455504d901a26',1,'SearchAThing::Ext']]]
+  ['valueobj_252',['ValueObj',['../class_value_obj.html#aa71c5977b8362f1b9c3ceb10e9a8c03d',1,'ValueObj']]]
 ];

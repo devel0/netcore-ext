@@ -1,6 +1,10 @@
 var searchData=
 [
-  ['hasnext_74',['HasNext',['../class_search_a_thing_1_1_string_wrapper_line_reader.html#a3551d22502a58cdc93b15d14f3fb87c2',1,'SearchAThing::StringWrapperLineReader']]],
-  ['heightmm_75',['HeightMM',['../class_search_a_thing_1_1_paper_size.html#a15d074a5f9697c5036c4332b7edf0ca7',1,'SearchAThing::PaperSize']]],
-  ['humanreadable_76',['HumanReadable',['../class_search_a_thing_1_1_ext.html#a883f091af38323ee42490280a132f017',1,'SearchAThing::Ext']]]
+  ['import_68',['Import',['../class_ext.html#a7ee1dc20bf39f9b379bea3ff05911131',1,'Ext']]],
+  ['invariantdate_69',['InvariantDate',['../class_ext.html#a3d50f8bea9364bc300f0dd2a2864c2d0',1,'Ext']]],
+  ['invariantedatetime_70',['InvarianteDateTime',['../class_ext.html#a1fc9fbd32fab040a1055955b4e16ab3a',1,'Ext']]],
+  ['invarianttime_71',['InvariantTime',['../class_ext.html#ad9e0856135c063ab368e0cc74c8e5428',1,'Ext']]],
+  ['invdoubleparse_72',['InvDoubleParse',['../class_ext.html#ab079b80a0541659b4a63c40336e72668',1,'Ext']]],
+  ['ireadonlyhashset_73',['IReadOnlyHashSet',['../interface_i_read_only_hash_set.html',1,'']]],
+  ['isinrange_74',['IsInRange',['../class_ext.html#a1541ead28406f4aaf57de65ea386dda1',1,'Ext']]]
 ];

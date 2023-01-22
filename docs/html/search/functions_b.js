@@ -1,5 +1,8 @@
 var searchData=
 [
-  ['normalizefilename_251',['NormalizeFilename',['../class_search_a_thing_1_1_ext.html#a9d259b475e50ea39f3d93bf095bcfa66',1,'SearchAThing::Ext']]],
-  ['normalizeworksheetname_252',['NormalizeWorksheetName',['../class_search_a_thing_1_1_ext.html#a19f3762d89f9a8e76353b4d8551aa800',1,'SearchAThing::Ext']]]
+  ['papersize_218',['PaperSize',['../class_paper_size.html#af5dccd070a5904a4bcf5df0084611c57',1,'PaperSize.PaperSize(PaperSizeEnum type)'],['../class_paper_size.html#afd52397b161962d90ef187a4275023e8',1,'PaperSize.PaperSize(double widthMM, double heightMM)']]],
+  ['parseint_219',['ParseInt',['../class_ext.html#a67a2e8b98eb16c9f3051ea1bc1b6f974',1,'Ext']]],
+  ['pct_220',['Pct',['../class_ext.html#a0570a88201db22a43b90aa7458005f1e',1,'Ext']]],
+  ['pttohalfpoint_221',['PtToHalfPoint',['../class_ext.html#a9447f190663c6ae236c646cac6fb9939',1,'Ext']]],
+  ['pttomm_222',['PtToMM',['../class_ext.html#ac94c4cec504f8e0ecc285d5b421e34ed',1,'Ext']]]
 ];

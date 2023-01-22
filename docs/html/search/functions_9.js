@@ -1,10 +1,10 @@
 var searchData=
 [
-  ['latest_237',['Latest',['../class_search_a_thing_1_1_ext.html#a72c90b77170d13d6fe6eb418c0231185',1,'SearchAThing::Ext']]],
-  ['lessthanorequalstol_238',['LessThanOrEqualsTol',['../class_search_a_thing_1_1_ext.html#ae336ce39d916c105e4b9df205015bd3f',1,'SearchAThing::Ext']]],
-  ['lessthantol_239',['LessThanTol',['../class_search_a_thing_1_1_ext.html#a7f096b99aaa7646ffc59d525effae2b4',1,'SearchAThing::Ext']]],
-  ['linereader_240',['LineReader',['../class_search_a_thing_1_1_string_wrapper.html#a4d0abbc218387bd8e2d4358fb9dd6788',1,'SearchAThing::StringWrapper']]],
-  ['lines_241',['Lines',['../class_search_a_thing_1_1_ext.html#af3444050f566875bf01f41a9543933b2',1,'SearchAThing.Ext.Lines()'],['../class_search_a_thing_1_1_string_wrapper.html#aa436f67525847a1884e009f4aacd5ffc',1,'SearchAThing.StringWrapper.Lines()']]],
-  ['listcontainers_242',['ListContainers',['../class_search_a_thing_1_1_toolkit.html#ae88462dc1606d4d3126d4cd1f7f28b91',1,'SearchAThing::Toolkit']]],
-  ['listnetworks_243',['ListNetworks',['../class_search_a_thing_1_1_toolkit.html#a0e8bce624b6e6a9ec4a1553e9c925272',1,'SearchAThing::Toolkit']]]
+  ['magnitude_209',['Magnitude',['../class_ext.html#a295a3554073edabbb48b18701741ab78',1,'Ext']]],
+  ['matchesfilter_210',['MatchesFilter',['../class_ext.html#a5c26b1fdca2e0bbbcf9973e801f704a7',1,'Ext']]],
+  ['mean_211',['Mean',['../class_ext.html#a536179acfe874c4a326dd8de3cfb6eec',1,'Ext']]],
+  ['mmtoemu_212',['MMToEMU',['../class_ext.html#a157c189204509bca368c2b2c78d26dfe',1,'Ext.MMToEMU(this int mm)'],['../class_ext.html#a0abe5e3e7f5c847d6ec4896c4e0489f2',1,'Ext.MMToEMU(this double mm)']]],
+  ['mmtopt_213',['MMToPt',['../class_ext.html#ab6e804315feaaea1ae6dbc4c50dc3a57',1,'Ext']]],
+  ['mmtotwip_214',['MMToTwip',['../class_ext.html#a5e1a6068ea814d41d667b2bb50883f00',1,'Ext.MMToTwip(this double mm)'],['../class_ext.html#aba51e03cf35aa3fdfb2be4baac1dec96',1,'Ext.MMToTwip(this int mm)']]],
+  ['mround_215',['MRound',['../class_ext.html#adc263c6771b17ec5a4008221ff72460a',1,'Ext.MRound(this double value, double multiple)'],['../class_ext.html#aed558c297c3fb8cc49fc35f0d110aab0',1,'Ext.MRound(this double? value, double multiple)'],['../class_ext.html#a1b05c62ff86900916d44b27971bb5635',1,'Ext.MRound(this double value, double? multiple)']]]
 ];
