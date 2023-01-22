@@ -12,6 +12,10 @@
 <!-- TOC -->
 * [Quickstart](#quickstart)
 * [Unit tests](#unit-tests)
+* [Examples](#examples)
+  + [tail like](#tail-like)
+  + [with-index-is-last](#with-index-is-last)
+  + [exec](#exec)
 * [How this project was built](#how-this-project-was-built)
 <!-- TOCEND -->
 
@@ -24,13 +28,13 @@
 - [extension methods](https://devel0.github.io/netcore-ext/html/class_search_a_thing_1_1_ext.html)
 
 ```csharp
-using SearchAThing;
+using SearchAThing.Ext;
 ```
 
 - [toolkit methods](https://devel0.github.io/netcore-util/html/class_search_a_thing_1_1_toolkit.html)
 
 ```csharp
-using static SearchAThing.Toolkit;
+using static SearchAThing.Ext.Toolkit;
 ```
 
 ## Unit tests
@@ -46,18 +50,15 @@ dotnet test
 ### tail like
 
 ```cs
-using static SearchAThing.Toolkit;
+namespace SearchAThing.Ext.Examples;
 
-namespace mytest
+class Program
 {
-    class Program
+    static void Main(string[] args)
     {
-        static void Main(string[] args)
+        foreach (var x in TailLike("/var/log/syslog"))
         {
-            foreach (var x in TailLike("/var/log/syslog"))
-            {
-                System.Console.WriteLine(x);
-            }
+            System.Console.WriteLine(x);
         }
     }
 }
@@ -68,35 +69,31 @@ namespace mytest
 - [WithIndexIsLast](https://devel0.github.io/netcore-util/html/class_search_a_thing_1_1_util_ext.html#a17c5dc6f76a3fcce1f5d2a567f9db3ef)
 
 ```csharp
-using System.Linq;
-using SearchAThing;
+namespace SearchAThing.Ext.Examples;
 
-namespace example
+class Program
 {
-    class Program
+    static void Main(string[] args)
     {
-        static void Main(string[] args)
+        var q = new[] { 1, 2, 4 };
+
+        var last = 0d;
+
+        // q2 : sum of all elements except last ( save last into `last` var )
+        var q2 = q.WithIndexIsLast().Select(w =>
         {
-            var q = new[] { 1, 2, 4 };
-
-            var last = 0d;
-
-            // q2 : sum of all elements except last ( save last into `last` var )
-            var q2 = q.WithIndexIsLast().Select(w =>
+            if (w.isLast)
             {
-                if (w.isLast)
-                {
-                    last = w.item;
-                    return 0;
-                }
-                return w.item;
-            }).Sum();
+                last = w.item;
+                return 0;
+            }
+            return w.item;
+        }).Sum();
 
-            if (q2 == 3 && last == 4)
-                System.Console.WriteLine($"tests succeeded");
-            else
-                System.Console.WriteLine($"tests failed");
-        }
+        if (q2 == 3 && last == 4)
+            System.Console.WriteLine($"tests succeeded");
+        else
+            System.Console.WriteLine($"tests failed");
     }
 }
 ```
@@ -107,95 +104,47 @@ namespace example
 
 ```csharp
 using System.Threading;
-using System.Threading.Tasks;
-using System.Linq;
 
-using SearchAThing;
-using static SearchAThing.Toolkit;
+namespace SearchAThing.Ext.Examples;
 
-namespace exec
+class Program
 {
-    class Program
+    static void Main(string[] args)
     {
-        static void Main(string[] args)
+        Task.Run(async () =>
         {
-            Task.Run(async () =>
+            var q = await Exec("ls", new[] { "-la", "/etc/hosts" }, CancellationToken.None,
+                sudo: false,
+                redirectStdout: true,
+                redirectStderr: false,
+                verbose: false);
+
+            if (q.ExitCode == 0)
             {
-                var q = await Exec("ls", new[] { "-la", "/etc/hosts" }, CancellationToken.None,
-                    sudo: false,
-                    redirectStdout: true,
-                    redirectStderr: false,
-                    verbose: false);
+                var line = q.Output.Lines().First();
+                System.Console.WriteLine(line);
 
-                if (q.ExitCode == 0)
-                {
-                    var line = q.Output.Lines().First();
-                    System.Console.WriteLine(line);
+                var ss = line.Split(' ');
 
-                    var ss = line.Split(' ');
+                System.Console.WriteLine($"perm: {ss[0]}");
+                System.Console.WriteLine($"owner: {ss[2]}");
+                System.Console.WriteLine($"group: {ss[3]}");
+                System.Console.WriteLine($"size: {ss[4]}");
+            }
 
-                    System.Console.WriteLine($"perm: {ss[0]}");
-                    System.Console.WriteLine($"owner: {ss[2]}");
-                    System.Console.WriteLine($"group: {ss[3]}");
-                    System.Console.WriteLine($"size: {ss[4]}");
-                }
+            // RESULT:
+            //
+            // -rw-r--r-- 1 root root 218 May 11  2020 /etc/hosts
+            // perm: -rw-r--r--
+            // owner: root
+            // group: root
+            // size: 218
 
-                // RESULT:
-                //
-                // -rw-r--r-- 1 root root 218 May 11  2020 /etc/hosts
-                // perm: -rw-r--r--
-                // owner: root
-                // group: root
-                // size: 218
-
-            }).Wait();
-        }
+        }).Wait();
     }
 }
 ```
 
-### exec-bash-redirect
-
-- [ExecBashRedirect](https://devel0.github.io/netcore-util/html/class_search_a_thing_1_1_util_toolkit.html#ae6def815d3b04c0e3296dd2c5e3d717d)
-
-```csharp
-using System.Threading;
-using System.Threading.Tasks;
-using static SearchAThing.Toolkit;
-
-namespace exec
-{
-    class Program
-    {
-        static void Main(string[] args)
-        {
-            Task.Run(async () =>
-            {
-                var q = await ExecBashRedirect("i=0; while (($i < 5)); do echo $i; let i=$i+1; done",
-                    CancellationToken.None,
-                    sudo: false,                    
-                    verbose: false);
-
-                if (q.ExitCode == 0)
-                {
-                    System.Console.WriteLine($"output[{q.Output}]");                    
-                }
-
-                // RESULT:
-                //
-                // output[0
-                // 1
-                // 2
-                // 3
-                // 4
-
-                // ]
-                
-            }).Wait();
-        }
-    }
-}
-```
 
 ## How this project was built
 
@@ -204,15 +153,20 @@ mkdir netcore-ext
 cd netcore-ext
 
 dotnet new sln
-dotnet new classlib -n netcore-ext -f netstandard2.1 --langVersion 10
 
+mkdir -p examples src/ext
+
+cd src/ext
+dotnet new classlib -n netcore-ext -f netstandard2.1 --langVersion 11
+# add packages ( https://nuget.org )
+
+cd ..
 dotnet new xunit -n test
 cd test
-dotnet add reference ../netcore-ext
+dotnet add reference ../ext/netcore-ext.csproj
 cd ..
 
-dotnet sln netcore-ext.sln add netcore-ext
-dotnet sln netcore-ext.sln add test
+dotnet sln add src/ext src/test examples/example01
 dotnet build
 dotnet test
 ```
