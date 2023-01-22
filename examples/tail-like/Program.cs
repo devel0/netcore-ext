@@ -1,5 +1,4 @@
-﻿
-namespace examples;
+﻿namespace SearchAThing.Ext.Examples;
 
 class Program
 {
