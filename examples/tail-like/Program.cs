@@ -1,15 +1,13 @@
-﻿using static SearchAThing.Toolkit;
+﻿
+namespace examples;
 
-namespace mytest
+class Program
 {
-    class Program
+    static void Main(string[] args)
     {
-        static void Main(string[] args)
+        foreach (var x in TailLike("/var/log/syslog"))
         {
-            foreach (var x in TailLike("/var/log/syslog"))
-            {
-                System.Console.WriteLine(x);
-            }
+            System.Console.WriteLine(x);
         }
     }
 }
