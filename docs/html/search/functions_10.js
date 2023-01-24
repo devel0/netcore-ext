@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['valueobj_257',['ValueObj',['../class_value_obj.html#aa71c5977b8362f1b9c3ceb10e9a8c03d',1,'ValueObj']]]
+  ['unspecifiedaslocaldatetime_267',['UnspecifiedAsLocalDateTime',['../class_ext.html#a915205d875445ceffbb990e315cefa29',1,'Ext']]],
+  ['unspecifiedasutcdatetime_268',['UnspecifiedAsUTCDateTime',['../class_ext.html#a1c4e56cfd5cf7f6f2b8455504d901a26',1,'Ext']]]
 ];

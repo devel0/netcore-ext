@@ -1,13 +1,15 @@
 var searchData=
 [
-  ['tableformat_245',['TableFormat',['../class_ext.html#a9e45f2e5776138632d3ef6c4d458961e',1,'Ext']]],
-  ['taillike_246',['TailLike',['../class_toolkit.html#a96469c305037f540599188d71891360c',1,'Toolkit']]],
-  ['todeg_247',['ToDeg',['../class_ext.html#a167a5f1468d441d88c7555915c3ba2e1',1,'Ext.ToDeg(this double angleRad)'],['../class_ext.html#a4fc76eaac0021e4bdfb214727d00c463',1,'Ext.ToDeg(this float angleRad)']]],
-  ['toobservablecollection_3c_20t_20_3e_248',['ToObservableCollection&lt; T &gt;',['../class_ext.html#ae0fe7e939ead390215624946d6ffdc73',1,'Ext']]],
-  ['torad_249',['ToRad',['../class_ext.html#a0e2e0f32ab4d6a5d53ed1a10eeb7db98',1,'Ext.ToRad(this double angleGrad)'],['../class_ext.html#a540836bba8d55acd3d073e2368885abf',1,'Ext.ToRad(this float angleDeg)']]],
-  ['toreadonlylist_3c_20t_20_3e_250',['ToReadOnlyList&lt; T &gt;',['../class_ext.html#a502eeaf82e0fbf63353e867f0da68f04',1,'Ext']]],
-  ['tostring_251',['ToString',['../class_ext.html#a8337fe9d6eb4e3f1cd57fd757194ac09',1,'Ext.ToString()'],['../class_string_wrapper.html#aa73e7c4dd1df5fd5fbf81c7764ee1533',1,'StringWrapper.ToString()']]],
-  ['tostringwrapper_252',['ToStringWrapper',['../class_ext.html#a4c54300d11b73e165658e212cb176d20',1,'Ext']]],
-  ['trimnonnumericcharacters_253',['TrimNonNumericCharacters',['../class_ext.html#a22f2d607cf4881f65f936650e7b33cf6',1,'Ext']]],
-  ['twiptomm_254',['TwipToMM',['../class_ext.html#aaa0547e20b81fe64df961f95381ebff3',1,'Ext.TwipToMM(this uint twip)'],['../class_ext.html#a0d45510398d50110386c3b8f2100fb4f',1,'Ext.TwipToMM(this int twip)']]]
+  ['saveembeddedresourcetofile_245',['SaveEmbeddedResourceToFile',['../class_toolkit.html#a2487d76fa73983081e8d6f572b4bdcb5',1,'Toolkit']]],
+  ['searchinpath_246',['SearchInPath',['../class_toolkit.html#a1bd00d1bf1056d8876797bcb7db90035',1,'Toolkit']]],
+  ['sign_247',['Sign',['../class_ext.html#a4808d9ffd252d5ff560d1b0179a05344',1,'Ext.Sign(this int n)'],['../class_ext.html#aa2521b18bfa7ead9cff8e024b35eb086',1,'Ext.Sign(this double n)'],['../class_ext.html#a5bcca8a0c66ad4b499dae15fff2101ab',1,'Ext.Sign(this double n, double zeroTol)']]],
+  ['smartdoubleparse_248',['SmartDoubleParse',['../class_ext.html#a834b16136ffee219dec3852c6363d8e7',1,'Ext']]],
+  ['sort_3c_20tsource_2c_20tkey_20_3e_249',['Sort&lt; TSource, TKey &gt;',['../class_ext.html#a2a3c1b09e111cee6cd0c65eed39d23b6',1,'Ext']]],
+  ['split_250',['Split',['../class_ext.html#a00a4e8117c81617ad7a907b7c408a81b',1,'Ext']]],
+  ['stringify_251',['Stringify',['../class_ext.html#a2fbdf81306f93c3ca3dd81b181445320',1,'Ext']]],
+  ['stringwrapper_252',['StringWrapper',['../class_string_wrapper.html#a293f7d08a86daf5efa0ed5f6f52d7152',1,'StringWrapper']]],
+  ['stringwrapperlinereader_253',['StringWrapperLineReader',['../class_string_wrapper_line_reader.html#a6bd0e142d21d97ed51c5b01502e97424',1,'StringWrapperLineReader']]],
+  ['stripbegin_254',['StripBegin',['../class_ext.html#a119585cc998e82459386c54fa4e5702a',1,'Ext.StripBegin(this string str, char c, bool ignoreCase=false)'],['../class_ext.html#a3e8b0867e2d0386d1cc32f30dc4ee643',1,'Ext.StripBegin(this string str, string partToStrip, bool ignoreCase=false)']]],
+  ['stripend_255',['StripEnd',['../class_ext.html#a85d64a0988385dfd52e40e1909e4c066',1,'Ext.StripEnd(this string str, char c, bool ignoreCase=false)'],['../class_ext.html#a1c0f9fd59706ec1bc2e57eacc0ee3105',1,'Ext.StripEnd(this string str, string partToStrip, bool ignoreCase=false)']]],
+  ['swap_3c_20t_20_3e_256',['Swap&lt; T &gt;',['../class_toolkit.html#a0c8b902ffd6b8c4a6f31e1dd85ea5be6',1,'Toolkit']]]
 ];

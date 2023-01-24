@@ -1,8 +1,5 @@
 var searchData=
 [
-  ['papersize_223',['PaperSize',['../class_paper_size.html#af5dccd070a5904a4bcf5df0084611c57',1,'PaperSize.PaperSize(PaperSizeEnum type)'],['../class_paper_size.html#afd52397b161962d90ef187a4275023e8',1,'PaperSize.PaperSize(double widthMM, double heightMM)']]],
-  ['parseint_224',['ParseInt',['../class_ext.html#a67a2e8b98eb16c9f3051ea1bc1b6f974',1,'Ext']]],
-  ['pct_225',['Pct',['../class_ext.html#a0570a88201db22a43b90aa7458005f1e',1,'Ext']]],
-  ['pttohalfpoint_226',['PtToHalfPoint',['../class_ext.html#a9447f190663c6ae236c646cac6fb9939',1,'Ext']]],
-  ['pttomm_227',['PtToMM',['../class_ext.html#ac94c4cec504f8e0ecc285d5b421e34ed',1,'Ext']]]
+  ['observe_3c_20i_20_3e_233',['Observe&lt; I &gt;',['../class_ext.html#ae898440d8b2f132c1f63311c55e772b5',1,'Ext']]],
+  ['observer_234',['Observer',['../class_observer.html#a0c7ea13171713204fa1e738427ac2470',1,'Observer']]]
 ];

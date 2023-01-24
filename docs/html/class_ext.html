@@ -215,6 +215,8 @@ Static Public Member Functions</h2></td></tr>
 <tr class="memitem:a2a3c1b09e111cee6cd0c65eed39d23b6"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ext.html#a2a3c1b09e111cee6cd0c65eed39d23b6">Sort&lt; TSource, TKey &gt;</a> (this ObservableCollection&lt; TSource &gt; obc, Func&lt; TSource, TKey &gt; keySelector, bool descending=false)</td></tr>
 <tr class="memdesc:a2a3c1b09e111cee6cd0c65eed39d23b6"><td class="mdescLeft">&#160;</td><td class="mdescRight">sort obc  <a href="class_ext.html#a2a3c1b09e111cee6cd0c65eed39d23b6">More...</a><br /></td></tr>
 <tr class="separator:a2a3c1b09e111cee6cd0c65eed39d23b6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae898440d8b2f132c1f63311c55e772b5"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_observer.html">Observer</a>&lt; I &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ext.html#ae898440d8b2f132c1f63311c55e772b5">Observe&lt; I &gt;</a> (this <a class="el" href="class_observable_collection2.html">ObservableCollection2</a>&lt; I &gt; obc)</td></tr>
+<tr class="separator:ae898440d8b2f132c1f63311c55e772b5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab6e804315feaaea1ae6dbc4c50dc3a57"><td class="memItemLeft" align="right" valign="top">static double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ext.html#ab6e804315feaaea1ae6dbc4c50dc3a57">MMToPt</a> (this double mm)</td></tr>
 <tr class="memdesc:ab6e804315feaaea1ae6dbc4c50dc3a57"><td class="mdescLeft">&#160;</td><td class="mdescRight">font size<br  />
  half_point = hp = 1/144 inch = 25.4/144 mm<br  />
@@ -1918,6 +1920,43 @@ Static Public Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="ae898440d8b2f132c1f63311c55e772b5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae898440d8b2f132c1f63311c55e772b5">&#9670;&nbsp;</a></span>Observe&lt; I &gt;()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static <a class="el" href="class_observer.html">Observer</a>&lt;I&gt; Observe&lt; I &gt; </td>
+          <td>(</td>
+          <td class="paramtype">this <a class="el" href="class_observable_collection2.html">ObservableCollection2</a>&lt; I &gt;&#160;</td>
+          <td class="paramname"><em>obc</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="typeconstraint">
+<dl><dt><b>Type Constraints</b></dt><dd>
+<table border="0" cellspacing="2" cellpadding="0">
+<tr><td valign="top"><em>I</em></td><td>&#160;:</td><td valign="top"><em>INotifyPropertyChanged</em></td><td>&#160;</td></tr>
+<tr><td valign="top"><em>I</em></td><td>&#160;:</td><td valign="top"><em>new</em></td><td>&#160;</td></tr>
+<tr><td valign="top"><em>I</em></td><td>&#160;:</td><td valign="top"><em><a class="el" href="class_observer.html">Observer</a>&lt;I&gt;</em></td><td>&#160;</td></tr>
+<tr><td valign="top"><em>I</em></td><td>&#160;:</td><td valign="top"><em>obc</em></td><td>&#160;</td></tr>
+</table>
+</dd>
+</dl>
+</div>
+
+</div>
+</div>
 <a id="a67a2e8b98eb16c9f3051ea1bc1b6f974"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a67a2e8b98eb16c9f3051ea1bc1b6f974">&#9670;&nbsp;</a></span>ParseInt()</h2>
 
@@ -3566,6 +3605,7 @@ Static Public Attributes</h2></td></tr>
 <li>src/ext/Number.cs</li>
 <li>src/ext/Object.cs</li>
 <li>src/ext/ObservableCollection.cs</li>
+<li>src/ext/Observer.cs</li>
 <li>src/ext/PaperSize.cs</li>
 <li>src/ext/String.cs</li>
 </ul>
