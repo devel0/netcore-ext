@@ -10,6 +10,7 @@ global using System.IO;
 global using System.Diagnostics;
 global using System.Threading.Tasks;
 global using System.Reflection;
+global using System.ComponentModel;
 global using static System.Math;
 global using static System.FormattableString;
 

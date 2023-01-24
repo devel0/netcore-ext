@@ -8,23 +8,29 @@ public partial class ObservableCollectionTests
     [Fact]
     public void ObservableCollectionTest_0001()
     {
-        var obc = new ObservableCollection2<int>();
+        var obc = new ObservableCollection<TestItem>();
 
-        obc.Add(1);
-        obc.Add(2);
+        var testItem1 = new TestItem(1);
+        var testItem2 = new TestItem(2);
+
+        obc.Add(testItem1);
+        obc.Add(testItem2);
 
         obc.CollectionChanged += (sender, e) =>
         {
-            Assert.Equal(NotifyCollectionChangedAction.Reset, e.Action);
-            Assert.Null(e.OldItems);
+            Assert.Equal(NotifyCollectionChangedAction.Replace, e.Action);
+
+            Assert.NotNull(e.OldItems);
+            Assert.Equal(1, e.OldItems.Count);
+            Assert.IsType(typeof(TestItem), e.OldItems[0]);
+            Assert.Equal(testItem1, e.OldItems[0]);
+
+            Assert.NotNull(e.NewItems);
+            Assert.Equal(1, e.NewItems.Count);
+            Assert.IsType(typeof(TestItem), e.NewItems[0]);
+            Assert.Equal(testItem2, e.NewItems[0]);
         };
 
-        obc.Clearing += (sender, items) =>
-        {
-            Assert.Equal(2, items.Count);
-            Assert.Equal(2, obc.Count);
-        };
-
-        obc.Clear();
+        obc[0] = obc[1];
     }
 }
