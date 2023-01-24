@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['papersize_149',['PaperSize',['../class_paper_size.html',1,'']]]
+  ['observablecollection2_152',['ObservableCollection2',['../class_observable_collection2.html',1,'']]]
 ];
