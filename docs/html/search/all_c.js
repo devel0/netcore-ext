@@ -1,10 +1,9 @@
 var searchData=
 [
-  ['randompassword_0',['RandomPassword',['../class_search_a_thing_1_1_ext_1_1_toolkit.html#afe6be85755aa1b9a8333494f931afc09',1,'SearchAThing::Ext::Toolkit']]],
-  ['randompasswordoptions_1',['RandomPasswordOptions',['../class_search_a_thing_1_1_ext_1_1_random_password_options.html',1,'SearchAThing::Ext']]],
-  ['readonlyhashset_2',['ReadOnlyHashSet',['../class_search_a_thing_1_1_ext_1_1_read_only_hash_set.html#a300c3e63a3c646ae6a19c6469b0fedcc',1,'SearchAThing.Ext.ReadOnlyHashSet.ReadOnlyHashSet()'],['../class_search_a_thing_1_1_ext_1_1_read_only_hash_set.html',1,'ReadOnlyHashSet&lt; T &gt;']]],
-  ['remove_3',['Remove',['../namespace_search_a_thing_1_1_ext.html#ad24bca9adfadaa3a63fdcf858ed01113a1063e38cb53d94d386f21227fcd84717',1,'SearchAThing::Ext']]],
-  ['repeat_4',['Repeat',['../class_search_a_thing_1_1_ext_1_1_ext.html#af169c6a8237a2bf73d076400a455e0f9',1,'SearchAThing::Ext::Ext']]],
-  ['right_5',['right',['../namespace_search_a_thing_1_1_ext.html#aa41f231b5cf59d9c325b53c1be02556fa7c4f29407893c334a6cb7a87bf045c0d',1,'SearchAThing::Ext']]],
-  ['routefirst_3c_20t_20_3e_6',['RouteFirst&lt; T &gt;',['../class_search_a_thing_1_1_ext_1_1_ext.html#a30463e049d8a3c633fb4985179c6f0ba',1,'SearchAThing::Ext::Ext']]]
+  ['papersize_0',['PaperSize',['../class_search_a_thing_1_1_ext_1_1_paper_size.html#af5dccd070a5904a4bcf5df0084611c57',1,'SearchAThing.Ext.PaperSize.PaperSize(PaperSizeEnum type)'],['../class_search_a_thing_1_1_ext_1_1_paper_size.html#afd52397b161962d90ef187a4275023e8',1,'SearchAThing.Ext.PaperSize.PaperSize(double widthMM, double heightMM)'],['../class_search_a_thing_1_1_ext_1_1_paper_size.html',1,'PaperSize']]],
+  ['papersizeenum_1',['PaperSizeEnum',['../namespace_search_a_thing_1_1_ext.html#a3fa8f0a080f624c5212337559ef94025',1,'SearchAThing::Ext']]],
+  ['pct_2',['Pct',['../class_search_a_thing_1_1_ext_1_1_ext.html#a0570a88201db22a43b90aa7458005f1e',1,'SearchAThing::Ext::Ext']]],
+  ['propertychanged_3',['PropertyChanged',['../namespace_search_a_thing_1_1_ext.html#ad24bca9adfadaa3a63fdcf858ed01113a6024f09b155d231e67118b1b6b63e413',1,'SearchAThing::Ext']]],
+  ['pttohalfpoint_4',['PtToHalfPoint',['../class_search_a_thing_1_1_ext_1_1_ext.html#a9447f190663c6ae236c646cac6fb9939',1,'SearchAThing::Ext::Ext']]],
+  ['pttomm_5',['PtToMM',['../class_search_a_thing_1_1_ext_1_1_ext.html#ac94c4cec504f8e0ecc285d5b421e34ed',1,'SearchAThing::Ext::Ext']]]
 ];

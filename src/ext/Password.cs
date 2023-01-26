@@ -72,7 +72,10 @@ public static partial class Toolkit
 
     /// <summary>
     /// Generate random password using defaults ( allow numbers, lowercase, uppercase, 12 of length, no special symbol )
-    /// </summary>        
+    /// </summary>    
+    /// <example>
+    /// \snippet random-password/Program.cs example
+    /// </example>
     public static string RandomPassword(RandomPasswordOptions? opts = null)
     {
         if (opts is null) opts = new RandomPasswordOptions();

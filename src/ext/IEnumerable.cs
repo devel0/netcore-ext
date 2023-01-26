@@ -18,6 +18,9 @@ public static partial class Ext
     /// <summary>
     /// enumerable extension to enumerate itself into an (item, idx, isLast) set
     /// </summary>
+    /// <example>
+    /// \snippet with-index-is-last/Program.cs example
+    /// </example>
     public static IEnumerable<(T item, int idx, bool isLast)> WithIndexIsLast<T>(this IEnumerable<T> en)
     {
         var enm = en.GetEnumerator();

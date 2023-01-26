@@ -1290,7 +1290,31 @@ Static Public Member Functions</h2></td></tr>
 <p>Generate random password using defaults ( allow numbers, lowercase, uppercase, 12 of length, no special symbol ) </p>
 <p><br  />
  </p>
-
+<div class="fragment"><div class="line">        {</div>
+<div class="line">            var opts = <span class="keyword">new</span> <a class="code hl_class" href="class_search_a_thing_1_1_ext_1_1_random_password_options.html">RandomPasswordOptions</a>()</div>
+<div class="line">            {</div>
+<div class="line">                AtLeastOneNumber = <span class="keyword">true</span>,</div>
+<div class="line">                AtLeastOneSpecial = <span class="keyword">false</span>,</div>
+<div class="line">                AtLeastOneUppercase = <span class="keyword">true</span>,</div>
+<div class="line">                Length = 8,</div>
+<div class="line">                AvoidChars = <span class="keyword">new</span>[] { <span class="charliteral">&#39;l&#39;</span>, <span class="charliteral">&#39;I&#39;</span>, <span class="charliteral">&#39;O&#39;</span>, <span class="charliteral">&#39;0&#39;</span> }</div>
+<div class="line">            };</div>
+<div class="line">            var pass = RandomPassword(opts);</div>
+<div class="line">            System.Console.WriteLine($<span class="stringliteral">&quot;pass [{pass}] in {opts.LoopCount} loop count&quot;</span>);</div>
+<div class="line">        }</div>
+<div class="line"> </div>
+<div class="line">        {</div>
+<div class="line">            var opts = <span class="keyword">new</span> RandomPasswordOptions()</div>
+<div class="line">            {</div>
+<div class="line">                AllowLetter = <span class="keyword">false</span>,</div>
+<div class="line">                AtLeastOneUppercase = <span class="keyword">false</span>,</div>
+<div class="line">                Length = 4</div>
+<div class="line">            };</div>
+<div class="line">            var pass = RandomPassword(opts);</div>
+<div class="line">            System.Console.WriteLine($<span class="stringliteral">&quot;pin [{pass}] in {opts.LoopCount} loop count&quot;</span>);</div>
+<div class="line">        }</div>
+<div class="ttc" id="aclass_search_a_thing_1_1_ext_1_1_random_password_options_html"><div class="ttname"><a href="class_search_a_thing_1_1_ext_1_1_random_password_options.html">SearchAThing.Ext.RandomPasswordOptions</a></div><div class="ttdoc">to generate a pin use follow config ( AllowLetter = false, AtLeastOneUppercase = false,...</div><div class="ttdef"><b>Definition:</b> Password.cs:7</div></div>
+</div><!-- fragment --> 
 </div>
 </div>
 <a id="a2487d76fa73983081e8d6f572b4bdcb5" name="a2487d76fa73983081e8d6f572b4bdcb5"></a>
@@ -1461,7 +1485,11 @@ Static Public Member Functions</h2></td></tr>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>return incoming lines from given file</dd></dl>
-
+<div class="fragment"><div class="line">        <span class="keywordflow">foreach</span> (var x <span class="keywordflow">in</span> TailLike(<span class="stringliteral">&quot;/var/log/syslog&quot;</span>))</div>
+<div class="line">        {</div>
+<div class="line">            System.Console.WriteLine(x);</div>
+<div class="line">        }</div>
+</div><!-- fragment --> 
 </div>
 </div>
 <a id="aa39e1f1203072a24dfbba3883397d7d0" name="aa39e1f1203072a24dfbba3883397d7d0"></a>

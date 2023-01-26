@@ -4,6 +4,7 @@ class Program
 {
     static void Main(string[] args)
     {
+        //! [example]
         {
             var opts = new RandomPasswordOptions()
             {
@@ -27,5 +28,6 @@ class Program
             var pass = RandomPassword(opts);
             System.Console.WriteLine($"pin [{pass}] in {opts.LoopCount} loop count");
         }
+        //! [example]
     }
 }

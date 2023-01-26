@@ -4,6 +4,7 @@ class Program
 {
     static void Main(string[] args)
     {
+        //! [example]
         var q = new[] { 1, 2, 4 };
 
         var last = 0d;
@@ -23,5 +24,6 @@ class Program
             System.Console.WriteLine($"tests succeeded");
         else
             System.Console.WriteLine($"tests failed");
+        //! [example]
     }
 }

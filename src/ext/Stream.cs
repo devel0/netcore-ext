@@ -11,6 +11,9 @@ public static partial class Toolkit
     /// <param name="ct">optional cancellation token to control stop of tail loop</param>
     /// <param name="BUFSIZE">read buffer size (default:1024)</param>
     /// <returns>return incoming lines from given file</returns>
+    /// <example>
+    /// \snippet tail-like/Program.cs example
+    /// </example>
     public static IEnumerable<string> TailLike(string pathfilename,
         bool seekEnd = true,
         CancellationToken? ct = null,

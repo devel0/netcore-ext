@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.6"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>netcore-ext: Main Page</title>
+<title>netcore-ext: netcore-ext</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -90,10 +90,76 @@ $(document).ready(function(){initNavTree('index.html',''); initResizable(); });
 </div>
 </div>
 
-<div class="header">
-  <div class="headertitle"><div class="title">netcore-ext Documentation</div></div>
+<div><div class="header">
+  <div class="headertitle"><div class="title">netcore-ext </div></div>
 </div><!--header-->
 <div class="contents">
+<div class="textblock"><p><a class="anchor" id="md_README"></a> <a href="https://www.nuget.org/packages/netcore-ext/"><img src="https://buildstats.info/nuget/netcore-ext" alt="NuGet Badge" class="inline"/></a></p>
+<p>.NET core extensions</p>
+<ul>
+<li><a href="https://devel0.github.io/netcore-ext/html/annotated.html">API Documentation</a></li>
+<li><a href="https://github.com/devel0/netcore-ext/commits/master">Changelog</a></li>
+</ul>
+<hr  />
+<ul>
+<li>Quickstart</li>
+<li>Unit tests</li>
+<li>Examples<ul>
+<li>tail like</li>
+<li>with-index-is-last</li>
+<li>exec</li>
+</ul>
+</li>
+<li>How this project was built</li>
+</ul>
+<hr  />
+<h1><a class="anchor" id="autotoc_md1"></a>
+Quickstart</h1>
+<div class="fragment"><div class="line">dotnet new console --use-program-main -n test</div>
+<div class="line">cd test</div>
+<div class="line">dotnet add package netcore-ext</div>
+<div class="line">dotnet run</div>
+</div><!-- fragment --><ul>
+<li>copy <a href="src/ext/usings.ext.cs">usings.ext.cs</a> global usings to the source folder</li>
+<li><a href="https://devel0.github.io/netcore-ext/html/class_search_a_thing_1_1_ext.html">extension methods</a></li>
+</ul>
+<div class="fragment"><div class="line"><span class="keyword">using </span><a class="code hl_namespace" href="namespace_search_a_thing_1_1_ext.html">SearchAThing.Ext</a>;</div>
+<div class="ttc" id="anamespace_search_a_thing_1_1_ext_html"><div class="ttname"><a href="namespace_search_a_thing_1_1_ext.html">SearchAThing.Ext</a></div><div class="ttdef"><b>Definition:</b> Date.cs:1</div></div>
+</div><!-- fragment --><ul>
+<li><a href="https://devel0.github.io/netcore-util/html/class_search_a_thing_1_1_toolkit.html">toolkit methods</a></li>
+</ul>
+<div class="fragment"><div class="line"><span class="keyword">using </span>static <a class="code hl_namespace" href="namespace_search_a_thing.html">SearchAThing</a>.<a class="code hl_namespace" href="namespace_search_a_thing_1_1_ext.html">Ext</a>.<a class="code hl_class" href="class_search_a_thing_1_1_ext_1_1_toolkit.html">Toolkit</a>;</div>
+<div class="ttc" id="aclass_search_a_thing_1_1_ext_1_1_toolkit_html"><div class="ttname"><a href="class_search_a_thing_1_1_ext_1_1_toolkit.html">SearchAThing.Ext.Toolkit</a></div><div class="ttdef"><b>Definition:</b> EmbeddedResource.cs:6</div></div>
+<div class="ttc" id="anamespace_search_a_thing_html"><div class="ttname"><a href="namespace_search_a_thing.html">SearchAThing</a></div><div class="ttdef"><b>Definition:</b> Date.cs:1</div></div>
+</div><!-- fragment --><h1><a class="anchor" id="autotoc_md2"></a>
+Unit tests</h1>
+<div class="fragment"><div class="line">dotnet test</div>
+</div><!-- fragment --><ul>
+<li>to debug from vscode just run debug test from code lens balloon</li>
+</ul>
+<h1><a class="anchor" id="autotoc_md3"></a>
+How this project was built</h1>
+<div class="fragment"><div class="line">mkdir netcore-ext</div>
+<div class="line">cd netcore-ext</div>
+<div class="line"> </div>
+<div class="line">dotnet new sln</div>
+<div class="line"> </div>
+<div class="line">mkdir -p examples src/ext</div>
+<div class="line"> </div>
+<div class="line">cd src/ext</div>
+<div class="line">dotnet new classlib -n netcore-ext -f netstandard2.1 --langVersion 11</div>
+<div class="line"># add packages ( https://nuget.org )</div>
+<div class="line"> </div>
+<div class="line">cd ..</div>
+<div class="line">dotnet new xunit -n test</div>
+<div class="line">cd test</div>
+<div class="line">dotnet add reference ../ext/netcore-ext.csproj</div>
+<div class="line">cd ..</div>
+<div class="line"> </div>
+<div class="line">dotnet sln add src/ext src/test examples/example01</div>
+<div class="line">dotnet build</div>
+<div class="line">dotnet test</div>
+</div><!-- fragment --> </div></div><!-- PageDoc -->
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->

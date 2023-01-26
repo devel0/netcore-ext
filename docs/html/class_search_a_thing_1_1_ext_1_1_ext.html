@@ -2607,7 +2607,26 @@ Static Public Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>enumerable extension to enumerate itself into an (item, idx, isLast) set </p>
-
+<div class="fragment"><div class="line">        var q = <span class="keyword">new</span>[] { 1, 2, 4 };</div>
+<div class="line"> </div>
+<div class="line">        var last = 0d;</div>
+<div class="line"> </div>
+<div class="line">        <span class="comment">// q2 : sum of all elements except last ( save last into `last` var )</span></div>
+<div class="line">        var q2 = q.WithIndexIsLast().Select(w =&gt;</div>
+<div class="line">        {</div>
+<div class="line">            <span class="keywordflow">if</span> (w.isLast)</div>
+<div class="line">            {</div>
+<div class="line">                last = w.item;</div>
+<div class="line">                return 0;</div>
+<div class="line">            }</div>
+<div class="line">            <span class="keywordflow">return</span> w.item;</div>
+<div class="line">        }).Sum();</div>
+<div class="line"> </div>
+<div class="line">        <span class="keywordflow">if</span> (q2 == 3 &amp;&amp; last == 4)</div>
+<div class="line">            System.Console.WriteLine($<span class="stringliteral">&quot;tests succeeded&quot;</span>);</div>
+<div class="line">        <span class="keywordflow">else</span></div>
+<div class="line">            System.Console.WriteLine($<span class="stringliteral">&quot;tests failed&quot;</span>);</div>
+</div><!-- fragment --> 
 </div>
 </div>
 <a id="ab0cee936271aad2ef6b61d0031e56d51" name="ab0cee936271aad2ef6b61d0031e56d51"></a>
