@@ -19,10 +19,6 @@
 
 <hr/>
 
-## Sources
-
-https://devel0.github.io/netcore-ext
-
 ## Quickstart
 
 ```sh
