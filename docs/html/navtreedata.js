@@ -25,10 +25,9 @@
 var NAVTREE =
 [
   [ "netcore-ext", "index.html", [
-    [ "Sources", "index.html#autotoc_md1", null ],
-    [ "Quickstart", "index.html#autotoc_md2", null ],
-    [ "Unit tests", "index.html#autotoc_md3", null ],
-    [ "How this project was built", "index.html#autotoc_md4", null ],
+    [ "Quickstart", "index.html#autotoc_md1", null ],
+    [ "Unit tests", "index.html#autotoc_md2", null ],
+    [ "How this project was built", "index.html#autotoc_md3", null ],
     [ "Packages", "namespaces.html", [
       [ "Package List", "namespaces.html", "namespaces_dup" ],
       [ "Package Members", "namespacemembers.html", [
