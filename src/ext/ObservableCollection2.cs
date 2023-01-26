@@ -10,8 +10,15 @@ namespace SearchAThing.Ext;
 /// </summary>
 public class ObservableCollection2<T> : ObservableCollection<T>
 {
+
+    /// <summary>
+    /// Allow to track clearing event    
+    /// </summary>    
     public event EventHandler<IList<T>>? Clearing;
 
+    /// <summary>
+    /// override clear items
+    /// </summary>
     protected override void ClearItems()
     {
         Clearing?.Invoke(this, Items);
