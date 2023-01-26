@@ -11,11 +11,9 @@
 
 <!-- TOC -->
 * [Quickstart](#quickstart)
+  + [Extension Methods](#extension-methods)
+  + [Toolkit Methods](#toolkit-methods)
 * [Unit tests](#unit-tests)
-* [Examples](#examples)
-  + [tail like](#tail-like)
-  + [with-index-is-last](#with-index-is-last)
-  + [exec](#exec)
 * [How this project was built](#how-this-project-was-built)
 <!-- TOCEND -->
 
@@ -32,11 +30,15 @@ dotnet run
 
 - copy [usings.ext.cs](src/ext/usings.ext.cs) global usings to the source folder
 
+### Extension Methods
+
 - [extension methods](https://devel0.github.io/netcore-ext/html/class_search_a_thing_1_1_ext.html)
 
 ```csharp
 using SearchAThing.Ext;
 ```
+
+### Toolkit Methods
 
 - [toolkit methods](https://devel0.github.io/netcore-util/html/class_search_a_thing_1_1_toolkit.html)
 
