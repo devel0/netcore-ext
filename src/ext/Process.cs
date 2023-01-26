@@ -65,7 +65,10 @@ public static partial class Toolkit
     /// <param name="sudo">true if sudo required</param>
     /// <param name="redirectStdout">redirect process stdout and grab into output</param>
     /// <param name="redirectStderr">redirect process stderr and grab into error</param>
-    /// <param name="verbose">if true prints command and args used</param>                  
+    /// <param name="verbose">if true prints command and args used</param>                      
+    /// <example>
+    /// \snippet exec/Program.cs Exec example
+    /// </example>
     public static async Task<ExecResult> Exec(string cmd,
         IEnumerable<string> args, CancellationToken ct, bool sudo = false,
         bool redirectStdout = true, bool redirectStderr = true,
