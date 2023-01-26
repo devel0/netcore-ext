@@ -1,5 +1,6 @@
 var searchData=
 [
-  ['normalizefilename_231',['NormalizeFilename',['../class_ext.html#a9d259b475e50ea39f3d93bf095bcfa66',1,'Ext']]],
-  ['normalizeworksheetname_232',['NormalizeWorksheetName',['../class_ext.html#a19f3762d89f9a8e76353b4d8551aa800',1,'Ext']]]
+  ['observe_3c_20i_20_3e_0',['Observe&lt; I &gt;',['../class_search_a_thing_1_1_ext_1_1_ext.html#af76cafdcd2453d8fa94d822e571d69d9',1,'SearchAThing::Ext::Ext']]],
+  ['observer_1',['Observer',['../class_search_a_thing_1_1_ext_1_1_observer.html#a0c7ea13171713204fa1e738427ac2470',1,'SearchAThing::Ext::Observer']]],
+  ['observereventdelegate_2',['ObserverEventDelegate',['../namespace_search_a_thing_1_1_ext.html#a99ffc15a96d92faaca103c4c57f793ed',1,'SearchAThing::Ext']]]
 ];

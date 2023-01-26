@@ -1,9 +1,18 @@
 var searchData=
 [
-  ['randompassword_109',['RandomPassword',['../class_toolkit.html#afe6be85755aa1b9a8333494f931afc09',1,'Toolkit']]],
-  ['randompasswordoptions_110',['RandomPasswordOptions',['../class_random_password_options.html',1,'']]],
-  ['readonlyhashset_111',['ReadOnlyHashSet',['../class_read_only_hash_set.html',1,'ReadOnlyHashSet&lt; T &gt;'],['../class_read_only_hash_set.html#a300c3e63a3c646ae6a19c6469b0fedcc',1,'ReadOnlyHashSet.ReadOnlyHashSet()']]],
-  ['regexmatch_112',['RegexMatch',['../class_ext.html#aef8a1bb5466ab83bda5c5a59c231a7f5',1,'Ext']]],
-  ['repeat_113',['Repeat',['../class_ext.html#af169c6a8237a2bf73d076400a455e0f9',1,'Ext']]],
-  ['routefirst_3c_20t_20_3e_114',['RouteFirst&lt; T &gt;',['../class_ext.html#a1e813bfbb79b2098ca78e0291b877965',1,'Ext']]]
+  ['ext_0',['Ext',['../namespace_search_a_thing_1_1_ext.html',1,'SearchAThing']]],
+  ['saveembeddedresourcetofile_1',['SaveEmbeddedResourceToFile',['../class_search_a_thing_1_1_ext_1_1_toolkit.html#a2487d76fa73983081e8d6f572b4bdcb5',1,'SearchAThing::Ext::Toolkit']]],
+  ['searchathing_2',['SearchAThing',['../namespace_search_a_thing.html',1,'']]],
+  ['searchinpath_3',['SearchInPath',['../class_search_a_thing_1_1_ext_1_1_toolkit.html#a1bd00d1bf1056d8876797bcb7db90035',1,'SearchAThing::Ext::Toolkit']]],
+  ['sign_4',['Sign',['../class_search_a_thing_1_1_ext_1_1_ext.html#a4808d9ffd252d5ff560d1b0179a05344',1,'SearchAThing.Ext.Ext.Sign(this int n)'],['../class_search_a_thing_1_1_ext_1_1_ext.html#aa2521b18bfa7ead9cff8e024b35eb086',1,'SearchAThing.Ext.Ext.Sign(this double n)'],['../class_search_a_thing_1_1_ext_1_1_ext.html#a5bcca8a0c66ad4b499dae15fff2101ab',1,'SearchAThing.Ext.Ext.Sign(this double n, double zeroTol)']]],
+  ['smartdoubleparse_5',['SmartDoubleParse',['../class_search_a_thing_1_1_ext_1_1_ext.html#a834b16136ffee219dec3852c6363d8e7',1,'SearchAThing::Ext::Ext']]],
+  ['sort_3c_20tsource_2c_20tkey_20_3e_6',['Sort&lt; TSource, TKey &gt;',['../class_search_a_thing_1_1_ext_1_1_ext.html#a2a3c1b09e111cee6cd0c65eed39d23b6',1,'SearchAThing::Ext::Ext']]],
+  ['str_7',['str',['../class_search_a_thing_1_1_ext_1_1_string_wrapper.html#aad11d4ba1e208814645951212a3b1ca0',1,'SearchAThing::Ext::StringWrapper']]],
+  ['stringify_8',['Stringify',['../class_search_a_thing_1_1_ext_1_1_ext.html#a2fbdf81306f93c3ca3dd81b181445320',1,'SearchAThing::Ext::Ext']]],
+  ['stringwrapper_9',['StringWrapper',['../class_search_a_thing_1_1_ext_1_1_string_wrapper.html',1,'StringWrapper'],['../class_search_a_thing_1_1_ext_1_1_string_wrapper.html#a293f7d08a86daf5efa0ed5f6f52d7152',1,'SearchAThing.Ext.StringWrapper.StringWrapper()']]],
+  ['stringwrapperlinereader_10',['StringWrapperLineReader',['../class_search_a_thing_1_1_ext_1_1_string_wrapper_line_reader.html',1,'StringWrapperLineReader'],['../class_search_a_thing_1_1_ext_1_1_string_wrapper_line_reader.html#a6bd0e142d21d97ed51c5b01502e97424',1,'SearchAThing.Ext.StringWrapperLineReader.StringWrapperLineReader()']]],
+  ['stripbegin_11',['StripBegin',['../class_search_a_thing_1_1_ext_1_1_ext.html#a119585cc998e82459386c54fa4e5702a',1,'SearchAThing.Ext.Ext.StripBegin(this string str, char c, bool ignoreCase=false)'],['../class_search_a_thing_1_1_ext_1_1_ext.html#a3e8b0867e2d0386d1cc32f30dc4ee643',1,'SearchAThing.Ext.Ext.StripBegin(this string str, string partToStrip, bool ignoreCase=false)']]],
+  ['stripend_12',['StripEnd',['../class_search_a_thing_1_1_ext_1_1_ext.html#a85d64a0988385dfd52e40e1909e4c066',1,'SearchAThing.Ext.Ext.StripEnd(this string str, char c, bool ignoreCase=false)'],['../class_search_a_thing_1_1_ext_1_1_ext.html#a1c0f9fd59706ec1bc2e57eacc0ee3105',1,'SearchAThing.Ext.Ext.StripEnd(this string str, string partToStrip, bool ignoreCase=false)']]],
+  ['strw_13',['Strw',['../class_search_a_thing_1_1_ext_1_1_string_wrapper_line_reader.html#a66d6c7766f0f90f03acdb58d6700de3b',1,'SearchAThing::Ext::StringWrapperLineReader']]],
+  ['swap_3c_20t_20_3e_14',['Swap&lt; T &gt;',['../class_search_a_thing_1_1_ext_1_1_toolkit.html#a0c8b902ffd6b8c4a6f31e1dd85ea5be6',1,'SearchAThing::Ext::Toolkit']]]
 ];

@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['getter_292',['getter',['../class_ext.html#af34acf106f7089fc830d96ae7304b9a1',1,'Ext']]]
+  ['getter_0',['getter',['../class_search_a_thing_1_1_ext_1_1_ext.html#af34acf106f7089fc830d96ae7304b9a1',1,'SearchAThing::Ext::Ext']]]
 ];
