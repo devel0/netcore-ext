@@ -8,6 +8,7 @@ public partial class ObservableCollectionTests
     [Fact]
     public void ObservableCollectionTest_0002()
     {        
+        //! [example]
         var obc = new ObservableCollection2<int>();
 
         // add two items
@@ -34,6 +35,7 @@ public partial class ObservableCollectionTests
 
         // clear the obc will imply (1) Clearing and finally (2) CollectionChanged with Reset action
         obc.Clear();        
+        //! [example]
     }
 
 }

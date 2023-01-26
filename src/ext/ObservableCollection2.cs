@@ -8,6 +8,9 @@ namespace SearchAThing.Ext;
 /// Address the problem that using ObservableCollection the Clear() fire a CollectionChanged Reset event
 /// but within a null OldItems.
 /// </summary>
+/// <example>
+/// \snippet ObservableCollection/ObservableCollectionTest_0002.cs example
+/// </example>
 public class ObservableCollection2<T> : ObservableCollection<T>
 {
 

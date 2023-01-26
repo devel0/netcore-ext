@@ -6,7 +6,7 @@ class Program
 {
     static void Main(string[] args)
     {
-        //! [Exec example]
+        //! [example]
         Task.Run(async () =>
         {
             var q = await Exec("ls", new[] { "-la", "/etc/hosts" }, CancellationToken.None,
@@ -38,6 +38,6 @@ class Program
 
         }).Wait();
 
-        //! [Exec example]
+        //! [example]
     }
 }
