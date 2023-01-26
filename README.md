@@ -5,7 +5,7 @@
 .NET core extensions
 
 - [API Documentation](https://devel0.github.io/netcore-ext/html/annotated.html)
-- [Changelog](https://github.com/devel0/netcore-ext/commits/master)
+- [Sources Changelog](https://github.com/devel0/netcore-ext/commits/main)
 
 <hr/>
 
@@ -18,6 +18,10 @@
 <!-- TOCEND -->
 
 <hr/>
+
+## Sources
+
+https://devel0.github.io/netcore-ext
 
 ## Quickstart
 
