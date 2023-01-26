@@ -30,17 +30,13 @@ dotnet run
 
 - copy [usings.ext.cs](src/ext/usings.ext.cs) global usings to the source folder
 
-### Extension Methods
-
-- [extension methods](https://devel0.github.io/netcore-ext/html/class_search_a_thing_1_1_ext.html)
+- [extension methods](https://devel0.github.io/netcore-ext/html/class_search_a_thing_1_1_ext_1_1_ext.html)
 
 ```csharp
 using SearchAThing.Ext;
 ```
 
-### Toolkit Methods
-
-- [toolkit methods](https://devel0.github.io/netcore-util/html/class_search_a_thing_1_1_toolkit.html)
+- [toolkit methods](https://devel0.github.io/netcore-ext/html/class_search_a_thing_1_1_ext_1_1_toolkit.html)
 
 ```csharp
 using static SearchAThing.Ext.Toolkit;
