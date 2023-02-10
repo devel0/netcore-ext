@@ -93,7 +93,7 @@ cd ../..
 
 Configured through Settings/Pages on Branch docs ( path /docs ).
 
-- while master branch exclude "docs" with .gitignore the docs branch doesn't
+- while main branch exclude "docs" with .gitignore the docs branch doesn't
 
 ### Build and view locally
 
