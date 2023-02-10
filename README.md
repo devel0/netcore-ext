@@ -107,8 +107,8 @@ Configured through Settings/Pages on Branch docs ( path /docs ).
 
 ```sh
 git checkout docs
-git merge master --commit --no-edit
+git merge main --commit --no-edit
 ./doc build
 git commit -a -m "doc"
-git checkout master
+git checkout main
 ```
