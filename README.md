@@ -68,9 +68,47 @@ cd ..
 dotnet new xunit -n test
 cd test
 dotnet add reference ../ext/netcore-ext.csproj
+# enable test coverage collectorx
+# to view in vscode ( "Coverage Gutters" ext ) run `./test-coverage` then `C-S-p` Coverage Gutters: Watch
+dotnet add package coverlet.collector
+dotnet add package coverlet.msbuild
 cd ..
 
 dotnet sln add src/ext src/test examples/example01
 dotnet build
 dotnet test
+
+# documentation css
+
+mkdir data
+git submodule add https://github.com/jothepro/doxygen-awesome-css.git data/doxygen-awesome-css
+cd data/doxygen-awesome-css
+# doxygen 1.9.2 ( workaround about treeview https://github.com/doxygen/doxygen/issues/9254 )
+# doxygen version used https://github.com/SearchAThing-forks/doxygen/tree/Release_1_9_2_with_autotrimleft
+git checkout 45f50e0438ac31ec3b3cd594ae68925fc8d4aeae
+cd ../..
+```
+
+## Documentation (github pages)
+
+Configured through Settings/Pages on Branch docs ( path /docs ).
+
+- while main branch exclude "docs" with .gitignore the docs branch doesn't
+
+### Build and view locally
+
+```sh
+./doc build
+./doc serve
+./doc view
+```
+
+### Integrate
+
+```sh
+git checkout docs
+git merge main --commit --no-edit
+./doc build
+git commit -a -m "doc"
+git checkout main
 ```

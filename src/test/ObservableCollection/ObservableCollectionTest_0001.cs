@@ -1,36 +1,57 @@
-using System.Collections.Specialized;
-
 namespace SearchAThing.Ext.Tests;
 
 public partial class ObservableCollectionTests
 {
 
+    //! [example]
+
+    class TestItem
+    {
+        public TestItem(int value) { Value = value; }
+        public int Value { get; set; }
+    }
+
     [Fact]
     public void ObservableCollectionTest_0001()
     {
-        var obc = new ObservableCollection<TestItem>();
+        var obc = new ObservableCollection2<TestItem>();
 
-        var testItem1 = new TestItem(1);
-        var testItem2 = new TestItem(2);
+        int result = 0;
 
-        obc.Add(testItem1);
-        obc.Add(testItem2);
-
-        obc.CollectionChanged += (sender, e) =>
+        obc.ItemsAdded += (sender, items) =>
         {
-            Assert.Equal(NotifyCollectionChangedAction.Replace, e.Action);
-
-            Assert.NotNull(e.OldItems);
-            Assert.Equal(1, e.OldItems.Count);
-            Assert.IsType(typeof(TestItem), e.OldItems[0]);
-            Assert.Equal(testItem1, e.OldItems[0]);
-
-            Assert.NotNull(e.NewItems);
-            Assert.Equal(1, e.NewItems.Count);
-            Assert.IsType(typeof(TestItem), e.NewItems[0]);
-            Assert.Equal(testItem2, e.NewItems[0]);
+            foreach (var x in items) result += x.Value;
         };
 
-        obc[0] = obc[1];
+        obc.ItemsRemoved += (sender, items) =>
+        {
+            foreach (var x in items) result -= x.Value;
+        };
+
+        Assert.Equal(0, result);
+
+        var item1 = new TestItem(1);
+        var item2 = new TestItem(2);
+        var item3 = new TestItem(3);
+
+        obc.Add(item1);
+        obc.Add(item2);
+        obc.Add(item3);
+
+        Assert.Equal(6, result);
+
+        obc.Remove(item1); // ItemsRemoved { 1 }
+
+        Assert.Equal(5, result);
+        
+        obc[0] = new TestItem(4); // remove 2 add 4
+        
+        Assert.Equal(7, result);
+
+        obc.Clear(); // ItemsRemoved { 2, 3 }
+
+        Assert.Equal(0, result);        
     }
+
+    //! [example]
 }

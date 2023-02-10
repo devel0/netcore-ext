@@ -8,10 +8,15 @@ public static partial class Ext
     /// <summary>
     /// create getter (func) and setter (action) from given lambda expr
     /// </summary>
-    public static (Func<T, V> getter, Action<T, V> setter) CreateGetterSetter<T, V>(this Expression<Func<T, V>> expr)
-    {
-        MemberExpression mExpr;
+    public static (Func<T, V> getter, Action<T, V> setter) CreateGetterSetter<T, V>(this Expression<Func<T, V>> expr) =>
+        CreateGetterSetter(expr, out var _);
 
+    /// <summary>
+    /// create getter (func) and setter (action) from given lambda expr, and retrieve member expression
+    /// </summary>
+    public static (Func<T, V> getter, Action<T, V> setter) CreateGetterSetter<T, V>(this Expression<Func<T, V>> expr,
+        out MemberExpression mExpr)
+    {
         if (expr.Body is UnaryExpression cvtExpr)
             mExpr = (MemberExpression)cvtExpr.Operand;
         else

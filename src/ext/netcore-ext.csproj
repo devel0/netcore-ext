@@ -9,7 +9,7 @@
 		<noWarn>1591</noWarn>
 		<GenerateDocumentationFile>true</GenerateDocumentationFile>
 		<PackageId>netcore-ext</PackageId>
-		<PackageVersion>1.3.0</PackageVersion>
+		<PackageVersion>1.4.0</PackageVersion>
 		<Title>net core ext</Title>
 		<Description></Description>
 		<Authors>Lorenzo Delana</Authors>
