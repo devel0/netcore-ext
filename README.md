@@ -10,12 +10,12 @@
 <hr/>
 
 <!-- TOC -->
-
-- [Quickstart](#quickstart)
-  - [Extension Methods](#extension-methods)
-  - [Toolkit Methods](#toolkit-methods)
-- [Unit tests](#unit-tests)
-- [How this project was built](#how-this-project-was-built)
+* [Quickstart](#quickstart)
+* [Unit tests](#unit-tests)
+* [How this project was built](#how-this-project-was-built)
+* [Documentation (github pages)](#documentation-github-pages)
+  + [Build and view locally](#build-and-view-locally)
+  + [Build and commit into docs branch](#build-and-commit-into-docs-branch)
 <!-- TOCEND -->
 
 <hr/>
