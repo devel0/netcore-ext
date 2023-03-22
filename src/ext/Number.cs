@@ -18,7 +18,7 @@ public static partial class Ext
     {
         if (Abs(multiple) < double.Epsilon) return value;
 
-        var p = Round(value / multiple);
+        var p = Math.Round(value / multiple);
 
         return Truncate(p) * multiple;
     }
@@ -79,7 +79,7 @@ public static partial class Ext
     /// <summary>
     /// Return an invariant string representation rounded to given dec.        
     /// </summary>
-    public static string Stringify(this double x, int dec) => Invariant($"{Round(x, dec)}");
+    public static string Stringify(this double x, int dec) => Invariant($"{Math.Round(x, dec)}");
 
     /// <summary>
     /// Magnitude of given number. (eg. 190 -> 1.9e2 -> 2)
