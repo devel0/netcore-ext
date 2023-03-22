@@ -2,6 +2,8 @@ var annotated_dup =
 [
     [ "ExecResult", "class_exec_result.html", "class_exec_result" ],
     [ "Ext", "class_ext.html", "class_ext" ],
+    [ "INotifyCollectionChanged2", "interface_i_notify_collection_changed2.html", "interface_i_notify_collection_changed2" ],
+    [ "InternalError", "class_internal_error.html", "class_internal_error" ],
     [ "IReadOnlyHashSet", "interface_i_read_only_hash_set.html", "interface_i_read_only_hash_set" ],
     [ "ObservableCollection2", "class_observable_collection2.html", "class_observable_collection2" ],
     [ "PaperSize", "class_paper_size.html", "class_paper_size" ],

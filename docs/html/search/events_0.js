@@ -1,5 +1,6 @@
 var searchData=
 [
-  ['itemsadded_0',['ItemsAdded',['../class_observable_collection2.html#ac3f7a604f5f88ac0a06d1832a09f7cee',1,'ObservableCollection2']]],
-  ['itemsremoved_1',['ItemsRemoved',['../class_observable_collection2.html#a1288d0a74b7d22fa2a79f1801ed3b9b9',1,'ObservableCollection2']]]
+  ['itemreplaced_0',['ItemReplaced',['../interface_i_notify_collection_changed2.html#a0e49f4530522183b92dc3128149a1b17',1,'INotifyCollectionChanged2.ItemReplaced()'],['../class_observable_collection2.html#a0e49f4530522183b92dc3128149a1b17',1,'ObservableCollection2.ItemReplaced()']]],
+  ['itemsadded_1',['ItemsAdded',['../interface_i_notify_collection_changed2.html#a63aac76d5dfe6eb1a446289677329916',1,'INotifyCollectionChanged2.ItemsAdded()'],['../class_observable_collection2.html#a63aac76d5dfe6eb1a446289677329916',1,'ObservableCollection2.ItemsAdded()']]],
+  ['itemsremoved_2',['ItemsRemoved',['../interface_i_notify_collection_changed2.html#a03a2d123c32c13fd370126cd335e2ff0',1,'INotifyCollectionChanged2.ItemsRemoved()'],['../class_observable_collection2.html#a03a2d123c32c13fd370126cd335e2ff0',1,'ObservableCollection2.ItemsRemoved()']]]
 ];

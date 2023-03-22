@@ -116,6 +116,9 @@ Static Public Member Functions</h2></td></tr>
 <tr class="separator:a5136578235f8a4ddd5a2b9bc507e609e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a31f704bbf663b07c8aba7da764176f62"><td class="memItemLeft" align="right" valign="top">static Func&lt; T, V &gt; Action&lt; T, V &gt; setter&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ext.html#a31f704bbf663b07c8aba7da764176f62">CreateGetterSetter&lt; T, V &gt;</a> (this Expression&lt; Func&lt; T, V &gt; &gt; expr, out MemberExpression mExpr)</td></tr>
 <tr class="separator:a31f704bbf663b07c8aba7da764176f62"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4e58af9b4dda7908e41de5ffef1ceaaa"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ext.html#a4e58af9b4dda7908e41de5ffef1ceaaa">ForEach&lt; T &gt;</a> (this IEnumerable&lt; T &gt; en, Action&lt; T &gt; act)</td></tr>
+<tr class="memdesc:a4e58af9b4dda7908e41de5ffef1ceaaa"><td class="mdescLeft">&#160;</td><td class="mdescRight">performs given action on enumerable items  <a href="class_ext.html#a4e58af9b4dda7908e41de5ffef1ceaaa">More...</a><br /></td></tr>
+<tr class="separator:a4e58af9b4dda7908e41de5ffef1ceaaa"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa15d77374d2a610b183a8cc6dc77d591"><td class="memItemLeft" align="right" valign="top">static IEnumerable&lt; T &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ext.html#aa15d77374d2a610b183a8cc6dc77d591">Distinct&lt; T, TKey &gt;</a> (this IEnumerable&lt; T &gt; lst, Func&lt; T, TKey &gt; keySelector)</td></tr>
 <tr class="memdesc:aa15d77374d2a610b183a8cc6dc77d591"><td class="mdescLeft">&#160;</td><td class="mdescRight">distinct with lambda  <a href="class_ext.html#aa15d77374d2a610b183a8cc6dc77d591">More...</a><br /></td></tr>
 <tr class="separator:aa15d77374d2a610b183a8cc6dc77d591"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -374,6 +377,30 @@ Static Public Member Functions</h2></td></tr>
 <tr class="memitem:a9c00df50c480412e8abc9fa792c2eea2"><td class="memItemLeft" align="right" valign="top">static string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ext.html#a9c00df50c480412e8abc9fa792c2eea2">ComputeMD5Sum</a> (string input)</td></tr>
 <tr class="memdesc:a9c00df50c480412e8abc9fa792c2eea2"><td class="mdescLeft">&#160;</td><td class="mdescRight">compute MD5Sum of given input  <a href="class_ext.html#a9c00df50c480412e8abc9fa792c2eea2">More...</a><br /></td></tr>
 <tr class="separator:a9c00df50c480412e8abc9fa792c2eea2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3577c1192c7ad72ef0e43114dec812e2"><td class="memItemLeft" align="right" valign="top">static byte[]&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ext.html#a3577c1192c7ad72ef0e43114dec812e2">ToBytes&lt; T &gt;</a> (this T obj)</td></tr>
+<tr class="memdesc:a3577c1192c7ad72ef0e43114dec812e2"><td class="mdescLeft">&#160;</td><td class="mdescRight">retrieve a binary representation of given struct  <a href="class_ext.html#a3577c1192c7ad72ef0e43114dec812e2">More...</a><br /></td></tr>
+<tr class="separator:a3577c1192c7ad72ef0e43114dec812e2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a63f6bccc9c66826e7448913bb0e926ae"><td class="memItemLeft" align="right" valign="top">static Vector3&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ext.html#a63f6bccc9c66826e7448913bb0e926ae">Mean</a> (this IEnumerable&lt; Vector3 &gt; vectors)</td></tr>
+<tr class="memdesc:a63f6bccc9c66826e7448913bb0e926ae"><td class="mdescLeft">&#160;</td><td class="mdescRight">mean of given vectors  <a href="class_ext.html#a63f6bccc9c66826e7448913bb0e926ae">More...</a><br /></td></tr>
+<tr class="separator:a63f6bccc9c66826e7448913bb0e926ae"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af1ec329647e4e94194df8ef4d1d90992"><td class="memItemLeft" align="right" valign="top">static Vector3&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ext.html#af1ec329647e4e94194df8ef4d1d90992">XYZ</a> (this Vector4 v)</td></tr>
+<tr class="memdesc:af1ec329647e4e94194df8ef4d1d90992"><td class="mdescLeft">&#160;</td><td class="mdescRight">swizzle vector3 xyz from vector4  <a href="class_ext.html#af1ec329647e4e94194df8ef4d1d90992">More...</a><br /></td></tr>
+<tr class="separator:af1ec329647e4e94194df8ef4d1d90992"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af0cd30c3d286559d92dcf4bbcbe62e1f"><td class="memItemLeft" align="right" valign="top">static Vector2&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ext.html#af0cd30c3d286559d92dcf4bbcbe62e1f">XY</a> (this Vector3 v)</td></tr>
+<tr class="memdesc:af0cd30c3d286559d92dcf4bbcbe62e1f"><td class="mdescLeft">&#160;</td><td class="mdescRight">swizzle vector2 xy from vector3  <a href="class_ext.html#af0cd30c3d286559d92dcf4bbcbe62e1f">More...</a><br /></td></tr>
+<tr class="separator:af0cd30c3d286559d92dcf4bbcbe62e1f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac7cfff14365da8cf89f2318128469868"><td class="memItemLeft" align="right" valign="top">static Vector3&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ext.html#ac7cfff14365da8cf89f2318128469868">ToVector3</a> (this Vector2 v, float z=0)</td></tr>
+<tr class="memdesc:ac7cfff14365da8cf89f2318128469868"><td class="mdescLeft">&#160;</td><td class="mdescRight">convert x,y to x,y,z  <a href="class_ext.html#ac7cfff14365da8cf89f2318128469868">More...</a><br /></td></tr>
+<tr class="separator:ac7cfff14365da8cf89f2318128469868"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ade5e4e01bd355e4d409b10305249fefa"><td class="memItemLeft" align="right" valign="top">static Vector2&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ext.html#ade5e4e01bd355e4d409b10305249fefa">Round</a> (this Vector2 v, int digits)</td></tr>
+<tr class="memdesc:ade5e4e01bd355e4d409b10305249fefa"><td class="mdescLeft">&#160;</td><td class="mdescRight">round vector components to given digits  <a href="class_ext.html#ade5e4e01bd355e4d409b10305249fefa">More...</a><br /></td></tr>
+<tr class="separator:ade5e4e01bd355e4d409b10305249fefa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a16a0f40eb75ab67ffba3f280db3b7fe8"><td class="memItemLeft" align="right" valign="top">static Vector3&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ext.html#a16a0f40eb75ab67ffba3f280db3b7fe8">Round</a> (this Vector3 v, int digits)</td></tr>
+<tr class="memdesc:a16a0f40eb75ab67ffba3f280db3b7fe8"><td class="mdescLeft">&#160;</td><td class="mdescRight">round vector components to given digits  <a href="class_ext.html#a16a0f40eb75ab67ffba3f280db3b7fe8">More...</a><br /></td></tr>
+<tr class="separator:a16a0f40eb75ab67ffba3f280db3b7fe8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a00e499b0414e951a9729910b204f76ed"><td class="memItemLeft" align="right" valign="top">static Vector4&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_ext.html#a00e499b0414e951a9729910b204f76ed">Round</a> (this Vector4 v, int digits)</td></tr>
+<tr class="memdesc:a00e499b0414e951a9729910b204f76ed"><td class="mdescLeft">&#160;</td><td class="mdescRight">round vector components to given digits  <a href="class_ext.html#a00e499b0414e951a9729910b204f76ed">More...</a><br /></td></tr>
+<tr class="separator:a00e499b0414e951a9729910b204f76ed"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-attribs" name="pub-static-attribs"></a>
 Static Public Attributes</h2></td></tr>
@@ -944,6 +971,46 @@ Static Public Attributes</h2></td></tr>
 
 <p>Allow to tranform the object into other type. <br  />
  eg. <code>intvar.Fn((x) =&gt; (x == 0) ? "zero" : "non-zero")</code> </p>
+
+</div>
+</div>
+<a id="a4e58af9b4dda7908e41de5ffef1ceaaa" name="a4e58af9b4dda7908e41de5ffef1ceaaa"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4e58af9b4dda7908e41de5ffef1ceaaa">&#9670;&nbsp;</a></span>ForEach&lt; T &gt;()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void ForEach&lt; T &gt; </td>
+          <td>(</td>
+          <td class="paramtype">this IEnumerable&lt; T &gt;&#160;</td>
+          <td class="paramname"><em>en</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Action&lt; T &gt;&#160;</td>
+          <td class="paramname"><em>act</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>performs given action on enumerable items </p>
+<p ><br  />
+ </p>
 
 </div>
 </div>
@@ -1637,7 +1704,7 @@ Static Public Attributes</h2></td></tr>
 </div>
 </div>
 <a id="a536179acfe874c4a326dd8de3cfb6eec" name="a536179acfe874c4a326dd8de3cfb6eec"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a536179acfe874c4a326dd8de3cfb6eec">&#9670;&nbsp;</a></span>Mean()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a536179acfe874c4a326dd8de3cfb6eec">&#9670;&nbsp;</a></span>Mean() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1661,6 +1728,36 @@ Static Public Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Mean of given numbers </p>
+<p ><br  />
+ </p>
+
+</div>
+</div>
+<a id="a63f6bccc9c66826e7448913bb0e926ae" name="a63f6bccc9c66826e7448913bb0e926ae"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a63f6bccc9c66826e7448913bb0e926ae">&#9670;&nbsp;</a></span>Mean() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static Vector3 Mean </td>
+          <td>(</td>
+          <td class="paramtype">this IEnumerable&lt; Vector3 &gt;&#160;</td>
+          <td class="paramname"><em>vectors</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>mean of given vectors </p>
 <p ><br  />
  </p>
 
@@ -2216,6 +2313,122 @@ Static Public Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="ade5e4e01bd355e4d409b10305249fefa" name="ade5e4e01bd355e4d409b10305249fefa"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ade5e4e01bd355e4d409b10305249fefa">&#9670;&nbsp;</a></span>Round() <span class="overload">[1/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static Vector2 Round </td>
+          <td>(</td>
+          <td class="paramtype">this Vector2&#160;</td>
+          <td class="paramname"><em>v</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>digits</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>round vector components to given digits </p>
+<p ><br  />
+ </p>
+
+</div>
+</div>
+<a id="a16a0f40eb75ab67ffba3f280db3b7fe8" name="a16a0f40eb75ab67ffba3f280db3b7fe8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a16a0f40eb75ab67ffba3f280db3b7fe8">&#9670;&nbsp;</a></span>Round() <span class="overload">[2/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static Vector3 Round </td>
+          <td>(</td>
+          <td class="paramtype">this Vector3&#160;</td>
+          <td class="paramname"><em>v</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>digits</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>round vector components to given digits </p>
+
+</div>
+</div>
+<a id="a00e499b0414e951a9729910b204f76ed" name="a00e499b0414e951a9729910b204f76ed"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a00e499b0414e951a9729910b204f76ed">&#9670;&nbsp;</a></span>Round() <span class="overload">[3/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static Vector4 Round </td>
+          <td>(</td>
+          <td class="paramtype">this Vector4&#160;</td>
+          <td class="paramname"><em>v</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>digits</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>round vector components to given digits </p>
+
+</div>
+</div>
 <a id="a30463e049d8a3c633fb4985179c6f0ba" name="a30463e049d8a3c633fb4985179c6f0ba"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a30463e049d8a3c633fb4985179c6f0ba">&#9670;&nbsp;</a></span>RouteFirst&lt; T &gt;()</h2>
 
@@ -2759,6 +2972,42 @@ Static Public Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="a3577c1192c7ad72ef0e43114dec812e2" name="a3577c1192c7ad72ef0e43114dec812e2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3577c1192c7ad72ef0e43114dec812e2">&#9670;&nbsp;</a></span>ToBytes&lt; T &gt;()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static byte[] ToBytes&lt; T &gt; </td>
+          <td>(</td>
+          <td class="paramtype">this T&#160;</td>
+          <td class="paramname"><em>obj</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>retrieve a binary representation of given struct </p>
+<div class="typeconstraint">
+<dl><dt><b>Type Constraints</b></dt><dd>
+<table border="0" cellspacing="2" cellpadding="0">
+<tr><td valign="top"><em>T</em></td><td>&#160;:</td><td valign="top"><em>struct</em></td><td>&#160;</td></tr>
+</table>
+</dd>
+</dl>
+</div>
+
+</div>
+</div>
 <a id="a167a5f1468d441d88c7555915c3ba2e1" name="a167a5f1468d441d88c7555915c3ba2e1"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a167a5f1468d441d88c7555915c3ba2e1">&#9670;&nbsp;</a></span>ToDeg() <span class="overload">[1/2]</span></h2>
 
@@ -3031,6 +3280,46 @@ Static Public Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+</div>
+</div>
+<a id="ac7cfff14365da8cf89f2318128469868" name="ac7cfff14365da8cf89f2318128469868"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac7cfff14365da8cf89f2318128469868">&#9670;&nbsp;</a></span>ToVector3()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static Vector3 ToVector3 </td>
+          <td>(</td>
+          <td class="paramtype">this Vector2&#160;</td>
+          <td class="paramname"><em>v</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>z</em> = <code>0</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>convert x,y to x,y,z </p>
+<p ><br  />
+ </p>
 
 </div>
 </div>
@@ -3644,6 +3933,66 @@ Static Public Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="af0cd30c3d286559d92dcf4bbcbe62e1f" name="af0cd30c3d286559d92dcf4bbcbe62e1f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af0cd30c3d286559d92dcf4bbcbe62e1f">&#9670;&nbsp;</a></span>XY()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static Vector2 XY </td>
+          <td>(</td>
+          <td class="paramtype">this Vector3&#160;</td>
+          <td class="paramname"><em>v</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>swizzle vector2 xy from vector3 </p>
+<p ><br  />
+ </p>
+
+</div>
+</div>
+<a id="af1ec329647e4e94194df8ef4d1d90992" name="af1ec329647e4e94194df8ef4d1d90992"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af1ec329647e4e94194df8ef4d1d90992">&#9670;&nbsp;</a></span>XYZ()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static Vector3 XYZ </td>
+          <td>(</td>
+          <td class="paramtype">this Vector4&#160;</td>
+          <td class="paramname"><em>v</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>swizzle vector3 xyz from vector4 </p>
+<p ><br  />
+ </p>
+
+</div>
+</div>
 <h2 class="groupheader">Member Data Documentation</h2>
 <a id="a0803b5aa6cd580eed2db03ec7dc30ea2" name="a0803b5aa6cd580eed2db03ec7dc30ea2"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a0803b5aa6cd580eed2db03ec7dc30ea2">&#9670;&nbsp;</a></span>getter</h2>
@@ -3679,6 +4028,8 @@ Static Public Attributes</h2></td></tr>
 <li>src/ext/ObservableCollection.cs</li>
 <li>src/ext/PaperSize.cs</li>
 <li>src/ext/String.cs</li>
+<li>src/ext/Struct.cs</li>
+<li>src/ext/Vector.cs</li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->

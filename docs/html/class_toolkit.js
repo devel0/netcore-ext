@@ -24,6 +24,7 @@ var class_toolkit =
     [ "GetMemberNames< T >", "class_toolkit.html#ac6703d0eb62562934c698f1b12cb0960", null ],
     [ "GetMemberNamesExt< T >", "class_toolkit.html#ae2a9caca38583f447da8f3b1c874a57c", null ],
     [ "GetVarName< T >", "class_toolkit.html#a8e58aa99347c247b6e1abfa599e479bd", null ],
+    [ "ParentPath", "class_toolkit.html#afe6094e9956078e3b0f4102d25c6ae4d", null ],
     [ "RandomPassword", "class_toolkit.html#afe6be85755aa1b9a8333494f931afc09", null ],
     [ "SaveEmbeddedResourceToFile", "class_toolkit.html#a2487d76fa73983081e8d6f572b4bdcb5", null ],
     [ "SearchInPath", "class_toolkit.html#a1bd00d1bf1056d8876797bcb7db90035", null ],

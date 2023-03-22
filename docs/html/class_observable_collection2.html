@@ -88,6 +88,7 @@ $(document).ready(function(){initNavTree('class_observable_collection2.html','')
 
 <div class="header">
   <div class="summary">
+<a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pro-methods">Protected Member Functions</a> &#124;
 <a href="#events">Events</a> &#124;
 <a href="class_observable_collection2-members.html">List of all members</a>  </div>
@@ -95,15 +96,16 @@ $(document).ready(function(){initNavTree('class_observable_collection2.html','')
 </div><!--header-->
 <div class="contents">
 
-<p>ObservableCollection specialized with ItemsAdded, ItemsRemoved events where removed event occurs even for the obc.Clear()  
+<p>ObservableCollection specialized with ItemsAdded, ItemsRemoved that allow to track for Clear, Remove, Insert, Set actions  
  <a href="class_observable_collection2.html#details">More...</a></p>
 <div class="dynheader">
 Inheritance diagram for ObservableCollection2&lt; T &gt;:</div>
 <div class="dyncontent">
 <div class="center"><img src="class_observable_collection2__inherit__graph.png" border="0" usemap="#a_observable_collection2_3_01_t_01_4_inherit__map" alt="Inheritance graph"/></div>
 <map name="a_observable_collection2_3_01_t_01_4_inherit__map" id="a_observable_collection2_3_01_t_01_4_inherit__map">
-<area shape="rect" title="ObservableCollection specialized with ItemsAdded, ItemsRemoved events where removed event occurs even..." alt="" coords="5,80,212,107"/>
-<area shape="rect" title=" " alt="" coords="9,5,208,32"/>
+<area shape="rect" title="ObservableCollection specialized with ItemsAdded, ItemsRemoved that allow to track for Clear,..." alt="" coords="112,80,319,107"/>
+<area shape="rect" title=" " alt="" coords="5,5,204,32"/>
+<area shape="rect" href="interface_i_notify_collection_changed2.html" title=" " alt="" coords="229,5,423,32"/>
 </map>
 <center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
 <div class="dynheader">
@@ -111,11 +113,19 @@ Collaboration diagram for ObservableCollection2&lt; T &gt;:</div>
 <div class="dyncontent">
 <div class="center"><img src="class_observable_collection2__coll__graph.png" border="0" usemap="#a_observable_collection2_3_01_t_01_4_coll__map" alt="Collaboration graph"/></div>
 <map name="a_observable_collection2_3_01_t_01_4_coll__map" id="a_observable_collection2_3_01_t_01_4_coll__map">
-<area shape="rect" title="ObservableCollection specialized with ItemsAdded, ItemsRemoved events where removed event occurs even..." alt="" coords="5,80,212,107"/>
-<area shape="rect" title=" " alt="" coords="9,5,208,32"/>
+<area shape="rect" title="ObservableCollection specialized with ItemsAdded, ItemsRemoved that allow to track for Clear,..." alt="" coords="112,80,319,107"/>
+<area shape="rect" title=" " alt="" coords="5,5,204,32"/>
+<area shape="rect" href="interface_i_notify_collection_changed2.html" title=" " alt="" coords="229,5,423,32"/>
 </map>
 <center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
+Public Member Functions</h2></td></tr>
+<tr class="memitem:add0b9cd2f35112a3ea9bd413ee770395"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_observable_collection2.html#add0b9cd2f35112a3ea9bd413ee770395">ObservableCollection2</a> ()</td></tr>
+<tr class="separator:add0b9cd2f35112a3ea9bd413ee770395"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae6ccac1f00f6242433c9584838ec0c95"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_observable_collection2.html#ae6ccac1f00f6242433c9584838ec0c95">ObservableCollection2</a> (IEnumerable&lt; T &gt; items)</td></tr>
+<tr class="separator:ae6ccac1f00f6242433c9584838ec0c95"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-methods" name="pro-methods"></a>
 Protected Member Functions</h2></td></tr>
 <tr class="memitem:a595457ed1f6cdd14f8d6456721155b70"><td class="memItemLeft" align="right" valign="top">override void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_observable_collection2.html#a595457ed1f6cdd14f8d6456721155b70">ClearItems</a> ()</td></tr>
@@ -130,15 +140,28 @@ Protected Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="events" name="events"></a>
 Events</h2></td></tr>
-<tr class="memitem:ac3f7a604f5f88ac0a06d1832a09f7cee"><td class="memItemLeft" align="right" valign="top">EventHandler&lt; IList&lt; T &gt; &gt;?&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_observable_collection2.html#ac3f7a604f5f88ac0a06d1832a09f7cee">ItemsAdded</a></td></tr>
-<tr class="memdesc:ac3f7a604f5f88ac0a06d1832a09f7cee"><td class="mdescLeft">&#160;</td><td class="mdescRight">one or more items added  <a href="class_observable_collection2.html#ac3f7a604f5f88ac0a06d1832a09f7cee">More...</a><br /></td></tr>
-<tr class="separator:ac3f7a604f5f88ac0a06d1832a09f7cee"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1288d0a74b7d22fa2a79f1801ed3b9b9"><td class="memItemLeft" align="right" valign="top">EventHandler&lt; IList&lt; T &gt; &gt;?&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_observable_collection2.html#a1288d0a74b7d22fa2a79f1801ed3b9b9">ItemsRemoved</a></td></tr>
-<tr class="memdesc:a1288d0a74b7d22fa2a79f1801ed3b9b9"><td class="mdescLeft">&#160;</td><td class="mdescRight">one or more items removed  <a href="class_observable_collection2.html#a1288d0a74b7d22fa2a79f1801ed3b9b9">More...</a><br /></td></tr>
-<tr class="separator:a1288d0a74b7d22fa2a79f1801ed3b9b9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a63aac76d5dfe6eb1a446289677329916"><td class="memItemLeft" align="right" valign="top">EventHandler&lt; IList &gt;?&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_observable_collection2.html#a63aac76d5dfe6eb1a446289677329916">ItemsAdded</a></td></tr>
+<tr class="memdesc:a63aac76d5dfe6eb1a446289677329916"><td class="mdescLeft">&#160;</td><td class="mdescRight">one or more items added  <a href="class_observable_collection2.html#a63aac76d5dfe6eb1a446289677329916">More...</a><br /></td></tr>
+<tr class="separator:a63aac76d5dfe6eb1a446289677329916"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a03a2d123c32c13fd370126cd335e2ff0"><td class="memItemLeft" align="right" valign="top">EventHandler&lt; IList &gt;?&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_observable_collection2.html#a03a2d123c32c13fd370126cd335e2ff0">ItemsRemoved</a></td></tr>
+<tr class="memdesc:a03a2d123c32c13fd370126cd335e2ff0"><td class="mdescLeft">&#160;</td><td class="mdescRight">one or more items removed  <a href="class_observable_collection2.html#a03a2d123c32c13fd370126cd335e2ff0">More...</a><br /></td></tr>
+<tr class="separator:a03a2d123c32c13fd370126cd335e2ff0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0e49f4530522183b92dc3128149a1b17"><td class="memItemLeft" align="right" valign="top">EventHandler&lt;(object? oldItem, object? newItem)&gt;?&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_observable_collection2.html#a0e49f4530522183b92dc3128149a1b17">ItemReplaced</a></td></tr>
+<tr class="memdesc:a0e49f4530522183b92dc3128149a1b17"><td class="mdescLeft">&#160;</td><td class="mdescRight">an item was replaced  <a href="class_observable_collection2.html#a0e49f4530522183b92dc3128149a1b17">More...</a><br /></td></tr>
+<tr class="separator:a0e49f4530522183b92dc3128149a1b17"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header events_interface_i_notify_collection_changed2"><td colspan="2" onclick="javascript:toggleInherit('events_interface_i_notify_collection_changed2')"><img src="closed.png" alt="-"/>&#160;Events inherited from <a class="el" href="interface_i_notify_collection_changed2.html">INotifyCollectionChanged2</a></td></tr>
+<tr class="memitem:a63aac76d5dfe6eb1a446289677329916 inherit events_interface_i_notify_collection_changed2"><td class="memItemLeft" align="right" valign="top">EventHandler&lt; IList &gt;?&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_i_notify_collection_changed2.html#a63aac76d5dfe6eb1a446289677329916">ItemsAdded</a></td></tr>
+<tr class="memdesc:a63aac76d5dfe6eb1a446289677329916 inherit events_interface_i_notify_collection_changed2"><td class="mdescLeft">&#160;</td><td class="mdescRight">one or more items added  <a href="interface_i_notify_collection_changed2.html#a63aac76d5dfe6eb1a446289677329916">More...</a><br /></td></tr>
+<tr class="separator:a63aac76d5dfe6eb1a446289677329916 inherit events_interface_i_notify_collection_changed2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a03a2d123c32c13fd370126cd335e2ff0 inherit events_interface_i_notify_collection_changed2"><td class="memItemLeft" align="right" valign="top">EventHandler&lt; IList &gt;?&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_i_notify_collection_changed2.html#a03a2d123c32c13fd370126cd335e2ff0">ItemsRemoved</a></td></tr>
+<tr class="memdesc:a03a2d123c32c13fd370126cd335e2ff0 inherit events_interface_i_notify_collection_changed2"><td class="mdescLeft">&#160;</td><td class="mdescRight">one or more items removed  <a href="interface_i_notify_collection_changed2.html#a03a2d123c32c13fd370126cd335e2ff0">More...</a><br /></td></tr>
+<tr class="separator:a03a2d123c32c13fd370126cd335e2ff0 inherit events_interface_i_notify_collection_changed2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0e49f4530522183b92dc3128149a1b17 inherit events_interface_i_notify_collection_changed2"><td class="memItemLeft" align="right" valign="top">EventHandler&lt;(object? oldItem, object? newItem)&gt;?&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_i_notify_collection_changed2.html#a0e49f4530522183b92dc3128149a1b17">ItemReplaced</a></td></tr>
+<tr class="memdesc:a0e49f4530522183b92dc3128149a1b17 inherit events_interface_i_notify_collection_changed2"><td class="mdescLeft">&#160;</td><td class="mdescRight">an item was replaced  <a href="interface_i_notify_collection_changed2.html#a0e49f4530522183b92dc3128149a1b17">More...</a><br /></td></tr>
+<tr class="separator:a0e49f4530522183b92dc3128149a1b17 inherit events_interface_i_notify_collection_changed2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p >ObservableCollection specialized with ItemsAdded, ItemsRemoved events where removed event occurs even for the obc.Clear() </p>
+<div class="textblock"><p >ObservableCollection specialized with ItemsAdded, ItemsRemoved that allow to track for Clear, Remove, Insert, Set actions </p>
 <div class="fragment"><div class="line"> </div>
 <div class="line"><span class="keyword">class </span>TestItem</div>
 <div class="line">{</div>
@@ -155,12 +178,18 @@ Events</h2></td></tr>
 <div class="line"> </div>
 <div class="line">    obc.ItemsAdded += (sender, items) =&gt;</div>
 <div class="line">    {</div>
-<div class="line">        <span class="keywordflow">foreach</span> (var x <span class="keywordflow">in</span> items) result += x.Value;</div>
+<div class="line">        <span class="keywordflow">foreach</span> (var x <span class="keywordflow">in</span> items.OfType&lt;TestItem&gt;()) result += x.Value;</div>
 <div class="line">    };</div>
 <div class="line"> </div>
 <div class="line">    obc.ItemsRemoved += (sender, items) =&gt;</div>
 <div class="line">    {</div>
-<div class="line">        <span class="keywordflow">foreach</span> (var x <span class="keywordflow">in</span> items) result -= x.Value;</div>
+<div class="line">        <span class="keywordflow">foreach</span> (var x <span class="keywordflow">in</span> items.OfType&lt;TestItem&gt;()) result -= x.Value;</div>
+<div class="line">    };</div>
+<div class="line"> </div>
+<div class="line">    obc.ItemReplaced += (sender, e) =&gt;</div>
+<div class="line">    {</div>
+<div class="line">        <span class="keywordflow">if</span> (e.oldItem is TestItem oldItem) result -= oldItem.Value;</div>
+<div class="line">        <span class="keywordflow">if</span> (e.newItem is TestItem newItem) result += newItem.Value;</div>
 <div class="line">    };</div>
 <div class="line"> </div>
 <div class="line">    Assert.Equal(0, result);</div>
@@ -168,28 +197,65 @@ Events</h2></td></tr>
 <div class="line">    var item1 = <span class="keyword">new</span> TestItem(1);</div>
 <div class="line">    var item2 = <span class="keyword">new</span> TestItem(2);</div>
 <div class="line">    var item3 = <span class="keyword">new</span> TestItem(3);</div>
+<div class="line">    TestItem? a = <span class="keyword">null</span>;</div>
 <div class="line"> </div>
 <div class="line">    obc.Add(item1);</div>
 <div class="line">    obc.Add(item2);</div>
-<div class="line">    obc.Add(item3);</div>
+<div class="line">    obc.Add(item3); </div>
 <div class="line"> </div>
 <div class="line">    Assert.Equal(6, result);</div>
 <div class="line"> </div>
 <div class="line">    obc.Remove(item1); <span class="comment">// ItemsRemoved { 1 }</span></div>
 <div class="line"> </div>
 <div class="line">    Assert.Equal(5, result);</div>
-<div class="line">    </div>
-<div class="line">    obc[0] = <span class="keyword">new</span> TestItem(4); <span class="comment">// remove 2 add 4</span></div>
-<div class="line">    </div>
+<div class="line"> </div>
+<div class="line">    obc[0] = <span class="keyword">new</span> TestItem(4); <span class="comment">// replace 2 with 4</span></div>
+<div class="line"> </div>
 <div class="line">    Assert.Equal(7, result);</div>
 <div class="line"> </div>
 <div class="line">    obc.Clear(); <span class="comment">// ItemsRemoved { 2, 3 }</span></div>
 <div class="line"> </div>
-<div class="line">    Assert.Equal(0, result);        </div>
+<div class="line">    Assert.Equal(0, result);</div>
 <div class="line">}</div>
 <div class="line"> </div>
-<div class="ttc" id="aclass_observable_collection2_html"><div class="ttname"><a href="class_observable_collection2.html">ObservableCollection2</a></div><div class="ttdoc">ObservableCollection specialized with ItemsAdded, ItemsRemoved events where removed event occurs even...</div><div class="ttdef"><b>Definition:</b> ObservableCollection2.cs:13</div></div>
-</div><!-- fragment --> </div><h2 class="groupheader">Member Function Documentation</h2>
+<div class="ttc" id="aclass_observable_collection2_html"><div class="ttname"><a href="class_observable_collection2.html">ObservableCollection2</a></div><div class="ttdoc">ObservableCollection specialized with ItemsAdded, ItemsRemoved that allow to track for Clear,...</div><div class="ttdef"><b>Definition:</b> ObservableCollection2.cs:33</div></div>
+</div><!-- fragment --> </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a id="add0b9cd2f35112a3ea9bd413ee770395" name="add0b9cd2f35112a3ea9bd413ee770395"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#add0b9cd2f35112a3ea9bd413ee770395">&#9670;&nbsp;</a></span>ObservableCollection2() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_observable_collection2.html">ObservableCollection2</a> </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ae6ccac1f00f6242433c9584838ec0c95" name="ae6ccac1f00f6242433c9584838ec0c95"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae6ccac1f00f6242433c9584838ec0c95">&#9670;&nbsp;</a></span>ObservableCollection2() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_observable_collection2.html">ObservableCollection2</a> </td>
+          <td>(</td>
+          <td class="paramtype">IEnumerable&lt; T &gt;&#160;</td>
+          <td class="paramname"><em>items</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Member Function Documentation</h2>
 <a id="a595457ed1f6cdd14f8d6456721155b70" name="a595457ed1f6cdd14f8d6456721155b70"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a595457ed1f6cdd14f8d6456721155b70">&#9670;&nbsp;</a></span>ClearItems()</h2>
 
@@ -316,14 +382,30 @@ Events</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Event Documentation</h2>
-<a id="ac3f7a604f5f88ac0a06d1832a09f7cee" name="ac3f7a604f5f88ac0a06d1832a09f7cee"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac3f7a604f5f88ac0a06d1832a09f7cee">&#9670;&nbsp;</a></span>ItemsAdded</h2>
+<a id="a0e49f4530522183b92dc3128149a1b17" name="a0e49f4530522183b92dc3128149a1b17"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0e49f4530522183b92dc3128149a1b17">&#9670;&nbsp;</a></span>ItemReplaced</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">EventHandler&lt;IList&lt;T&gt; &gt;? ItemsAdded</td>
+          <td class="memname">EventHandler&lt;(object? oldItem, object? newItem)&gt;? ItemReplaced</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>an item was replaced </p>
+
+</div>
+</div>
+<a id="a63aac76d5dfe6eb1a446289677329916" name="a63aac76d5dfe6eb1a446289677329916"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a63aac76d5dfe6eb1a446289677329916">&#9670;&nbsp;</a></span>ItemsAdded</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">EventHandler&lt;IList&gt;? ItemsAdded</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -332,14 +414,14 @@ Events</h2></td></tr>
 
 </div>
 </div>
-<a id="a1288d0a74b7d22fa2a79f1801ed3b9b9" name="a1288d0a74b7d22fa2a79f1801ed3b9b9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1288d0a74b7d22fa2a79f1801ed3b9b9">&#9670;&nbsp;</a></span>ItemsRemoved</h2>
+<a id="a03a2d123c32c13fd370126cd335e2ff0" name="a03a2d123c32c13fd370126cd335e2ff0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a03a2d123c32c13fd370126cd335e2ff0">&#9670;&nbsp;</a></span>ItemsRemoved</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">EventHandler&lt;IList&lt;T&gt; &gt;? ItemsRemoved</td>
+          <td class="memname">EventHandler&lt;IList&gt;? ItemsRemoved</td>
         </tr>
       </table>
 </div><div class="memdoc">

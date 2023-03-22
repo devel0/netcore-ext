@@ -1,4 +1,5 @@
 <map id="ObservableCollection2&lt; T &gt;" name="ObservableCollection2&lt; T &gt;">
-<area shape="rect" id="node1" title="ObservableCollection specialized with ItemsAdded, ItemsRemoved events where removed event occurs even..." alt="" coords="5,80,212,107"/>
-<area shape="rect" id="node2" title=" " alt="" coords="9,5,208,32"/>
+<area shape="rect" id="node1" title="ObservableCollection specialized with ItemsAdded, ItemsRemoved that allow to track for Clear,..." alt="" coords="112,80,319,107"/>
+<area shape="rect" id="node2" title=" " alt="" coords="5,5,204,32"/>
+<area shape="rect" id="node3" href="$interface_i_notify_collection_changed2.html" title=" " alt="" coords="229,5,423,32"/>
 </map>
