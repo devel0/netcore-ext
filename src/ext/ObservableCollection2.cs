@@ -2,25 +2,63 @@ namespace SearchAThing.Ext;
 
 // https://stackoverflow.com/a/225778/5521766
 
-/// <summary>
-/// ObservableCollection specialized with ItemsAdded, ItemsRemoved events where
-/// removed event occurs even for the obc.Clear()
-/// </summary>
-/// <example>
-/// \snippet ObservableCollection/ObservableCollectionTest_0001.cs example
-/// </example>
-public class ObservableCollection2<T> : ObservableCollection<T>
+public interface INotifyCollectionChanged2
 {
 
     /// <summary>
     /// one or more items added
     /// </summary>
-    public event EventHandler<IList<T>>? ItemsAdded;
+    event EventHandler<IList>? ItemsAdded;
 
     /// <summary>
     /// one or more items removed
     /// </summary>
-    public event EventHandler<IList<T>>? ItemsRemoved;
+    event EventHandler<IList>? ItemsRemoved;
+
+    /// <summary>
+    /// an item was replaced
+    /// </summary>
+    event EventHandler<(object? oldItem, object? newItem)>? ItemReplaced;
+
+}
+
+/// <summary>
+/// ObservableCollection specialized with ItemsAdded, ItemsRemoved that allow to
+/// track for Clear, Remove, Insert, Set actions
+/// </summary>
+/// <example>
+/// \snippet ObservableCollection/ObservableCollectionTest_0001.cs example
+/// </example>
+public class ObservableCollection2<T> : ObservableCollection<T>, INotifyCollectionChanged2
+{
+
+    #region INotifyCollectionChanged2
+
+    /// <summary>
+    /// one or more items added
+    /// </summary>
+    public event EventHandler<IList>? ItemsAdded;
+
+    /// <summary>
+    /// one or more items removed
+    /// </summary>
+    public event EventHandler<IList>? ItemsRemoved;
+
+    /// <summary>
+    /// an item was replaced
+    /// </summary>
+    public event EventHandler<(object? oldItem, object? newItem)>? ItemReplaced;
+
+    #endregion
+
+    public ObservableCollection2()
+    {
+    }
+
+    public ObservableCollection2(IEnumerable<T> items) : base(items)
+    {
+
+    }
 
     /// <summary>
     /// override clear items
@@ -62,8 +100,7 @@ public class ObservableCollection2<T> : ObservableCollection<T>
         {
             var oldItem = this[index];
             base.SetItem(index, item);
-            ItemsRemoved?.Invoke(this, new List<T> { oldItem });
-            ItemsAdded?.Invoke(this, new List<T> { item });
+            ItemReplaced?.Invoke(this, (oldItem, item));
         }
         else
             base.SetItem(index, item);
