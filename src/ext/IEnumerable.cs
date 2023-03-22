@@ -4,6 +4,14 @@ public static partial class Ext
 {
 
     /// <summary>
+    /// performs given action on enumerable items
+    /// </summary>    
+    public static void ForEach<T>(this IEnumerable<T> en, Action<T> act)
+    {
+        foreach (var x in en) act(x);
+    }
+
+    /// <summary>
     /// distinct with lambda
     /// </summary>
     public static IEnumerable<T> Distinct<T, TKey>(this IEnumerable<T> lst, Func<T, TKey> keySelector) =>

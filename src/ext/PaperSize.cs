@@ -219,7 +219,7 @@ public static partial class Ext
     /// </summary>        
     public static int MMToTwip(this double mm)
     {
-        return (int)Round(1440d / 25.4 * mm);
+        return (int)Math.Round(1440d / 25.4 * mm);
     }
 
     /// <summary>
@@ -247,7 +247,7 @@ public static partial class Ext
     /// </summary>
     public static int MMToEMU(this double mm)
     {
-        return (int)Round(mm * 36000, 0);
+        return (int)Math.Round(mm * 36000, 0);
     }
 
     /// <summary>

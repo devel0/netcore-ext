@@ -56,15 +56,14 @@ dotnet test
 mkdir netcore-ext
 cd netcore-ext
 
-dotnet new sln
-
 mkdir -p examples src/ext
 
-cd src/ext
-dotnet new classlib -n netcore-ext -f netstandard2.1 --langVersion 11
-# add packages ( https://nuget.org )
+cd src
 
+dotnet new classlib -n netcore-ext -f netstandard2.1 --langVersion 11
+mv netcore-ext ext
 cd ..
+
 dotnet new xunit -n test
 cd test
 dotnet add reference ../ext/netcore-ext.csproj
@@ -74,6 +73,8 @@ dotnet add package coverlet.collector
 dotnet add package coverlet.msbuild
 cd ..
 
+cd ..
+dotnet new sln
 dotnet sln add src/ext src/test examples/example01
 dotnet build
 dotnet test
@@ -109,6 +110,7 @@ Configured through Settings/Pages on Branch docs ( path /docs ).
 git checkout docs
 git merge main --commit --no-edit
 ./doc build
+git add -A
 git commit -a -m "doc"
 git checkout main
 ```

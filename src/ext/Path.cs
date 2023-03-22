@@ -39,4 +39,18 @@ public static partial class Toolkit
         return null;
     }
 
+    /// <summary>
+    /// search given stopAtFolderName directory searching backward from the given beginPathname folder
+    /// </summary>    
+    public static string? ParentPath(string beginPathname, string stopAtFolderName)
+    {
+        var parent = Directory.GetParent(beginPathname);
+        if (parent is null) return null;
+
+        if (parent.Name == stopAtFolderName)
+            return parent.FullName;
+
+        return ParentPath(parent.FullName, stopAtFolderName);
+    }
+
 }
