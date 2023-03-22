@@ -10,11 +10,12 @@
 <hr/>
 
 <!-- TOC -->
-* [Quickstart](#quickstart)
-  + [Extension Methods](#extension-methods)
-  + [Toolkit Methods](#toolkit-methods)
-* [Unit tests](#unit-tests)
-* [How this project was built](#how-this-project-was-built)
+
+- [Quickstart](#quickstart)
+  - [Extension Methods](#extension-methods)
+  - [Toolkit Methods](#toolkit-methods)
+- [Unit tests](#unit-tests)
+- [How this project was built](#how-this-project-was-built)
 <!-- TOCEND -->
 
 <hr/>
@@ -49,7 +50,7 @@ dotnet test
 ```
 
 - to debug from vscode just run debug test from code lens balloon
- 
+
 ## How this project was built
 
 ```sh
@@ -104,13 +105,8 @@ Configured through Settings/Pages on Branch docs ( path /docs ).
 ./doc view
 ```
 
-### Integrate
+### Build and commit into docs branch
 
 ```sh
-git checkout docs
-git merge main --commit --no-edit
-./doc build
-git add -A
-git commit -a -m "doc"
-git checkout main
+./doc commit
 ```
