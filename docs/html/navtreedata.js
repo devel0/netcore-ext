@@ -25,6 +25,15 @@
 var NAVTREE =
 [
   [ "netcore-ext", "index.html", [
+    [ "Packages", "namespaces.html", [
+      [ "Package List", "namespaces.html", "namespaces_dup" ],
+      [ "Package Members", "namespacemembers.html", [
+        [ "All", "namespacemembers.html", null ],
+        [ "Functions", "namespacemembers_func.html", null ],
+        [ "Variables", "namespacemembers_vars.html", null ],
+        [ "Enumerations", "namespacemembers_enum.html", null ]
+      ] ]
+    ] ],
     [ "Classes", "annotated.html", [
       [ "Class List", "annotated.html", "annotated_dup" ],
       [ "Class Index", "classes.html", null ],
@@ -42,7 +51,8 @@ var NAVTREE =
 
 var NAVTREEINDEX =
 [
-"annotated.html"
+"annotated.html",
+"class_search_a_thing_1_1_ext_1_1_paper_size.html#acf8c906c1c48b476a2a5d4c4736cbac4"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';
