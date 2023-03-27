@@ -11,10 +11,11 @@
 
 <!-- TOC -->
 * [Quickstart](#quickstart)
-  + [Extension Methods](#extension-methods)
-  + [Toolkit Methods](#toolkit-methods)
 * [Unit tests](#unit-tests)
 * [How this project was built](#how-this-project-was-built)
+* [Documentation (github pages)](#documentation-github-pages)
+  + [Build and view locally](#build-and-view-locally)
+  + [Build and commit into docs branch](#build-and-commit-into-docs-branch)
 <!-- TOCEND -->
 
 <hr/>
@@ -49,7 +50,7 @@ dotnet test
 ```
 
 - to debug from vscode just run debug test from code lens balloon
- 
+
 ## How this project was built
 
 ```sh
@@ -84,9 +85,8 @@ dotnet test
 mkdir data
 git submodule add https://github.com/jothepro/doxygen-awesome-css.git data/doxygen-awesome-css
 cd data/doxygen-awesome-css
-# doxygen 1.9.2 ( workaround about treeview https://github.com/doxygen/doxygen/issues/9254 )
-# doxygen version used https://github.com/SearchAThing-forks/doxygen/tree/Release_1_9_2_with_autotrimleft
-git checkout 45f50e0438ac31ec3b3cd594ae68925fc8d4aeae
+# doxygen 1.9.7
+git checkout 245c7c94c20eac22730ef89035967f78b77bf405
 cd ../..
 ```
 
@@ -104,13 +104,8 @@ Configured through Settings/Pages on Branch docs ( path /docs ).
 ./doc view
 ```
 
-### Integrate
+### Build and commit into docs branch
 
 ```sh
-git checkout docs
-git merge main --commit --no-edit
-./doc build
-git add -A
-git commit -a -m "doc"
-git checkout main
+./doc commit
 ```
