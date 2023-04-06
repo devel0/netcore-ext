@@ -1,4 +1,6 @@
-﻿namespace SearchAThing.Ext;
+﻿using System.Runtime.CompilerServices;
+
+namespace SearchAThing.Ext;
 
 /// <summary>
 /// useful if need to store quick tuple values into a list or dictionary and allowing further modification;
@@ -17,13 +19,15 @@ public static partial class Ext
     /// Allow to tranform the object into other type.        
     /// eg. `intvar.Fn((x) => (x == 0) ? "zero" : "non-zero")`
     /// </summary>
+    [MethodImpl(MethodImplOptions.AggressiveInlining)]
     public static U Fn<T, U>(this T obj, Func<T, U> fn) => fn(obj);
 
     /// <summary>
     /// Allow to apply some action on the object inline returning the same object.
     /// 
     /// eg `dxf.Entities.Add(new Line3D().DxfEntity.Act(ent => ent.Color = AciColor.Red))`        
-    /// </summary>                
+    /// </summary>             
+    [MethodImpl(MethodImplOptions.AggressiveInlining)]
     public static T Act<T>(this T obj, Action<T> setter)
     {
         setter(obj);
@@ -32,7 +36,8 @@ public static partial class Ext
 
     /// <summary>
     /// Allow to apply an action foreach enum objects
-    /// </summary>                
+    /// </summary>  
+    [MethodImpl(MethodImplOptions.AggressiveInlining)]
     public static IEnumerable<T> Foreach<T>(this IEnumerable<T> en, Action<T> action)
     {
         foreach (var x in en) action(x);
