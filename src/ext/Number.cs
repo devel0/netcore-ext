@@ -100,7 +100,7 @@ public static partial class Ext
     public static double InvDoubleParse(this string str) => double.Parse(str, CultureInfo.InvariantCulture);
 
     /// <summary>
-    /// parse string that represent number without knowing current culture
+    /// Parse string that represent number without knowing current culture
     /// so that it can parse "1.2" or "1,2" equivalent to 1.2
     /// it will throw error more than one dot or comma found
     /// </summary>        
