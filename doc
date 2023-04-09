@@ -17,6 +17,7 @@ help()
         serve     Start webserver
         view      Open default app to view documentation
         commit    build + commit doc into docs branch        
+        push      push docs branch to origin
 
     options
         [ -p | --port ]     specify serve port"
@@ -86,10 +87,18 @@ fi
 #--[ commit ]
 if [ "$1" == "commit" ]; then
   cd "$exdir"
-  git checkout docs
-  git merge main --commit --no-edit
-  ./doc build
-  git add -A
-  git commit -a -m "doc"
-  git checkout main
+  git stash push && \
+  git checkout docs && \
+  git merge master --commit --no-edit && \
+  ./doc build && \
+  git add -A docs && \
+  git commit -a -m "doc" && \
+  git checkout master && \
+  git stash pop
+fi
+
+#--[ push ]
+if [ "$1" == "push" ]; then
+  cd "$exdir"
+  git push origin docs
 fi
