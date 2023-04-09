@@ -84,16 +84,17 @@ if [ "$1" == "view" ]; then
   xdg-open http://localhost:$serve_port
 fi
 
-#--[ commit ] ( NOTE: double check if main or master )
+#--[ commit ]
+DEFAULT_BRANCH=main
 if [ "$1" == "commit" ]; then
   cd "$exdir"
   git stash push && \
   git checkout docs && \
-  git merge main --commit --no-edit && \
+  git merge $DEFAULT_BRANCH --commit --no-edit && \
   ./doc build && \
   git add -A docs && \
   git commit -a -m "doc" && \
-  git checkout main && \
+  git checkout $DEFAULT_BRANCH && \
   git stash pop
 
   if [ "$?" != "0" ]; then
