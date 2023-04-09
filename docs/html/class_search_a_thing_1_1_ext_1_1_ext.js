@@ -33,6 +33,8 @@ var class_search_a_thing_1_1_ext_1_1_ext =
     [ "MatchesFilter", "class_search_a_thing_1_1_ext_1_1_ext.html#a5c26b1fdca2e0bbbcf9973e801f704a7", null ],
     [ "Mean", "class_search_a_thing_1_1_ext_1_1_ext.html#a536179acfe874c4a326dd8de3cfb6eec", null ],
     [ "Mean", "class_search_a_thing_1_1_ext_1_1_ext.html#a63f6bccc9c66826e7448913bb0e926ae", null ],
+    [ "MinMax", "class_search_a_thing_1_1_ext_1_1_ext.html#a6ece05050e4a144aed3cecff1b2f9498", null ],
+    [ "MinMax", "class_search_a_thing_1_1_ext_1_1_ext.html#a0c3f1ca579eb2744534466c24957b24b", null ],
     [ "MMToEMU", "class_search_a_thing_1_1_ext_1_1_ext.html#a0abe5e3e7f5c847d6ec4896c4e0489f2", null ],
     [ "MMToEMU", "class_search_a_thing_1_1_ext_1_1_ext.html#a157c189204509bca368c2b2c78d26dfe", null ],
     [ "MMToPt", "class_search_a_thing_1_1_ext_1_1_ext.html#ab6e804315feaaea1ae6dbc4c50dc3a57", null ],
@@ -92,5 +94,7 @@ var class_search_a_thing_1_1_ext_1_1_ext =
     [ "WithPrevPrimitive< T >", "class_search_a_thing_1_1_ext_1_1_ext.html#ae433ac1cb07508fed3cfacd4a2adff48", null ],
     [ "XY", "class_search_a_thing_1_1_ext_1_1_ext.html#af0cd30c3d286559d92dcf4bbcbe62e1f", null ],
     [ "XYZ", "class_search_a_thing_1_1_ext_1_1_ext.html#af1ec329647e4e94194df8ef4d1d90992", null ],
-    [ "getter", "class_search_a_thing_1_1_ext_1_1_ext.html#a0803b5aa6cd580eed2db03ec7dc30ea2", null ]
+    [ "getter", "class_search_a_thing_1_1_ext_1_1_ext.html#a0803b5aa6cd580eed2db03ec7dc30ea2", null ],
+    [ "min", "class_search_a_thing_1_1_ext_1_1_ext.html#aad36546e8175d2922bee165fe028fedc", null ],
+    [ "min", "class_search_a_thing_1_1_ext_1_1_ext.html#ad2e88d75f808e6d4e78d48bceb10c336", null ]
 ];

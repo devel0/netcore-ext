@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['val_0',['val',['../namespace_search_a_thing_1_1_ext.html#a81dd6dfeb856a86f5905207050fd0616',1,'SearchAThing::Ext']]]
+  ['str_0',['str',['../class_search_a_thing_1_1_ext_1_1_string_wrapper.html#aad11d4ba1e208814645951212a3b1ca0',1,'SearchAThing::Ext::StringWrapper']]]
 ];
