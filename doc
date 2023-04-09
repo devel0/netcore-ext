@@ -84,16 +84,16 @@ if [ "$1" == "view" ]; then
   xdg-open http://localhost:$serve_port
 fi
 
-#--[ commit ]
+#--[ commit ] ( NOTE: double check if main or master )
 if [ "$1" == "commit" ]; then
   cd "$exdir"
   git stash push && \
   git checkout docs && \
-  git merge master --commit --no-edit && \
+  git merge main --commit --no-edit && \
   ./doc build && \
   git add -A docs && \
   git commit -a -m "doc" && \
-  git checkout master && \
+  git checkout main && \
   git stash pop
 fi
 
