@@ -1,3 +1,5 @@
+using System.Runtime.CompilerServices;
+
 namespace SearchAThing.Ext;
 
 public static partial class Ext
@@ -264,5 +266,66 @@ public static partial class Ext
     /// </summary>
     public static ObservableCollection<T> ToObservableCollection<T>(this IEnumerable<T> en) =>
         new ObservableCollection<T>(en);
+
+    /// <summary>
+    /// Retrieve min, max at once.
+    /// </summary>    
+    /// <returns>(min,max) of given set of values.</returns>
+    [MethodImpl(MethodImplOptions.AggressiveInlining)]
+    public static (double min, double max)? MinMax(this IEnumerable<double> values)
+    {
+        double min = 0;
+        double max = 0;
+        int cnt = 0;
+
+        foreach (var value in values)
+        {
+            if (cnt == 0)
+            {
+                min = max = value;
+            }
+            else
+            {
+                min = Min(min, value);
+                max = Max(max, value);
+            }
+            ++cnt;
+        }
+
+        if (cnt == 0) return null;
+
+        return (min, max);
+    }
+
+    /// <summary>
+    /// Retrieve min, max at once.
+    /// </summary>    
+    /// <returns>(min,max) of given set of values.</returns>
+    [MethodImpl(MethodImplOptions.AggressiveInlining)]
+    public static (float min, float max)? MinMax(this IEnumerable<float> values)
+    {
+        float min = 0;
+        float max = 0;
+        int cnt = 0;
+
+        foreach (var value in values)
+        {
+            if (cnt == 0)
+            {
+                min = max = value;
+            }
+            else
+            {
+                min = Min(min, value);
+                max = Max(max, value);
+            }
+            ++cnt;
+        }
+
+        if (cnt == 0) return null;
+
+        return (min, max);
+    }
+
 
 }
