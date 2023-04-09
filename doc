@@ -99,6 +99,7 @@ if [ "$1" == "commit" ]; then
 
   if [ "$?" != "0" ]; then
     echo "WARN: doc commit not complete"
+    git stash list
   fi
 fi
 
