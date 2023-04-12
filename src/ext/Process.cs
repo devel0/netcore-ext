@@ -91,7 +91,16 @@ public static partial class Toolkit
             else
                 p.StartInfo.FileName = cmd;
 
-            foreach (var arg in args) p.StartInfo.ArgumentList.Add(arg);
+            var sbArgs = new StringBuilder();            
+
+            foreach (var arg in args)
+            {
+                PasteArguments.AppendArgument(sbArgs, arg);
+
+                //  p.StartInfo.ArgumentList.Add(arg);
+            }
+
+            p.StartInfo.Arguments = sbArgs.ToString();
 
             var sbOut = new StringBuilder();
             var sbErr = new StringBuilder();
