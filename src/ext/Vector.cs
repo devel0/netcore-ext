@@ -7,7 +7,7 @@ public static partial class Ext
     /// mean of given vectors
     /// </summary>    
     public static Vector3 Mean(this IEnumerable<Vector3> vectors)
-    {
+    {    
         var cnt = 0;
         var sum = Vector3.Zero;
         foreach (var x in vectors)

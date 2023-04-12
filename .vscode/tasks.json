@@ -7,7 +7,7 @@
             "type": "process",
             "args": [
                 "build",
-                "${workspaceFolder}/examples/tail-like/tail-like.csproj",
+                "${workspaceFolder}/examples/vector3net7/vector3net7.csproj",
                 "/property:GenerateFullPaths=true",
                 "/consoleloggerparameters:NoSummary"
             ],
@@ -19,7 +19,7 @@
             "type": "process",
             "args": [
                 "publish",
-                "${workspaceFolder}/examples/tail-like/tail-like.csproj",
+                "${workspaceFolder}/examples/vector3net7/vector3net7.csproj",
                 "/property:GenerateFullPaths=true",
                 "/consoleloggerparameters:NoSummary"
             ],
@@ -33,7 +33,7 @@
                 "watch",
                 "run",
                 "--project",
-                "${workspaceFolder}/examples/tail-like/tail-like.csproj"
+                "${workspaceFolder}/examples/vector3net7/vector3net7.csproj"
             ],
             "problemMatcher": "$msCompile"
         }
