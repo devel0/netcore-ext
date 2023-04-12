@@ -70,7 +70,7 @@ var class_search_a_thing_1_1_ext_1_1_ext =
     [ "ToBytes< T >", "class_search_a_thing_1_1_ext_1_1_ext.html#a3577c1192c7ad72ef0e43114dec812e2", null ],
     [ "ToDeg", "class_search_a_thing_1_1_ext_1_1_ext.html#a167a5f1468d441d88c7555915c3ba2e1", null ],
     [ "ToDeg", "class_search_a_thing_1_1_ext_1_1_ext.html#a4fc76eaac0021e4bdfb214727d00c463", null ],
-    [ "ToHashSet< T >", "class_search_a_thing_1_1_ext_1_1_ext.html#afa20024aa1c7f144e03e043070ca43dd", null ],
+    [ "ToHashSetExt< T >", "class_search_a_thing_1_1_ext_1_1_ext.html#af2436c9ace74095383bbdd52c1cde839", null ],
     [ "ToObservableCollection< T >", "class_search_a_thing_1_1_ext_1_1_ext.html#a1c4448bacf60143206d7d503a2c3c084", null ],
     [ "ToRad", "class_search_a_thing_1_1_ext_1_1_ext.html#a0e2e0f32ab4d6a5d53ed1a10eeb7db98", null ],
     [ "ToRad", "class_search_a_thing_1_1_ext_1_1_ext.html#a540836bba8d55acd3d073e2368885abf", null ],
