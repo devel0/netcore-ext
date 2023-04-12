@@ -672,14 +672,14 @@ Static Public Member Functions</h2></td></tr>
 <div class="line">            <span class="keywordflow">if</span> (q.ExitCode == 0)</div>
 <div class="line">            {</div>
 <div class="line">                var line = q.Output.Lines().First();</div>
-<div class="line">                System.Console.WriteLine(line);</div>
+<div class="line">                <a class="code hl_namespace" href="namespace_system.html">System</a>.Console.WriteLine(line);</div>
 <div class="line"> </div>
 <div class="line">                var ss = line.Split(<span class="charliteral">&#39; &#39;</span>);</div>
 <div class="line"> </div>
-<div class="line">                System.Console.WriteLine($<span class="stringliteral">&quot;perm: {ss[0]}&quot;</span>);</div>
-<div class="line">                System.Console.WriteLine($<span class="stringliteral">&quot;owner: {ss[2]}&quot;</span>);</div>
-<div class="line">                System.Console.WriteLine($<span class="stringliteral">&quot;group: {ss[3]}&quot;</span>);</div>
-<div class="line">                System.Console.WriteLine($<span class="stringliteral">&quot;size: {ss[4]}&quot;</span>);</div>
+<div class="line">                <a class="code hl_namespace" href="namespace_system.html">System</a>.Console.WriteLine($<span class="stringliteral">&quot;perm: {ss[0]}&quot;</span>);</div>
+<div class="line">                <a class="code hl_namespace" href="namespace_system.html">System</a>.Console.WriteLine($<span class="stringliteral">&quot;owner: {ss[2]}&quot;</span>);</div>
+<div class="line">                <a class="code hl_namespace" href="namespace_system.html">System</a>.Console.WriteLine($<span class="stringliteral">&quot;group: {ss[3]}&quot;</span>);</div>
+<div class="line">                <a class="code hl_namespace" href="namespace_system.html">System</a>.Console.WriteLine($<span class="stringliteral">&quot;size: {ss[4]}&quot;</span>);</div>
 <div class="line">            }</div>
 <div class="line"> </div>
 <div class="line">            <span class="comment">// RESULT:</span></div>
@@ -692,6 +692,7 @@ Static Public Member Functions</h2></td></tr>
 <div class="line"> </div>
 <div class="line">        }).Wait();</div>
 <div class="line"> </div>
+<div class="ttc" id="anamespace_system_html"><div class="ttname"><a href="namespace_system.html">System</a></div><div class="ttdef"><b>Definition:</b> PasteArguments.cs:6</div></div>
 </div><!-- fragment --> 
 </div>
 </div>
@@ -1346,7 +1347,7 @@ Static Public Member Functions</h2></td></tr>
 <div class="line">                AvoidChars = <span class="keyword">new</span>[] { <span class="charliteral">&#39;l&#39;</span>, <span class="charliteral">&#39;I&#39;</span>, <span class="charliteral">&#39;O&#39;</span>, <span class="charliteral">&#39;0&#39;</span> }</div>
 <div class="line">            };</div>
 <div class="line">            var pass = RandomPassword(opts);</div>
-<div class="line">            System.Console.WriteLine($<span class="stringliteral">&quot;pass [{pass}] in {opts.LoopCount} loop count&quot;</span>);</div>
+<div class="line">            <a class="code hl_namespace" href="namespace_system.html">System</a>.Console.WriteLine($<span class="stringliteral">&quot;pass [{pass}] in {opts.LoopCount} loop count&quot;</span>);</div>
 <div class="line">        }</div>
 <div class="line"> </div>
 <div class="line">        {</div>
@@ -1357,7 +1358,7 @@ Static Public Member Functions</h2></td></tr>
 <div class="line">                Length = 4</div>
 <div class="line">            };</div>
 <div class="line">            var pass = RandomPassword(opts);</div>
-<div class="line">            System.Console.WriteLine($<span class="stringliteral">&quot;pin [{pass}] in {opts.LoopCount} loop count&quot;</span>);</div>
+<div class="line">            <a class="code hl_namespace" href="namespace_system.html">System</a>.Console.WriteLine($<span class="stringliteral">&quot;pin [{pass}] in {opts.LoopCount} loop count&quot;</span>);</div>
 <div class="line">        }</div>
 <div class="ttc" id="aclass_search_a_thing_1_1_ext_1_1_random_password_options_html"><div class="ttname"><a href="class_search_a_thing_1_1_ext_1_1_random_password_options.html">SearchAThing.Ext.RandomPasswordOptions</a></div><div class="ttdoc">to generate a pin use follow config ( AllowLetter = false, AtLeastOneUppercase = false,...</div><div class="ttdef"><b>Definition:</b> Password.cs:7</div></div>
 </div><!-- fragment --> 
@@ -1533,7 +1534,7 @@ Static Public Member Functions</h2></td></tr>
 <dl class="section return"><dt>Returns</dt><dd>return incoming lines from given file</dd></dl>
 <div class="fragment"><div class="line">        <span class="keywordflow">foreach</span> (var x <span class="keywordflow">in</span> TailLike(<span class="stringliteral">&quot;/var/log/syslog&quot;</span>))</div>
 <div class="line">        {</div>
-<div class="line">            System.Console.WriteLine(x);</div>
+<div class="line">            <a class="code hl_namespace" href="namespace_system.html">System</a>.Console.WriteLine(x);</div>
 <div class="line">        }</div>
 </div><!-- fragment --> 
 </div>

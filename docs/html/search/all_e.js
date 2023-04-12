@@ -16,5 +16,6 @@ var searchData=
   ['stripbegin_13',['StripBegin',['../class_search_a_thing_1_1_ext_1_1_ext.html#a119585cc998e82459386c54fa4e5702a',1,'SearchAThing.Ext.Ext.StripBegin(this string str, char c, bool ignoreCase=false)'],['../class_search_a_thing_1_1_ext_1_1_ext.html#a3e8b0867e2d0386d1cc32f30dc4ee643',1,'SearchAThing.Ext.Ext.StripBegin(this string str, string partToStrip, bool ignoreCase=false)']]],
   ['stripend_14',['StripEnd',['../class_search_a_thing_1_1_ext_1_1_ext.html#a85d64a0988385dfd52e40e1909e4c066',1,'SearchAThing.Ext.Ext.StripEnd(this string str, char c, bool ignoreCase=false)'],['../class_search_a_thing_1_1_ext_1_1_ext.html#a1c0f9fd59706ec1bc2e57eacc0ee3105',1,'SearchAThing.Ext.Ext.StripEnd(this string str, string partToStrip, bool ignoreCase=false)']]],
   ['strw_15',['Strw',['../class_search_a_thing_1_1_ext_1_1_string_wrapper_line_reader.html#a66d6c7766f0f90f03acdb58d6700de3b',1,'SearchAThing::Ext::StringWrapperLineReader']]],
-  ['swap_3c_20t_20_3e_16',['Swap&lt; T &gt;',['../class_search_a_thing_1_1_ext_1_1_toolkit.html#a0c8b902ffd6b8c4a6f31e1dd85ea5be6',1,'SearchAThing::Ext::Toolkit']]]
+  ['swap_3c_20t_20_3e_16',['Swap&lt; T &gt;',['../class_search_a_thing_1_1_ext_1_1_toolkit.html#a0c8b902ffd6b8c4a6f31e1dd85ea5be6',1,'SearchAThing::Ext::Toolkit']]],
+  ['system_17',['System',['../namespace_system.html',1,'']]]
 ];
