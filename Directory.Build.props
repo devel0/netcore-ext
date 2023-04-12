@@ -1,5 +1,12 @@
 <Project>
 
+	<PropertyGroup>
+		<TargetFramework>netstandard2.0</TargetFramework>
+		<LangVersion>11</LangVersion>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+	</PropertyGroup>
+
 	<PropertyGroup Condition="$([MSBuild]::IsOSPlatform('Windows'))">
 		<DefineConstants>WINDOWS_PLATFORM</DefineConstants>
 	</PropertyGroup>
@@ -10,6 +17,6 @@
 
 	<PropertyGroup Condition="$([MSBuild]::IsOSPlatform('Linux'))">
 		<DefineConstants>LINUX_PLATFORM</DefineConstants>
-	</PropertyGroup>	
+	</PropertyGroup>
 
 </Project>
