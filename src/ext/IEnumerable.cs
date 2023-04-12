@@ -322,15 +322,14 @@ public static partial class Ext
             ++cnt;
         }
 
-        if (cnt == 0) return null;
+        if (cnt == 0) return null;        
 
         return (min, max);
     }
 
     /// <summary>
-    /// Create an HashSet from given enumerable.
+    /// Create an HashSet from given enumerable. (net standard 2.0 ext)
     /// </summary>    
-    public static HashSet<T> ToHashSet<T>(this IEnumerable<T> set) => new HashSet<T>(set);
-
+    public static HashSet<T> ToHashSetExt<T>(this IEnumerable<T> set) => new HashSet<T>(set);
 
 }
