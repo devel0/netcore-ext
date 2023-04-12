@@ -1,15 +1,12 @@
 <Project Sdk="Microsoft.NET.Sdk">
+	<!-- NOTE : Default PropertyGroup in Directory.Build.props -->
 
 	<PropertyGroup>
-		<TargetFramework>netstandard2.0</TargetFramework>
-		<LangVersion>11</LangVersion>
 		<RootNamespace>SearchAThing.Ext</RootNamespace>
-		<ImplicitUsings>enable</ImplicitUsings>
-		<Nullable>enable</Nullable>
 		<noWarn>1591</noWarn>
 		<GenerateDocumentationFile>true</GenerateDocumentationFile>
 		<PackageId>netcore-ext</PackageId>
-		<PackageVersion>2.0.0</PackageVersion>
+		<PackageVersion>2.1.0</PackageVersion>
 		<Title>net core ext</Title>
 		<Description></Description>
 		<Authors>Lorenzo Delana</Authors>

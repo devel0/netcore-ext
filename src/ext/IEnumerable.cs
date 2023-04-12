@@ -327,5 +327,10 @@ public static partial class Ext
         return (min, max);
     }
 
+    /// <summary>
+    /// Create an HashSet from given enumerable.
+    /// </summary>    
+    public static HashSet<T> ToHashSet<T>(this IEnumerable<T> set) => new HashSet<T>(set);
+
 
 }
