@@ -52,7 +52,7 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "annotated.html",
-"class_search_a_thing_1_1_ext_1_1_paper_size.html#a7104c27d892b5197b414ba8b6f2220c7"
+"class_search_a_thing_1_1_ext_1_1_paper_size.html#a6afe5cf12a03418047be0c274c6c493e"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';
