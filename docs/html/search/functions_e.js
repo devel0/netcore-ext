@@ -2,7 +2,7 @@ var searchData=
 [
   ['saveembeddedresourcetofile_0',['SaveEmbeddedResourceToFile',['../class_search_a_thing_1_1_ext_1_1_toolkit.html#a2487d76fa73983081e8d6f572b4bdcb5',1,'SearchAThing::Ext::Toolkit']]],
   ['searchinpath_1',['SearchInPath',['../class_search_a_thing_1_1_ext_1_1_toolkit.html#a1bd00d1bf1056d8876797bcb7db90035',1,'SearchAThing::Ext::Toolkit']]],
-  ['setitem_2',['SetItem',['../class_search_a_thing_1_1_ext_1_1_observable_collection2.html#a570e7abff2853c44bf730b8b5bdb7629',1,'SearchAThing::Ext::ObservableCollection2']]],
+  ['setitem_2',['SetItem',['../class_search_a_thing_1_1_ext_1_1_h_s_observable_collection.html#a570e7abff2853c44bf730b8b5bdb7629',1,'SearchAThing.Ext.HSObservableCollection.SetItem()'],['../class_search_a_thing_1_1_ext_1_1_observable_collection2.html#a570e7abff2853c44bf730b8b5bdb7629',1,'SearchAThing.Ext.ObservableCollection2.SetItem()']]],
   ['sign_3',['Sign',['../class_search_a_thing_1_1_ext_1_1_ext.html#a4808d9ffd252d5ff560d1b0179a05344',1,'SearchAThing.Ext.Ext.Sign(this int n)'],['../class_search_a_thing_1_1_ext_1_1_ext.html#aa2521b18bfa7ead9cff8e024b35eb086',1,'SearchAThing.Ext.Ext.Sign(this double n)'],['../class_search_a_thing_1_1_ext_1_1_ext.html#a5bcca8a0c66ad4b499dae15fff2101ab',1,'SearchAThing.Ext.Ext.Sign(this double n, double zeroTol)']]],
   ['smartdoubleparse_4',['SmartDoubleParse',['../class_search_a_thing_1_1_ext_1_1_ext.html#a834b16136ffee219dec3852c6363d8e7',1,'SearchAThing::Ext::Ext']]],
   ['sort_3c_20tsource_2c_20tkey_20_3e_5',['Sort&lt; TSource, TKey &gt;',['../class_search_a_thing_1_1_ext_1_1_ext.html#a2a3c1b09e111cee6cd0c65eed39d23b6',1,'SearchAThing::Ext::Ext']]],

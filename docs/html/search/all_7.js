@@ -2,7 +2,7 @@ var searchData=
 [
   ['import_0',['Import',['../class_search_a_thing_1_1_ext_1_1_ext.html#a3663bf96888eea1fe7d744a043802ebe',1,'SearchAThing::Ext::Ext']]],
   ['inotifycollectionchanged2_1',['INotifyCollectionChanged2',['../interface_search_a_thing_1_1_ext_1_1_i_notify_collection_changed2.html',1,'SearchAThing::Ext']]],
-  ['insertitem_2',['InsertItem',['../class_search_a_thing_1_1_ext_1_1_observable_collection2.html#a9af0263725ee48f063b4f61fdafa98b2',1,'SearchAThing::Ext::ObservableCollection2']]],
+  ['insertitem_2',['InsertItem',['../class_search_a_thing_1_1_ext_1_1_h_s_observable_collection.html#a9af0263725ee48f063b4f61fdafa98b2',1,'SearchAThing.Ext.HSObservableCollection.InsertItem()'],['../class_search_a_thing_1_1_ext_1_1_observable_collection2.html#a9af0263725ee48f063b4f61fdafa98b2',1,'SearchAThing.Ext.ObservableCollection2.InsertItem()']]],
   ['internalerror_3',['InternalError',['../class_search_a_thing_1_1_ext_1_1_internal_error.html#a74e6e802749551afe67b97498e085777',1,'SearchAThing.Ext.InternalError.InternalError()'],['../class_search_a_thing_1_1_ext_1_1_internal_error.html',1,'InternalError']]],
   ['invariantdate_4',['InvariantDate',['../class_search_a_thing_1_1_ext_1_1_ext.html#a3d50f8bea9364bc300f0dd2a2864c2d0',1,'SearchAThing::Ext::Ext']]],
   ['invariantedatetime_5',['InvarianteDateTime',['../class_search_a_thing_1_1_ext_1_1_ext.html#a1fc9fbd32fab040a1055955b4e16ab3a',1,'SearchAThing::Ext::Ext']]],

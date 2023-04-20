@@ -14,6 +14,7 @@ var hierarchy =
       ] ]
     ] ],
     [ "ObservableCollection", null, [
+      [ "HSObservableCollection< T >", "class_search_a_thing_1_1_ext_1_1_h_s_observable_collection.html", null ],
       [ "ObservableCollection2< T >", "class_search_a_thing_1_1_ext_1_1_observable_collection2.html", null ]
     ] ],
     [ "PaperSize", "class_search_a_thing_1_1_ext_1_1_paper_size.html", null ],

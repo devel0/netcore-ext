@@ -4,6 +4,7 @@ var annotated_dup =
       [ "Ext", "namespace_search_a_thing_1_1_ext.html", [
         [ "ExecResult", "class_search_a_thing_1_1_ext_1_1_exec_result.html", "class_search_a_thing_1_1_ext_1_1_exec_result" ],
         [ "Ext", "class_search_a_thing_1_1_ext_1_1_ext.html", "class_search_a_thing_1_1_ext_1_1_ext" ],
+        [ "HSObservableCollection", "class_search_a_thing_1_1_ext_1_1_h_s_observable_collection.html", "class_search_a_thing_1_1_ext_1_1_h_s_observable_collection" ],
         [ "INotifyCollectionChanged2", "interface_search_a_thing_1_1_ext_1_1_i_notify_collection_changed2.html", "interface_search_a_thing_1_1_ext_1_1_i_notify_collection_changed2" ],
         [ "InternalError", "class_search_a_thing_1_1_ext_1_1_internal_error.html", "class_search_a_thing_1_1_ext_1_1_internal_error" ],
         [ "IReadOnlyHashSet", "interface_search_a_thing_1_1_ext_1_1_i_read_only_hash_set.html", "interface_search_a_thing_1_1_ext_1_1_i_read_only_hash_set" ],
