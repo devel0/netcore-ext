@@ -35,6 +35,24 @@ public partial class ObservableCollectionTests
         Assert.False(obc.Contains(item1));
         Assert.False(obc.Contains(item2));
         Assert.False(obc.Contains(item3));
+
+        obc.Add(item1);
+        obc.Add(item1);
+
+        Assert.True(obc.Contains(item1));
+        obc.Remove(item1);
+        Assert.Equal(1, obc.Count);
+        Assert.True(obc.Contains(item1));
+
+        obc[0] = item2;
+        Assert.False(obc.Contains(item1));
+        Assert.True(obc.Contains(item2));
+        Assert.Equal(1, obc.Count);
+
+        obc.Add(item2);
+        obc.Add(item2);
+        obc.Remove(item2);
+        Assert.True(obc.Contains(item2));
     }
 
 }
