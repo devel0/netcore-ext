@@ -79,15 +79,6 @@ dotnet new sln
 dotnet sln add src/ext src/test examples/example01
 dotnet build
 dotnet test
-
-# documentation css
-
-mkdir data
-git submodule add https://github.com/jothepro/doxygen-awesome-css.git data/doxygen-awesome-css
-cd data/doxygen-awesome-css
-# doxygen 1.9.7
-git checkout 245c7c94c20eac22730ef89035967f78b77bf405
-cd ../..
 ```
 
 ## Documentation (github pages)
