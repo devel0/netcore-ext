@@ -2,9 +2,9 @@
 
 Main page description.
 
-- [GitHub](https://github.com/devel0/netcore-ext)
-- Ext
-- Toolkit
+- [Sources](https://github.com/devel0/netcore-ext)
+- <see cref="SearchAThing.Ext.Ext">Extensions</see>
+- <see cref="SearchAThing.Ext.Toolkit">Toolkit</see>
 
 Usings:
 
