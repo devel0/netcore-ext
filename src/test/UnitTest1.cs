@@ -1,6 +1,6 @@
 ﻿using System.Linq.Expressions;
 
-namespace SearchAThing.Ext.Test;
+namespace SearchAThing.Ext.Tests;
 
 public class UnitTest1
 {
