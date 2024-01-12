@@ -74,12 +74,28 @@ $(function() {
 </div><!-- top -->
 <div class="header">
   <div class="summary">
+<a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pub-static-methods">Static Public Member Functions</a> &#124;
+<a href="#pub-static-attribs">Static Public Attributes</a> &#124;
 <a href="class_search_a_thing_1_1_ext_1_1_toolkit-members.html">List of all members</a>  </div>
   <div class="headertitle"><div class="title">Toolkit Class Reference</div></div>
 </div><!--header-->
 <div class="contents">
+<div class="dynheader">
+Collaboration diagram for Toolkit:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_search_a_thing_1_1_ext_1_1_toolkit__coll__graph.png" border="0" usemap="#a_toolkit_coll__map" alt="Collaboration graph"/></div>
+<map name="a_toolkit_coll__map" id="a_toolkit_coll__map">
+<area shape="rect" title=" " alt="" coords="5,108,71,133"/>
+<area shape="rect" title=" " alt="" coords="9,5,67,31"/>
+</map>
+<center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
+Public Member Functions</h2></td></tr>
+<tr class="memitem:a109ad25d88379cb8beac7792812e67ba"><td class="memItemLeft" align="right" valign="top">class&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_search_a_thing_1_1_ext_1_1_toolkit.html#a109ad25d88379cb8beac7792812e67ba">AllowedDateTimeOffsetRange</a> (DateTimeOffset from, DateTimeOffset to)</td></tr>
+<tr class="separator:a109ad25d88379cb8beac7792812e67ba"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
 <tr class="memitem:a452bb5628f16b9978766c20c4c684ab8"><td class="memItemLeft" align="right" valign="top">static string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_search_a_thing_1_1_ext_1_1_toolkit.html#a452bb5628f16b9978766c20c4c684ab8">GetEmbeddedFileContentString&lt; T &gt;</a> (string resourceName)</td></tr>
@@ -178,8 +194,47 @@ Static Public Member Functions</h2></td></tr>
 <tr class="memitem:a30cb3ff0ee3daf2d3081d361a7943e5b"><td class="memItemLeft" align="right" valign="top">static IEnumerable&lt; string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_search_a_thing_1_1_ext_1_1_toolkit.html#a30cb3ff0ee3daf2d3081d361a7943e5b">TailLike</a> (string pathfilename, bool seekEnd=true, CancellationToken? ct=null, int BUFSIZE=1024)</td></tr>
 <tr class="memdesc:a30cb3ff0ee3daf2d3081d361a7943e5b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Tail-like method to gather file incoming lines.  <br /></td></tr>
 <tr class="separator:a30cb3ff0ee3daf2d3081d361a7943e5b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaa6ce6b0b157e2edf4f63a3a84d7d31f"><td class="memItemLeft" align="right" valign="top">static DateTimeOffset&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_search_a_thing_1_1_ext_1_1_toolkit.html#aaa6ce6b0b157e2edf4f63a3a84d7d31f">FromUnixTimeAuto</a> (long value, <a class="el" href="class_search_a_thing_1_1_ext_1_1_toolkit.html#a109ad25d88379cb8beac7792812e67ba">AllowedDateTimeOffsetRange</a> allowedRangeA, <a class="el" href="class_search_a_thing_1_1_ext_1_1_toolkit.html#a109ad25d88379cb8beac7792812e67ba">AllowedDateTimeOffsetRange</a>? allowedRangeB=null)</td></tr>
+<tr class="memdesc:aaa6ce6b0b157e2edf4f63a3a84d7d31f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Guess if given unix time is seconds or milliseconds given a validity range of dates out of ambiguity range [1968-01-12T20:06:43.2Z, 1978-01-11T21:31:40.799Z] where tests could overlap and no decision can be assumed. <br  />
+  <br /></td></tr>
+<tr class="separator:aaa6ce6b0b157e2edf4f63a3a84d7d31f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-attribs" name="pub-static-attribs"></a>
+Static Public Attributes</h2></td></tr>
+<tr class="memitem:af81b902aa2ba4f740a1e53a5a1952d00"><td class="memItemLeft" align="right" valign="top">static readonly DateTimeOffset&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_search_a_thing_1_1_ext_1_1_toolkit.html#af81b902aa2ba4f740a1e53a5a1952d00">UnixTimeAutoAmbiguityFrom</a> = DateTimeOffset.FromUnixTimeMilliseconds(utSecMin)</td></tr>
+<tr class="separator:af81b902aa2ba4f740a1e53a5a1952d00"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa739da5dd6036705458ff14071304b34"><td class="memItemLeft" align="right" valign="top">static readonly DateTimeOffset&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_search_a_thing_1_1_ext_1_1_toolkit.html#aa739da5dd6036705458ff14071304b34">UnixTimeAutoAmbiguityTo</a> = DateTimeOffset.FromUnixTimeMilliseconds(utSecMax)</td></tr>
+<tr class="separator:aa739da5dd6036705458ff14071304b34"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Member Function Documentation</h2>
+<a id="a109ad25d88379cb8beac7792812e67ba" name="a109ad25d88379cb8beac7792812e67ba"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a109ad25d88379cb8beac7792812e67ba">&#9670;&#160;</a></span>AllowedDateTimeOffsetRange()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">class AllowedDateTimeOffsetRange </td>
+          <td>(</td>
+          <td class="paramtype">DateTimeOffset&#160;</td>
+          <td class="paramname"><em>from</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">DateTimeOffset&#160;</td>
+          <td class="paramname"><em>to</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a4498a82a07d427ba26e5f4e1c25c1085" name="a4498a82a07d427ba26e5f4e1c25c1085"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a4498a82a07d427ba26e5f4e1c25c1085">&#9670;&#160;</a></span>AppDataFolder()</h2>
 
@@ -842,6 +897,53 @@ Static Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>start a process in background redirecting standard error; a cancellation token can be supplied to cancel underlying process <br  />
+ </p>
+
+</div>
+</div>
+<a id="aaa6ce6b0b157e2edf4f63a3a84d7d31f" name="aaa6ce6b0b157e2edf4f63a3a84d7d31f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aaa6ce6b0b157e2edf4f63a3a84d7d31f">&#9670;&#160;</a></span>FromUnixTimeAuto()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static DateTimeOffset FromUnixTimeAuto </td>
+          <td>(</td>
+          <td class="paramtype">long&#160;</td>
+          <td class="paramname"><em>value</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="class_search_a_thing_1_1_ext_1_1_toolkit.html#a109ad25d88379cb8beac7792812e67ba">AllowedDateTimeOffsetRange</a>&#160;</td>
+          <td class="paramname"><em>allowedRangeA</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="class_search_a_thing_1_1_ext_1_1_toolkit.html#a109ad25d88379cb8beac7792812e67ba">AllowedDateTimeOffsetRange</a>?&#160;</td>
+          <td class="paramname"><em>allowedRangeB</em> = <code>null</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Guess if given unix time is seconds or milliseconds given a validity range of dates out of ambiguity range [1968-01-12T20:06:43.2Z, 1978-01-11T21:31:40.799Z] where tests could overlap and no decision can be assumed. <br  />
+ </p>
+<p>If unix time is in the ambiguity range [UnixTimeAutoAmbiguityFrom,UnixTimeAutoAmbiguityTo] it can't be guessed and an exception is thrown. Out of the ambiguity it can be guessed given an allowable date ranges because these would not overlaps. <br  />
  </p>
 
 </div>
@@ -1556,8 +1658,54 @@ Static Public Member Functions</h2></td></tr>
 
 </div>
 </div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a id="af81b902aa2ba4f740a1e53a5a1952d00" name="af81b902aa2ba4f740a1e53a5a1952d00"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af81b902aa2ba4f740a1e53a5a1952d00">&#9670;&#160;</a></span>UnixTimeAutoAmbiguityFrom</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">readonly DateTimeOffset UnixTimeAutoAmbiguityFrom = DateTimeOffset.FromUnixTimeMilliseconds(utSecMin)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aa739da5dd6036705458ff14071304b34" name="aa739da5dd6036705458ff14071304b34"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa739da5dd6036705458ff14071304b34">&#9670;&#160;</a></span>UnixTimeAutoAmbiguityTo</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">readonly DateTimeOffset UnixTimeAutoAmbiguityTo = DateTimeOffset.FromUnixTimeMilliseconds(utSecMax)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <hr/>The documentation for this class was generated from the following files:<ul>
 <li>src/ext/EmbeddedResource.cs</li>
+<li>src/ext/UnixTimeAuto.cs</li>
 <li>src/ext/Expression.cs</li>
 <li>src/ext/Object.cs</li>
 <li>src/ext/Password.cs</li>
