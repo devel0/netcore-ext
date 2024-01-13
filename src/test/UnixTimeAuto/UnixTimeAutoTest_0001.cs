@@ -22,7 +22,7 @@ public partial class UnixTimeAutoTests
                 DateTimeOffset.Parse("3000-01-01T00:00:00Z")));
 
             Assert.Equal(dt, res);
-        }        
+        }
 
         {
             var res = FromUnixTimeAuto(dt.ToUnixTimeMilliseconds(),
@@ -65,5 +65,5 @@ public partial class UnixTimeAutoTests
         }
 
     }
-
+ 
 }

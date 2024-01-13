@@ -17,6 +17,13 @@ public static partial class Toolkit
         public DateTimeOffset From => from;
         public DateTimeOffset To => to;
 
+        public AllowedDateTimeOffsetRange(int yearFrom, int yearTo) : this(
+            DateTimeOffset.Parse($"{yearFrom:0000}-01-01T00:00:00Z"),
+            DateTimeOffset.Parse($"{yearTo:0000}-01-01T00:00:00Z")
+        )
+        {
+        }
+
         internal void SanityCheck()
         {
             if (From > to) throw new ArgumentException($"expects from less than to");
@@ -36,7 +43,7 @@ public static partial class Toolkit
     }
 
     /// <summary>
-    /// Guess if given unix time is seconds or milliseconds given a validity range of dates
+    /// Guess if given unix time is seconds or milliseconds given a validity range of dates that must fall
     /// out of ambiguity range [1968-01-12T20:06:43.2Z, 1978-01-11T21:31:40.799Z] where tests could overlap
     /// and no decision can be assumed.    
     /// </summary>
