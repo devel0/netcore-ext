@@ -45,11 +45,12 @@ public static partial class Toolkit
     /// <summary>
     /// Guess if given unix time is seconds or milliseconds given a validity range of dates that must fall
     /// out of ambiguity range [1968-01-12T20:06:43.2Z, 1978-01-11T21:31:40.799Z] where tests could overlap
-    /// and no decision can be assumed.    
+    /// and no decision can be assumed.
     /// </summary>
     /// <remarks>
     /// If unix time is in the ambiguity range [<see cref="UnixTimeAutoAmbiguityFrom"/>,<see cref="UnixTimeAutoAmbiguityTo"/>] it can't be guessed and an exception is thrown.
     /// Out of the ambiguity it can be guessed given an allowable date ranges because these would not overlaps.    
+    /// Discussion: https://stackoverflow.com/a/77809656/5521766
     /// </remarks>
     public static DateTimeOffset FromUnixTimeAuto(long value,
         AllowedDateTimeOffsetRange allowedRangeA, AllowedDateTimeOffsetRange? allowedRangeB = null)
