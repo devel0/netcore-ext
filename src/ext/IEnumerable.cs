@@ -322,7 +322,7 @@ public static partial class Ext
             ++cnt;
         }
 
-        if (cnt == 0) return null;        
+        if (cnt == 0) return null;
 
         return (min, max);
     }
@@ -331,5 +331,53 @@ public static partial class Ext
     /// Create an HashSet from given enumerable. (net standard 2.0 ext)
     /// </summary>    
     public static HashSet<T> ToHashSetExt<T>(this IEnumerable<T> set) => new HashSet<T>(set);
+
+    /// <summary>
+    /// Separate into a set of lists given items ensuring no same key object exists in the same list.
+    /// </summary>
+    /// <typeparam name="T">Type of items to split.</typeparam>
+    /// <typeparam name="V">Type of item key.</typeparam>
+    /// <param name="set">Input element set</param>
+    /// <param name="splitBySelector">Function that retrieve key from item.</param>
+    /// <returns>List of list of items where no dup key in the same list.</returns>
+    public static List<List<T>> SplitBy<T, V>(this IEnumerable<T> set, Func<T, V> splitBySelector)
+    {
+        var res = new List<List<T>>();
+
+        var dict = new Dictionary<V, int>();
+
+        foreach (var x in set)
+        {
+            var key = splitBySelector(x);
+
+            if (!dict.TryGetValue(key, out var off))
+            {
+                off = 0;
+                dict.Add(key, off);
+            }
+
+            else
+            {
+                ++off;
+                dict[key] = off;
+            }
+
+            List<T> lst;
+
+            if (res.Count <= off)
+            {
+                if (off > res.Count) throw new InternalError($"list elements should increase by 1");
+
+                res.Add(lst = new List<T>());
+            }
+
+            else
+                lst = res[off];
+
+            lst.Add(x);
+        }
+
+        return res;
+    }
 
 }
