@@ -148,6 +148,9 @@ Static Public Member Functions</h2></td></tr>
 <tr class="memitem:af2436c9ace74095383bbdd52c1cde839"><td class="memItemLeft" align="right" valign="top">static HashSet&lt; T &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_search_a_thing_1_1_ext_1_1_ext.html#af2436c9ace74095383bbdd52c1cde839">ToHashSetExt&lt; T &gt;</a> (this IEnumerable&lt; T &gt; set)</td></tr>
 <tr class="memdesc:af2436c9ace74095383bbdd52c1cde839"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create an HashSet from given enumerable. (net standard 2.0 ext)  <br /></td></tr>
 <tr class="separator:af2436c9ace74095383bbdd52c1cde839"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad80a5611047423959ace2e5112addb0a"><td class="memItemLeft" align="right" valign="top">static List&lt; List&lt; T &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_search_a_thing_1_1_ext_1_1_ext.html#ad80a5611047423959ace2e5112addb0a">SplitBy&lt; T, V &gt;</a> (this IEnumerable&lt; T &gt; set, Func&lt; T, V &gt; splitBySelector)</td></tr>
+<tr class="memdesc:ad80a5611047423959ace2e5112addb0a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Separate into a set of lists given items ensuring no same key object exists in the same list.  <br /></td></tr>
+<tr class="separator:ad80a5611047423959ace2e5112addb0a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8797726f2b68c7bea2dbfcc66a00f65a"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_search_a_thing_1_1_ext_1_1_ext.html#a8797726f2b68c7bea2dbfcc66a00f65a">EqualsAutoTol</a> (this double x, double y, double precision=1e-6)</td></tr>
 <tr class="memdesc:a8797726f2b68c7bea2dbfcc66a00f65a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if two numbers are equals using a default tolerance of 1e-6 about the smaller one.  <br /></td></tr>
 <tr class="separator:a8797726f2b68c7bea2dbfcc66a00f65a"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -2745,6 +2748,59 @@ Static Public Attributes</h2></td></tr>
 <p>split string with given separator string </p>
 <p><br  />
  </p>
+
+</div>
+</div>
+<a id="ad80a5611047423959ace2e5112addb0a" name="ad80a5611047423959ace2e5112addb0a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad80a5611047423959ace2e5112addb0a">&#9670;&#160;</a></span>SplitBy&lt; T, V &gt;()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static List&lt; List&lt; T &gt; &gt; SplitBy&lt; T, V &gt; </td>
+          <td>(</td>
+          <td class="paramtype">this IEnumerable&lt; T &gt;&#160;</td>
+          <td class="paramname"><em>set</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Func&lt; T, V &gt;&#160;</td>
+          <td class="paramname"><em>splitBySelector</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Separate into a set of lists given items ensuring no same key object exists in the same list. </p>
+<dl class="tparams"><dt>Template Parameters</dt><dd>
+  <table class="tparams">
+    <tr><td class="paramname">T</td><td>Type of items to split.</td></tr>
+    <tr><td class="paramname">V</td><td>Type of item key.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">set</td><td>Input element set</td></tr>
+    <tr><td class="paramname">splitBySelector</td><td>Function that retrieve key from item.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>List of list of items where no dup key in the same list.</dd></dl>
 
 </div>
 </div>
