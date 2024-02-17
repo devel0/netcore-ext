@@ -287,8 +287,8 @@ __pycache__/
 *.odx.cs
 *.xsd.cs
 
-docs
-
 lcov.*
-_site
-api
+
+/_site
+/api
+/docs
