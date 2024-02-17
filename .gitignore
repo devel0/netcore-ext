@@ -288,3 +288,6 @@ __pycache__/
 *.xsd.cs
 
 lcov.*
+
+/_site
+/api
