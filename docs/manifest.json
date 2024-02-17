@@ -1,0 +1,275 @@
+{
+  "source_base_path": "/home/devel0/Documents/opensource/netcore-ext",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "Resource",
+      "output": {
+        "resource": {
+          "relative_path": "index.json"
+        }
+      }
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "README.md",
+      "output": {
+        ".html": {
+          "relative_path": "README.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SearchAThing.Ext.ColumnAlignment.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SearchAThing.Ext.ColumnAlignment.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SearchAThing.Ext.CopyFromCustomDelegate.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SearchAThing.Ext.CopyFromCustomDelegate.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SearchAThing.Ext.ExecResult.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SearchAThing.Ext.ExecResult.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SearchAThing.Ext.Ext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SearchAThing.Ext.Ext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SearchAThing.Ext.HSObservableCollection-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SearchAThing.Ext.HSObservableCollection-1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SearchAThing.Ext.INotifyCollectionChanged2.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SearchAThing.Ext.INotifyCollectionChanged2.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SearchAThing.Ext.IReadOnlyHashSet-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SearchAThing.Ext.IReadOnlyHashSet-1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SearchAThing.Ext.InternalError.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SearchAThing.Ext.InternalError.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SearchAThing.Ext.ObservableCollection2-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SearchAThing.Ext.ObservableCollection2-1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SearchAThing.Ext.PaperSize.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SearchAThing.Ext.PaperSize.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SearchAThing.Ext.PaperSizeEnum.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SearchAThing.Ext.PaperSizeEnum.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SearchAThing.Ext.RStruct-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SearchAThing.Ext.RStruct-1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SearchAThing.Ext.RandomPasswordOptions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SearchAThing.Ext.RandomPasswordOptions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SearchAThing.Ext.ReadOnlyHashSet-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SearchAThing.Ext.ReadOnlyHashSet-1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SearchAThing.Ext.StringWrapper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SearchAThing.Ext.StringWrapper.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SearchAThing.Ext.StringWrapperLineReader.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SearchAThing.Ext.StringWrapperLineReader.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SearchAThing.Ext.Toolkit.AllowedDateTimeOffsetRange.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SearchAThing.Ext.Toolkit.AllowedDateTimeOffsetRange.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SearchAThing.Ext.Toolkit.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SearchAThing.Ext.Toolkit.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SearchAThing.Ext.ValueObj-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SearchAThing.Ext.ValueObj-1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/SearchAThing.Ext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SearchAThing.Ext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "api/toc.yml",
+      "output": {
+        ".json": {
+          "relative_path": "api/toc.json"
+        },
+        ".html": {
+          "relative_path": "api/toc.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "data/pages/main.md",
+      "output": {
+        ".html": {
+          "relative_path": "data/pages/main.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".json": {
+          "relative_path": "toc.json"
+        },
+        ".html": {
+          "relative_path": "toc.html"
+        }
+      },
+      "version": ""
+    }
+  ],
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}

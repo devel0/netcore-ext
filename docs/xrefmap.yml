@@ -1,0 +1,3136 @@
+### YamlMime:XRefMap
+sorted: true
+references:
+- uid: SearchAThing.Ext
+  name: SearchAThing.Ext
+  href: api/SearchAThing.Ext.html
+  commentId: N:SearchAThing.Ext
+  fullName: SearchAThing.Ext
+  nameWithType: SearchAThing.Ext
+- uid: SearchAThing.Ext.ColumnAlignment
+  name: ColumnAlignment
+  href: api/SearchAThing.Ext.ColumnAlignment.html
+  commentId: T:SearchAThing.Ext.ColumnAlignment
+  fullName: SearchAThing.Ext.ColumnAlignment
+  nameWithType: ColumnAlignment
+- uid: SearchAThing.Ext.ColumnAlignment.center
+  name: center
+  href: api/SearchAThing.Ext.ColumnAlignment.html#SearchAThing_Ext_ColumnAlignment_center
+  commentId: F:SearchAThing.Ext.ColumnAlignment.center
+  fullName: SearchAThing.Ext.ColumnAlignment.center
+  nameWithType: ColumnAlignment.center
+- uid: SearchAThing.Ext.ColumnAlignment.left
+  name: left
+  href: api/SearchAThing.Ext.ColumnAlignment.html#SearchAThing_Ext_ColumnAlignment_left
+  commentId: F:SearchAThing.Ext.ColumnAlignment.left
+  fullName: SearchAThing.Ext.ColumnAlignment.left
+  nameWithType: ColumnAlignment.left
+- uid: SearchAThing.Ext.ColumnAlignment.right
+  name: right
+  href: api/SearchAThing.Ext.ColumnAlignment.html#SearchAThing_Ext_ColumnAlignment_right
+  commentId: F:SearchAThing.Ext.ColumnAlignment.right
+  fullName: SearchAThing.Ext.ColumnAlignment.right
+  nameWithType: ColumnAlignment.right
+- uid: SearchAThing.Ext.CopyFromCustomDelegate
+  name: CopyFromCustomDelegate
+  href: api/SearchAThing.Ext.CopyFromCustomDelegate.html
+  commentId: T:SearchAThing.Ext.CopyFromCustomDelegate
+  fullName: SearchAThing.Ext.CopyFromCustomDelegate
+  nameWithType: CopyFromCustomDelegate
+- uid: SearchAThing.Ext.ExecResult
+  name: ExecResult
+  href: api/SearchAThing.Ext.ExecResult.html
+  commentId: T:SearchAThing.Ext.ExecResult
+  fullName: SearchAThing.Ext.ExecResult
+  nameWithType: ExecResult
+- uid: SearchAThing.Ext.ExecResult.#ctor(System.Int32,System.String,System.String)
+  name: ExecResult(int, string, string)
+  href: api/SearchAThing.Ext.ExecResult.html#SearchAThing_Ext_ExecResult__ctor_System_Int32_System_String_System_String_
+  commentId: M:SearchAThing.Ext.ExecResult.#ctor(System.Int32,System.String,System.String)
+  name.vb: New(Integer, String, String)
+  fullName: SearchAThing.Ext.ExecResult.ExecResult(int, string, string)
+  fullName.vb: SearchAThing.Ext.ExecResult.New(Integer, String, String)
+  nameWithType: ExecResult.ExecResult(int, string, string)
+  nameWithType.vb: ExecResult.New(Integer, String, String)
+- uid: SearchAThing.Ext.ExecResult.#ctor*
+  name: ExecResult
+  href: api/SearchAThing.Ext.ExecResult.html#SearchAThing_Ext_ExecResult__ctor_
+  commentId: Overload:SearchAThing.Ext.ExecResult.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: SearchAThing.Ext.ExecResult.ExecResult
+  fullName.vb: SearchAThing.Ext.ExecResult.New
+  nameWithType: ExecResult.ExecResult
+  nameWithType.vb: ExecResult.New
+- uid: SearchAThing.Ext.ExecResult.Error
+  name: Error
+  href: api/SearchAThing.Ext.ExecResult.html#SearchAThing_Ext_ExecResult_Error
+  commentId: P:SearchAThing.Ext.ExecResult.Error
+  fullName: SearchAThing.Ext.ExecResult.Error
+  nameWithType: ExecResult.Error
+- uid: SearchAThing.Ext.ExecResult.Error*
+  name: Error
+  href: api/SearchAThing.Ext.ExecResult.html#SearchAThing_Ext_ExecResult_Error_
+  commentId: Overload:SearchAThing.Ext.ExecResult.Error
+  isSpec: "True"
+  fullName: SearchAThing.Ext.ExecResult.Error
+  nameWithType: ExecResult.Error
+- uid: SearchAThing.Ext.ExecResult.ExitCode
+  name: ExitCode
+  href: api/SearchAThing.Ext.ExecResult.html#SearchAThing_Ext_ExecResult_ExitCode
+  commentId: P:SearchAThing.Ext.ExecResult.ExitCode
+  fullName: SearchAThing.Ext.ExecResult.ExitCode
+  nameWithType: ExecResult.ExitCode
+- uid: SearchAThing.Ext.ExecResult.ExitCode*
+  name: ExitCode
+  href: api/SearchAThing.Ext.ExecResult.html#SearchAThing_Ext_ExecResult_ExitCode_
+  commentId: Overload:SearchAThing.Ext.ExecResult.ExitCode
+  isSpec: "True"
+  fullName: SearchAThing.Ext.ExecResult.ExitCode
+  nameWithType: ExecResult.ExitCode
+- uid: SearchAThing.Ext.ExecResult.Output
+  name: Output
+  href: api/SearchAThing.Ext.ExecResult.html#SearchAThing_Ext_ExecResult_Output
+  commentId: P:SearchAThing.Ext.ExecResult.Output
+  fullName: SearchAThing.Ext.ExecResult.Output
+  nameWithType: ExecResult.Output
+- uid: SearchAThing.Ext.ExecResult.Output*
+  name: Output
+  href: api/SearchAThing.Ext.ExecResult.html#SearchAThing_Ext_ExecResult_Output_
+  commentId: Overload:SearchAThing.Ext.ExecResult.Output
+  isSpec: "True"
+  fullName: SearchAThing.Ext.ExecResult.Output
+  nameWithType: ExecResult.Output
+- uid: SearchAThing.Ext.Ext
+  name: Ext
+  href: api/SearchAThing.Ext.Ext.html
+  commentId: T:SearchAThing.Ext.Ext
+  fullName: SearchAThing.Ext.Ext
+  nameWithType: Ext
+- uid: SearchAThing.Ext.Ext.Act*
+  name: Act
+  href: api/SearchAThing.Ext.Ext.html#SearchAThing_Ext_Ext_Act_
+  commentId: Overload:SearchAThing.Ext.Ext.Act
+  isSpec: "True"
+  fullName: SearchAThing.Ext.Ext.Act
+  nameWithType: Ext.Act
+- uid: SearchAThing.Ext.Ext.Act``1(``0,System.Action{``0})
+  name: Act<T>(T, Action<T>)
+  href: api/SearchAThing.Ext.Ext.html#SearchAThing_Ext_Ext_Act__1___0_System_Action___0__
+  commentId: M:SearchAThing.Ext.Ext.Act``1(``0,System.Action{``0})
+  name.vb: Act(Of T)(T, Action(Of T))
+  fullName: SearchAThing.Ext.Ext.Act<T>(T, System.Action<T>)
+  fullName.vb: SearchAThing.Ext.Ext.Act(Of T)(T, System.Action(Of T))
+  nameWithType: Ext.Act<T>(T, Action<T>)
+  nameWithType.vb: Ext.Act(Of T)(T, Action(Of T))
+- uid: SearchAThing.Ext.Ext.Align(System.String,System.Int32,SearchAThing.Ext.ColumnAlignment)
+  name: Align(string, int, ColumnAlignment)
+  href: api/SearchAThing.Ext.Ext.html#SearchAThing_Ext_Ext_Align_System_String_System_Int32_SearchAThing_Ext_ColumnAlignment_
+  commentId: M:SearchAThing.Ext.Ext.Align(System.String,System.Int32,SearchAThing.Ext.ColumnAlignment)
+  name.vb: Align(String, Integer, ColumnAlignment)
+  fullName: SearchAThing.Ext.Ext.Align(string, int, SearchAThing.Ext.ColumnAlignment)
+  fullName.vb: SearchAThing.Ext.Ext.Align(String, Integer, SearchAThing.Ext.ColumnAlignment)
+  nameWithType: Ext.Align(string, int, ColumnAlignment)
+  nameWithType.vb: Ext.Align(String, Integer, ColumnAlignment)
+- uid: SearchAThing.Ext.Ext.Align*
+  name: Align
+  href: api/SearchAThing.Ext.Ext.html#SearchAThing_Ext_Ext_Align_
+  commentId: Overload:SearchAThing.Ext.Ext.Align
+  isSpec: "True"
+  fullName: SearchAThing.Ext.Ext.Align
+  nameWithType: Ext.Align
+- uid: SearchAThing.Ext.Ext.Clamp(System.Double,System.Double,System.Double)
+  name: Clamp(double, double, double)
+  href: api/SearchAThing.Ext.Ext.html#SearchAThing_Ext_Ext_Clamp_System_Double_System_Double_System_Double_
+  commentId: M:SearchAThing.Ext.Ext.Clamp(System.Double,System.Double,System.Double)
+  name.vb: Clamp(Double, Double, Double)
+  fullName: SearchAThing.Ext.Ext.Clamp(double, double, double)
+  fullName.vb: SearchAThing.Ext.Ext.Clamp(Double, Double, Double)
+  nameWithType: Ext.Clamp(double, double, double)
+  nameWithType.vb: Ext.Clamp(Double, Double, Double)
+- uid: SearchAThing.Ext.Ext.Clamp(System.Single,System.Single,System.Single)
+  name: Clamp(float, float, float)
+  href: api/SearchAThing.Ext.Ext.html#SearchAThing_Ext_Ext_Clamp_System_Single_System_Single_System_Single_
+  commentId: M:SearchAThing.Ext.Ext.Clamp(System.Single,System.Single,System.Single)
+  name.vb: Clamp(Single, Single, Single)
+  fullName: SearchAThing.Ext.Ext.Clamp(float, float, float)
+  fullName.vb: SearchAThing.Ext.Ext.Clamp(Single, Single, Single)
+  nameWithType: Ext.Clamp(float, float, float)
+  nameWithType.vb: Ext.Clamp(Single, Single, Single)
+- uid: SearchAThing.Ext.Ext.Clamp*
+  name: Clamp
+  href: api/SearchAThing.Ext.Ext.html#SearchAThing_Ext_Ext_Clamp_
+  commentId: Overload:SearchAThing.Ext.Ext.Clamp
+  isSpec: "True"
+  fullName: SearchAThing.Ext.Ext.Clamp
+  nameWithType: Ext.Clamp
+- uid: SearchAThing.Ext.Ext.CompareTol(System.Double,System.Double,System.Double)
+  name: CompareTol(double, double, double)
+  href: api/SearchAThing.Ext.Ext.html#SearchAThing_Ext_Ext_CompareTol_System_Double_System_Double_System_Double_
+  commentId: M:SearchAThing.Ext.Ext.CompareTol(System.Double,System.Double,System.Double)
+  name.vb: CompareTol(Double, Double, Double)
+  fullName: SearchAThing.Ext.Ext.CompareTol(double, double, double)
+  fullName.vb: SearchAThing.Ext.Ext.CompareTol(Double, Double, Double)
+  nameWithType: Ext.CompareTol(double, double, double)
+  nameWithType.vb: Ext.CompareTol(Double, Double, Double)
+- uid: SearchAThing.Ext.Ext.CompareTol*
+  name: CompareTol
+  href: api/SearchAThing.Ext.Ext.html#SearchAThing_Ext_Ext_CompareTol_
+  commentId: Overload:SearchAThing.Ext.Ext.CompareTol
+  isSpec: "True"
+  fullName: SearchAThing.Ext.Ext.CompareTol
+  nameWithType: Ext.CompareTol
+- uid: SearchAThing.Ext.Ext.ComputeMD5Sum(System.String)
+  name: ComputeMD5Sum(string)
+  href: api/SearchAThing.Ext.Ext.html#SearchAThing_Ext_Ext_ComputeMD5Sum_System_String_
+  commentId: M:SearchAThing.Ext.Ext.ComputeMD5Sum(System.String)
+  name.vb: ComputeMD5Sum(String)
+  fullName: SearchAThing.Ext.Ext.ComputeMD5Sum(string)
+  fullName.vb: SearchAThing.Ext.Ext.ComputeMD5Sum(String)
+  nameWithType: Ext.ComputeMD5Sum(string)
+  nameWithType.vb: Ext.ComputeMD5Sum(String)
+- uid: SearchAThing.Ext.Ext.ComputeMD5Sum*
+  name: ComputeMD5Sum
+  href: api/SearchAThing.Ext.Ext.html#SearchAThing_Ext_Ext_ComputeMD5Sum_
+  commentId: Overload:SearchAThing.Ext.Ext.ComputeMD5Sum
+  isSpec: "True"
+  fullName: SearchAThing.Ext.Ext.ComputeMD5Sum
+  nameWithType: Ext.ComputeMD5Sum
+- uid: SearchAThing.Ext.Ext.ContainsIgnoreCase(System.String,System.String)
+  name: ContainsIgnoreCase(string, string)
+  href: api/SearchAThing.Ext.Ext.html#SearchAThing_Ext_Ext_ContainsIgnoreCase_System_String_System_String_
+  commentId: M:SearchAThing.Ext.Ext.ContainsIgnoreCase(System.String,System.String)
+  name.vb: ContainsIgnoreCase(String, String)
+  fullName: SearchAThing.Ext.Ext.ContainsIgnoreCase(string, string)
+  fullName.vb: SearchAThing.Ext.Ext.ContainsIgnoreCase(String, String)
+  nameWithType: Ext.ContainsIgnoreCase(string, string)
+  nameWithType.vb: Ext.ContainsIgnoreCase(String, String)
+- uid: SearchAThing.Ext.Ext.ContainsIgnoreCase*
+  name: ContainsIgnoreCase
+  href: api/SearchAThing.Ext.Ext.html#SearchAThing_Ext_Ext_ContainsIgnoreCase_
+  commentId: Overload:SearchAThing.Ext.Ext.ContainsIgnoreCase
+  isSpec: "True"
+  fullName: SearchAThing.Ext.Ext.ContainsIgnoreCase
+  nameWithType: Ext.ContainsIgnoreCase
+- uid: SearchAThing.Ext.Ext.CreateGetterSetter*
+  name: CreateGetterSetter
+  href: api/SearchAThing.Ext.Ext.html#SearchAThing_Ext_Ext_CreateGetterSetter_
+  commentId: Overload:SearchAThing.Ext.Ext.CreateGetterSetter
+  isSpec: "True"
+  fullName: SearchAThing.Ext.Ext.CreateGetterSetter
+  nameWithType: Ext.CreateGetterSetter
+- uid: SearchAThing.Ext.Ext.CreateGetterSetter``2(System.Linq.Expressions.Expression{System.Func{``0,``1}})
+  name: CreateGetterSetter<T, V>(Expression<Func<T, V>>)
+  href: api/SearchAThing.Ext.Ext.html#SearchAThing_Ext_Ext_CreateGetterSetter__2_System_Linq_Expressions_Expression_System_Func___0___1___
+  commentId: M:SearchAThing.Ext.Ext.CreateGetterSetter``2(System.Linq.Expressions.Expression{System.Func{``0,``1}})
+  name.vb: CreateGetterSetter(Of T, V)(Expression(Of Func(Of T, V)))
+  fullName: SearchAThing.Ext.Ext.CreateGetterSetter<T, V>(System.Linq.Expressions.Expression<System.Func<T, V>>)
+  fullName.vb: SearchAThing.Ext.Ext.CreateGetterSetter(Of T, V)(System.Linq.Expressions.Expression(Of System.Func(Of T, V)))
+  nameWithType: Ext.CreateGetterSetter<T, V>(Expression<Func<T, V>>)
+  nameWithType.vb: Ext.CreateGetterSetter(Of T, V)(Expression(Of Func(Of T, V)))
+- uid: SearchAThing.Ext.Ext.CreateGetterSetter``2(System.Linq.Expressions.Expression{System.Func{``0,``1}},System.Linq.Expressions.MemberExpression@)
+  name: CreateGetterSetter<T, V>(Expression<Func<T, V>>, out MemberExpression)
+  href: api/SearchAThing.Ext.Ext.html#SearchAThing_Ext_Ext_CreateGetterSetter__2_System_Linq_Expressions_Expression_System_Func___0___1___System_Linq_Expressions_MemberExpression__
+  commentId: M:SearchAThing.Ext.Ext.CreateGetterSetter``2(System.Linq.Expressions.Expression{System.Func{``0,``1}},System.Linq.Expressions.MemberExpression@)
+  name.vb: CreateGetterSetter(Of T, V)(Expression(Of Func(Of T, V)), MemberExpression)
+  fullName: SearchAThing.Ext.Ext.CreateGetterSetter<T, V>(System.Linq.Expressions.Expression<System.Func<T, V>>, out System.Linq.Expressions.MemberExpression)
+  fullName.vb: SearchAThing.Ext.Ext.CreateGetterSetter(Of T, V)(System.Linq.Expressions.Expression(Of System.Func(Of T, V)), System.Linq.Expressions.MemberExpression)
+  nameWithType: Ext.CreateGetterSetter<T, V>(Expression<Func<T, V>>, out MemberExpression)
+  nameWithType.vb: Ext.CreateGetterSetter(Of T, V)(Expression(Of Func(Of T, V)), MemberExpression)
+- uid: SearchAThing.Ext.Ext.Distinct*
+  name: Distinct
+  href: api/SearchAThing.Ext.Ext.html#SearchAThing_Ext_Ext_Distinct_
+  commentId: Overload:SearchAThing.Ext.Ext.Distinct
+  isSpec: "True"
+  fullName: SearchAThing.Ext.Ext.Distinct
+  nameWithType: Ext.Distinct
+- uid: SearchAThing.Ext.Ext.Distinct``2(System.Collections.Generic.IEnumerable{``0},System.Func{``0,``1})
+  name: Distinct<T, TKey>(IEnumerable<T>, Func<T, TKey>)
+  href: api/SearchAThing.Ext.Ext.html#SearchAThing_Ext_Ext_Distinct__2_System_Collections_Generic_IEnumerable___0__System_Func___0___1__
+  commentId: M:SearchAThing.Ext.Ext.Distinct``2(System.Collections.Generic.IEnumerable{``0},System.Func{``0,``1})
+  name.vb: Distinct(Of T, TKey)(IEnumerable(Of T), Func(Of T, TKey))
+  fullName: SearchAThing.Ext.Ext.Distinct<T, TKey>(System.Collections.Generic.IEnumerable<T>, System.Func<T, TKey>)
+  fullName.vb: SearchAThing.Ext.Ext.Distinct(Of T, TKey)(System.Collections.Generic.IEnumerable(Of T), System.Func(Of T, TKey))
+  nameWithType: Ext.Distinct<T, TKey>(IEnumerable<T>, Func<T, TKey>)
+  nameWithType.vb: Ext.Distinct(Of T, TKey)(IEnumerable(Of T), Func(Of T, TKey))
+- uid: SearchAThing.Ext.Ext.EqualsAutoTol(System.Double,System.Double,System.Double)
+  name: EqualsAutoTol(double, double, double)
+  href: api/SearchAThing.Ext.Ext.html#SearchAThing_Ext_Ext_EqualsAutoTol_System_Double_System_Double_System_Double_
+  commentId: M:SearchAThing.Ext.Ext.EqualsAutoTol(System.Double,System.Double,System.Double)
+  name.vb: EqualsAutoTol(Double, Double, Double)
+  fullName: SearchAThing.Ext.Ext.EqualsAutoTol(double, double, double)
+  fullName.vb: SearchAThing.Ext.Ext.EqualsAutoTol(Double, Double, Double)
+  nameWithType: Ext.EqualsAutoTol(double, double, double)
+  nameWithType.vb: Ext.EqualsAutoTol(Double, Double, Double)
+- uid: SearchAThing.Ext.Ext.EqualsAutoTol*
+  name: EqualsAutoTol
+  href: api/SearchAThing.Ext.Ext.html#SearchAThing_Ext_Ext_EqualsAutoTol_
+  commentId: Overload:SearchAThing.Ext.Ext.EqualsAutoTol
+  isSpec: "True"
+  fullName: SearchAThing.Ext.Ext.EqualsAutoTol
+  nameWithType: Ext.EqualsAutoTol
+- uid: SearchAThing.Ext.Ext.EqualsTol(System.Double,System.Double,System.Double)
+  name: EqualsTol(double, double, double)
+  href: api/SearchAThing.Ext.Ext.html#SearchAThing_Ext_Ext_EqualsTol_System_Double_System_Double_System_Double_
+  commentId: M:SearchAThing.Ext.Ext.EqualsTol(System.Double,System.Double,System.Double)
+  name.vb: EqualsTol(Double, Double, Double)
+  fullName: SearchAThing.Ext.Ext.EqualsTol(double, double, double)
+  fullName.vb: SearchAThing.Ext.Ext.EqualsTol(Double, Double, Double)
+  nameWithType: Ext.EqualsTol(double, double, double)
+  nameWithType.vb: Ext.EqualsTol(Double, Double, Double)
+- uid: SearchAThing.Ext.Ext.EqualsTol*
+  name: EqualsTol
+  href: api/SearchAThing.Ext.Ext.html#SearchAThing_Ext_Ext_EqualsTol_
+  commentId: Overload:SearchAThing.Ext.Ext.EqualsTol
+  isSpec: "True"
+  fullName: SearchAThing.Ext.Ext.EqualsTol
+  nameWithType: Ext.EqualsTol
+- uid: SearchAThing.Ext.Ext.Export(System.Double[])
+  name: Export(double[])
+  href: api/SearchAThing.Ext.Ext.html#SearchAThing_Ext_Ext_Export_System_Double___
+  commentId: M:SearchAThing.Ext.Ext.Export(System.Double[])
+  name.vb: Export(Double())
+  fullName: SearchAThing.Ext.Ext.Export(double[])
+  fullName.vb: SearchAThing.Ext.Ext.Export(Double())
+  nameWithType: Ext.Export(double[])
+  nameWithType.vb: Ext.Export(Double())
+- uid: SearchAThing.Ext.Ext.Export*
+  name: Export
+  href: api/SearchAThing.Ext.Ext.html#SearchAThing_Ext_Ext_Export_
+  commentId: Overload:SearchAThing.Ext.Ext.Export
+  isSpec: "True"
+  fullName: SearchAThing.Ext.Ext.Export
+  nameWithType: Ext.Export
+- uid: SearchAThing.Ext.Ext.Fn*
+  name: Fn
+  href: api/SearchAThing.Ext.Ext.html#SearchAThing_Ext_Ext_Fn_
+  commentId: Overload:SearchAThing.Ext.Ext.Fn
+  isSpec: "True"
+  fullName: SearchAThing.Ext.Ext.Fn
+  nameWithType: Ext.Fn
+- uid: SearchAThing.Ext.Ext.Fn``2(``0,System.Func{``0,``1})
+  name: Fn<T, U>(T, Func<T, U>)
+  href: api/SearchAThing.Ext.Ext.html#SearchAThing_Ext_Ext_Fn__2___0_System_Func___0___1__
+  commentId: M:SearchAThing.Ext.Ext.Fn``2(``0,System.Func{``0,``1})
+  name.vb: Fn(Of T, U)(T, Func(Of T, U))
+  fullName: SearchAThing.Ext.Ext.Fn<T, U>(T, System.Func<T, U>)
+  fullName.vb: SearchAThing.Ext.Ext.Fn(Of T, U)(T, System.Func(Of T, U))
+  nameWithType: Ext.Fn<T, U>(T, Func<T, U>)
+  nameWithType.vb: Ext.Fn(Of T, U)(T, Func(Of T, U))
+- uid: SearchAThing.Ext.Ext.ForEach*
+  name: ForEach
+  href: api/SearchAThing.Ext.Ext.html#SearchAThing_Ext_Ext_ForEach_
+  commentId: Overload:SearchAThing.Ext.Ext.ForEach
+  isSpec: "True"
+  fullName: SearchAThing.Ext.Ext.ForEach
+  nameWithType: Ext.ForEach
+- uid: SearchAThing.Ext.Ext.ForEach``1(System.Collections.Generic.IEnumerable{``0},System.Action{``0})
+  name: ForEach<T>(IEnumerable<T>, Action<T>)
+  href: api/SearchAThing.Ext.Ext.html#SearchAThing_Ext_Ext_ForEach__1_System_Collections_Generic_IEnumerable___0__System_Action___0__
+  commentId: M:SearchAThing.Ext.Ext.ForEach``1(System.Collections.Generic.IEnumerable{``0},System.Action{``0})
+  name.vb: ForEach(Of T)(IEnumerable(Of T), Action(Of T))
+  fullName: SearchAThing.Ext.Ext.ForEach<T>(System.Collections.Generic.IEnumerable<T>, System.Action<T>)
+  fullName.vb: SearchAThing.Ext.Ext.ForEach(Of T)(System.Collections.Generic.IEnumerable(Of T), System.Action(Of T))
+  nameWithType: Ext.ForEach<T>(IEnumerable<T>, Action<T>)
+  nameWithType.vb: Ext.ForEach(Of T)(IEnumerable(Of T), Action(Of T))
+- uid: SearchAThing.Ext.Ext.Foreach*
+  name: Foreach
+  href: api/SearchAThing.Ext.Ext.html#SearchAThing_Ext_Ext_Foreach_
+  commentId: Overload:SearchAThing.Ext.Ext.Foreach
+  isSpec: "True"
+  fullName: SearchAThing.Ext.Ext.Foreach
+  nameWithType: Ext.Foreach
+- uid: SearchAThing.Ext.Ext.Foreach``1(System.Collections.Generic.IEnumerable{``0},System.Action{``0})
+  name: Foreach<T>(IEnumerable<T>, Action<T>)
+  href: api/SearchAThing.Ext.Ext.html#SearchAThing_Ext_Ext_Foreach__1_System_Collections_Generic_IEnumerable___0__System_Action___0__
+  commentId: M:SearchAThing.Ext.Ext.Foreach``1(System.Collections.Generic.IEnumerable{``0},System.Action{``0})
+  name.vb: Foreach(Of T)(IEnumerable(Of T), Action(Of T))
+  fullName: SearchAThing.Ext.Ext.Foreach<T>(System.Collections.Generic.IEnumerable<T>, System.Action<T>)
+  fullName.vb: SearchAThing.Ext.Ext.Foreach(Of T)(System.Collections.Generic.IEnumerable(Of T), System.Action(Of T))
+  nameWithType: Ext.Foreach<T>(IEnumerable<T>, Action<T>)
+  nameWithType.vb: Ext.Foreach(Of T)(IEnumerable(Of T), Action(Of T))
+- uid: SearchAThing.Ext.Ext.GreatThanOrEqualsTol(System.Double,System.Double,System.Double)
+  name: GreatThanOrEqualsTol(double, double, double)
+  href: api/SearchAThing.Ext.Ext.html#SearchAThing_Ext_Ext_GreatThanOrEqualsTol_System_Double_System_Double_System_Double_
+  commentId: M:SearchAThing.Ext.Ext.GreatThanOrEqualsTol(System.Double,System.Double,System.Double)
+  name.vb: GreatThanOrEqualsTol(Double, Double, Double)
+  fullName: SearchAThing.Ext.Ext.GreatThanOrEqualsTol(double, double, double)
+  fullName.vb: SearchAThing.Ext.Ext.GreatThanOrEqualsTol(Double, Double, Double)
+  nameWithType: Ext.GreatThanOrEqualsTol(double, double, double)
+  nameWithType.vb: Ext.GreatThanOrEqualsTol(Double, Double, Double)
+- uid: SearchAThing.Ext.Ext.GreatThanOrEqualsTol*
+  name: GreatThanOrEqualsTol
+  href: api/SearchAThing.Ext.Ext.html#SearchAThing_Ext_Ext_GreatThanOrEqualsTol_
+  commentId: Overload:SearchAThing.Ext.Ext.GreatThanOrEqualsTol
+  isSpec: "True"
+  fullName: SearchAThing.Ext.Ext.GreatThanOrEqualsTol
+  nameWithType: Ext.GreatThanOrEqualsTol
+- uid: SearchAThing.Ext.Ext.GreatThanTol(System.Double,System.Double,System.Double)
+  name: GreatThanTol(double, double, double)
+  href: api/SearchAThing.Ext.Ext.html#SearchAThing_Ext_Ext_GreatThanTol_System_Double_System_Double_System_Double_
+  commentId: M:SearchAThing.Ext.Ext.GreatThanTol(System.Double,System.Double,System.Double)
+  name.vb: GreatThanTol(Double, Double, Double)
+  fullName: SearchAThing.Ext.Ext.GreatThanTol(double, double, double)
+  fullName.vb: SearchAThing.Ext.Ext.GreatThanTol(Double, Double, Double)
+  nameWithType: Ext.GreatThanTol(double, double, double)
+  nameWithType.vb: Ext.GreatThanTol(Double, Double, Double)
+- uid: SearchAThing.Ext.Ext.GreatThanTol*
+  name: GreatThanTol
+  href: api/SearchAThing.Ext.Ext.html#SearchAThing_Ext_Ext_GreatThanTol_
+  commentId: Overload:SearchAThing.Ext.Ext.GreatThanTol
+  isSpec: "True"
+  fullName: SearchAThing.Ext.Ext.GreatThanTol
+  nameWithType: Ext.GreatThanTol
+- uid: SearchAThing.Ext.Ext.HumanReadable(System.Int64,System.Boolean,System.Int64,System.Int32)
+  name: HumanReadable(long, bool, long, int)
+  href: api/SearchAThing.Ext.Ext.html#SearchAThing_Ext_Ext_HumanReadable_System_Int64_System_Boolean_System_Int64_System_Int32_
+  commentId: M:SearchAThing.Ext.Ext.HumanReadable(System.Int64,System.Boolean,System.Int64,System.Int32)
+  name.vb: HumanReadable(Long, Boolean, Long, Integer)
+  fullName: SearchAThing.Ext.Ext.HumanReadable(long, bool, long, int)
+  fullName.vb: SearchAThing.Ext.Ext.HumanReadable(Long, Boolean, Long, Integer)
+  nameWithType: Ext.HumanReadable(long, bool, long, int)
+  nameWithType.vb: Ext.HumanReadable(Long, Boolean, Long, Integer)
+- uid: SearchAThing.Ext.Ext.HumanReadable*
+  name: HumanReadable
+  href: api/SearchAThing.Ext.Ext.html#SearchAThing_Ext_Ext_HumanReadable_
+  commentId: Overload:SearchAThing.Ext.Ext.HumanReadable
+  isSpec: "True"
+  fullName: SearchAThing.Ext.Ext.HumanReadable
+  nameWithType: Ext.HumanReadable
+- uid: SearchAThing.Ext.Ext.Import(System.String)
+  name: Import(string)
+  href: api/SearchAThing.Ext.Ext.html#SearchAThing_Ext_Ext_Import_System_String_
+  commentId: M:SearchAThing.Ext.Ext.Import(System.String)
+  name.vb: Import(String)
+  fullName: SearchAThing.Ext.Ext.Import(string)
+  fullName.vb: SearchAThing.Ext.Ext.Import(String)
+  nameWithType: Ext.Import(string)
+  nameWithType.vb: Ext.Import(String)
+- uid: SearchAThing.Ext.Ext.Import*
+  name: Import
+  href: api/SearchAThing.Ext.Ext.html#SearchAThing_Ext_Ext_Import_
+  commentId: Overload:SearchAThing.Ext.Ext.Import
+  isSpec: "True"
+  fullName: SearchAThing.Ext.Ext.Import
+  nameWithType: Ext.Import
+- uid: SearchAThing.Ext.Ext.InvDoubleParse(System.String)
+  name: InvDoubleParse(string)
+  href: api/SearchAThing.Ext.Ext.html#SearchAThing_Ext_Ext_InvDoubleParse_System_String_
+  commentId: M:SearchAThing.Ext.Ext.InvDoubleParse(System.String)
+  name.vb: InvDoubleParse(String)
+  fullName: SearchAThing.Ext.Ext.InvDoubleParse(string)
+  fullName.vb: SearchAThing.Ext.Ext.InvDoubleParse(String)
+  nameWithType: Ext.InvDoubleParse(string)
+  nameWithType.vb: Ext.InvDoubleParse(String)
+- uid: SearchAThing.Ext.Ext.InvDoubleParse*
+  name: InvDoubleParse
+  href: api/SearchAThing.Ext.Ext.html#SearchAThing_Ext_Ext_InvDoubleParse_
+  commentId: Overload:SearchAThing.Ext.Ext.InvDoubleParse
+  isSpec: "True"
+  fullName: SearchAThing.Ext.Ext.InvDoubleParse
+  nameWithType: Ext.InvDoubleParse
+- uid: SearchAThing.Ext.Ext.InvariantDate(System.DateTime,System.String)
+  name: InvariantDate(DateTime, string)
+  href: api/SearchAThing.Ext.Ext.html#SearchAThing_Ext_Ext_InvariantDate_System_DateTime_System_String_
+  commentId: M:SearchAThing.Ext.Ext.InvariantDate(System.DateTime,System.String)
+  name.vb: InvariantDate(Date, String)
+  fullName: SearchAThing.Ext.Ext.InvariantDate(System.DateTime, string)
+  fullName.vb: SearchAThing.Ext.Ext.InvariantDate(Date, String)
+  nameWithType: Ext.InvariantDate(DateTime, string)
+  nameWithType.vb: Ext.InvariantDate(Date, String)
+- uid: SearchAThing.Ext.Ext.InvariantDate*
+  name: InvariantDate
+  href: api/SearchAThing.Ext.Ext.html#SearchAThing_Ext_Ext_InvariantDate_
+  commentId: Overload:SearchAThing.Ext.Ext.InvariantDate
+  isSpec: "True"
+  fullName: SearchAThing.Ext.Ext.InvariantDate
+  nameWithType: Ext.InvariantDate
+- uid: SearchAThing.Ext.Ext.InvariantTime(System.DateTime,System.String)
+  name: InvariantTime(DateTime, string)
+  href: api/SearchAThing.Ext.Ext.html#SearchAThing_Ext_Ext_InvariantTime_System_DateTime_System_String_
+  commentId: M:SearchAThing.Ext.Ext.InvariantTime(System.DateTime,System.String)
+  name.vb: InvariantTime(Date, String)
+  fullName: SearchAThing.Ext.Ext.InvariantTime(System.DateTime, string)
+  fullName.vb: SearchAThing.Ext.Ext.InvariantTime(Date, String)
+  nameWithType: Ext.InvariantTime(DateTime, string)
+  nameWithType.vb: Ext.InvariantTime(Date, String)
+- uid: SearchAThing.Ext.Ext.InvariantTime*
+  name: InvariantTime
+  href: api/SearchAThing.Ext.Ext.html#SearchAThing_Ext_Ext_InvariantTime_
+  commentId: Overload:SearchAThing.Ext.Ext.InvariantTime
+  isSpec: "True"
+  fullName: SearchAThing.Ext.Ext.InvariantTime
+  nameWithType: Ext.InvariantTime
+- uid: SearchAThing.Ext.Ext.InvarianteDateTime(System.DateTime,System.String,System.String)
+  name: InvarianteDateTime(DateTime, string, string)
+  href: api/SearchAThing.Ext.Ext.html#SearchAThing_Ext_Ext_InvarianteDateTime_System_DateTime_System_String_System_String_
+  commentId: M:SearchAThing.Ext.Ext.InvarianteDateTime(System.DateTime,System.String,System.String)
+  name.vb: InvarianteDateTime(Date, String, String)
+  fullName: SearchAThing.Ext.Ext.InvarianteDateTime(System.DateTime, string, string)
+  fullName.vb: SearchAThing.Ext.Ext.InvarianteDateTime(Date, String, String)
+  nameWithType: Ext.InvarianteDateTime(DateTime, string, string)
+  nameWithType.vb: Ext.InvarianteDateTime(Date, String, String)
+- uid: SearchAThing.Ext.Ext.InvarianteDateTime*
+  name: InvarianteDateTime
+  href: api/SearchAThing.Ext.Ext.html#SearchAThing_Ext_Ext_InvarianteDateTime_
+  commentId: Overload:SearchAThing.Ext.Ext.InvarianteDateTime
+  isSpec: "True"
+  fullName: SearchAThing.Ext.Ext.InvarianteDateTime
+  nameWithType: Ext.InvarianteDateTime
+- uid: SearchAThing.Ext.Ext.IsInRange(System.Double,System.Double,System.String)
+  name: IsInRange(double, double, string)
+  href: api/SearchAThing.Ext.Ext.html#SearchAThing_Ext_Ext_IsInRange_System_Double_System_Double_System_String_
+  commentId: M:SearchAThing.Ext.Ext.IsInRange(System.Double,System.Double,System.String)
+  name.vb: IsInRange(Double, Double, String)
+  fullName: SearchAThing.Ext.Ext.IsInRange(double, double, string)
+  fullName.vb: SearchAThing.Ext.Ext.IsInRange(Double, Double, String)
+  nameWithType: Ext.IsInRange(double, double, string)
+  nameWithType.vb: Ext.IsInRange(Double, Double, String)
+- uid: SearchAThing.Ext.Ext.IsInRange*
+  name: IsInRange
+  href: api/SearchAThing.Ext.Ext.html#SearchAThing_Ext_Ext_IsInRange_
+  commentId: Overload:SearchAThing.Ext.Ext.IsInRange
+  isSpec: "True"
+  fullName: SearchAThing.Ext.Ext.IsInRange
+  nameWithType: Ext.IsInRange
+- uid: SearchAThing.Ext.Ext.Latest(System.String,System.Int32,System.String)
+  name: Latest(string, int, string)
+  href: api/SearchAThing.Ext.Ext.html#SearchAThing_Ext_Ext_Latest_System_String_System_Int32_System_String_
+  commentId: M:SearchAThing.Ext.Ext.Latest(System.String,System.Int32,System.String)
+  name.vb: Latest(String, Integer, String)
+  fullName: SearchAThing.Ext.Ext.Latest(string, int, string)
+  fullName.vb: SearchAThing.Ext.Ext.Latest(String, Integer, String)
+  nameWithType: Ext.Latest(string, int, string)
+  nameWithType.vb: Ext.Latest(String, Integer, String)
+- uid: SearchAThing.Ext.Ext.Latest*
+  name: Latest
+  href: api/SearchAThing.Ext.Ext.html#SearchAThing_Ext_Ext_Latest_
+  commentId: Overload:SearchAThing.Ext.Ext.Latest
+  isSpec: "True"
+  fullName: SearchAThing.Ext.Ext.Latest
+  nameWithType: Ext.Latest
+- uid: SearchAThing.Ext.Ext.LessThanOrEqualsTol(System.Double,System.Double,System.Double)
+  name: LessThanOrEqualsTol(double, double, double)
+  href: api/SearchAThing.Ext.Ext.html#SearchAThing_Ext_Ext_LessThanOrEqualsTol_System_Double_System_Double_System_Double_
+  commentId: M:SearchAThing.Ext.Ext.LessThanOrEqualsTol(System.Double,System.Double,System.Double)
+  name.vb: LessThanOrEqualsTol(Double, Double, Double)
+  fullName: SearchAThing.Ext.Ext.LessThanOrEqualsTol(double, double, double)
+  fullName.vb: SearchAThing.Ext.Ext.LessThanOrEqualsTol(Double, Double, Double)
+  nameWithType: Ext.LessThanOrEqualsTol(double, double, double)
+  nameWithType.vb: Ext.LessThanOrEqualsTol(Double, Double, Double)
+- uid: SearchAThing.Ext.Ext.LessThanOrEqualsTol*
+  name: LessThanOrEqualsTol
+  href: api/SearchAThing.Ext.Ext.html#SearchAThing_Ext_Ext_LessThanOrEqualsTol_
+  commentId: Overload:SearchAThing.Ext.Ext.LessThanOrEqualsTol
+  isSpec: "True"
+  fullName: SearchAThing.Ext.Ext.LessThanOrEqualsTol
+  nameWithType: Ext.LessThanOrEqualsTol
+- uid: SearchAThing.Ext.Ext.LessThanTol(System.Double,System.Double,System.Double)
+  name: LessThanTol(double, double, double)
+  href: api/SearchAThing.Ext.Ext.html#SearchAThing_Ext_Ext_LessThanTol_System_Double_System_Double_System_Double_
+  commentId: M:SearchAThing.Ext.Ext.LessThanTol(System.Double,System.Double,System.Double)
+  name.vb: LessThanTol(Double, Double, Double)
+  fullName: SearchAThing.Ext.Ext.LessThanTol(double, double, double)
+  fullName.vb: SearchAThing.Ext.Ext.LessThanTol(Double, Double, Double)
+  nameWithType: Ext.LessThanTol(double, double, double)
+  nameWithType.vb: Ext.LessThanTol(Double, Double, Double)
+- uid: SearchAThing.Ext.Ext.LessThanTol*
+  name: LessThanTol
+  href: api/SearchAThing.Ext.Ext.html#SearchAThing_Ext_Ext_LessThanTol_
+  commentId: Overload:SearchAThing.Ext.Ext.LessThanTol
+  isSpec: "True"
+  fullName: SearchAThing.Ext.Ext.LessThanTol
+  nameWithType: Ext.LessThanTol
+- uid: SearchAThing.Ext.Ext.Lines(System.String,System.Boolean)
+  name: Lines(string, bool)
+  href: api/SearchAThing.Ext.Ext.html#SearchAThing_Ext_Ext_Lines_System_String_System_Boolean_
+  commentId: M:SearchAThing.Ext.Ext.Lines(System.String,System.Boolean)
+  name.vb: Lines(String, Boolean)
+  fullName: SearchAThing.Ext.Ext.Lines(string, bool)
+  fullName.vb: SearchAThing.Ext.Ext.Lines(String, Boolean)
+  nameWithType: Ext.Lines(string, bool)
+  nameWithType.vb: Ext.Lines(String, Boolean)
+- uid: SearchAThing.Ext.Ext.Lines*
+  name: Lines
+  href: api/SearchAThing.Ext.Ext.html#SearchAThing_Ext_Ext_Lines_
+  commentId: Overload:SearchAThing.Ext.Ext.Lines
+  isSpec: "True"
+  fullName: SearchAThing.Ext.Ext.Lines
+  nameWithType: Ext.Lines
+- uid: SearchAThing.Ext.Ext.MMToEMU(System.Double)
+  name: MMToEMU(double)
+  href: api/SearchAThing.Ext.Ext.html#SearchAThing_Ext_Ext_MMToEMU_System_Double_
+  commentId: M:SearchAThing.Ext.Ext.MMToEMU(System.Double)
+  name.vb: MMToEMU(Double)
+  fullName: SearchAThing.Ext.Ext.MMToEMU(double)
+  fullName.vb: SearchAThing.Ext.Ext.MMToEMU(Double)
+  nameWithType: Ext.MMToEMU(double)
+  nameWithType.vb: Ext.MMToEMU(Double)
+- uid: SearchAThing.Ext.Ext.MMToEMU(System.Int32)
+  name: MMToEMU(int)
+  href: api/SearchAThing.Ext.Ext.html#SearchAThing_Ext_Ext_MMToEMU_System_Int32_
+  commentId: M:SearchAThing.Ext.Ext.MMToEMU(System.Int32)
+  name.vb: MMToEMU(Integer)
+  fullName: SearchAThing.Ext.Ext.MMToEMU(int)
+  fullName.vb: SearchAThing.Ext.Ext.MMToEMU(Integer)
+  nameWithType: Ext.MMToEMU(int)
+  nameWithType.vb: Ext.MMToEMU(Integer)
+- uid: SearchAThing.Ext.Ext.MMToEMU*
+  name: MMToEMU
+  href: api/SearchAThing.Ext.Ext.html#SearchAThing_Ext_Ext_MMToEMU_
+  commentId: Overload:SearchAThing.Ext.Ext.MMToEMU
+  isSpec: "True"
+  fullName: SearchAThing.Ext.Ext.MMToEMU
+  nameWithType: Ext.MMToEMU
+- uid: SearchAThing.Ext.Ext.MMToPt(System.Double)
+  name: MMToPt(double)
+  href: api/SearchAThing.Ext.Ext.html#SearchAThing_Ext_Ext_MMToPt_System_Double_
+  commentId: M:SearchAThing.Ext.Ext.MMToPt(System.Double)
+  name.vb: MMToPt(Double)
+  fullName: SearchAThing.Ext.Ext.MMToPt(double)
+  fullName.vb: SearchAThing.Ext.Ext.MMToPt(Double)
+  nameWithType: Ext.MMToPt(double)
+  nameWithType.vb: Ext.MMToPt(Double)
+- uid: SearchAThing.Ext.Ext.MMToPt*
+  name: MMToPt
+  href: api/SearchAThing.Ext.Ext.html#SearchAThing_Ext_Ext_MMToPt_
+  commentId: Overload:SearchAThing.Ext.Ext.MMToPt
+  isSpec: "True"
+  fullName: SearchAThing.Ext.Ext.MMToPt
+  nameWithType: Ext.MMToPt
+- uid: SearchAThing.Ext.Ext.MMToTwip(System.Double)
+  name: MMToTwip(double)
+  href: api/SearchAThing.Ext.Ext.html#SearchAThing_Ext_Ext_MMToTwip_System_Double_
+  commentId: M:SearchAThing.Ext.Ext.MMToTwip(System.Double)
+  name.vb: MMToTwip(Double)
+  fullName: SearchAThing.Ext.Ext.MMToTwip(double)
+  fullName.vb: SearchAThing.Ext.Ext.MMToTwip(Double)
+  nameWithType: Ext.MMToTwip(double)
+  nameWithType.vb: Ext.MMToTwip(Double)
+- uid: SearchAThing.Ext.Ext.MMToTwip(System.Int32)
+  name: MMToTwip(int)
+  href: api/SearchAThing.Ext.Ext.html#SearchAThing_Ext_Ext_MMToTwip_System_Int32_
+  commentId: M:SearchAThing.Ext.Ext.MMToTwip(System.Int32)
+  name.vb: MMToTwip(Integer)
+  fullName: SearchAThing.Ext.Ext.MMToTwip(int)
+  fullName.vb: SearchAThing.Ext.Ext.MMToTwip(Integer)
+  nameWithType: Ext.MMToTwip(int)
+  nameWithType.vb: Ext.MMToTwip(Integer)
+- uid: SearchAThing.Ext.Ext.MMToTwip*
+  name: MMToTwip
+  href: api/SearchAThing.Ext.Ext.html#SearchAThing_Ext_Ext_MMToTwip_
+  commentId: Overload:SearchAThing.Ext.Ext.MMToTwip
+  isSpec: "True"
+  fullName: SearchAThing.Ext.Ext.MMToTwip
+  nameWithType: Ext.MMToTwip
+- uid: SearchAThing.Ext.Ext.MRound(System.Double,System.Double)
+  name: MRound(double, double)
+  href: api/SearchAThing.Ext.Ext.html#SearchAThing_Ext_Ext_MRound_System_Double_System_Double_
+  commentId: M:SearchAThing.Ext.Ext.MRound(System.Double,System.Double)
+  name.vb: MRound(Double, Double)
+  fullName: SearchAThing.Ext.Ext.MRound(double, double)
+  fullName.vb: SearchAThing.Ext.Ext.MRound(Double, Double)
+  nameWithType: Ext.MRound(double, double)
+  nameWithType.vb: Ext.MRound(Double, Double)
+- uid: SearchAThing.Ext.Ext.MRound(System.Double,System.Nullable{System.Double})
+  name: MRound(double, double?)
+  href: api/SearchAThing.Ext.Ext.html#SearchAThing_Ext_Ext_MRound_System_Double_System_Nullable_System_Double__
+  commentId: M:SearchAThing.Ext.Ext.MRound(System.Double,System.Nullable{System.Double})
+  name.vb: MRound(Double, Double?)
+  fullName: SearchAThing.Ext.Ext.MRound(double, double?)
+  fullName.vb: SearchAThing.Ext.Ext.MRound(Double, Double?)
+  nameWithType: Ext.MRound(double, double?)
+  nameWithType.vb: Ext.MRound(Double, Double?)
+- uid: SearchAThing.Ext.Ext.MRound(System.Nullable{System.Double},System.Double)
+  name: MRound(double?, double)
+  href: api/SearchAThing.Ext.Ext.html#SearchAThing_Ext_Ext_MRound_System_Nullable_System_Double__System_Double_
+  commentId: M:SearchAThing.Ext.Ext.MRound(System.Nullable{System.Double},System.Double)
+  name.vb: MRound(Double?, Double)
+  fullName: SearchAThing.Ext.Ext.MRound(double?, double)
+  fullName.vb: SearchAThing.Ext.Ext.MRound(Double?, Double)
+  nameWithType: Ext.MRound(double?, double)
+  nameWithType.vb: Ext.MRound(Double?, Double)
+- uid: SearchAThing.Ext.Ext.MRound*
+  name: MRound
+  href: api/SearchAThing.Ext.Ext.html#SearchAThing_Ext_Ext_MRound_
+  commentId: Overload:SearchAThing.Ext.Ext.MRound
+  isSpec: "True"
+  fullName: SearchAThing.Ext.Ext.MRound
+  nameWithType: Ext.MRound
+- uid: SearchAThing.Ext.Ext.Magnitude(System.Double)
+  name: Magnitude(double)
+  href: api/SearchAThing.Ext.Ext.html#SearchAThing_Ext_Ext_Magnitude_System_Double_
+  commentId: M:SearchAThing.Ext.Ext.Magnitude(System.Double)
+  name.vb: Magnitude(Double)
+  fullName: SearchAThing.Ext.Ext.Magnitude(double)
+  fullName.vb: SearchAThing.Ext.Ext.Magnitude(Double)
+  nameWithType: Ext.Magnitude(double)
+  nameWithType.vb: Ext.Magnitude(Double)
+- uid: SearchAThing.Ext.Ext.Magnitude*
+  name: Magnitude
+  href: api/SearchAThing.Ext.Ext.html#SearchAThing_Ext_Ext_Magnitude_
+  commentId: Overload:SearchAThing.Ext.Ext.Magnitude
+  isSpec: "True"
+  fullName: SearchAThing.Ext.Ext.Magnitude
+  nameWithType: Ext.Magnitude
+- uid: SearchAThing.Ext.Ext.MatchesFilter(System.Collections.Generic.IEnumerable{System.String},System.String,System.Boolean)
+  name: MatchesFilter(IEnumerable<string>, string, bool)
+  href: api/SearchAThing.Ext.Ext.html#SearchAThing_Ext_Ext_MatchesFilter_System_Collections_Generic_IEnumerable_System_String__System_String_System_Boolean_
+  commentId: M:SearchAThing.Ext.Ext.MatchesFilter(System.Collections.Generic.IEnumerable{System.String},System.String,System.Boolean)
+  name.vb: MatchesFilter(IEnumerable(Of String), String, Boolean)
+  fullName: SearchAThing.Ext.Ext.MatchesFilter(System.Collections.Generic.IEnumerable<string>, string, bool)
+  fullName.vb: SearchAThing.Ext.Ext.MatchesFilter(System.Collections.Generic.IEnumerable(Of String), String, Boolean)
+  nameWithType: Ext.MatchesFilter(IEnumerable<string>, string, bool)
+  nameWithType.vb: Ext.MatchesFilter(IEnumerable(Of String), String, Boolean)
+- uid: SearchAThing.Ext.Ext.MatchesFilter*
+  name: MatchesFilter
+  href: api/SearchAThing.Ext.Ext.html#SearchAThing_Ext_Ext_MatchesFilter_
+  commentId: Overload:SearchAThing.Ext.Ext.MatchesFilter
+  isSpec: "True"
+  fullName: SearchAThing.Ext.Ext.MatchesFilter
+  nameWithType: Ext.MatchesFilter
+- uid: SearchAThing.Ext.Ext.Mean(System.Collections.Generic.IEnumerable{System.Double})
+  name: Mean(IEnumerable<double>)
+  href: api/SearchAThing.Ext.Ext.html#SearchAThing_Ext_Ext_Mean_System_Collections_Generic_IEnumerable_System_Double__
+  commentId: M:SearchAThing.Ext.Ext.Mean(System.Collections.Generic.IEnumerable{System.Double})
+  name.vb: Mean(IEnumerable(Of Double))
+  fullName: SearchAThing.Ext.Ext.Mean(System.Collections.Generic.IEnumerable<double>)
+  fullName.vb: SearchAThing.Ext.Ext.Mean(System.Collections.Generic.IEnumerable(Of Double))
+  nameWithType: Ext.Mean(IEnumerable<double>)
+  nameWithType.vb: Ext.Mean(IEnumerable(Of Double))
+- uid: SearchAThing.Ext.Ext.Mean(System.Collections.Generic.IEnumerable{System.Numerics.Vector3})
+  name: Mean(IEnumerable<Vector3>)
+  href: api/SearchAThing.Ext.Ext.html#SearchAThing_Ext_Ext_Mean_System_Collections_Generic_IEnumerable_System_Numerics_Vector3__
+  commentId: M:SearchAThing.Ext.Ext.Mean(System.Collections.Generic.IEnumerable{System.Numerics.Vector3})
+  name.vb: Mean(IEnumerable(Of Vector3))
+  fullName: SearchAThing.Ext.Ext.Mean(System.Collections.Generic.IEnumerable<System.Numerics.Vector3>)
+  fullName.vb: SearchAThing.Ext.Ext.Mean(System.Collections.Generic.IEnumerable(Of System.Numerics.Vector3))
+  nameWithType: Ext.Mean(IEnumerable<Vector3>)
+  nameWithType.vb: Ext.Mean(IEnumerable(Of Vector3))
+- uid: SearchAThing.Ext.Ext.Mean*
+  name: Mean
+  href: api/SearchAThing.Ext.Ext.html#SearchAThing_Ext_Ext_Mean_
+  commentId: Overload:SearchAThing.Ext.Ext.Mean
+  isSpec: "True"
+  fullName: SearchAThing.Ext.Ext.Mean
+  nameWithType: Ext.Mean
+- uid: SearchAThing.Ext.Ext.MinMax(System.Collections.Generic.IEnumerable{System.Double})
+  name: MinMax(IEnumerable<double>)
+  href: api/SearchAThing.Ext.Ext.html#SearchAThing_Ext_Ext_MinMax_System_Collections_Generic_IEnumerable_System_Double__
+  commentId: M:SearchAThing.Ext.Ext.MinMax(System.Collections.Generic.IEnumerable{System.Double})
+  name.vb: MinMax(IEnumerable(Of Double))
+  fullName: SearchAThing.Ext.Ext.MinMax(System.Collections.Generic.IEnumerable<double>)
+  fullName.vb: SearchAThing.Ext.Ext.MinMax(System.Collections.Generic.IEnumerable(Of Double))
+  nameWithType: Ext.MinMax(IEnumerable<double>)
+  nameWithType.vb: Ext.MinMax(IEnumerable(Of Double))
+- uid: SearchAThing.Ext.Ext.MinMax(System.Collections.Generic.IEnumerable{System.Single})
+  name: MinMax(IEnumerable<float>)
+  href: api/SearchAThing.Ext.Ext.html#SearchAThing_Ext_Ext_MinMax_System_Collections_Generic_IEnumerable_System_Single__
+  commentId: M:SearchAThing.Ext.Ext.MinMax(System.Collections.Generic.IEnumerable{System.Single})
+  name.vb: MinMax(IEnumerable(Of Single))
+  fullName: SearchAThing.Ext.Ext.MinMax(System.Collections.Generic.IEnumerable<float>)
+  fullName.vb: SearchAThing.Ext.Ext.MinMax(System.Collections.Generic.IEnumerable(Of Single))
+  nameWithType: Ext.MinMax(IEnumerable<float>)
+  nameWithType.vb: Ext.MinMax(IEnumerable(Of Single))
+- uid: SearchAThing.Ext.Ext.MinMax*
+  name: MinMax
+  href: api/SearchAThing.Ext.Ext.html#SearchAThing_Ext_Ext_MinMax_
+  commentId: Overload:SearchAThing.Ext.Ext.MinMax
+  isSpec: "True"
+  fullName: SearchAThing.Ext.Ext.MinMax
+  nameWithType: Ext.MinMax
+- uid: SearchAThing.Ext.Ext.NormalizeFilename(System.String,System.Char)
+  name: NormalizeFilename(string, char)
+  href: api/SearchAThing.Ext.Ext.html#SearchAThing_Ext_Ext_NormalizeFilename_System_String_System_Char_
+  commentId: M:SearchAThing.Ext.Ext.NormalizeFilename(System.String,System.Char)
+  name.vb: NormalizeFilename(String, Char)
+  fullName: SearchAThing.Ext.Ext.NormalizeFilename(string, char)
+  fullName.vb: SearchAThing.Ext.Ext.NormalizeFilename(String, Char)
+  nameWithType: Ext.NormalizeFilename(string, char)
+  nameWithType.vb: Ext.NormalizeFilename(String, Char)
+- uid: SearchAThing.Ext.Ext.NormalizeFilename*
+  name: NormalizeFilename
+  href: api/SearchAThing.Ext.Ext.html#SearchAThing_Ext_Ext_NormalizeFilename_
+  commentId: Overload:SearchAThing.Ext.Ext.NormalizeFilename
+  isSpec: "True"
+  fullName: SearchAThing.Ext.Ext.NormalizeFilename
+  nameWithType: Ext.NormalizeFilename
+- uid: SearchAThing.Ext.Ext.NormalizeWorksheetName(System.String)
+  name: NormalizeWorksheetName(string)
+  href: api/SearchAThing.Ext.Ext.html#SearchAThing_Ext_Ext_NormalizeWorksheetName_System_String_
+  commentId: M:SearchAThing.Ext.Ext.NormalizeWorksheetName(System.String)
+  name.vb: NormalizeWorksheetName(String)
+  fullName: SearchAThing.Ext.Ext.NormalizeWorksheetName(string)
+  fullName.vb: SearchAThing.Ext.Ext.NormalizeWorksheetName(String)
+  nameWithType: Ext.NormalizeWorksheetName(string)
+  nameWithType.vb: Ext.NormalizeWorksheetName(String)
+- uid: SearchAThing.Ext.Ext.NormalizeWorksheetName*
+  name: NormalizeWorksheetName
+  href: api/SearchAThing.Ext.Ext.html#SearchAThing_Ext_Ext_NormalizeWorksheetName_
+  commentId: Overload:SearchAThing.Ext.Ext.NormalizeWorksheetName
+  isSpec: "True"
+  fullName: SearchAThing.Ext.Ext.NormalizeWorksheetName
+  nameWithType: Ext.NormalizeWorksheetName
+- uid: SearchAThing.Ext.Ext.ParseInt(System.String)
+  name: ParseInt(string)
+  href: api/SearchAThing.Ext.Ext.html#SearchAThing_Ext_Ext_ParseInt_System_String_
+  commentId: M:SearchAThing.Ext.Ext.ParseInt(System.String)
+  name.vb: ParseInt(String)
+  fullName: SearchAThing.Ext.Ext.ParseInt(string)
+  fullName.vb: SearchAThing.Ext.Ext.ParseInt(String)
+  nameWithType: Ext.ParseInt(string)
+  nameWithType.vb: Ext.ParseInt(String)
+- uid: SearchAThing.Ext.Ext.ParseInt*
+  name: ParseInt
+  href: api/SearchAThing.Ext.Ext.html#SearchAThing_Ext_Ext_ParseInt_
+  commentId: Overload:SearchAThing.Ext.Ext.ParseInt
+  isSpec: "True"
+  fullName: SearchAThing.Ext.Ext.ParseInt
+  nameWithType: Ext.ParseInt
+- uid: SearchAThing.Ext.Ext.Pct(System.Double)
+  name: Pct(double)
+  href: api/SearchAThing.Ext.Ext.html#SearchAThing_Ext_Ext_Pct_System_Double_
+  commentId: M:SearchAThing.Ext.Ext.Pct(System.Double)
+  name.vb: Pct(Double)
+  fullName: SearchAThing.Ext.Ext.Pct(double)
+  fullName.vb: SearchAThing.Ext.Ext.Pct(Double)
+  nameWithType: Ext.Pct(double)
+  nameWithType.vb: Ext.Pct(Double)
+- uid: SearchAThing.Ext.Ext.Pct*
+  name: Pct
+  href: api/SearchAThing.Ext.Ext.html#SearchAThing_Ext_Ext_Pct_
+  commentId: Overload:SearchAThing.Ext.Ext.Pct
+  isSpec: "True"
+  fullName: SearchAThing.Ext.Ext.Pct
+  nameWithType: Ext.Pct
+- uid: SearchAThing.Ext.Ext.PtToHalfPoint(System.Double)
+  name: PtToHalfPoint(double)
+  href: api/SearchAThing.Ext.Ext.html#SearchAThing_Ext_Ext_PtToHalfPoint_System_Double_
+  commentId: M:SearchAThing.Ext.Ext.PtToHalfPoint(System.Double)
+  name.vb: PtToHalfPoint(Double)
+  fullName: SearchAThing.Ext.Ext.PtToHalfPoint(double)
+  fullName.vb: SearchAThing.Ext.Ext.PtToHalfPoint(Double)
+  nameWithType: Ext.PtToHalfPoint(double)
+  nameWithType.vb: Ext.PtToHalfPoint(Double)
+- uid: SearchAThing.Ext.Ext.PtToHalfPoint*
+  name: PtToHalfPoint
+  href: api/SearchAThing.Ext.Ext.html#SearchAThing_Ext_Ext_PtToHalfPoint_
+  commentId: Overload:SearchAThing.Ext.Ext.PtToHalfPoint
+  isSpec: "True"
+  fullName: SearchAThing.Ext.Ext.PtToHalfPoint
+  nameWithType: Ext.PtToHalfPoint
+- uid: SearchAThing.Ext.Ext.PtToMM(System.Double)
+  name: PtToMM(double)
+  href: api/SearchAThing.Ext.Ext.html#SearchAThing_Ext_Ext_PtToMM_System_Double_
+  commentId: M:SearchAThing.Ext.Ext.PtToMM(System.Double)
+  name.vb: PtToMM(Double)
+  fullName: SearchAThing.Ext.Ext.PtToMM(double)
+  fullName.vb: SearchAThing.Ext.Ext.PtToMM(Double)
+  nameWithType: Ext.PtToMM(double)
+  nameWithType.vb: Ext.PtToMM(Double)
+- uid: SearchAThing.Ext.Ext.PtToMM*
+  name: PtToMM
+  href: api/SearchAThing.Ext.Ext.html#SearchAThing_Ext_Ext_PtToMM_
+  commentId: Overload:SearchAThing.Ext.Ext.PtToMM
+  isSpec: "True"
+  fullName: SearchAThing.Ext.Ext.PtToMM
+  nameWithType: Ext.PtToMM
+- uid: SearchAThing.Ext.Ext.RegexMatch(System.String,System.String,System.Text.RegularExpressions.RegexOptions)
+  name: RegexMatch(string, string, RegexOptions)
+  href: api/SearchAThing.Ext.Ext.html#SearchAThing_Ext_Ext_RegexMatch_System_String_System_String_System_Text_RegularExpressions_RegexOptions_
+  commentId: M:SearchAThing.Ext.Ext.RegexMatch(System.String,System.String,System.Text.RegularExpressions.RegexOptions)
+  name.vb: RegexMatch(String, String, RegexOptions)
+  fullName: SearchAThing.Ext.Ext.RegexMatch(string, string, System.Text.RegularExpressions.RegexOptions)
+  fullName.vb: SearchAThing.Ext.Ext.RegexMatch(String, String, System.Text.RegularExpressions.RegexOptions)
+  nameWithType: Ext.RegexMatch(string, string, RegexOptions)
+  nameWithType.vb: Ext.RegexMatch(String, String, RegexOptions)
+- uid: SearchAThing.Ext.Ext.RegexMatch*
+  name: RegexMatch
+  href: api/SearchAThing.Ext.Ext.html#SearchAThing_Ext_Ext_RegexMatch_
+  commentId: Overload:SearchAThing.Ext.Ext.RegexMatch
+  isSpec: "True"
+  fullName: SearchAThing.Ext.Ext.RegexMatch
+  nameWithType: Ext.RegexMatch
+- uid: SearchAThing.Ext.Ext.Repeat(System.String,System.Int32)
+  name: Repeat(string, int)
+  href: api/SearchAThing.Ext.Ext.html#SearchAThing_Ext_Ext_Repeat_System_String_System_Int32_
+  commentId: M:SearchAThing.Ext.Ext.Repeat(System.String,System.Int32)
+  name.vb: Repeat(String, Integer)
+  fullName: SearchAThing.Ext.Ext.Repeat(string, int)
+  fullName.vb: SearchAThing.Ext.Ext.Repeat(String, Integer)
+  nameWithType: Ext.Repeat(string, int)
+  nameWithType.vb: Ext.Repeat(String, Integer)
+- uid: SearchAThing.Ext.Ext.Repeat*
+  name: Repeat
+  href: api/SearchAThing.Ext.Ext.html#SearchAThing_Ext_Ext_Repeat_
+  commentId: Overload:SearchAThing.Ext.Ext.Repeat
+  isSpec: "True"
+  fullName: SearchAThing.Ext.Ext.Repeat
+  nameWithType: Ext.Repeat
+- uid: SearchAThing.Ext.Ext.Round(System.Numerics.Vector2,System.Int32)
+  name: Round(Vector2, int)
+  href: api/SearchAThing.Ext.Ext.html#SearchAThing_Ext_Ext_Round_System_Numerics_Vector2_System_Int32_
+  commentId: M:SearchAThing.Ext.Ext.Round(System.Numerics.Vector2,System.Int32)
+  name.vb: Round(Vector2, Integer)
+  fullName: SearchAThing.Ext.Ext.Round(System.Numerics.Vector2, int)
+  fullName.vb: SearchAThing.Ext.Ext.Round(System.Numerics.Vector2, Integer)
+  nameWithType: Ext.Round(Vector2, int)
+  nameWithType.vb: Ext.Round(Vector2, Integer)
+- uid: SearchAThing.Ext.Ext.Round(System.Numerics.Vector3,System.Int32)
+  name: Round(Vector3, int)
+  href: api/SearchAThing.Ext.Ext.html#SearchAThing_Ext_Ext_Round_System_Numerics_Vector3_System_Int32_
+  commentId: M:SearchAThing.Ext.Ext.Round(System.Numerics.Vector3,System.Int32)
+  name.vb: Round(Vector3, Integer)
+  fullName: SearchAThing.Ext.Ext.Round(System.Numerics.Vector3, int)
+  fullName.vb: SearchAThing.Ext.Ext.Round(System.Numerics.Vector3, Integer)
+  nameWithType: Ext.Round(Vector3, int)
+  nameWithType.vb: Ext.Round(Vector3, Integer)
+- uid: SearchAThing.Ext.Ext.Round(System.Numerics.Vector4,System.Int32)
+  name: Round(Vector4, int)
+  href: api/SearchAThing.Ext.Ext.html#SearchAThing_Ext_Ext_Round_System_Numerics_Vector4_System_Int32_
+  commentId: M:SearchAThing.Ext.Ext.Round(System.Numerics.Vector4,System.Int32)
+  name.vb: Round(Vector4, Integer)
+  fullName: SearchAThing.Ext.Ext.Round(System.Numerics.Vector4, int)
+  fullName.vb: SearchAThing.Ext.Ext.Round(System.Numerics.Vector4, Integer)
+  nameWithType: Ext.Round(Vector4, int)
+  nameWithType.vb: Ext.Round(Vector4, Integer)
+- uid: SearchAThing.Ext.Ext.Round*
+  name: Round
+  href: api/SearchAThing.Ext.Ext.html#SearchAThing_Ext_Ext_Round_
+  commentId: Overload:SearchAThing.Ext.Ext.Round
+  isSpec: "True"
+  fullName: SearchAThing.Ext.Ext.Round
+  nameWithType: Ext.Round
+- uid: SearchAThing.Ext.Ext.RouteFirst*
+  name: RouteFirst
+  href: api/SearchAThing.Ext.Ext.html#SearchAThing_Ext_Ext_RouteFirst_
+  commentId: Overload:SearchAThing.Ext.Ext.RouteFirst
+  isSpec: "True"
+  fullName: SearchAThing.Ext.Ext.RouteFirst
+  nameWithType: Ext.RouteFirst
+- uid: SearchAThing.Ext.Ext.RouteFirst``1(System.Collections.Generic.IEnumerable{``0},``0)
+  name: RouteFirst<T>(IEnumerable<T>, T)
+  href: api/SearchAThing.Ext.Ext.html#SearchAThing_Ext_Ext_RouteFirst__1_System_Collections_Generic_IEnumerable___0____0_
+  commentId: M:SearchAThing.Ext.Ext.RouteFirst``1(System.Collections.Generic.IEnumerable{``0},``0)
+  name.vb: RouteFirst(Of T)(IEnumerable(Of T), T)
+  fullName: SearchAThing.Ext.Ext.RouteFirst<T>(System.Collections.Generic.IEnumerable<T>, T)
+  fullName.vb: SearchAThing.Ext.Ext.RouteFirst(Of T)(System.Collections.Generic.IEnumerable(Of T), T)
+  nameWithType: Ext.RouteFirst<T>(IEnumerable<T>, T)
+  nameWithType.vb: Ext.RouteFirst(Of T)(IEnumerable(Of T), T)
+- uid: SearchAThing.Ext.Ext.Sign(System.Double)
+  name: Sign(double)
+  href: api/SearchAThing.Ext.Ext.html#SearchAThing_Ext_Ext_Sign_System_Double_
+  commentId: M:SearchAThing.Ext.Ext.Sign(System.Double)
+  name.vb: Sign(Double)
+  fullName: SearchAThing.Ext.Ext.Sign(double)
+  fullName.vb: SearchAThing.Ext.Ext.Sign(Double)
+  nameWithType: Ext.Sign(double)
+  nameWithType.vb: Ext.Sign(Double)
+- uid: SearchAThing.Ext.Ext.Sign(System.Double,System.Double)
+  name: Sign(double, double)
+  href: api/SearchAThing.Ext.Ext.html#SearchAThing_Ext_Ext_Sign_System_Double_System_Double_
+  commentId: M:SearchAThing.Ext.Ext.Sign(System.Double,System.Double)
+  name.vb: Sign(Double, Double)
+  fullName: SearchAThing.Ext.Ext.Sign(double, double)
+  fullName.vb: SearchAThing.Ext.Ext.Sign(Double, Double)
+  nameWithType: Ext.Sign(double, double)
+  nameWithType.vb: Ext.Sign(Double, Double)
+- uid: SearchAThing.Ext.Ext.Sign(System.Int32)
+  name: Sign(int)
+  href: api/SearchAThing.Ext.Ext.html#SearchAThing_Ext_Ext_Sign_System_Int32_
+  commentId: M:SearchAThing.Ext.Ext.Sign(System.Int32)
+  name.vb: Sign(Integer)
+  fullName: SearchAThing.Ext.Ext.Sign(int)
+  fullName.vb: SearchAThing.Ext.Ext.Sign(Integer)
+  nameWithType: Ext.Sign(int)
+  nameWithType.vb: Ext.Sign(Integer)
+- uid: SearchAThing.Ext.Ext.Sign*
+  name: Sign
+  href: api/SearchAThing.Ext.Ext.html#SearchAThing_Ext_Ext_Sign_
+  commentId: Overload:SearchAThing.Ext.Ext.Sign
+  isSpec: "True"
+  fullName: SearchAThing.Ext.Ext.Sign
+  nameWithType: Ext.Sign
+- uid: SearchAThing.Ext.Ext.SmartDoubleParse(System.String)
+  name: SmartDoubleParse(string)
+  href: api/SearchAThing.Ext.Ext.html#SearchAThing_Ext_Ext_SmartDoubleParse_System_String_
+  commentId: M:SearchAThing.Ext.Ext.SmartDoubleParse(System.String)
+  name.vb: SmartDoubleParse(String)
+  fullName: SearchAThing.Ext.Ext.SmartDoubleParse(string)
+  fullName.vb: SearchAThing.Ext.Ext.SmartDoubleParse(String)
+  nameWithType: Ext.SmartDoubleParse(string)
+  nameWithType.vb: Ext.SmartDoubleParse(String)
+- uid: SearchAThing.Ext.Ext.SmartDoubleParse*
+  name: SmartDoubleParse
+  href: api/SearchAThing.Ext.Ext.html#SearchAThing_Ext_Ext_SmartDoubleParse_
+  commentId: Overload:SearchAThing.Ext.Ext.SmartDoubleParse
+  isSpec: "True"
+  fullName: SearchAThing.Ext.Ext.SmartDoubleParse
+  nameWithType: Ext.SmartDoubleParse
+- uid: SearchAThing.Ext.Ext.Sort*
+  name: Sort
+  href: api/SearchAThing.Ext.Ext.html#SearchAThing_Ext_Ext_Sort_
+  commentId: Overload:SearchAThing.Ext.Ext.Sort
+  isSpec: "True"
+  fullName: SearchAThing.Ext.Ext.Sort
+  nameWithType: Ext.Sort
+- uid: SearchAThing.Ext.Ext.Sort``2(System.Collections.ObjectModel.ObservableCollection{``0},System.Func{``0,``1},System.Boolean)
+  name: Sort<TSource, TKey>(ObservableCollection<TSource>, Func<TSource, TKey>, bool)
+  href: api/SearchAThing.Ext.Ext.html#SearchAThing_Ext_Ext_Sort__2_System_Collections_ObjectModel_ObservableCollection___0__System_Func___0___1__System_Boolean_
+  commentId: M:SearchAThing.Ext.Ext.Sort``2(System.Collections.ObjectModel.ObservableCollection{``0},System.Func{``0,``1},System.Boolean)
+  name.vb: Sort(Of TSource, TKey)(ObservableCollection(Of TSource), Func(Of TSource, TKey), Boolean)
+  fullName: SearchAThing.Ext.Ext.Sort<TSource, TKey>(System.Collections.ObjectModel.ObservableCollection<TSource>, System.Func<TSource, TKey>, bool)
+  fullName.vb: SearchAThing.Ext.Ext.Sort(Of TSource, TKey)(System.Collections.ObjectModel.ObservableCollection(Of TSource), System.Func(Of TSource, TKey), Boolean)
+  nameWithType: Ext.Sort<TSource, TKey>(ObservableCollection<TSource>, Func<TSource, TKey>, bool)
+  nameWithType.vb: Ext.Sort(Of TSource, TKey)(ObservableCollection(Of TSource), Func(Of TSource, TKey), Boolean)
+- uid: SearchAThing.Ext.Ext.Split(System.String,System.String)
+  name: Split(string, string)
+  href: api/SearchAThing.Ext.Ext.html#SearchAThing_Ext_Ext_Split_System_String_System_String_
+  commentId: M:SearchAThing.Ext.Ext.Split(System.String,System.String)
+  name.vb: Split(String, String)
+  fullName: SearchAThing.Ext.Ext.Split(string, string)
+  fullName.vb: SearchAThing.Ext.Ext.Split(String, String)
+  nameWithType: Ext.Split(string, string)
+  nameWithType.vb: Ext.Split(String, String)
+- uid: SearchAThing.Ext.Ext.Split*
+  name: Split
+  href: api/SearchAThing.Ext.Ext.html#SearchAThing_Ext_Ext_Split_
+  commentId: Overload:SearchAThing.Ext.Ext.Split
+  isSpec: "True"
+  fullName: SearchAThing.Ext.Ext.Split
+  nameWithType: Ext.Split
+- uid: SearchAThing.Ext.Ext.SplitBy*
+  name: SplitBy
+  href: api/SearchAThing.Ext.Ext.html#SearchAThing_Ext_Ext_SplitBy_
+  commentId: Overload:SearchAThing.Ext.Ext.SplitBy
+  isSpec: "True"
+  fullName: SearchAThing.Ext.Ext.SplitBy
+  nameWithType: Ext.SplitBy
+- uid: SearchAThing.Ext.Ext.SplitBy``2(System.Collections.Generic.IEnumerable{``0},System.Func{``0,``1})
+  name: SplitBy<T, V>(IEnumerable<T>, Func<T, V>)
+  href: api/SearchAThing.Ext.Ext.html#SearchAThing_Ext_Ext_SplitBy__2_System_Collections_Generic_IEnumerable___0__System_Func___0___1__
+  commentId: M:SearchAThing.Ext.Ext.SplitBy``2(System.Collections.Generic.IEnumerable{``0},System.Func{``0,``1})
+  name.vb: SplitBy(Of T, V)(IEnumerable(Of T), Func(Of T, V))
+  fullName: SearchAThing.Ext.Ext.SplitBy<T, V>(System.Collections.Generic.IEnumerable<T>, System.Func<T, V>)
+  fullName.vb: SearchAThing.Ext.Ext.SplitBy(Of T, V)(System.Collections.Generic.IEnumerable(Of T), System.Func(Of T, V))
+  nameWithType: Ext.SplitBy<T, V>(IEnumerable<T>, Func<T, V>)
+  nameWithType.vb: Ext.SplitBy(Of T, V)(IEnumerable(Of T), Func(Of T, V))
+- uid: SearchAThing.Ext.Ext.Stringify(System.Double,System.Int32)
+  name: Stringify(double, int)
+  href: api/SearchAThing.Ext.Ext.html#SearchAThing_Ext_Ext_Stringify_System_Double_System_Int32_
+  commentId: M:SearchAThing.Ext.Ext.Stringify(System.Double,System.Int32)
+  name.vb: Stringify(Double, Integer)
+  fullName: SearchAThing.Ext.Ext.Stringify(double, int)
+  fullName.vb: SearchAThing.Ext.Ext.Stringify(Double, Integer)
+  nameWithType: Ext.Stringify(double, int)
+  nameWithType.vb: Ext.Stringify(Double, Integer)
+- uid: SearchAThing.Ext.Ext.Stringify*
+  name: Stringify
+  href: api/SearchAThing.Ext.Ext.html#SearchAThing_Ext_Ext_Stringify_
+  commentId: Overload:SearchAThing.Ext.Ext.Stringify
+  isSpec: "True"
+  fullName: SearchAThing.Ext.Ext.Stringify
+  nameWithType: Ext.Stringify
+- uid: SearchAThing.Ext.Ext.StripBegin(System.String,System.Char,System.Boolean)
+  name: StripBegin(string, char, bool)
+  href: api/SearchAThing.Ext.Ext.html#SearchAThing_Ext_Ext_StripBegin_System_String_System_Char_System_Boolean_
+  commentId: M:SearchAThing.Ext.Ext.StripBegin(System.String,System.Char,System.Boolean)
+  name.vb: StripBegin(String, Char, Boolean)
+  fullName: SearchAThing.Ext.Ext.StripBegin(string, char, bool)
+  fullName.vb: SearchAThing.Ext.Ext.StripBegin(String, Char, Boolean)
+  nameWithType: Ext.StripBegin(string, char, bool)
+  nameWithType.vb: Ext.StripBegin(String, Char, Boolean)
+- uid: SearchAThing.Ext.Ext.StripBegin(System.String,System.String,System.Boolean)
+  name: StripBegin(string, string, bool)
+  href: api/SearchAThing.Ext.Ext.html#SearchAThing_Ext_Ext_StripBegin_System_String_System_String_System_Boolean_
+  commentId: M:SearchAThing.Ext.Ext.StripBegin(System.String,System.String,System.Boolean)
+  name.vb: StripBegin(String, String, Boolean)
+  fullName: SearchAThing.Ext.Ext.StripBegin(string, string, bool)
+  fullName.vb: SearchAThing.Ext.Ext.StripBegin(String, String, Boolean)
+  nameWithType: Ext.StripBegin(string, string, bool)
+  nameWithType.vb: Ext.StripBegin(String, String, Boolean)
+- uid: SearchAThing.Ext.Ext.StripBegin*
+  name: StripBegin
+  href: api/SearchAThing.Ext.Ext.html#SearchAThing_Ext_Ext_StripBegin_
+  commentId: Overload:SearchAThing.Ext.Ext.StripBegin
+  isSpec: "True"
+  fullName: SearchAThing.Ext.Ext.StripBegin
+  nameWithType: Ext.StripBegin
+- uid: SearchAThing.Ext.Ext.StripEnd(System.String,System.Char,System.Boolean)
+  name: StripEnd(string, char, bool)
+  href: api/SearchAThing.Ext.Ext.html#SearchAThing_Ext_Ext_StripEnd_System_String_System_Char_System_Boolean_
+  commentId: M:SearchAThing.Ext.Ext.StripEnd(System.String,System.Char,System.Boolean)
+  name.vb: StripEnd(String, Char, Boolean)
+  fullName: SearchAThing.Ext.Ext.StripEnd(string, char, bool)
+  fullName.vb: SearchAThing.Ext.Ext.StripEnd(String, Char, Boolean)
+  nameWithType: Ext.StripEnd(string, char, bool)
+  nameWithType.vb: Ext.StripEnd(String, Char, Boolean)
+- uid: SearchAThing.Ext.Ext.StripEnd(System.String,System.String,System.Boolean)
+  name: StripEnd(string, string, bool)
+  href: api/SearchAThing.Ext.Ext.html#SearchAThing_Ext_Ext_StripEnd_System_String_System_String_System_Boolean_
+  commentId: M:SearchAThing.Ext.Ext.StripEnd(System.String,System.String,System.Boolean)
+  name.vb: StripEnd(String, String, Boolean)
+  fullName: SearchAThing.Ext.Ext.StripEnd(string, string, bool)
+  fullName.vb: SearchAThing.Ext.Ext.StripEnd(String, String, Boolean)
+  nameWithType: Ext.StripEnd(string, string, bool)
+  nameWithType.vb: Ext.StripEnd(String, String, Boolean)
+- uid: SearchAThing.Ext.Ext.StripEnd*
+  name: StripEnd
+  href: api/SearchAThing.Ext.Ext.html#SearchAThing_Ext_Ext_StripEnd_
+  commentId: Overload:SearchAThing.Ext.Ext.StripEnd
+  isSpec: "True"
+  fullName: SearchAThing.Ext.Ext.StripEnd
+  nameWithType: Ext.StripEnd
+- uid: SearchAThing.Ext.Ext.TableFormat(System.Collections.Generic.IEnumerable{System.Collections.Generic.IEnumerable{System.String}},System.Collections.Generic.IEnumerable{System.String},System.Collections.Generic.IEnumerable{SearchAThing.Ext.ColumnAlignment},System.Int32)
+  name: TableFormat(IEnumerable<IEnumerable<string>>, IEnumerable<string>?, IEnumerable<ColumnAlignment>?, int)
+  href: api/SearchAThing.Ext.Ext.html#SearchAThing_Ext_Ext_TableFormat_System_Collections_Generic_IEnumerable_System_Collections_Generic_IEnumerable_System_String___System_Collections_Generic_IEnumerable_System_String__System_Collections_Generic_IEnumerable_SearchAThing_Ext_ColumnAlignment__System_Int32_
+  commentId: M:SearchAThing.Ext.Ext.TableFormat(System.Collections.Generic.IEnumerable{System.Collections.Generic.IEnumerable{System.String}},System.Collections.Generic.IEnumerable{System.String},System.Collections.Generic.IEnumerable{SearchAThing.Ext.ColumnAlignment},System.Int32)
+  name.vb: TableFormat(IEnumerable(Of IEnumerable(Of String)), IEnumerable(Of String), IEnumerable(Of ColumnAlignment), Integer)
+  fullName: SearchAThing.Ext.Ext.TableFormat(System.Collections.Generic.IEnumerable<System.Collections.Generic.IEnumerable<string>>, System.Collections.Generic.IEnumerable<string>?, System.Collections.Generic.IEnumerable<SearchAThing.Ext.ColumnAlignment>?, int)
+  fullName.vb: SearchAThing.Ext.Ext.TableFormat(System.Collections.Generic.IEnumerable(Of System.Collections.Generic.IEnumerable(Of String)), System.Collections.Generic.IEnumerable(Of String), System.Collections.Generic.IEnumerable(Of SearchAThing.Ext.ColumnAlignment), Integer)
+  nameWithType: Ext.TableFormat(IEnumerable<IEnumerable<string>>, IEnumerable<string>?, IEnumerable<ColumnAlignment>?, int)
+  nameWithType.vb: Ext.TableFormat(IEnumerable(Of IEnumerable(Of String)), IEnumerable(Of String), IEnumerable(Of ColumnAlignment), Integer)
+- uid: SearchAThing.Ext.Ext.TableFormat*
+  name: TableFormat
+  href: api/SearchAThing.Ext.Ext.html#SearchAThing_Ext_Ext_TableFormat_
+  commentId: Overload:SearchAThing.Ext.Ext.TableFormat
+  isSpec: "True"
+  fullName: SearchAThing.Ext.Ext.TableFormat
+  nameWithType: Ext.TableFormat
+- uid: SearchAThing.Ext.Ext.ToBytes*
+  name: ToBytes
+  href: api/SearchAThing.Ext.Ext.html#SearchAThing_Ext_Ext_ToBytes_
+  commentId: Overload:SearchAThing.Ext.Ext.ToBytes
+  isSpec: "True"
+  fullName: SearchAThing.Ext.Ext.ToBytes
+  nameWithType: Ext.ToBytes
+- uid: SearchAThing.Ext.Ext.ToBytes``1(``0)
+  name: ToBytes<T>(T)
+  href: api/SearchAThing.Ext.Ext.html#SearchAThing_Ext_Ext_ToBytes__1___0_
+  commentId: M:SearchAThing.Ext.Ext.ToBytes``1(``0)
+  name.vb: ToBytes(Of T)(T)
+  fullName: SearchAThing.Ext.Ext.ToBytes<T>(T)
+  fullName.vb: SearchAThing.Ext.Ext.ToBytes(Of T)(T)
+  nameWithType: Ext.ToBytes<T>(T)
+  nameWithType.vb: Ext.ToBytes(Of T)(T)
+- uid: SearchAThing.Ext.Ext.ToDeg(System.Double)
+  name: ToDeg(double)
+  href: api/SearchAThing.Ext.Ext.html#SearchAThing_Ext_Ext_ToDeg_System_Double_
+  commentId: M:SearchAThing.Ext.Ext.ToDeg(System.Double)
+  name.vb: ToDeg(Double)
+  fullName: SearchAThing.Ext.Ext.ToDeg(double)
+  fullName.vb: SearchAThing.Ext.Ext.ToDeg(Double)
+  nameWithType: Ext.ToDeg(double)
+  nameWithType.vb: Ext.ToDeg(Double)
+- uid: SearchAThing.Ext.Ext.ToDeg(System.Single)
+  name: ToDeg(float)
+  href: api/SearchAThing.Ext.Ext.html#SearchAThing_Ext_Ext_ToDeg_System_Single_
+  commentId: M:SearchAThing.Ext.Ext.ToDeg(System.Single)
+  name.vb: ToDeg(Single)
+  fullName: SearchAThing.Ext.Ext.ToDeg(float)
+  fullName.vb: SearchAThing.Ext.Ext.ToDeg(Single)
+  nameWithType: Ext.ToDeg(float)
+  nameWithType.vb: Ext.ToDeg(Single)
+- uid: SearchAThing.Ext.Ext.ToDeg*
+  name: ToDeg
+  href: api/SearchAThing.Ext.Ext.html#SearchAThing_Ext_Ext_ToDeg_
+  commentId: Overload:SearchAThing.Ext.Ext.ToDeg
+  isSpec: "True"
+  fullName: SearchAThing.Ext.Ext.ToDeg
+  nameWithType: Ext.ToDeg
+- uid: SearchAThing.Ext.Ext.ToHashSetExt*
+  name: ToHashSetExt
+  href: api/SearchAThing.Ext.Ext.html#SearchAThing_Ext_Ext_ToHashSetExt_
+  commentId: Overload:SearchAThing.Ext.Ext.ToHashSetExt
+  isSpec: "True"
+  fullName: SearchAThing.Ext.Ext.ToHashSetExt
+  nameWithType: Ext.ToHashSetExt
+- uid: SearchAThing.Ext.Ext.ToHashSetExt``1(System.Collections.Generic.IEnumerable{``0})
+  name: ToHashSetExt<T>(IEnumerable<T>)
+  href: api/SearchAThing.Ext.Ext.html#SearchAThing_Ext_Ext_ToHashSetExt__1_System_Collections_Generic_IEnumerable___0__
+  commentId: M:SearchAThing.Ext.Ext.ToHashSetExt``1(System.Collections.Generic.IEnumerable{``0})
+  name.vb: ToHashSetExt(Of T)(IEnumerable(Of T))
+  fullName: SearchAThing.Ext.Ext.ToHashSetExt<T>(System.Collections.Generic.IEnumerable<T>)
+  fullName.vb: SearchAThing.Ext.Ext.ToHashSetExt(Of T)(System.Collections.Generic.IEnumerable(Of T))
+  nameWithType: Ext.ToHashSetExt<T>(IEnumerable<T>)
+  nameWithType.vb: Ext.ToHashSetExt(Of T)(IEnumerable(Of T))
+- uid: SearchAThing.Ext.Ext.ToObservableCollection*
+  name: ToObservableCollection
+  href: api/SearchAThing.Ext.Ext.html#SearchAThing_Ext_Ext_ToObservableCollection_
+  commentId: Overload:SearchAThing.Ext.Ext.ToObservableCollection
+  isSpec: "True"
+  fullName: SearchAThing.Ext.Ext.ToObservableCollection
+  nameWithType: Ext.ToObservableCollection
+- uid: SearchAThing.Ext.Ext.ToObservableCollection``1(System.Collections.Generic.IEnumerable{``0})
+  name: ToObservableCollection<T>(IEnumerable<T>)
+  href: api/SearchAThing.Ext.Ext.html#SearchAThing_Ext_Ext_ToObservableCollection__1_System_Collections_Generic_IEnumerable___0__
+  commentId: M:SearchAThing.Ext.Ext.ToObservableCollection``1(System.Collections.Generic.IEnumerable{``0})
+  name.vb: ToObservableCollection(Of T)(IEnumerable(Of T))
+  fullName: SearchAThing.Ext.Ext.ToObservableCollection<T>(System.Collections.Generic.IEnumerable<T>)
+  fullName.vb: SearchAThing.Ext.Ext.ToObservableCollection(Of T)(System.Collections.Generic.IEnumerable(Of T))
+  nameWithType: Ext.ToObservableCollection<T>(IEnumerable<T>)
+  nameWithType.vb: Ext.ToObservableCollection(Of T)(IEnumerable(Of T))
+- uid: SearchAThing.Ext.Ext.ToRad(System.Double)
+  name: ToRad(double)
+  href: api/SearchAThing.Ext.Ext.html#SearchAThing_Ext_Ext_ToRad_System_Double_
+  commentId: M:SearchAThing.Ext.Ext.ToRad(System.Double)
+  name.vb: ToRad(Double)
+  fullName: SearchAThing.Ext.Ext.ToRad(double)
+  fullName.vb: SearchAThing.Ext.Ext.ToRad(Double)
+  nameWithType: Ext.ToRad(double)
+  nameWithType.vb: Ext.ToRad(Double)
+- uid: SearchAThing.Ext.Ext.ToRad(System.Single)
+  name: ToRad(float)
+  href: api/SearchAThing.Ext.Ext.html#SearchAThing_Ext_Ext_ToRad_System_Single_
+  commentId: M:SearchAThing.Ext.Ext.ToRad(System.Single)
+  name.vb: ToRad(Single)
+  fullName: SearchAThing.Ext.Ext.ToRad(float)
+  fullName.vb: SearchAThing.Ext.Ext.ToRad(Single)
+  nameWithType: Ext.ToRad(float)
+  nameWithType.vb: Ext.ToRad(Single)
+- uid: SearchAThing.Ext.Ext.ToRad*
+  name: ToRad
+  href: api/SearchAThing.Ext.Ext.html#SearchAThing_Ext_Ext_ToRad_
+  commentId: Overload:SearchAThing.Ext.Ext.ToRad
+  isSpec: "True"
+  fullName: SearchAThing.Ext.Ext.ToRad
+  nameWithType: Ext.ToRad
+- uid: SearchAThing.Ext.Ext.ToReadOnlyList*
+  name: ToReadOnlyList
+  href: api/SearchAThing.Ext.Ext.html#SearchAThing_Ext_Ext_ToReadOnlyList_
+  commentId: Overload:SearchAThing.Ext.Ext.ToReadOnlyList
+  isSpec: "True"
+  fullName: SearchAThing.Ext.Ext.ToReadOnlyList
+  nameWithType: Ext.ToReadOnlyList
+- uid: SearchAThing.Ext.Ext.ToReadOnlyList``1(System.Collections.Generic.IEnumerable{``0})
+  name: ToReadOnlyList<T>(IEnumerable<T>)
+  href: api/SearchAThing.Ext.Ext.html#SearchAThing_Ext_Ext_ToReadOnlyList__1_System_Collections_Generic_IEnumerable___0__
+  commentId: M:SearchAThing.Ext.Ext.ToReadOnlyList``1(System.Collections.Generic.IEnumerable{``0})
+  name.vb: ToReadOnlyList(Of T)(IEnumerable(Of T))
+  fullName: SearchAThing.Ext.Ext.ToReadOnlyList<T>(System.Collections.Generic.IEnumerable<T>)
+  fullName.vb: SearchAThing.Ext.Ext.ToReadOnlyList(Of T)(System.Collections.Generic.IEnumerable(Of T))
+  nameWithType: Ext.ToReadOnlyList<T>(IEnumerable<T>)
+  nameWithType.vb: Ext.ToReadOnlyList(Of T)(IEnumerable(Of T))
+- uid: SearchAThing.Ext.Ext.ToString(System.Double,System.Int32)
+  name: ToString(double, int)
+  href: api/SearchAThing.Ext.Ext.html#SearchAThing_Ext_Ext_ToString_System_Double_System_Int32_
+  commentId: M:SearchAThing.Ext.Ext.ToString(System.Double,System.Int32)
+  name.vb: ToString(Double, Integer)
+  fullName: SearchAThing.Ext.Ext.ToString(double, int)
+  fullName.vb: SearchAThing.Ext.Ext.ToString(Double, Integer)
+  nameWithType: Ext.ToString(double, int)
+  nameWithType.vb: Ext.ToString(Double, Integer)
+- uid: SearchAThing.Ext.Ext.ToString*
+  name: ToString
+  href: api/SearchAThing.Ext.Ext.html#SearchAThing_Ext_Ext_ToString_
+  commentId: Overload:SearchAThing.Ext.Ext.ToString
+  isSpec: "True"
+  fullName: SearchAThing.Ext.Ext.ToString
+  nameWithType: Ext.ToString
+- uid: SearchAThing.Ext.Ext.ToStringWrapper(System.Text.StringBuilder)
+  name: ToStringWrapper(StringBuilder)
+  href: api/SearchAThing.Ext.Ext.html#SearchAThing_Ext_Ext_ToStringWrapper_System_Text_StringBuilder_
+  commentId: M:SearchAThing.Ext.Ext.ToStringWrapper(System.Text.StringBuilder)
+  fullName: SearchAThing.Ext.Ext.ToStringWrapper(System.Text.StringBuilder)
+  nameWithType: Ext.ToStringWrapper(StringBuilder)
+- uid: SearchAThing.Ext.Ext.ToStringWrapper*
+  name: ToStringWrapper
+  href: api/SearchAThing.Ext.Ext.html#SearchAThing_Ext_Ext_ToStringWrapper_
+  commentId: Overload:SearchAThing.Ext.Ext.ToStringWrapper
+  isSpec: "True"
+  fullName: SearchAThing.Ext.Ext.ToStringWrapper
+  nameWithType: Ext.ToStringWrapper
+- uid: SearchAThing.Ext.Ext.ToVector3(System.Numerics.Vector2,System.Single)
+  name: ToVector3(Vector2, float)
+  href: api/SearchAThing.Ext.Ext.html#SearchAThing_Ext_Ext_ToVector3_System_Numerics_Vector2_System_Single_
+  commentId: M:SearchAThing.Ext.Ext.ToVector3(System.Numerics.Vector2,System.Single)
+  name.vb: ToVector3(Vector2, Single)
+  fullName: SearchAThing.Ext.Ext.ToVector3(System.Numerics.Vector2, float)
+  fullName.vb: SearchAThing.Ext.Ext.ToVector3(System.Numerics.Vector2, Single)
+  nameWithType: Ext.ToVector3(Vector2, float)
+  nameWithType.vb: Ext.ToVector3(Vector2, Single)
+- uid: SearchAThing.Ext.Ext.ToVector3*
+  name: ToVector3
+  href: api/SearchAThing.Ext.Ext.html#SearchAThing_Ext_Ext_ToVector3_
+  commentId: Overload:SearchAThing.Ext.Ext.ToVector3
+  isSpec: "True"
+  fullName: SearchAThing.Ext.Ext.ToVector3
+  nameWithType: Ext.ToVector3
+- uid: SearchAThing.Ext.Ext.TrimNonNumericCharacters(System.String)
+  name: TrimNonNumericCharacters(string)
+  href: api/SearchAThing.Ext.Ext.html#SearchAThing_Ext_Ext_TrimNonNumericCharacters_System_String_
+  commentId: M:SearchAThing.Ext.Ext.TrimNonNumericCharacters(System.String)
+  name.vb: TrimNonNumericCharacters(String)
+  fullName: SearchAThing.Ext.Ext.TrimNonNumericCharacters(string)
+  fullName.vb: SearchAThing.Ext.Ext.TrimNonNumericCharacters(String)
+  nameWithType: Ext.TrimNonNumericCharacters(string)
+  nameWithType.vb: Ext.TrimNonNumericCharacters(String)
+- uid: SearchAThing.Ext.Ext.TrimNonNumericCharacters*
+  name: TrimNonNumericCharacters
+  href: api/SearchAThing.Ext.Ext.html#SearchAThing_Ext_Ext_TrimNonNumericCharacters_
+  commentId: Overload:SearchAThing.Ext.Ext.TrimNonNumericCharacters
+  isSpec: "True"
+  fullName: SearchAThing.Ext.Ext.TrimNonNumericCharacters
+  nameWithType: Ext.TrimNonNumericCharacters
+- uid: SearchAThing.Ext.Ext.TwipToMM(System.Int32)
+  name: TwipToMM(int)
+  href: api/SearchAThing.Ext.Ext.html#SearchAThing_Ext_Ext_TwipToMM_System_Int32_
+  commentId: M:SearchAThing.Ext.Ext.TwipToMM(System.Int32)
+  name.vb: TwipToMM(Integer)
+  fullName: SearchAThing.Ext.Ext.TwipToMM(int)
+  fullName.vb: SearchAThing.Ext.Ext.TwipToMM(Integer)
+  nameWithType: Ext.TwipToMM(int)
+  nameWithType.vb: Ext.TwipToMM(Integer)
+- uid: SearchAThing.Ext.Ext.TwipToMM(System.UInt32)
+  name: TwipToMM(uint)
+  href: api/SearchAThing.Ext.Ext.html#SearchAThing_Ext_Ext_TwipToMM_System_UInt32_
+  commentId: M:SearchAThing.Ext.Ext.TwipToMM(System.UInt32)
+  name.vb: TwipToMM(UInteger)
+  fullName: SearchAThing.Ext.Ext.TwipToMM(uint)
+  fullName.vb: SearchAThing.Ext.Ext.TwipToMM(UInteger)
+  nameWithType: Ext.TwipToMM(uint)
+  nameWithType.vb: Ext.TwipToMM(UInteger)
+- uid: SearchAThing.Ext.Ext.TwipToMM*
+  name: TwipToMM
+  href: api/SearchAThing.Ext.Ext.html#SearchAThing_Ext_Ext_TwipToMM_
+  commentId: Overload:SearchAThing.Ext.Ext.TwipToMM
+  isSpec: "True"
+  fullName: SearchAThing.Ext.Ext.TwipToMM
+  nameWithType: Ext.TwipToMM
+- uid: SearchAThing.Ext.Ext.UnspecifiedAsLocalDateTime(System.DateTime)
+  name: UnspecifiedAsLocalDateTime(DateTime)
+  href: api/SearchAThing.Ext.Ext.html#SearchAThing_Ext_Ext_UnspecifiedAsLocalDateTime_System_DateTime_
+  commentId: M:SearchAThing.Ext.Ext.UnspecifiedAsLocalDateTime(System.DateTime)
+  name.vb: UnspecifiedAsLocalDateTime(Date)
+  fullName: SearchAThing.Ext.Ext.UnspecifiedAsLocalDateTime(System.DateTime)
+  fullName.vb: SearchAThing.Ext.Ext.UnspecifiedAsLocalDateTime(Date)
+  nameWithType: Ext.UnspecifiedAsLocalDateTime(DateTime)
+  nameWithType.vb: Ext.UnspecifiedAsLocalDateTime(Date)
+- uid: SearchAThing.Ext.Ext.UnspecifiedAsLocalDateTime*
+  name: UnspecifiedAsLocalDateTime
+  href: api/SearchAThing.Ext.Ext.html#SearchAThing_Ext_Ext_UnspecifiedAsLocalDateTime_
+  commentId: Overload:SearchAThing.Ext.Ext.UnspecifiedAsLocalDateTime
+  isSpec: "True"
+  fullName: SearchAThing.Ext.Ext.UnspecifiedAsLocalDateTime
+  nameWithType: Ext.UnspecifiedAsLocalDateTime
+- uid: SearchAThing.Ext.Ext.UnspecifiedAsUTCDateTime(System.DateTime)
+  name: UnspecifiedAsUTCDateTime(DateTime)
+  href: api/SearchAThing.Ext.Ext.html#SearchAThing_Ext_Ext_UnspecifiedAsUTCDateTime_System_DateTime_
+  commentId: M:SearchAThing.Ext.Ext.UnspecifiedAsUTCDateTime(System.DateTime)
+  name.vb: UnspecifiedAsUTCDateTime(Date)
+  fullName: SearchAThing.Ext.Ext.UnspecifiedAsUTCDateTime(System.DateTime)
+  fullName.vb: SearchAThing.Ext.Ext.UnspecifiedAsUTCDateTime(Date)
+  nameWithType: Ext.UnspecifiedAsUTCDateTime(DateTime)
+  nameWithType.vb: Ext.UnspecifiedAsUTCDateTime(Date)
+- uid: SearchAThing.Ext.Ext.UnspecifiedAsUTCDateTime*
+  name: UnspecifiedAsUTCDateTime
+  href: api/SearchAThing.Ext.Ext.html#SearchAThing_Ext_Ext_UnspecifiedAsUTCDateTime_
+  commentId: Overload:SearchAThing.Ext.Ext.UnspecifiedAsUTCDateTime
+  isSpec: "True"
+  fullName: SearchAThing.Ext.Ext.UnspecifiedAsUTCDateTime
+  nameWithType: Ext.UnspecifiedAsUTCDateTime
+- uid: SearchAThing.Ext.Ext.WildcardMatch(System.String,System.String,System.Boolean)
+  name: WildcardMatch(string, string, bool)
+  href: api/SearchAThing.Ext.Ext.html#SearchAThing_Ext_Ext_WildcardMatch_System_String_System_String_System_Boolean_
+  commentId: M:SearchAThing.Ext.Ext.WildcardMatch(System.String,System.String,System.Boolean)
+  name.vb: WildcardMatch(String, String, Boolean)
+  fullName: SearchAThing.Ext.Ext.WildcardMatch(string, string, bool)
+  fullName.vb: SearchAThing.Ext.Ext.WildcardMatch(String, String, Boolean)
+  nameWithType: Ext.WildcardMatch(string, string, bool)
+  nameWithType.vb: Ext.WildcardMatch(String, String, Boolean)
+- uid: SearchAThing.Ext.Ext.WildcardMatch*
+  name: WildcardMatch
+  href: api/SearchAThing.Ext.Ext.html#SearchAThing_Ext_Ext_WildcardMatch_
+  commentId: Overload:SearchAThing.Ext.Ext.WildcardMatch
+  isSpec: "True"
+  fullName: SearchAThing.Ext.Ext.WildcardMatch
+  nameWithType: Ext.WildcardMatch
+- uid: SearchAThing.Ext.Ext.WildcardToRegex(System.String)
+  name: WildcardToRegex(string)
+  href: api/SearchAThing.Ext.Ext.html#SearchAThing_Ext_Ext_WildcardToRegex_System_String_
+  commentId: M:SearchAThing.Ext.Ext.WildcardToRegex(System.String)
+  name.vb: WildcardToRegex(String)
+  fullName: SearchAThing.Ext.Ext.WildcardToRegex(string)
+  fullName.vb: SearchAThing.Ext.Ext.WildcardToRegex(String)
+  nameWithType: Ext.WildcardToRegex(string)
+  nameWithType.vb: Ext.WildcardToRegex(String)
+- uid: SearchAThing.Ext.Ext.WildcardToRegex*
+  name: WildcardToRegex
+  href: api/SearchAThing.Ext.Ext.html#SearchAThing_Ext_Ext_WildcardToRegex_
+  commentId: Overload:SearchAThing.Ext.Ext.WildcardToRegex
+  isSpec: "True"
+  fullName: SearchAThing.Ext.Ext.WildcardToRegex
+  nameWithType: Ext.WildcardToRegex
+- uid: SearchAThing.Ext.Ext.WithIndex*
+  name: WithIndex
+  href: api/SearchAThing.Ext.Ext.html#SearchAThing_Ext_Ext_WithIndex_
+  commentId: Overload:SearchAThing.Ext.Ext.WithIndex
+  isSpec: "True"
+  fullName: SearchAThing.Ext.Ext.WithIndex
+  nameWithType: Ext.WithIndex
+- uid: SearchAThing.Ext.Ext.WithIndexIsLast*
+  name: WithIndexIsLast
+  href: api/SearchAThing.Ext.Ext.html#SearchAThing_Ext_Ext_WithIndexIsLast_
+  commentId: Overload:SearchAThing.Ext.Ext.WithIndexIsLast
+  isSpec: "True"
+  fullName: SearchAThing.Ext.Ext.WithIndexIsLast
+  nameWithType: Ext.WithIndexIsLast
+- uid: SearchAThing.Ext.Ext.WithIndexIsLast``1(System.Collections.Generic.IEnumerable{``0})
+  name: WithIndexIsLast<T>(IEnumerable<T>)
+  href: api/SearchAThing.Ext.Ext.html#SearchAThing_Ext_Ext_WithIndexIsLast__1_System_Collections_Generic_IEnumerable___0__
+  commentId: M:SearchAThing.Ext.Ext.WithIndexIsLast``1(System.Collections.Generic.IEnumerable{``0})
+  name.vb: WithIndexIsLast(Of T)(IEnumerable(Of T))
+  fullName: SearchAThing.Ext.Ext.WithIndexIsLast<T>(System.Collections.Generic.IEnumerable<T>)
+  fullName.vb: SearchAThing.Ext.Ext.WithIndexIsLast(Of T)(System.Collections.Generic.IEnumerable(Of T))
+  nameWithType: Ext.WithIndexIsLast<T>(IEnumerable<T>)
+  nameWithType.vb: Ext.WithIndexIsLast(Of T)(IEnumerable(Of T))
+- uid: SearchAThing.Ext.Ext.WithIndex``1(System.Collections.Generic.IEnumerable{``0})
+  name: WithIndex<T>(IEnumerable<T>)
+  href: api/SearchAThing.Ext.Ext.html#SearchAThing_Ext_Ext_WithIndex__1_System_Collections_Generic_IEnumerable___0__
+  commentId: M:SearchAThing.Ext.Ext.WithIndex``1(System.Collections.Generic.IEnumerable{``0})
+  name.vb: WithIndex(Of T)(IEnumerable(Of T))
+  fullName: SearchAThing.Ext.Ext.WithIndex<T>(System.Collections.Generic.IEnumerable<T>)
+  fullName.vb: SearchAThing.Ext.Ext.WithIndex(Of T)(System.Collections.Generic.IEnumerable(Of T))
+  nameWithType: Ext.WithIndex<T>(IEnumerable<T>)
+  nameWithType.vb: Ext.WithIndex(Of T)(IEnumerable(Of T))
+- uid: SearchAThing.Ext.Ext.WithNext*
+  name: WithNext
+  href: api/SearchAThing.Ext.Ext.html#SearchAThing_Ext_Ext_WithNext_
+  commentId: Overload:SearchAThing.Ext.Ext.WithNext
+  isSpec: "True"
+  fullName: SearchAThing.Ext.Ext.WithNext
+  nameWithType: Ext.WithNext
+- uid: SearchAThing.Ext.Ext.WithNextPrimitive*
+  name: WithNextPrimitive
+  href: api/SearchAThing.Ext.Ext.html#SearchAThing_Ext_Ext_WithNextPrimitive_
+  commentId: Overload:SearchAThing.Ext.Ext.WithNextPrimitive
+  isSpec: "True"
+  fullName: SearchAThing.Ext.Ext.WithNextPrimitive
+  nameWithType: Ext.WithNextPrimitive
+- uid: SearchAThing.Ext.Ext.WithNextPrimitive``1(System.Collections.Generic.IEnumerable{``0},System.Boolean)
+  name: WithNextPrimitive<T>(IEnumerable<T>, bool)
+  href: api/SearchAThing.Ext.Ext.html#SearchAThing_Ext_Ext_WithNextPrimitive__1_System_Collections_Generic_IEnumerable___0__System_Boolean_
+  commentId: M:SearchAThing.Ext.Ext.WithNextPrimitive``1(System.Collections.Generic.IEnumerable{``0},System.Boolean)
+  name.vb: WithNextPrimitive(Of T)(IEnumerable(Of T), Boolean)
+  fullName: SearchAThing.Ext.Ext.WithNextPrimitive<T>(System.Collections.Generic.IEnumerable<T>, bool)
+  fullName.vb: SearchAThing.Ext.Ext.WithNextPrimitive(Of T)(System.Collections.Generic.IEnumerable(Of T), Boolean)
+  nameWithType: Ext.WithNextPrimitive<T>(IEnumerable<T>, bool)
+  nameWithType.vb: Ext.WithNextPrimitive(Of T)(IEnumerable(Of T), Boolean)
+- uid: SearchAThing.Ext.Ext.WithNext``1(System.Collections.Generic.IEnumerable{``0},System.Boolean)
+  name: WithNext<T>(IEnumerable<T>, bool)
+  href: api/SearchAThing.Ext.Ext.html#SearchAThing_Ext_Ext_WithNext__1_System_Collections_Generic_IEnumerable___0__System_Boolean_
+  commentId: M:SearchAThing.Ext.Ext.WithNext``1(System.Collections.Generic.IEnumerable{``0},System.Boolean)
+  name.vb: WithNext(Of T)(IEnumerable(Of T), Boolean)
+  fullName: SearchAThing.Ext.Ext.WithNext<T>(System.Collections.Generic.IEnumerable<T>, bool)
+  fullName.vb: SearchAThing.Ext.Ext.WithNext(Of T)(System.Collections.Generic.IEnumerable(Of T), Boolean)
+  nameWithType: Ext.WithNext<T>(IEnumerable<T>, bool)
+  nameWithType.vb: Ext.WithNext(Of T)(IEnumerable(Of T), Boolean)
+- uid: SearchAThing.Ext.Ext.WithPrev*
+  name: WithPrev
+  href: api/SearchAThing.Ext.Ext.html#SearchAThing_Ext_Ext_WithPrev_
+  commentId: Overload:SearchAThing.Ext.Ext.WithPrev
+  isSpec: "True"
+  fullName: SearchAThing.Ext.Ext.WithPrev
+  nameWithType: Ext.WithPrev
+- uid: SearchAThing.Ext.Ext.WithPrevNext*
+  name: WithPrevNext
+  href: api/SearchAThing.Ext.Ext.html#SearchAThing_Ext_Ext_WithPrevNext_
+  commentId: Overload:SearchAThing.Ext.Ext.WithPrevNext
+  isSpec: "True"
+  fullName: SearchAThing.Ext.Ext.WithPrevNext
+  nameWithType: Ext.WithPrevNext
+- uid: SearchAThing.Ext.Ext.WithPrevNextPrimitive*
+  name: WithPrevNextPrimitive
+  href: api/SearchAThing.Ext.Ext.html#SearchAThing_Ext_Ext_WithPrevNextPrimitive_
+  commentId: Overload:SearchAThing.Ext.Ext.WithPrevNextPrimitive
+  isSpec: "True"
+  fullName: SearchAThing.Ext.Ext.WithPrevNextPrimitive
+  nameWithType: Ext.WithPrevNextPrimitive
+- uid: SearchAThing.Ext.Ext.WithPrevNextPrimitive``1(System.Collections.Generic.IEnumerable{``0},System.Boolean)
+  name: WithPrevNextPrimitive<T>(IEnumerable<T>, bool)
+  href: api/SearchAThing.Ext.Ext.html#SearchAThing_Ext_Ext_WithPrevNextPrimitive__1_System_Collections_Generic_IEnumerable___0__System_Boolean_
+  commentId: M:SearchAThing.Ext.Ext.WithPrevNextPrimitive``1(System.Collections.Generic.IEnumerable{``0},System.Boolean)
+  name.vb: WithPrevNextPrimitive(Of T)(IEnumerable(Of T), Boolean)
+  fullName: SearchAThing.Ext.Ext.WithPrevNextPrimitive<T>(System.Collections.Generic.IEnumerable<T>, bool)
+  fullName.vb: SearchAThing.Ext.Ext.WithPrevNextPrimitive(Of T)(System.Collections.Generic.IEnumerable(Of T), Boolean)
+  nameWithType: Ext.WithPrevNextPrimitive<T>(IEnumerable<T>, bool)
+  nameWithType.vb: Ext.WithPrevNextPrimitive(Of T)(IEnumerable(Of T), Boolean)
+- uid: SearchAThing.Ext.Ext.WithPrevNext``1(System.Collections.Generic.IEnumerable{``0},System.Boolean)
+  name: WithPrevNext<T>(IEnumerable<T>, bool)
+  href: api/SearchAThing.Ext.Ext.html#SearchAThing_Ext_Ext_WithPrevNext__1_System_Collections_Generic_IEnumerable___0__System_Boolean_
+  commentId: M:SearchAThing.Ext.Ext.WithPrevNext``1(System.Collections.Generic.IEnumerable{``0},System.Boolean)
+  name.vb: WithPrevNext(Of T)(IEnumerable(Of T), Boolean)
+  fullName: SearchAThing.Ext.Ext.WithPrevNext<T>(System.Collections.Generic.IEnumerable<T>, bool)
+  fullName.vb: SearchAThing.Ext.Ext.WithPrevNext(Of T)(System.Collections.Generic.IEnumerable(Of T), Boolean)
+  nameWithType: Ext.WithPrevNext<T>(IEnumerable<T>, bool)
+  nameWithType.vb: Ext.WithPrevNext(Of T)(IEnumerable(Of T), Boolean)
+- uid: SearchAThing.Ext.Ext.WithPrevPrimitive*
+  name: WithPrevPrimitive
+  href: api/SearchAThing.Ext.Ext.html#SearchAThing_Ext_Ext_WithPrevPrimitive_
+  commentId: Overload:SearchAThing.Ext.Ext.WithPrevPrimitive
+  isSpec: "True"
+  fullName: SearchAThing.Ext.Ext.WithPrevPrimitive
+  nameWithType: Ext.WithPrevPrimitive
+- uid: SearchAThing.Ext.Ext.WithPrevPrimitive``1(System.Collections.Generic.IEnumerable{``0})
+  name: WithPrevPrimitive<T>(IEnumerable<T>)
+  href: api/SearchAThing.Ext.Ext.html#SearchAThing_Ext_Ext_WithPrevPrimitive__1_System_Collections_Generic_IEnumerable___0__
+  commentId: M:SearchAThing.Ext.Ext.WithPrevPrimitive``1(System.Collections.Generic.IEnumerable{``0})
+  name.vb: WithPrevPrimitive(Of T)(IEnumerable(Of T))
+  fullName: SearchAThing.Ext.Ext.WithPrevPrimitive<T>(System.Collections.Generic.IEnumerable<T>)
+  fullName.vb: SearchAThing.Ext.Ext.WithPrevPrimitive(Of T)(System.Collections.Generic.IEnumerable(Of T))
+  nameWithType: Ext.WithPrevPrimitive<T>(IEnumerable<T>)
+  nameWithType.vb: Ext.WithPrevPrimitive(Of T)(IEnumerable(Of T))
+- uid: SearchAThing.Ext.Ext.WithPrev``1(System.Collections.Generic.IEnumerable{``0})
+  name: WithPrev<T>(IEnumerable<T>)
+  href: api/SearchAThing.Ext.Ext.html#SearchAThing_Ext_Ext_WithPrev__1_System_Collections_Generic_IEnumerable___0__
+  commentId: M:SearchAThing.Ext.Ext.WithPrev``1(System.Collections.Generic.IEnumerable{``0})
+  name.vb: WithPrev(Of T)(IEnumerable(Of T))
+  fullName: SearchAThing.Ext.Ext.WithPrev<T>(System.Collections.Generic.IEnumerable<T>)
+  fullName.vb: SearchAThing.Ext.Ext.WithPrev(Of T)(System.Collections.Generic.IEnumerable(Of T))
+  nameWithType: Ext.WithPrev<T>(IEnumerable<T>)
+  nameWithType.vb: Ext.WithPrev(Of T)(IEnumerable(Of T))
+- uid: SearchAThing.Ext.Ext.XY(System.Numerics.Vector3)
+  name: XY(Vector3)
+  href: api/SearchAThing.Ext.Ext.html#SearchAThing_Ext_Ext_XY_System_Numerics_Vector3_
+  commentId: M:SearchAThing.Ext.Ext.XY(System.Numerics.Vector3)
+  fullName: SearchAThing.Ext.Ext.XY(System.Numerics.Vector3)
+  nameWithType: Ext.XY(Vector3)
+- uid: SearchAThing.Ext.Ext.XY*
+  name: XY
+  href: api/SearchAThing.Ext.Ext.html#SearchAThing_Ext_Ext_XY_
+  commentId: Overload:SearchAThing.Ext.Ext.XY
+  isSpec: "True"
+  fullName: SearchAThing.Ext.Ext.XY
+  nameWithType: Ext.XY
+- uid: SearchAThing.Ext.Ext.XYZ(System.Numerics.Vector4)
+  name: XYZ(Vector4)
+  href: api/SearchAThing.Ext.Ext.html#SearchAThing_Ext_Ext_XYZ_System_Numerics_Vector4_
+  commentId: M:SearchAThing.Ext.Ext.XYZ(System.Numerics.Vector4)
+  fullName: SearchAThing.Ext.Ext.XYZ(System.Numerics.Vector4)
+  nameWithType: Ext.XYZ(Vector4)
+- uid: SearchAThing.Ext.Ext.XYZ*
+  name: XYZ
+  href: api/SearchAThing.Ext.Ext.html#SearchAThing_Ext_Ext_XYZ_
+  commentId: Overload:SearchAThing.Ext.Ext.XYZ
+  isSpec: "True"
+  fullName: SearchAThing.Ext.Ext.XYZ
+  nameWithType: Ext.XYZ
+- uid: SearchAThing.Ext.HSObservableCollection`1
+  name: HSObservableCollection<T>
+  href: api/SearchAThing.Ext.HSObservableCollection-1.html
+  commentId: T:SearchAThing.Ext.HSObservableCollection`1
+  name.vb: HSObservableCollection(Of T)
+  fullName: SearchAThing.Ext.HSObservableCollection<T>
+  fullName.vb: SearchAThing.Ext.HSObservableCollection(Of T)
+  nameWithType: HSObservableCollection<T>
+  nameWithType.vb: HSObservableCollection(Of T)
+- uid: SearchAThing.Ext.HSObservableCollection`1.#ctor
+  name: HSObservableCollection()
+  href: api/SearchAThing.Ext.HSObservableCollection-1.html#SearchAThing_Ext_HSObservableCollection_1__ctor
+  commentId: M:SearchAThing.Ext.HSObservableCollection`1.#ctor
+  name.vb: New()
+  fullName: SearchAThing.Ext.HSObservableCollection<T>.HSObservableCollection()
+  fullName.vb: SearchAThing.Ext.HSObservableCollection(Of T).New()
+  nameWithType: HSObservableCollection<T>.HSObservableCollection()
+  nameWithType.vb: HSObservableCollection(Of T).New()
+- uid: SearchAThing.Ext.HSObservableCollection`1.#ctor(System.Collections.Generic.IEnumerable{`0})
+  name: HSObservableCollection(IEnumerable<T>)
+  href: api/SearchAThing.Ext.HSObservableCollection-1.html#SearchAThing_Ext_HSObservableCollection_1__ctor_System_Collections_Generic_IEnumerable__0__
+  commentId: M:SearchAThing.Ext.HSObservableCollection`1.#ctor(System.Collections.Generic.IEnumerable{`0})
+  name.vb: New(IEnumerable(Of T))
+  fullName: SearchAThing.Ext.HSObservableCollection<T>.HSObservableCollection(System.Collections.Generic.IEnumerable<T>)
+  fullName.vb: SearchAThing.Ext.HSObservableCollection(Of T).New(System.Collections.Generic.IEnumerable(Of T))
+  nameWithType: HSObservableCollection<T>.HSObservableCollection(IEnumerable<T>)
+  nameWithType.vb: HSObservableCollection(Of T).New(IEnumerable(Of T))
+- uid: SearchAThing.Ext.HSObservableCollection`1.#ctor*
+  name: HSObservableCollection
+  href: api/SearchAThing.Ext.HSObservableCollection-1.html#SearchAThing_Ext_HSObservableCollection_1__ctor_
+  commentId: Overload:SearchAThing.Ext.HSObservableCollection`1.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: SearchAThing.Ext.HSObservableCollection<T>.HSObservableCollection
+  fullName.vb: SearchAThing.Ext.HSObservableCollection(Of T).New
+  nameWithType: HSObservableCollection<T>.HSObservableCollection
+  nameWithType.vb: HSObservableCollection(Of T).New
+- uid: SearchAThing.Ext.HSObservableCollection`1.ClearItems
+  name: ClearItems()
+  href: api/SearchAThing.Ext.HSObservableCollection-1.html#SearchAThing_Ext_HSObservableCollection_1_ClearItems
+  commentId: M:SearchAThing.Ext.HSObservableCollection`1.ClearItems
+  fullName: SearchAThing.Ext.HSObservableCollection<T>.ClearItems()
+  fullName.vb: SearchAThing.Ext.HSObservableCollection(Of T).ClearItems()
+  nameWithType: HSObservableCollection<T>.ClearItems()
+  nameWithType.vb: HSObservableCollection(Of T).ClearItems()
+- uid: SearchAThing.Ext.HSObservableCollection`1.ClearItems*
+  name: ClearItems
+  href: api/SearchAThing.Ext.HSObservableCollection-1.html#SearchAThing_Ext_HSObservableCollection_1_ClearItems_
+  commentId: Overload:SearchAThing.Ext.HSObservableCollection`1.ClearItems
+  isSpec: "True"
+  fullName: SearchAThing.Ext.HSObservableCollection<T>.ClearItems
+  fullName.vb: SearchAThing.Ext.HSObservableCollection(Of T).ClearItems
+  nameWithType: HSObservableCollection<T>.ClearItems
+  nameWithType.vb: HSObservableCollection(Of T).ClearItems
+- uid: SearchAThing.Ext.HSObservableCollection`1.Contains(`0)
+  name: Contains(T)
+  href: api/SearchAThing.Ext.HSObservableCollection-1.html#SearchAThing_Ext_HSObservableCollection_1_Contains__0_
+  commentId: M:SearchAThing.Ext.HSObservableCollection`1.Contains(`0)
+  fullName: SearchAThing.Ext.HSObservableCollection<T>.Contains(T)
+  fullName.vb: SearchAThing.Ext.HSObservableCollection(Of T).Contains(T)
+  nameWithType: HSObservableCollection<T>.Contains(T)
+  nameWithType.vb: HSObservableCollection(Of T).Contains(T)
+- uid: SearchAThing.Ext.HSObservableCollection`1.Contains*
+  name: Contains
+  href: api/SearchAThing.Ext.HSObservableCollection-1.html#SearchAThing_Ext_HSObservableCollection_1_Contains_
+  commentId: Overload:SearchAThing.Ext.HSObservableCollection`1.Contains
+  isSpec: "True"
+  fullName: SearchAThing.Ext.HSObservableCollection<T>.Contains
+  fullName.vb: SearchAThing.Ext.HSObservableCollection(Of T).Contains
+  nameWithType: HSObservableCollection<T>.Contains
+  nameWithType.vb: HSObservableCollection(Of T).Contains
+- uid: SearchAThing.Ext.HSObservableCollection`1.InsertItem(System.Int32,`0)
+  name: InsertItem(int, T)
+  href: api/SearchAThing.Ext.HSObservableCollection-1.html#SearchAThing_Ext_HSObservableCollection_1_InsertItem_System_Int32__0_
+  commentId: M:SearchAThing.Ext.HSObservableCollection`1.InsertItem(System.Int32,`0)
+  name.vb: InsertItem(Integer, T)
+  fullName: SearchAThing.Ext.HSObservableCollection<T>.InsertItem(int, T)
+  fullName.vb: SearchAThing.Ext.HSObservableCollection(Of T).InsertItem(Integer, T)
+  nameWithType: HSObservableCollection<T>.InsertItem(int, T)
+  nameWithType.vb: HSObservableCollection(Of T).InsertItem(Integer, T)
+- uid: SearchAThing.Ext.HSObservableCollection`1.InsertItem*
+  name: InsertItem
+  href: api/SearchAThing.Ext.HSObservableCollection-1.html#SearchAThing_Ext_HSObservableCollection_1_InsertItem_
+  commentId: Overload:SearchAThing.Ext.HSObservableCollection`1.InsertItem
+  isSpec: "True"
+  fullName: SearchAThing.Ext.HSObservableCollection<T>.InsertItem
+  fullName.vb: SearchAThing.Ext.HSObservableCollection(Of T).InsertItem
+  nameWithType: HSObservableCollection<T>.InsertItem
+  nameWithType.vb: HSObservableCollection(Of T).InsertItem
+- uid: SearchAThing.Ext.HSObservableCollection`1.RemoveItem(System.Int32)
+  name: RemoveItem(int)
+  href: api/SearchAThing.Ext.HSObservableCollection-1.html#SearchAThing_Ext_HSObservableCollection_1_RemoveItem_System_Int32_
+  commentId: M:SearchAThing.Ext.HSObservableCollection`1.RemoveItem(System.Int32)
+  name.vb: RemoveItem(Integer)
+  fullName: SearchAThing.Ext.HSObservableCollection<T>.RemoveItem(int)
+  fullName.vb: SearchAThing.Ext.HSObservableCollection(Of T).RemoveItem(Integer)
+  nameWithType: HSObservableCollection<T>.RemoveItem(int)
+  nameWithType.vb: HSObservableCollection(Of T).RemoveItem(Integer)
+- uid: SearchAThing.Ext.HSObservableCollection`1.RemoveItem*
+  name: RemoveItem
+  href: api/SearchAThing.Ext.HSObservableCollection-1.html#SearchAThing_Ext_HSObservableCollection_1_RemoveItem_
+  commentId: Overload:SearchAThing.Ext.HSObservableCollection`1.RemoveItem
+  isSpec: "True"
+  fullName: SearchAThing.Ext.HSObservableCollection<T>.RemoveItem
+  fullName.vb: SearchAThing.Ext.HSObservableCollection(Of T).RemoveItem
+  nameWithType: HSObservableCollection<T>.RemoveItem
+  nameWithType.vb: HSObservableCollection(Of T).RemoveItem
+- uid: SearchAThing.Ext.HSObservableCollection`1.SetItem(System.Int32,`0)
+  name: SetItem(int, T)
+  href: api/SearchAThing.Ext.HSObservableCollection-1.html#SearchAThing_Ext_HSObservableCollection_1_SetItem_System_Int32__0_
+  commentId: M:SearchAThing.Ext.HSObservableCollection`1.SetItem(System.Int32,`0)
+  name.vb: SetItem(Integer, T)
+  fullName: SearchAThing.Ext.HSObservableCollection<T>.SetItem(int, T)
+  fullName.vb: SearchAThing.Ext.HSObservableCollection(Of T).SetItem(Integer, T)
+  nameWithType: HSObservableCollection<T>.SetItem(int, T)
+  nameWithType.vb: HSObservableCollection(Of T).SetItem(Integer, T)
+- uid: SearchAThing.Ext.HSObservableCollection`1.SetItem*
+  name: SetItem
+  href: api/SearchAThing.Ext.HSObservableCollection-1.html#SearchAThing_Ext_HSObservableCollection_1_SetItem_
+  commentId: Overload:SearchAThing.Ext.HSObservableCollection`1.SetItem
+  isSpec: "True"
+  fullName: SearchAThing.Ext.HSObservableCollection<T>.SetItem
+  fullName.vb: SearchAThing.Ext.HSObservableCollection(Of T).SetItem
+  nameWithType: HSObservableCollection<T>.SetItem
+  nameWithType.vb: HSObservableCollection(Of T).SetItem
+- uid: SearchAThing.Ext.INotifyCollectionChanged2
+  name: INotifyCollectionChanged2
+  href: api/SearchAThing.Ext.INotifyCollectionChanged2.html
+  commentId: T:SearchAThing.Ext.INotifyCollectionChanged2
+  fullName: SearchAThing.Ext.INotifyCollectionChanged2
+  nameWithType: INotifyCollectionChanged2
+- uid: SearchAThing.Ext.INotifyCollectionChanged2.ItemReplaced
+  name: ItemReplaced
+  href: api/SearchAThing.Ext.INotifyCollectionChanged2.html#SearchAThing_Ext_INotifyCollectionChanged2_ItemReplaced
+  commentId: E:SearchAThing.Ext.INotifyCollectionChanged2.ItemReplaced
+  fullName: SearchAThing.Ext.INotifyCollectionChanged2.ItemReplaced
+  nameWithType: INotifyCollectionChanged2.ItemReplaced
+- uid: SearchAThing.Ext.INotifyCollectionChanged2.ItemsAdded
+  name: ItemsAdded
+  href: api/SearchAThing.Ext.INotifyCollectionChanged2.html#SearchAThing_Ext_INotifyCollectionChanged2_ItemsAdded
+  commentId: E:SearchAThing.Ext.INotifyCollectionChanged2.ItemsAdded
+  fullName: SearchAThing.Ext.INotifyCollectionChanged2.ItemsAdded
+  nameWithType: INotifyCollectionChanged2.ItemsAdded
+- uid: SearchAThing.Ext.INotifyCollectionChanged2.ItemsRemoved
+  name: ItemsRemoved
+  href: api/SearchAThing.Ext.INotifyCollectionChanged2.html#SearchAThing_Ext_INotifyCollectionChanged2_ItemsRemoved
+  commentId: E:SearchAThing.Ext.INotifyCollectionChanged2.ItemsRemoved
+  fullName: SearchAThing.Ext.INotifyCollectionChanged2.ItemsRemoved
+  nameWithType: INotifyCollectionChanged2.ItemsRemoved
+- uid: SearchAThing.Ext.IReadOnlyHashSet`1
+  name: IReadOnlyHashSet<T>
+  href: api/SearchAThing.Ext.IReadOnlyHashSet-1.html
+  commentId: T:SearchAThing.Ext.IReadOnlyHashSet`1
+  name.vb: IReadOnlyHashSet(Of T)
+  fullName: SearchAThing.Ext.IReadOnlyHashSet<T>
+  fullName.vb: SearchAThing.Ext.IReadOnlyHashSet(Of T)
+  nameWithType: IReadOnlyHashSet<T>
+  nameWithType.vb: IReadOnlyHashSet(Of T)
+- uid: SearchAThing.Ext.IReadOnlyHashSet`1.Contains(`0)
+  name: Contains(T)
+  href: api/SearchAThing.Ext.IReadOnlyHashSet-1.html#SearchAThing_Ext_IReadOnlyHashSet_1_Contains__0_
+  commentId: M:SearchAThing.Ext.IReadOnlyHashSet`1.Contains(`0)
+  fullName: SearchAThing.Ext.IReadOnlyHashSet<T>.Contains(T)
+  fullName.vb: SearchAThing.Ext.IReadOnlyHashSet(Of T).Contains(T)
+  nameWithType: IReadOnlyHashSet<T>.Contains(T)
+  nameWithType.vb: IReadOnlyHashSet(Of T).Contains(T)
+- uid: SearchAThing.Ext.IReadOnlyHashSet`1.Contains*
+  name: Contains
+  href: api/SearchAThing.Ext.IReadOnlyHashSet-1.html#SearchAThing_Ext_IReadOnlyHashSet_1_Contains_
+  commentId: Overload:SearchAThing.Ext.IReadOnlyHashSet`1.Contains
+  isSpec: "True"
+  fullName: SearchAThing.Ext.IReadOnlyHashSet<T>.Contains
+  fullName.vb: SearchAThing.Ext.IReadOnlyHashSet(Of T).Contains
+  nameWithType: IReadOnlyHashSet<T>.Contains
+  nameWithType.vb: IReadOnlyHashSet(Of T).Contains
+- uid: SearchAThing.Ext.InternalError
+  name: InternalError
+  href: api/SearchAThing.Ext.InternalError.html
+  commentId: T:SearchAThing.Ext.InternalError
+  fullName: SearchAThing.Ext.InternalError
+  nameWithType: InternalError
+- uid: SearchAThing.Ext.InternalError.#ctor(System.String)
+  name: InternalError(string)
+  href: api/SearchAThing.Ext.InternalError.html#SearchAThing_Ext_InternalError__ctor_System_String_
+  commentId: M:SearchAThing.Ext.InternalError.#ctor(System.String)
+  name.vb: New(String)
+  fullName: SearchAThing.Ext.InternalError.InternalError(string)
+  fullName.vb: SearchAThing.Ext.InternalError.New(String)
+  nameWithType: InternalError.InternalError(string)
+  nameWithType.vb: InternalError.New(String)
+- uid: SearchAThing.Ext.InternalError.#ctor*
+  name: InternalError
+  href: api/SearchAThing.Ext.InternalError.html#SearchAThing_Ext_InternalError__ctor_
+  commentId: Overload:SearchAThing.Ext.InternalError.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: SearchAThing.Ext.InternalError.InternalError
+  fullName.vb: SearchAThing.Ext.InternalError.New
+  nameWithType: InternalError.InternalError
+  nameWithType.vb: InternalError.New
+- uid: SearchAThing.Ext.ObservableCollection2`1
+  name: ObservableCollection2<T>
+  href: api/SearchAThing.Ext.ObservableCollection2-1.html
+  commentId: T:SearchAThing.Ext.ObservableCollection2`1
+  name.vb: ObservableCollection2(Of T)
+  fullName: SearchAThing.Ext.ObservableCollection2<T>
+  fullName.vb: SearchAThing.Ext.ObservableCollection2(Of T)
+  nameWithType: ObservableCollection2<T>
+  nameWithType.vb: ObservableCollection2(Of T)
+- uid: SearchAThing.Ext.ObservableCollection2`1.#ctor
+  name: ObservableCollection2()
+  href: api/SearchAThing.Ext.ObservableCollection2-1.html#SearchAThing_Ext_ObservableCollection2_1__ctor
+  commentId: M:SearchAThing.Ext.ObservableCollection2`1.#ctor
+  name.vb: New()
+  fullName: SearchAThing.Ext.ObservableCollection2<T>.ObservableCollection2()
+  fullName.vb: SearchAThing.Ext.ObservableCollection2(Of T).New()
+  nameWithType: ObservableCollection2<T>.ObservableCollection2()
+  nameWithType.vb: ObservableCollection2(Of T).New()
+- uid: SearchAThing.Ext.ObservableCollection2`1.#ctor(System.Collections.Generic.IEnumerable{`0})
+  name: ObservableCollection2(IEnumerable<T>)
+  href: api/SearchAThing.Ext.ObservableCollection2-1.html#SearchAThing_Ext_ObservableCollection2_1__ctor_System_Collections_Generic_IEnumerable__0__
+  commentId: M:SearchAThing.Ext.ObservableCollection2`1.#ctor(System.Collections.Generic.IEnumerable{`0})
+  name.vb: New(IEnumerable(Of T))
+  fullName: SearchAThing.Ext.ObservableCollection2<T>.ObservableCollection2(System.Collections.Generic.IEnumerable<T>)
+  fullName.vb: SearchAThing.Ext.ObservableCollection2(Of T).New(System.Collections.Generic.IEnumerable(Of T))
+  nameWithType: ObservableCollection2<T>.ObservableCollection2(IEnumerable<T>)
+  nameWithType.vb: ObservableCollection2(Of T).New(IEnumerable(Of T))
+- uid: SearchAThing.Ext.ObservableCollection2`1.#ctor*
+  name: ObservableCollection2
+  href: api/SearchAThing.Ext.ObservableCollection2-1.html#SearchAThing_Ext_ObservableCollection2_1__ctor_
+  commentId: Overload:SearchAThing.Ext.ObservableCollection2`1.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: SearchAThing.Ext.ObservableCollection2<T>.ObservableCollection2
+  fullName.vb: SearchAThing.Ext.ObservableCollection2(Of T).New
+  nameWithType: ObservableCollection2<T>.ObservableCollection2
+  nameWithType.vb: ObservableCollection2(Of T).New
+- uid: SearchAThing.Ext.ObservableCollection2`1.ClearItems
+  name: ClearItems()
+  href: api/SearchAThing.Ext.ObservableCollection2-1.html#SearchAThing_Ext_ObservableCollection2_1_ClearItems
+  commentId: M:SearchAThing.Ext.ObservableCollection2`1.ClearItems
+  fullName: SearchAThing.Ext.ObservableCollection2<T>.ClearItems()
+  fullName.vb: SearchAThing.Ext.ObservableCollection2(Of T).ClearItems()
+  nameWithType: ObservableCollection2<T>.ClearItems()
+  nameWithType.vb: ObservableCollection2(Of T).ClearItems()
+- uid: SearchAThing.Ext.ObservableCollection2`1.ClearItems*
+  name: ClearItems
+  href: api/SearchAThing.Ext.ObservableCollection2-1.html#SearchAThing_Ext_ObservableCollection2_1_ClearItems_
+  commentId: Overload:SearchAThing.Ext.ObservableCollection2`1.ClearItems
+  isSpec: "True"
+  fullName: SearchAThing.Ext.ObservableCollection2<T>.ClearItems
+  fullName.vb: SearchAThing.Ext.ObservableCollection2(Of T).ClearItems
+  nameWithType: ObservableCollection2<T>.ClearItems
+  nameWithType.vb: ObservableCollection2(Of T).ClearItems
+- uid: SearchAThing.Ext.ObservableCollection2`1.InsertItem(System.Int32,`0)
+  name: InsertItem(int, T)
+  href: api/SearchAThing.Ext.ObservableCollection2-1.html#SearchAThing_Ext_ObservableCollection2_1_InsertItem_System_Int32__0_
+  commentId: M:SearchAThing.Ext.ObservableCollection2`1.InsertItem(System.Int32,`0)
+  name.vb: InsertItem(Integer, T)
+  fullName: SearchAThing.Ext.ObservableCollection2<T>.InsertItem(int, T)
+  fullName.vb: SearchAThing.Ext.ObservableCollection2(Of T).InsertItem(Integer, T)
+  nameWithType: ObservableCollection2<T>.InsertItem(int, T)
+  nameWithType.vb: ObservableCollection2(Of T).InsertItem(Integer, T)
+- uid: SearchAThing.Ext.ObservableCollection2`1.InsertItem*
+  name: InsertItem
+  href: api/SearchAThing.Ext.ObservableCollection2-1.html#SearchAThing_Ext_ObservableCollection2_1_InsertItem_
+  commentId: Overload:SearchAThing.Ext.ObservableCollection2`1.InsertItem
+  isSpec: "True"
+  fullName: SearchAThing.Ext.ObservableCollection2<T>.InsertItem
+  fullName.vb: SearchAThing.Ext.ObservableCollection2(Of T).InsertItem
+  nameWithType: ObservableCollection2<T>.InsertItem
+  nameWithType.vb: ObservableCollection2(Of T).InsertItem
+- uid: SearchAThing.Ext.ObservableCollection2`1.ItemReplaced
+  name: ItemReplaced
+  href: api/SearchAThing.Ext.ObservableCollection2-1.html#SearchAThing_Ext_ObservableCollection2_1_ItemReplaced
+  commentId: E:SearchAThing.Ext.ObservableCollection2`1.ItemReplaced
+  fullName: SearchAThing.Ext.ObservableCollection2<T>.ItemReplaced
+  fullName.vb: SearchAThing.Ext.ObservableCollection2(Of T).ItemReplaced
+  nameWithType: ObservableCollection2<T>.ItemReplaced
+  nameWithType.vb: ObservableCollection2(Of T).ItemReplaced
+- uid: SearchAThing.Ext.ObservableCollection2`1.ItemsAdded
+  name: ItemsAdded
+  href: api/SearchAThing.Ext.ObservableCollection2-1.html#SearchAThing_Ext_ObservableCollection2_1_ItemsAdded
+  commentId: E:SearchAThing.Ext.ObservableCollection2`1.ItemsAdded
+  fullName: SearchAThing.Ext.ObservableCollection2<T>.ItemsAdded
+  fullName.vb: SearchAThing.Ext.ObservableCollection2(Of T).ItemsAdded
+  nameWithType: ObservableCollection2<T>.ItemsAdded
+  nameWithType.vb: ObservableCollection2(Of T).ItemsAdded
+- uid: SearchAThing.Ext.ObservableCollection2`1.ItemsRemoved
+  name: ItemsRemoved
+  href: api/SearchAThing.Ext.ObservableCollection2-1.html#SearchAThing_Ext_ObservableCollection2_1_ItemsRemoved
+  commentId: E:SearchAThing.Ext.ObservableCollection2`1.ItemsRemoved
+  fullName: SearchAThing.Ext.ObservableCollection2<T>.ItemsRemoved
+  fullName.vb: SearchAThing.Ext.ObservableCollection2(Of T).ItemsRemoved
+  nameWithType: ObservableCollection2<T>.ItemsRemoved
+  nameWithType.vb: ObservableCollection2(Of T).ItemsRemoved
+- uid: SearchAThing.Ext.ObservableCollection2`1.RemoveItem(System.Int32)
+  name: RemoveItem(int)
+  href: api/SearchAThing.Ext.ObservableCollection2-1.html#SearchAThing_Ext_ObservableCollection2_1_RemoveItem_System_Int32_
+  commentId: M:SearchAThing.Ext.ObservableCollection2`1.RemoveItem(System.Int32)
+  name.vb: RemoveItem(Integer)
+  fullName: SearchAThing.Ext.ObservableCollection2<T>.RemoveItem(int)
+  fullName.vb: SearchAThing.Ext.ObservableCollection2(Of T).RemoveItem(Integer)
+  nameWithType: ObservableCollection2<T>.RemoveItem(int)
+  nameWithType.vb: ObservableCollection2(Of T).RemoveItem(Integer)
+- uid: SearchAThing.Ext.ObservableCollection2`1.RemoveItem*
+  name: RemoveItem
+  href: api/SearchAThing.Ext.ObservableCollection2-1.html#SearchAThing_Ext_ObservableCollection2_1_RemoveItem_
+  commentId: Overload:SearchAThing.Ext.ObservableCollection2`1.RemoveItem
+  isSpec: "True"
+  fullName: SearchAThing.Ext.ObservableCollection2<T>.RemoveItem
+  fullName.vb: SearchAThing.Ext.ObservableCollection2(Of T).RemoveItem
+  nameWithType: ObservableCollection2<T>.RemoveItem
+  nameWithType.vb: ObservableCollection2(Of T).RemoveItem
+- uid: SearchAThing.Ext.ObservableCollection2`1.SetItem(System.Int32,`0)
+  name: SetItem(int, T)
+  href: api/SearchAThing.Ext.ObservableCollection2-1.html#SearchAThing_Ext_ObservableCollection2_1_SetItem_System_Int32__0_
+  commentId: M:SearchAThing.Ext.ObservableCollection2`1.SetItem(System.Int32,`0)
+  name.vb: SetItem(Integer, T)
+  fullName: SearchAThing.Ext.ObservableCollection2<T>.SetItem(int, T)
+  fullName.vb: SearchAThing.Ext.ObservableCollection2(Of T).SetItem(Integer, T)
+  nameWithType: ObservableCollection2<T>.SetItem(int, T)
+  nameWithType.vb: ObservableCollection2(Of T).SetItem(Integer, T)
+- uid: SearchAThing.Ext.ObservableCollection2`1.SetItem*
+  name: SetItem
+  href: api/SearchAThing.Ext.ObservableCollection2-1.html#SearchAThing_Ext_ObservableCollection2_1_SetItem_
+  commentId: Overload:SearchAThing.Ext.ObservableCollection2`1.SetItem
+  isSpec: "True"
+  fullName: SearchAThing.Ext.ObservableCollection2<T>.SetItem
+  fullName.vb: SearchAThing.Ext.ObservableCollection2(Of T).SetItem
+  nameWithType: ObservableCollection2<T>.SetItem
+  nameWithType.vb: ObservableCollection2(Of T).SetItem
+- uid: SearchAThing.Ext.PaperSize
+  name: PaperSize
+  href: api/SearchAThing.Ext.PaperSize.html
+  commentId: T:SearchAThing.Ext.PaperSize
+  fullName: SearchAThing.Ext.PaperSize
+  nameWithType: PaperSize
+- uid: SearchAThing.Ext.PaperSize.#ctor(SearchAThing.Ext.PaperSizeEnum)
+  name: PaperSize(PaperSizeEnum)
+  href: api/SearchAThing.Ext.PaperSize.html#SearchAThing_Ext_PaperSize__ctor_SearchAThing_Ext_PaperSizeEnum_
+  commentId: M:SearchAThing.Ext.PaperSize.#ctor(SearchAThing.Ext.PaperSizeEnum)
+  name.vb: New(PaperSizeEnum)
+  fullName: SearchAThing.Ext.PaperSize.PaperSize(SearchAThing.Ext.PaperSizeEnum)
+  fullName.vb: SearchAThing.Ext.PaperSize.New(SearchAThing.Ext.PaperSizeEnum)
+  nameWithType: PaperSize.PaperSize(PaperSizeEnum)
+  nameWithType.vb: PaperSize.New(PaperSizeEnum)
+- uid: SearchAThing.Ext.PaperSize.#ctor(System.Double,System.Double)
+  name: PaperSize(double, double)
+  href: api/SearchAThing.Ext.PaperSize.html#SearchAThing_Ext_PaperSize__ctor_System_Double_System_Double_
+  commentId: M:SearchAThing.Ext.PaperSize.#ctor(System.Double,System.Double)
+  name.vb: New(Double, Double)
+  fullName: SearchAThing.Ext.PaperSize.PaperSize(double, double)
+  fullName.vb: SearchAThing.Ext.PaperSize.New(Double, Double)
+  nameWithType: PaperSize.PaperSize(double, double)
+  nameWithType.vb: PaperSize.New(Double, Double)
+- uid: SearchAThing.Ext.PaperSize.#ctor*
+  name: PaperSize
+  href: api/SearchAThing.Ext.PaperSize.html#SearchAThing_Ext_PaperSize__ctor_
+  commentId: Overload:SearchAThing.Ext.PaperSize.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: SearchAThing.Ext.PaperSize.PaperSize
+  fullName.vb: SearchAThing.Ext.PaperSize.New
+  nameWithType: PaperSize.PaperSize
+  nameWithType.vb: PaperSize.New
+- uid: SearchAThing.Ext.PaperSize.A0
+  name: A0
+  href: api/SearchAThing.Ext.PaperSize.html#SearchAThing_Ext_PaperSize_A0
+  commentId: F:SearchAThing.Ext.PaperSize.A0
+  fullName: SearchAThing.Ext.PaperSize.A0
+  nameWithType: PaperSize.A0
+- uid: SearchAThing.Ext.PaperSize.A1
+  name: A1
+  href: api/SearchAThing.Ext.PaperSize.html#SearchAThing_Ext_PaperSize_A1
+  commentId: F:SearchAThing.Ext.PaperSize.A1
+  fullName: SearchAThing.Ext.PaperSize.A1
+  nameWithType: PaperSize.A1
+- uid: SearchAThing.Ext.PaperSize.A10
+  name: A10
+  href: api/SearchAThing.Ext.PaperSize.html#SearchAThing_Ext_PaperSize_A10
+  commentId: F:SearchAThing.Ext.PaperSize.A10
+  fullName: SearchAThing.Ext.PaperSize.A10
+  nameWithType: PaperSize.A10
+- uid: SearchAThing.Ext.PaperSize.A2
+  name: A2
+  href: api/SearchAThing.Ext.PaperSize.html#SearchAThing_Ext_PaperSize_A2
+  commentId: F:SearchAThing.Ext.PaperSize.A2
+  fullName: SearchAThing.Ext.PaperSize.A2
+  nameWithType: PaperSize.A2
+- uid: SearchAThing.Ext.PaperSize.A3
+  name: A3
+  href: api/SearchAThing.Ext.PaperSize.html#SearchAThing_Ext_PaperSize_A3
+  commentId: F:SearchAThing.Ext.PaperSize.A3
+  fullName: SearchAThing.Ext.PaperSize.A3
+  nameWithType: PaperSize.A3
+- uid: SearchAThing.Ext.PaperSize.A4
+  name: A4
+  href: api/SearchAThing.Ext.PaperSize.html#SearchAThing_Ext_PaperSize_A4
+  commentId: F:SearchAThing.Ext.PaperSize.A4
+  fullName: SearchAThing.Ext.PaperSize.A4
+  nameWithType: PaperSize.A4
+- uid: SearchAThing.Ext.PaperSize.A5
+  name: A5
+  href: api/SearchAThing.Ext.PaperSize.html#SearchAThing_Ext_PaperSize_A5
+  commentId: F:SearchAThing.Ext.PaperSize.A5
+  fullName: SearchAThing.Ext.PaperSize.A5
+  nameWithType: PaperSize.A5
+- uid: SearchAThing.Ext.PaperSize.A6
+  name: A6
+  href: api/SearchAThing.Ext.PaperSize.html#SearchAThing_Ext_PaperSize_A6
+  commentId: F:SearchAThing.Ext.PaperSize.A6
+  fullName: SearchAThing.Ext.PaperSize.A6
+  nameWithType: PaperSize.A6
+- uid: SearchAThing.Ext.PaperSize.A7
+  name: A7
+  href: api/SearchAThing.Ext.PaperSize.html#SearchAThing_Ext_PaperSize_A7
+  commentId: F:SearchAThing.Ext.PaperSize.A7
+  fullName: SearchAThing.Ext.PaperSize.A7
+  nameWithType: PaperSize.A7
+- uid: SearchAThing.Ext.PaperSize.A8
+  name: A8
+  href: api/SearchAThing.Ext.PaperSize.html#SearchAThing_Ext_PaperSize_A8
+  commentId: F:SearchAThing.Ext.PaperSize.A8
+  fullName: SearchAThing.Ext.PaperSize.A8
+  nameWithType: PaperSize.A8
+- uid: SearchAThing.Ext.PaperSize.A9
+  name: A9
+  href: api/SearchAThing.Ext.PaperSize.html#SearchAThing_Ext_PaperSize_A9
+  commentId: F:SearchAThing.Ext.PaperSize.A9
+  fullName: SearchAThing.Ext.PaperSize.A9
+  nameWithType: PaperSize.A9
+- uid: SearchAThing.Ext.PaperSize.HeightMM
+  name: HeightMM
+  href: api/SearchAThing.Ext.PaperSize.html#SearchAThing_Ext_PaperSize_HeightMM
+  commentId: P:SearchAThing.Ext.PaperSize.HeightMM
+  fullName: SearchAThing.Ext.PaperSize.HeightMM
+  nameWithType: PaperSize.HeightMM
+- uid: SearchAThing.Ext.PaperSize.HeightMM*
+  name: HeightMM
+  href: api/SearchAThing.Ext.PaperSize.html#SearchAThing_Ext_PaperSize_HeightMM_
+  commentId: Overload:SearchAThing.Ext.PaperSize.HeightMM
+  isSpec: "True"
+  fullName: SearchAThing.Ext.PaperSize.HeightMM
+  nameWithType: PaperSize.HeightMM
+- uid: SearchAThing.Ext.PaperSize.Type
+  name: Type
+  href: api/SearchAThing.Ext.PaperSize.html#SearchAThing_Ext_PaperSize_Type
+  commentId: P:SearchAThing.Ext.PaperSize.Type
+  fullName: SearchAThing.Ext.PaperSize.Type
+  nameWithType: PaperSize.Type
+- uid: SearchAThing.Ext.PaperSize.Type*
+  name: Type
+  href: api/SearchAThing.Ext.PaperSize.html#SearchAThing_Ext_PaperSize_Type_
+  commentId: Overload:SearchAThing.Ext.PaperSize.Type
+  isSpec: "True"
+  fullName: SearchAThing.Ext.PaperSize.Type
+  nameWithType: PaperSize.Type
+- uid: SearchAThing.Ext.PaperSize.WidthMM
+  name: WidthMM
+  href: api/SearchAThing.Ext.PaperSize.html#SearchAThing_Ext_PaperSize_WidthMM
+  commentId: P:SearchAThing.Ext.PaperSize.WidthMM
+  fullName: SearchAThing.Ext.PaperSize.WidthMM
+  nameWithType: PaperSize.WidthMM
+- uid: SearchAThing.Ext.PaperSize.WidthMM*
+  name: WidthMM
+  href: api/SearchAThing.Ext.PaperSize.html#SearchAThing_Ext_PaperSize_WidthMM_
+  commentId: Overload:SearchAThing.Ext.PaperSize.WidthMM
+  isSpec: "True"
+  fullName: SearchAThing.Ext.PaperSize.WidthMM
+  nameWithType: PaperSize.WidthMM
+- uid: SearchAThing.Ext.PaperSizeEnum
+  name: PaperSizeEnum
+  href: api/SearchAThing.Ext.PaperSizeEnum.html
+  commentId: T:SearchAThing.Ext.PaperSizeEnum
+  fullName: SearchAThing.Ext.PaperSizeEnum
+  nameWithType: PaperSizeEnum
+- uid: SearchAThing.Ext.PaperSizeEnum.A0
+  name: A0
+  href: api/SearchAThing.Ext.PaperSizeEnum.html#SearchAThing_Ext_PaperSizeEnum_A0
+  commentId: F:SearchAThing.Ext.PaperSizeEnum.A0
+  fullName: SearchAThing.Ext.PaperSizeEnum.A0
+  nameWithType: PaperSizeEnum.A0
+- uid: SearchAThing.Ext.PaperSizeEnum.A1
+  name: A1
+  href: api/SearchAThing.Ext.PaperSizeEnum.html#SearchAThing_Ext_PaperSizeEnum_A1
+  commentId: F:SearchAThing.Ext.PaperSizeEnum.A1
+  fullName: SearchAThing.Ext.PaperSizeEnum.A1
+  nameWithType: PaperSizeEnum.A1
+- uid: SearchAThing.Ext.PaperSizeEnum.A10
+  name: A10
+  href: api/SearchAThing.Ext.PaperSizeEnum.html#SearchAThing_Ext_PaperSizeEnum_A10
+  commentId: F:SearchAThing.Ext.PaperSizeEnum.A10
+  fullName: SearchAThing.Ext.PaperSizeEnum.A10
+  nameWithType: PaperSizeEnum.A10
+- uid: SearchAThing.Ext.PaperSizeEnum.A2
+  name: A2
+  href: api/SearchAThing.Ext.PaperSizeEnum.html#SearchAThing_Ext_PaperSizeEnum_A2
+  commentId: F:SearchAThing.Ext.PaperSizeEnum.A2
+  fullName: SearchAThing.Ext.PaperSizeEnum.A2
+  nameWithType: PaperSizeEnum.A2
+- uid: SearchAThing.Ext.PaperSizeEnum.A3
+  name: A3
+  href: api/SearchAThing.Ext.PaperSizeEnum.html#SearchAThing_Ext_PaperSizeEnum_A3
+  commentId: F:SearchAThing.Ext.PaperSizeEnum.A3
+  fullName: SearchAThing.Ext.PaperSizeEnum.A3
+  nameWithType: PaperSizeEnum.A3
+- uid: SearchAThing.Ext.PaperSizeEnum.A4
+  name: A4
+  href: api/SearchAThing.Ext.PaperSizeEnum.html#SearchAThing_Ext_PaperSizeEnum_A4
+  commentId: F:SearchAThing.Ext.PaperSizeEnum.A4
+  fullName: SearchAThing.Ext.PaperSizeEnum.A4
+  nameWithType: PaperSizeEnum.A4
+- uid: SearchAThing.Ext.PaperSizeEnum.A5
+  name: A5
+  href: api/SearchAThing.Ext.PaperSizeEnum.html#SearchAThing_Ext_PaperSizeEnum_A5
+  commentId: F:SearchAThing.Ext.PaperSizeEnum.A5
+  fullName: SearchAThing.Ext.PaperSizeEnum.A5
+  nameWithType: PaperSizeEnum.A5
+- uid: SearchAThing.Ext.PaperSizeEnum.A6
+  name: A6
+  href: api/SearchAThing.Ext.PaperSizeEnum.html#SearchAThing_Ext_PaperSizeEnum_A6
+  commentId: F:SearchAThing.Ext.PaperSizeEnum.A6
+  fullName: SearchAThing.Ext.PaperSizeEnum.A6
+  nameWithType: PaperSizeEnum.A6
+- uid: SearchAThing.Ext.PaperSizeEnum.A7
+  name: A7
+  href: api/SearchAThing.Ext.PaperSizeEnum.html#SearchAThing_Ext_PaperSizeEnum_A7
+  commentId: F:SearchAThing.Ext.PaperSizeEnum.A7
+  fullName: SearchAThing.Ext.PaperSizeEnum.A7
+  nameWithType: PaperSizeEnum.A7
+- uid: SearchAThing.Ext.PaperSizeEnum.A8
+  name: A8
+  href: api/SearchAThing.Ext.PaperSizeEnum.html#SearchAThing_Ext_PaperSizeEnum_A8
+  commentId: F:SearchAThing.Ext.PaperSizeEnum.A8
+  fullName: SearchAThing.Ext.PaperSizeEnum.A8
+  nameWithType: PaperSizeEnum.A8
+- uid: SearchAThing.Ext.PaperSizeEnum.A9
+  name: A9
+  href: api/SearchAThing.Ext.PaperSizeEnum.html#SearchAThing_Ext_PaperSizeEnum_A9
+  commentId: F:SearchAThing.Ext.PaperSizeEnum.A9
+  fullName: SearchAThing.Ext.PaperSizeEnum.A9
+  nameWithType: PaperSizeEnum.A9
+- uid: SearchAThing.Ext.PaperSizeEnum.Custom
+  name: Custom
+  href: api/SearchAThing.Ext.PaperSizeEnum.html#SearchAThing_Ext_PaperSizeEnum_Custom
+  commentId: F:SearchAThing.Ext.PaperSizeEnum.Custom
+  fullName: SearchAThing.Ext.PaperSizeEnum.Custom
+  nameWithType: PaperSizeEnum.Custom
+- uid: SearchAThing.Ext.RStruct`1
+  name: RStruct<T>
+  href: api/SearchAThing.Ext.RStruct-1.html
+  commentId: T:SearchAThing.Ext.RStruct`1
+  name.vb: RStruct(Of T)
+  fullName: SearchAThing.Ext.RStruct<T>
+  fullName.vb: SearchAThing.Ext.RStruct(Of T)
+  nameWithType: RStruct<T>
+  nameWithType.vb: RStruct(Of T)
+- uid: SearchAThing.Ext.RStruct`1.#ctor(`0)
+  name: RStruct(T)
+  href: api/SearchAThing.Ext.RStruct-1.html#SearchAThing_Ext_RStruct_1__ctor__0_
+  commentId: M:SearchAThing.Ext.RStruct`1.#ctor(`0)
+  name.vb: New(T)
+  fullName: SearchAThing.Ext.RStruct<T>.RStruct(T)
+  fullName.vb: SearchAThing.Ext.RStruct(Of T).New(T)
+  nameWithType: RStruct<T>.RStruct(T)
+  nameWithType.vb: RStruct(Of T).New(T)
+- uid: SearchAThing.Ext.RStruct`1.#ctor*
+  name: RStruct
+  href: api/SearchAThing.Ext.RStruct-1.html#SearchAThing_Ext_RStruct_1__ctor_
+  commentId: Overload:SearchAThing.Ext.RStruct`1.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: SearchAThing.Ext.RStruct<T>.RStruct
+  fullName.vb: SearchAThing.Ext.RStruct(Of T).New
+  nameWithType: RStruct<T>.RStruct
+  nameWithType.vb: RStruct(Of T).New
+- uid: SearchAThing.Ext.RStruct`1.ToString
+  name: ToString()
+  href: api/SearchAThing.Ext.RStruct-1.html#SearchAThing_Ext_RStruct_1_ToString
+  commentId: M:SearchAThing.Ext.RStruct`1.ToString
+  fullName: SearchAThing.Ext.RStruct<T>.ToString()
+  fullName.vb: SearchAThing.Ext.RStruct(Of T).ToString()
+  nameWithType: RStruct<T>.ToString()
+  nameWithType.vb: RStruct(Of T).ToString()
+- uid: SearchAThing.Ext.RStruct`1.ToString*
+  name: ToString
+  href: api/SearchAThing.Ext.RStruct-1.html#SearchAThing_Ext_RStruct_1_ToString_
+  commentId: Overload:SearchAThing.Ext.RStruct`1.ToString
+  isSpec: "True"
+  fullName: SearchAThing.Ext.RStruct<T>.ToString
+  fullName.vb: SearchAThing.Ext.RStruct(Of T).ToString
+  nameWithType: RStruct<T>.ToString
+  nameWithType.vb: RStruct(Of T).ToString
+- uid: SearchAThing.Ext.RStruct`1.Value
+  name: Value
+  href: api/SearchAThing.Ext.RStruct-1.html#SearchAThing_Ext_RStruct_1_Value
+  commentId: P:SearchAThing.Ext.RStruct`1.Value
+  fullName: SearchAThing.Ext.RStruct<T>.Value
+  fullName.vb: SearchAThing.Ext.RStruct(Of T).Value
+  nameWithType: RStruct<T>.Value
+  nameWithType.vb: RStruct(Of T).Value
+- uid: SearchAThing.Ext.RStruct`1.Value*
+  name: Value
+  href: api/SearchAThing.Ext.RStruct-1.html#SearchAThing_Ext_RStruct_1_Value_
+  commentId: Overload:SearchAThing.Ext.RStruct`1.Value
+  isSpec: "True"
+  fullName: SearchAThing.Ext.RStruct<T>.Value
+  fullName.vb: SearchAThing.Ext.RStruct(Of T).Value
+  nameWithType: RStruct<T>.Value
+  nameWithType.vb: RStruct(Of T).Value
+- uid: SearchAThing.Ext.RStruct`1.op_Implicit(SearchAThing.Ext.RStruct{`0})~`0
+  name: implicit operator T(RStruct<T>)
+  href: api/SearchAThing.Ext.RStruct-1.html#SearchAThing_Ext_RStruct_1_op_Implicit_SearchAThing_Ext_RStruct__0____0
+  commentId: M:SearchAThing.Ext.RStruct`1.op_Implicit(SearchAThing.Ext.RStruct{`0})~`0
+  name.vb: CType(RStruct(Of T))
+  fullName: SearchAThing.Ext.RStruct<T>.implicit operator T(SearchAThing.Ext.RStruct<T>)
+  fullName.vb: SearchAThing.Ext.RStruct(Of T).CType(SearchAThing.Ext.RStruct(Of T))
+  nameWithType: RStruct<T>.implicit operator T(RStruct<T>)
+  nameWithType.vb: RStruct(Of T).CType(RStruct(Of T))
+- uid: SearchAThing.Ext.RStruct`1.op_Implicit*
+  name: implicit operator
+  href: api/SearchAThing.Ext.RStruct-1.html#SearchAThing_Ext_RStruct_1_op_Implicit_
+  commentId: Overload:SearchAThing.Ext.RStruct`1.op_Implicit
+  isSpec: "True"
+  name.vb: CType
+  fullName: SearchAThing.Ext.RStruct<T>.implicit operator
+  fullName.vb: SearchAThing.Ext.RStruct(Of T).CType
+  nameWithType: RStruct<T>.implicit operator
+  nameWithType.vb: RStruct(Of T).CType
+- uid: SearchAThing.Ext.RandomPasswordOptions
+  name: RandomPasswordOptions
+  href: api/SearchAThing.Ext.RandomPasswordOptions.html
+  commentId: T:SearchAThing.Ext.RandomPasswordOptions
+  fullName: SearchAThing.Ext.RandomPasswordOptions
+  nameWithType: RandomPasswordOptions
+- uid: SearchAThing.Ext.RandomPasswordOptions.AllowLetter
+  name: AllowLetter
+  href: api/SearchAThing.Ext.RandomPasswordOptions.html#SearchAThing_Ext_RandomPasswordOptions_AllowLetter
+  commentId: P:SearchAThing.Ext.RandomPasswordOptions.AllowLetter
+  fullName: SearchAThing.Ext.RandomPasswordOptions.AllowLetter
+  nameWithType: RandomPasswordOptions.AllowLetter
+- uid: SearchAThing.Ext.RandomPasswordOptions.AllowLetter*
+  name: AllowLetter
+  href: api/SearchAThing.Ext.RandomPasswordOptions.html#SearchAThing_Ext_RandomPasswordOptions_AllowLetter_
+  commentId: Overload:SearchAThing.Ext.RandomPasswordOptions.AllowLetter
+  isSpec: "True"
+  fullName: SearchAThing.Ext.RandomPasswordOptions.AllowLetter
+  nameWithType: RandomPasswordOptions.AllowLetter
+- uid: SearchAThing.Ext.RandomPasswordOptions.AllowLowercase
+  name: AllowLowercase
+  href: api/SearchAThing.Ext.RandomPasswordOptions.html#SearchAThing_Ext_RandomPasswordOptions_AllowLowercase
+  commentId: P:SearchAThing.Ext.RandomPasswordOptions.AllowLowercase
+  fullName: SearchAThing.Ext.RandomPasswordOptions.AllowLowercase
+  nameWithType: RandomPasswordOptions.AllowLowercase
+- uid: SearchAThing.Ext.RandomPasswordOptions.AllowLowercase*
+  name: AllowLowercase
+  href: api/SearchAThing.Ext.RandomPasswordOptions.html#SearchAThing_Ext_RandomPasswordOptions_AllowLowercase_
+  commentId: Overload:SearchAThing.Ext.RandomPasswordOptions.AllowLowercase
+  isSpec: "True"
+  fullName: SearchAThing.Ext.RandomPasswordOptions.AllowLowercase
+  nameWithType: RandomPasswordOptions.AllowLowercase
+- uid: SearchAThing.Ext.RandomPasswordOptions.AllowNumber
+  name: AllowNumber
+  href: api/SearchAThing.Ext.RandomPasswordOptions.html#SearchAThing_Ext_RandomPasswordOptions_AllowNumber
+  commentId: P:SearchAThing.Ext.RandomPasswordOptions.AllowNumber
+  fullName: SearchAThing.Ext.RandomPasswordOptions.AllowNumber
+  nameWithType: RandomPasswordOptions.AllowNumber
+- uid: SearchAThing.Ext.RandomPasswordOptions.AllowNumber*
+  name: AllowNumber
+  href: api/SearchAThing.Ext.RandomPasswordOptions.html#SearchAThing_Ext_RandomPasswordOptions_AllowNumber_
+  commentId: Overload:SearchAThing.Ext.RandomPasswordOptions.AllowNumber
+  isSpec: "True"
+  fullName: SearchAThing.Ext.RandomPasswordOptions.AllowNumber
+  nameWithType: RandomPasswordOptions.AllowNumber
+- uid: SearchAThing.Ext.RandomPasswordOptions.AllowSpecial
+  name: AllowSpecial
+  href: api/SearchAThing.Ext.RandomPasswordOptions.html#SearchAThing_Ext_RandomPasswordOptions_AllowSpecial
+  commentId: P:SearchAThing.Ext.RandomPasswordOptions.AllowSpecial
+  fullName: SearchAThing.Ext.RandomPasswordOptions.AllowSpecial
+  nameWithType: RandomPasswordOptions.AllowSpecial
+- uid: SearchAThing.Ext.RandomPasswordOptions.AllowSpecial*
+  name: AllowSpecial
+  href: api/SearchAThing.Ext.RandomPasswordOptions.html#SearchAThing_Ext_RandomPasswordOptions_AllowSpecial_
+  commentId: Overload:SearchAThing.Ext.RandomPasswordOptions.AllowSpecial
+  isSpec: "True"
+  fullName: SearchAThing.Ext.RandomPasswordOptions.AllowSpecial
+  nameWithType: RandomPasswordOptions.AllowSpecial
+- uid: SearchAThing.Ext.RandomPasswordOptions.AllowUppercase
+  name: AllowUppercase
+  href: api/SearchAThing.Ext.RandomPasswordOptions.html#SearchAThing_Ext_RandomPasswordOptions_AllowUppercase
+  commentId: P:SearchAThing.Ext.RandomPasswordOptions.AllowUppercase
+  fullName: SearchAThing.Ext.RandomPasswordOptions.AllowUppercase
+  nameWithType: RandomPasswordOptions.AllowUppercase
+- uid: SearchAThing.Ext.RandomPasswordOptions.AllowUppercase*
+  name: AllowUppercase
+  href: api/SearchAThing.Ext.RandomPasswordOptions.html#SearchAThing_Ext_RandomPasswordOptions_AllowUppercase_
+  commentId: Overload:SearchAThing.Ext.RandomPasswordOptions.AllowUppercase
+  isSpec: "True"
+  fullName: SearchAThing.Ext.RandomPasswordOptions.AllowUppercase
+  nameWithType: RandomPasswordOptions.AllowUppercase
+- uid: SearchAThing.Ext.RandomPasswordOptions.AtLeastOneNumber
+  name: AtLeastOneNumber
+  href: api/SearchAThing.Ext.RandomPasswordOptions.html#SearchAThing_Ext_RandomPasswordOptions_AtLeastOneNumber
+  commentId: P:SearchAThing.Ext.RandomPasswordOptions.AtLeastOneNumber
+  fullName: SearchAThing.Ext.RandomPasswordOptions.AtLeastOneNumber
+  nameWithType: RandomPasswordOptions.AtLeastOneNumber
+- uid: SearchAThing.Ext.RandomPasswordOptions.AtLeastOneNumber*
+  name: AtLeastOneNumber
+  href: api/SearchAThing.Ext.RandomPasswordOptions.html#SearchAThing_Ext_RandomPasswordOptions_AtLeastOneNumber_
+  commentId: Overload:SearchAThing.Ext.RandomPasswordOptions.AtLeastOneNumber
+  isSpec: "True"
+  fullName: SearchAThing.Ext.RandomPasswordOptions.AtLeastOneNumber
+  nameWithType: RandomPasswordOptions.AtLeastOneNumber
+- uid: SearchAThing.Ext.RandomPasswordOptions.AtLeastOneSpecial
+  name: AtLeastOneSpecial
+  href: api/SearchAThing.Ext.RandomPasswordOptions.html#SearchAThing_Ext_RandomPasswordOptions_AtLeastOneSpecial
+  commentId: P:SearchAThing.Ext.RandomPasswordOptions.AtLeastOneSpecial
+  fullName: SearchAThing.Ext.RandomPasswordOptions.AtLeastOneSpecial
+  nameWithType: RandomPasswordOptions.AtLeastOneSpecial
+- uid: SearchAThing.Ext.RandomPasswordOptions.AtLeastOneSpecial*
+  name: AtLeastOneSpecial
+  href: api/SearchAThing.Ext.RandomPasswordOptions.html#SearchAThing_Ext_RandomPasswordOptions_AtLeastOneSpecial_
+  commentId: Overload:SearchAThing.Ext.RandomPasswordOptions.AtLeastOneSpecial
+  isSpec: "True"
+  fullName: SearchAThing.Ext.RandomPasswordOptions.AtLeastOneSpecial
+  nameWithType: RandomPasswordOptions.AtLeastOneSpecial
+- uid: SearchAThing.Ext.RandomPasswordOptions.AtLeastOneUppercase
+  name: AtLeastOneUppercase
+  href: api/SearchAThing.Ext.RandomPasswordOptions.html#SearchAThing_Ext_RandomPasswordOptions_AtLeastOneUppercase
+  commentId: P:SearchAThing.Ext.RandomPasswordOptions.AtLeastOneUppercase
+  fullName: SearchAThing.Ext.RandomPasswordOptions.AtLeastOneUppercase
+  nameWithType: RandomPasswordOptions.AtLeastOneUppercase
+- uid: SearchAThing.Ext.RandomPasswordOptions.AtLeastOneUppercase*
+  name: AtLeastOneUppercase
+  href: api/SearchAThing.Ext.RandomPasswordOptions.html#SearchAThing_Ext_RandomPasswordOptions_AtLeastOneUppercase_
+  commentId: Overload:SearchAThing.Ext.RandomPasswordOptions.AtLeastOneUppercase
+  isSpec: "True"
+  fullName: SearchAThing.Ext.RandomPasswordOptions.AtLeastOneUppercase
+  nameWithType: RandomPasswordOptions.AtLeastOneUppercase
+- uid: SearchAThing.Ext.RandomPasswordOptions.AvoidChars
+  name: AvoidChars
+  href: api/SearchAThing.Ext.RandomPasswordOptions.html#SearchAThing_Ext_RandomPasswordOptions_AvoidChars
+  commentId: P:SearchAThing.Ext.RandomPasswordOptions.AvoidChars
+  fullName: SearchAThing.Ext.RandomPasswordOptions.AvoidChars
+  nameWithType: RandomPasswordOptions.AvoidChars
+- uid: SearchAThing.Ext.RandomPasswordOptions.AvoidChars*
+  name: AvoidChars
+  href: api/SearchAThing.Ext.RandomPasswordOptions.html#SearchAThing_Ext_RandomPasswordOptions_AvoidChars_
+  commentId: Overload:SearchAThing.Ext.RandomPasswordOptions.AvoidChars
+  isSpec: "True"
+  fullName: SearchAThing.Ext.RandomPasswordOptions.AvoidChars
+  nameWithType: RandomPasswordOptions.AvoidChars
+- uid: SearchAThing.Ext.RandomPasswordOptions.Length
+  name: Length
+  href: api/SearchAThing.Ext.RandomPasswordOptions.html#SearchAThing_Ext_RandomPasswordOptions_Length
+  commentId: P:SearchAThing.Ext.RandomPasswordOptions.Length
+  fullName: SearchAThing.Ext.RandomPasswordOptions.Length
+  nameWithType: RandomPasswordOptions.Length
+- uid: SearchAThing.Ext.RandomPasswordOptions.Length*
+  name: Length
+  href: api/SearchAThing.Ext.RandomPasswordOptions.html#SearchAThing_Ext_RandomPasswordOptions_Length_
+  commentId: Overload:SearchAThing.Ext.RandomPasswordOptions.Length
+  isSpec: "True"
+  fullName: SearchAThing.Ext.RandomPasswordOptions.Length
+  nameWithType: RandomPasswordOptions.Length
+- uid: SearchAThing.Ext.RandomPasswordOptions.LoopCount
+  name: LoopCount
+  href: api/SearchAThing.Ext.RandomPasswordOptions.html#SearchAThing_Ext_RandomPasswordOptions_LoopCount
+  commentId: P:SearchAThing.Ext.RandomPasswordOptions.LoopCount
+  fullName: SearchAThing.Ext.RandomPasswordOptions.LoopCount
+  nameWithType: RandomPasswordOptions.LoopCount
+- uid: SearchAThing.Ext.RandomPasswordOptions.LoopCount*
+  name: LoopCount
+  href: api/SearchAThing.Ext.RandomPasswordOptions.html#SearchAThing_Ext_RandomPasswordOptions_LoopCount_
+  commentId: Overload:SearchAThing.Ext.RandomPasswordOptions.LoopCount
+  isSpec: "True"
+  fullName: SearchAThing.Ext.RandomPasswordOptions.LoopCount
+  nameWithType: RandomPasswordOptions.LoopCount
+- uid: SearchAThing.Ext.RandomPasswordOptions.MaxSpecial
+  name: MaxSpecial
+  href: api/SearchAThing.Ext.RandomPasswordOptions.html#SearchAThing_Ext_RandomPasswordOptions_MaxSpecial
+  commentId: P:SearchAThing.Ext.RandomPasswordOptions.MaxSpecial
+  fullName: SearchAThing.Ext.RandomPasswordOptions.MaxSpecial
+  nameWithType: RandomPasswordOptions.MaxSpecial
+- uid: SearchAThing.Ext.RandomPasswordOptions.MaxSpecial*
+  name: MaxSpecial
+  href: api/SearchAThing.Ext.RandomPasswordOptions.html#SearchAThing_Ext_RandomPasswordOptions_MaxSpecial_
+  commentId: Overload:SearchAThing.Ext.RandomPasswordOptions.MaxSpecial
+  isSpec: "True"
+  fullName: SearchAThing.Ext.RandomPasswordOptions.MaxSpecial
+  nameWithType: RandomPasswordOptions.MaxSpecial
+- uid: SearchAThing.Ext.ReadOnlyHashSet`1
+  name: ReadOnlyHashSet<T>
+  href: api/SearchAThing.Ext.ReadOnlyHashSet-1.html
+  commentId: T:SearchAThing.Ext.ReadOnlyHashSet`1
+  name.vb: ReadOnlyHashSet(Of T)
+  fullName: SearchAThing.Ext.ReadOnlyHashSet<T>
+  fullName.vb: SearchAThing.Ext.ReadOnlyHashSet(Of T)
+  nameWithType: ReadOnlyHashSet<T>
+  nameWithType.vb: ReadOnlyHashSet(Of T)
+- uid: SearchAThing.Ext.ReadOnlyHashSet`1.#ctor(System.Collections.Generic.HashSet{`0})
+  name: ReadOnlyHashSet(HashSet<T>)
+  href: api/SearchAThing.Ext.ReadOnlyHashSet-1.html#SearchAThing_Ext_ReadOnlyHashSet_1__ctor_System_Collections_Generic_HashSet__0__
+  commentId: M:SearchAThing.Ext.ReadOnlyHashSet`1.#ctor(System.Collections.Generic.HashSet{`0})
+  name.vb: New(HashSet(Of T))
+  fullName: SearchAThing.Ext.ReadOnlyHashSet<T>.ReadOnlyHashSet(System.Collections.Generic.HashSet<T>)
+  fullName.vb: SearchAThing.Ext.ReadOnlyHashSet(Of T).New(System.Collections.Generic.HashSet(Of T))
+  nameWithType: ReadOnlyHashSet<T>.ReadOnlyHashSet(HashSet<T>)
+  nameWithType.vb: ReadOnlyHashSet(Of T).New(HashSet(Of T))
+- uid: SearchAThing.Ext.ReadOnlyHashSet`1.#ctor*
+  name: ReadOnlyHashSet
+  href: api/SearchAThing.Ext.ReadOnlyHashSet-1.html#SearchAThing_Ext_ReadOnlyHashSet_1__ctor_
+  commentId: Overload:SearchAThing.Ext.ReadOnlyHashSet`1.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: SearchAThing.Ext.ReadOnlyHashSet<T>.ReadOnlyHashSet
+  fullName.vb: SearchAThing.Ext.ReadOnlyHashSet(Of T).New
+  nameWithType: ReadOnlyHashSet<T>.ReadOnlyHashSet
+  nameWithType.vb: ReadOnlyHashSet(Of T).New
+- uid: SearchAThing.Ext.ReadOnlyHashSet`1.Contains(`0)
+  name: Contains(T)
+  href: api/SearchAThing.Ext.ReadOnlyHashSet-1.html#SearchAThing_Ext_ReadOnlyHashSet_1_Contains__0_
+  commentId: M:SearchAThing.Ext.ReadOnlyHashSet`1.Contains(`0)
+  fullName: SearchAThing.Ext.ReadOnlyHashSet<T>.Contains(T)
+  fullName.vb: SearchAThing.Ext.ReadOnlyHashSet(Of T).Contains(T)
+  nameWithType: ReadOnlyHashSet<T>.Contains(T)
+  nameWithType.vb: ReadOnlyHashSet(Of T).Contains(T)
+- uid: SearchAThing.Ext.ReadOnlyHashSet`1.Contains*
+  name: Contains
+  href: api/SearchAThing.Ext.ReadOnlyHashSet-1.html#SearchAThing_Ext_ReadOnlyHashSet_1_Contains_
+  commentId: Overload:SearchAThing.Ext.ReadOnlyHashSet`1.Contains
+  isSpec: "True"
+  fullName: SearchAThing.Ext.ReadOnlyHashSet<T>.Contains
+  fullName.vb: SearchAThing.Ext.ReadOnlyHashSet(Of T).Contains
+  nameWithType: ReadOnlyHashSet<T>.Contains
+  nameWithType.vb: ReadOnlyHashSet(Of T).Contains
+- uid: SearchAThing.Ext.ReadOnlyHashSet`1.Count
+  name: Count
+  href: api/SearchAThing.Ext.ReadOnlyHashSet-1.html#SearchAThing_Ext_ReadOnlyHashSet_1_Count
+  commentId: P:SearchAThing.Ext.ReadOnlyHashSet`1.Count
+  fullName: SearchAThing.Ext.ReadOnlyHashSet<T>.Count
+  fullName.vb: SearchAThing.Ext.ReadOnlyHashSet(Of T).Count
+  nameWithType: ReadOnlyHashSet<T>.Count
+  nameWithType.vb: ReadOnlyHashSet(Of T).Count
+- uid: SearchAThing.Ext.ReadOnlyHashSet`1.Count*
+  name: Count
+  href: api/SearchAThing.Ext.ReadOnlyHashSet-1.html#SearchAThing_Ext_ReadOnlyHashSet_1_Count_
+  commentId: Overload:SearchAThing.Ext.ReadOnlyHashSet`1.Count
+  isSpec: "True"
+  fullName: SearchAThing.Ext.ReadOnlyHashSet<T>.Count
+  fullName.vb: SearchAThing.Ext.ReadOnlyHashSet(Of T).Count
+  nameWithType: ReadOnlyHashSet<T>.Count
+  nameWithType.vb: ReadOnlyHashSet(Of T).Count
+- uid: SearchAThing.Ext.ReadOnlyHashSet`1.GetEnumerator
+  name: GetEnumerator()
+  href: api/SearchAThing.Ext.ReadOnlyHashSet-1.html#SearchAThing_Ext_ReadOnlyHashSet_1_GetEnumerator
+  commentId: M:SearchAThing.Ext.ReadOnlyHashSet`1.GetEnumerator
+  fullName: SearchAThing.Ext.ReadOnlyHashSet<T>.GetEnumerator()
+  fullName.vb: SearchAThing.Ext.ReadOnlyHashSet(Of T).GetEnumerator()
+  nameWithType: ReadOnlyHashSet<T>.GetEnumerator()
+  nameWithType.vb: ReadOnlyHashSet(Of T).GetEnumerator()
+- uid: SearchAThing.Ext.ReadOnlyHashSet`1.GetEnumerator*
+  name: GetEnumerator
+  href: api/SearchAThing.Ext.ReadOnlyHashSet-1.html#SearchAThing_Ext_ReadOnlyHashSet_1_GetEnumerator_
+  commentId: Overload:SearchAThing.Ext.ReadOnlyHashSet`1.GetEnumerator
+  isSpec: "True"
+  fullName: SearchAThing.Ext.ReadOnlyHashSet<T>.GetEnumerator
+  fullName.vb: SearchAThing.Ext.ReadOnlyHashSet(Of T).GetEnumerator
+  nameWithType: ReadOnlyHashSet<T>.GetEnumerator
+  nameWithType.vb: ReadOnlyHashSet(Of T).GetEnumerator
+- uid: SearchAThing.Ext.StringWrapper
+  name: StringWrapper
+  href: api/SearchAThing.Ext.StringWrapper.html
+  commentId: T:SearchAThing.Ext.StringWrapper
+  fullName: SearchAThing.Ext.StringWrapper
+  nameWithType: StringWrapper
+- uid: SearchAThing.Ext.StringWrapper.#ctor(System.String)
+  name: StringWrapper(string)
+  href: api/SearchAThing.Ext.StringWrapper.html#SearchAThing_Ext_StringWrapper__ctor_System_String_
+  commentId: M:SearchAThing.Ext.StringWrapper.#ctor(System.String)
+  name.vb: New(String)
+  fullName: SearchAThing.Ext.StringWrapper.StringWrapper(string)
+  fullName.vb: SearchAThing.Ext.StringWrapper.New(String)
+  nameWithType: StringWrapper.StringWrapper(string)
+  nameWithType.vb: StringWrapper.New(String)
+- uid: SearchAThing.Ext.StringWrapper.#ctor*
+  name: StringWrapper
+  href: api/SearchAThing.Ext.StringWrapper.html#SearchAThing_Ext_StringWrapper__ctor_
+  commentId: Overload:SearchAThing.Ext.StringWrapper.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: SearchAThing.Ext.StringWrapper.StringWrapper
+  fullName.vb: SearchAThing.Ext.StringWrapper.New
+  nameWithType: StringWrapper.StringWrapper
+  nameWithType.vb: StringWrapper.New
+- uid: SearchAThing.Ext.StringWrapper.LineReader
+  name: LineReader()
+  href: api/SearchAThing.Ext.StringWrapper.html#SearchAThing_Ext_StringWrapper_LineReader
+  commentId: M:SearchAThing.Ext.StringWrapper.LineReader
+  fullName: SearchAThing.Ext.StringWrapper.LineReader()
+  nameWithType: StringWrapper.LineReader()
+- uid: SearchAThing.Ext.StringWrapper.LineReader*
+  name: LineReader
+  href: api/SearchAThing.Ext.StringWrapper.html#SearchAThing_Ext_StringWrapper_LineReader_
+  commentId: Overload:SearchAThing.Ext.StringWrapper.LineReader
+  isSpec: "True"
+  fullName: SearchAThing.Ext.StringWrapper.LineReader
+  nameWithType: StringWrapper.LineReader
+- uid: SearchAThing.Ext.StringWrapper.Lines
+  name: Lines()
+  href: api/SearchAThing.Ext.StringWrapper.html#SearchAThing_Ext_StringWrapper_Lines
+  commentId: M:SearchAThing.Ext.StringWrapper.Lines
+  fullName: SearchAThing.Ext.StringWrapper.Lines()
+  nameWithType: StringWrapper.Lines()
+- uid: SearchAThing.Ext.StringWrapper.Lines*
+  name: Lines
+  href: api/SearchAThing.Ext.StringWrapper.html#SearchAThing_Ext_StringWrapper_Lines_
+  commentId: Overload:SearchAThing.Ext.StringWrapper.Lines
+  isSpec: "True"
+  fullName: SearchAThing.Ext.StringWrapper.Lines
+  nameWithType: StringWrapper.Lines
+- uid: SearchAThing.Ext.StringWrapper.ToString
+  name: ToString()
+  href: api/SearchAThing.Ext.StringWrapper.html#SearchAThing_Ext_StringWrapper_ToString
+  commentId: M:SearchAThing.Ext.StringWrapper.ToString
+  fullName: SearchAThing.Ext.StringWrapper.ToString()
+  nameWithType: StringWrapper.ToString()
+- uid: SearchAThing.Ext.StringWrapper.ToString*
+  name: ToString
+  href: api/SearchAThing.Ext.StringWrapper.html#SearchAThing_Ext_StringWrapper_ToString_
+  commentId: Overload:SearchAThing.Ext.StringWrapper.ToString
+  isSpec: "True"
+  fullName: SearchAThing.Ext.StringWrapper.ToString
+  nameWithType: StringWrapper.ToString
+- uid: SearchAThing.Ext.StringWrapper.str
+  name: str
+  href: api/SearchAThing.Ext.StringWrapper.html#SearchAThing_Ext_StringWrapper_str
+  commentId: F:SearchAThing.Ext.StringWrapper.str
+  fullName: SearchAThing.Ext.StringWrapper.str
+  nameWithType: StringWrapper.str
+- uid: SearchAThing.Ext.StringWrapperLineReader
+  name: StringWrapperLineReader
+  href: api/SearchAThing.Ext.StringWrapperLineReader.html
+  commentId: T:SearchAThing.Ext.StringWrapperLineReader
+  fullName: SearchAThing.Ext.StringWrapperLineReader
+  nameWithType: StringWrapperLineReader
+- uid: SearchAThing.Ext.StringWrapperLineReader.#ctor(SearchAThing.Ext.StringWrapper)
+  name: StringWrapperLineReader(StringWrapper)
+  href: api/SearchAThing.Ext.StringWrapperLineReader.html#SearchAThing_Ext_StringWrapperLineReader__ctor_SearchAThing_Ext_StringWrapper_
+  commentId: M:SearchAThing.Ext.StringWrapperLineReader.#ctor(SearchAThing.Ext.StringWrapper)
+  name.vb: New(StringWrapper)
+  fullName: SearchAThing.Ext.StringWrapperLineReader.StringWrapperLineReader(SearchAThing.Ext.StringWrapper)
+  fullName.vb: SearchAThing.Ext.StringWrapperLineReader.New(SearchAThing.Ext.StringWrapper)
+  nameWithType: StringWrapperLineReader.StringWrapperLineReader(StringWrapper)
+  nameWithType.vb: StringWrapperLineReader.New(StringWrapper)
+- uid: SearchAThing.Ext.StringWrapperLineReader.#ctor*
+  name: StringWrapperLineReader
+  href: api/SearchAThing.Ext.StringWrapperLineReader.html#SearchAThing_Ext_StringWrapperLineReader__ctor_
+  commentId: Overload:SearchAThing.Ext.StringWrapperLineReader.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: SearchAThing.Ext.StringWrapperLineReader.StringWrapperLineReader
+  fullName.vb: SearchAThing.Ext.StringWrapperLineReader.New
+  nameWithType: StringWrapperLineReader.StringWrapperLineReader
+  nameWithType.vb: StringWrapperLineReader.New
+- uid: SearchAThing.Ext.StringWrapperLineReader.GetNext
+  name: GetNext()
+  href: api/SearchAThing.Ext.StringWrapperLineReader.html#SearchAThing_Ext_StringWrapperLineReader_GetNext
+  commentId: M:SearchAThing.Ext.StringWrapperLineReader.GetNext
+  fullName: SearchAThing.Ext.StringWrapperLineReader.GetNext()
+  nameWithType: StringWrapperLineReader.GetNext()
+- uid: SearchAThing.Ext.StringWrapperLineReader.GetNext*
+  name: GetNext
+  href: api/SearchAThing.Ext.StringWrapperLineReader.html#SearchAThing_Ext_StringWrapperLineReader_GetNext_
+  commentId: Overload:SearchAThing.Ext.StringWrapperLineReader.GetNext
+  isSpec: "True"
+  fullName: SearchAThing.Ext.StringWrapperLineReader.GetNext
+  nameWithType: StringWrapperLineReader.GetNext
+- uid: SearchAThing.Ext.StringWrapperLineReader.HasNext
+  name: HasNext()
+  href: api/SearchAThing.Ext.StringWrapperLineReader.html#SearchAThing_Ext_StringWrapperLineReader_HasNext
+  commentId: M:SearchAThing.Ext.StringWrapperLineReader.HasNext
+  fullName: SearchAThing.Ext.StringWrapperLineReader.HasNext()
+  nameWithType: StringWrapperLineReader.HasNext()
+- uid: SearchAThing.Ext.StringWrapperLineReader.HasNext*
+  name: HasNext
+  href: api/SearchAThing.Ext.StringWrapperLineReader.html#SearchAThing_Ext_StringWrapperLineReader_HasNext_
+  commentId: Overload:SearchAThing.Ext.StringWrapperLineReader.HasNext
+  isSpec: "True"
+  fullName: SearchAThing.Ext.StringWrapperLineReader.HasNext
+  nameWithType: StringWrapperLineReader.HasNext
+- uid: SearchAThing.Ext.StringWrapperLineReader.Strw
+  name: Strw
+  href: api/SearchAThing.Ext.StringWrapperLineReader.html#SearchAThing_Ext_StringWrapperLineReader_Strw
+  commentId: P:SearchAThing.Ext.StringWrapperLineReader.Strw
+  fullName: SearchAThing.Ext.StringWrapperLineReader.Strw
+  nameWithType: StringWrapperLineReader.Strw
+- uid: SearchAThing.Ext.StringWrapperLineReader.Strw*
+  name: Strw
+  href: api/SearchAThing.Ext.StringWrapperLineReader.html#SearchAThing_Ext_StringWrapperLineReader_Strw_
+  commentId: Overload:SearchAThing.Ext.StringWrapperLineReader.Strw
+  isSpec: "True"
+  fullName: SearchAThing.Ext.StringWrapperLineReader.Strw
+  nameWithType: StringWrapperLineReader.Strw
+- uid: SearchAThing.Ext.Toolkit
+  name: Toolkit
+  href: api/SearchAThing.Ext.Toolkit.html
+  commentId: T:SearchAThing.Ext.Toolkit
+  fullName: SearchAThing.Ext.Toolkit
+  nameWithType: Toolkit
+- uid: SearchAThing.Ext.Toolkit.AllowedDateTimeOffsetRange
+  name: Toolkit.AllowedDateTimeOffsetRange
+  href: api/SearchAThing.Ext.Toolkit.AllowedDateTimeOffsetRange.html
+  commentId: T:SearchAThing.Ext.Toolkit.AllowedDateTimeOffsetRange
+  fullName: SearchAThing.Ext.Toolkit.AllowedDateTimeOffsetRange
+  nameWithType: Toolkit.AllowedDateTimeOffsetRange
+- uid: SearchAThing.Ext.Toolkit.AllowedDateTimeOffsetRange.#ctor(System.DateTimeOffset,System.DateTimeOffset)
+  name: AllowedDateTimeOffsetRange(DateTimeOffset, DateTimeOffset)
+  href: api/SearchAThing.Ext.Toolkit.AllowedDateTimeOffsetRange.html#SearchAThing_Ext_Toolkit_AllowedDateTimeOffsetRange__ctor_System_DateTimeOffset_System_DateTimeOffset_
+  commentId: M:SearchAThing.Ext.Toolkit.AllowedDateTimeOffsetRange.#ctor(System.DateTimeOffset,System.DateTimeOffset)
+  name.vb: New(DateTimeOffset, DateTimeOffset)
+  fullName: SearchAThing.Ext.Toolkit.AllowedDateTimeOffsetRange.AllowedDateTimeOffsetRange(System.DateTimeOffset, System.DateTimeOffset)
+  fullName.vb: SearchAThing.Ext.Toolkit.AllowedDateTimeOffsetRange.New(System.DateTimeOffset, System.DateTimeOffset)
+  nameWithType: Toolkit.AllowedDateTimeOffsetRange.AllowedDateTimeOffsetRange(DateTimeOffset, DateTimeOffset)
+  nameWithType.vb: Toolkit.AllowedDateTimeOffsetRange.New(DateTimeOffset, DateTimeOffset)
+- uid: SearchAThing.Ext.Toolkit.AllowedDateTimeOffsetRange.#ctor(System.Int32,System.Int32)
+  name: AllowedDateTimeOffsetRange(int, int)
+  href: api/SearchAThing.Ext.Toolkit.AllowedDateTimeOffsetRange.html#SearchAThing_Ext_Toolkit_AllowedDateTimeOffsetRange__ctor_System_Int32_System_Int32_
+  commentId: M:SearchAThing.Ext.Toolkit.AllowedDateTimeOffsetRange.#ctor(System.Int32,System.Int32)
+  name.vb: New(Integer, Integer)
+  fullName: SearchAThing.Ext.Toolkit.AllowedDateTimeOffsetRange.AllowedDateTimeOffsetRange(int, int)
+  fullName.vb: SearchAThing.Ext.Toolkit.AllowedDateTimeOffsetRange.New(Integer, Integer)
+  nameWithType: Toolkit.AllowedDateTimeOffsetRange.AllowedDateTimeOffsetRange(int, int)
+  nameWithType.vb: Toolkit.AllowedDateTimeOffsetRange.New(Integer, Integer)
+- uid: SearchAThing.Ext.Toolkit.AllowedDateTimeOffsetRange.#ctor*
+  name: AllowedDateTimeOffsetRange
+  href: api/SearchAThing.Ext.Toolkit.AllowedDateTimeOffsetRange.html#SearchAThing_Ext_Toolkit_AllowedDateTimeOffsetRange__ctor_
+  commentId: Overload:SearchAThing.Ext.Toolkit.AllowedDateTimeOffsetRange.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: SearchAThing.Ext.Toolkit.AllowedDateTimeOffsetRange.AllowedDateTimeOffsetRange
+  fullName.vb: SearchAThing.Ext.Toolkit.AllowedDateTimeOffsetRange.New
+  nameWithType: Toolkit.AllowedDateTimeOffsetRange.AllowedDateTimeOffsetRange
+  nameWithType.vb: Toolkit.AllowedDateTimeOffsetRange.New
+- uid: SearchAThing.Ext.Toolkit.AllowedDateTimeOffsetRange.From
+  name: From
+  href: api/SearchAThing.Ext.Toolkit.AllowedDateTimeOffsetRange.html#SearchAThing_Ext_Toolkit_AllowedDateTimeOffsetRange_From
+  commentId: P:SearchAThing.Ext.Toolkit.AllowedDateTimeOffsetRange.From
+  fullName: SearchAThing.Ext.Toolkit.AllowedDateTimeOffsetRange.From
+  nameWithType: Toolkit.AllowedDateTimeOffsetRange.From
+- uid: SearchAThing.Ext.Toolkit.AllowedDateTimeOffsetRange.From*
+  name: From
+  href: api/SearchAThing.Ext.Toolkit.AllowedDateTimeOffsetRange.html#SearchAThing_Ext_Toolkit_AllowedDateTimeOffsetRange_From_
+  commentId: Overload:SearchAThing.Ext.Toolkit.AllowedDateTimeOffsetRange.From
+  isSpec: "True"
+  fullName: SearchAThing.Ext.Toolkit.AllowedDateTimeOffsetRange.From
+  nameWithType: Toolkit.AllowedDateTimeOffsetRange.From
+- uid: SearchAThing.Ext.Toolkit.AllowedDateTimeOffsetRange.To
+  name: To
+  href: api/SearchAThing.Ext.Toolkit.AllowedDateTimeOffsetRange.html#SearchAThing_Ext_Toolkit_AllowedDateTimeOffsetRange_To
+  commentId: P:SearchAThing.Ext.Toolkit.AllowedDateTimeOffsetRange.To
+  fullName: SearchAThing.Ext.Toolkit.AllowedDateTimeOffsetRange.To
+  nameWithType: Toolkit.AllowedDateTimeOffsetRange.To
+- uid: SearchAThing.Ext.Toolkit.AllowedDateTimeOffsetRange.To*
+  name: To
+  href: api/SearchAThing.Ext.Toolkit.AllowedDateTimeOffsetRange.html#SearchAThing_Ext_Toolkit_AllowedDateTimeOffsetRange_To_
+  commentId: Overload:SearchAThing.Ext.Toolkit.AllowedDateTimeOffsetRange.To
+  isSpec: "True"
+  fullName: SearchAThing.Ext.Toolkit.AllowedDateTimeOffsetRange.To
+  nameWithType: Toolkit.AllowedDateTimeOffsetRange.To
+- uid: SearchAThing.Ext.Toolkit.AppDataFolder(System.String)
+  name: AppDataFolder(string)
+  href: api/SearchAThing.Ext.Toolkit.html#SearchAThing_Ext_Toolkit_AppDataFolder_System_String_
+  commentId: M:SearchAThing.Ext.Toolkit.AppDataFolder(System.String)
+  name.vb: AppDataFolder(String)
+  fullName: SearchAThing.Ext.Toolkit.AppDataFolder(string)
+  fullName.vb: SearchAThing.Ext.Toolkit.AppDataFolder(String)
+  nameWithType: Toolkit.AppDataFolder(string)
+  nameWithType.vb: Toolkit.AppDataFolder(String)
+- uid: SearchAThing.Ext.Toolkit.AppDataFolder*
+  name: AppDataFolder
+  href: api/SearchAThing.Ext.Toolkit.html#SearchAThing_Ext_Toolkit_AppDataFolder_
+  commentId: Overload:SearchAThing.Ext.Toolkit.AppDataFolder
+  isSpec: "True"
+  fullName: SearchAThing.Ext.Toolkit.AppDataFolder
+  nameWithType: Toolkit.AppDataFolder
+- uid: SearchAThing.Ext.Toolkit.Assign*
+  name: Assign
+  href: api/SearchAThing.Ext.Toolkit.html#SearchAThing_Ext_Toolkit_Assign_
+  commentId: Overload:SearchAThing.Ext.Toolkit.Assign
+  isSpec: "True"
+  fullName: SearchAThing.Ext.Toolkit.Assign
+  nameWithType: Toolkit.Assign
+- uid: SearchAThing.Ext.Toolkit.Assign``1(``0,``0,System.Func{System.Reflection.PropertyInfo,System.Boolean})
+  name: Assign<T>(T, T, Func<PropertyInfo, bool>?)
+  href: api/SearchAThing.Ext.Toolkit.html#SearchAThing_Ext_Toolkit_Assign__1___0___0_System_Func_System_Reflection_PropertyInfo_System_Boolean__
+  commentId: M:SearchAThing.Ext.Toolkit.Assign``1(``0,``0,System.Func{System.Reflection.PropertyInfo,System.Boolean})
+  name.vb: Assign(Of T)(T, T, Func(Of PropertyInfo, Boolean))
+  fullName: SearchAThing.Ext.Toolkit.Assign<T>(T, T, System.Func<System.Reflection.PropertyInfo, bool>?)
+  fullName.vb: SearchAThing.Ext.Toolkit.Assign(Of T)(T, T, System.Func(Of System.Reflection.PropertyInfo, Boolean))
+  nameWithType: Toolkit.Assign<T>(T, T, Func<PropertyInfo, bool>?)
+  nameWithType.vb: Toolkit.Assign(Of T)(T, T, Func(Of PropertyInfo, Boolean))
+- uid: SearchAThing.Ext.Toolkit.CopyFrom*
+  name: CopyFrom
+  href: api/SearchAThing.Ext.Toolkit.html#SearchAThing_Ext_Toolkit_CopyFrom_
+  commentId: Overload:SearchAThing.Ext.Toolkit.CopyFrom
+  isSpec: "True"
+  fullName: SearchAThing.Ext.Toolkit.CopyFrom
+  nameWithType: Toolkit.CopyFrom
+- uid: SearchAThing.Ext.Toolkit.CopyFromCustom*
+  name: CopyFromCustom
+  href: api/SearchAThing.Ext.Toolkit.html#SearchAThing_Ext_Toolkit_CopyFromCustom_
+  commentId: Overload:SearchAThing.Ext.Toolkit.CopyFromCustom
+  isSpec: "True"
+  fullName: SearchAThing.Ext.Toolkit.CopyFromCustom
+  nameWithType: Toolkit.CopyFromCustom
+- uid: SearchAThing.Ext.Toolkit.CopyFromCustom``1(``0,``0,SearchAThing.Ext.CopyFromCustomDelegate)
+  name: CopyFromCustom<T>(T, T, CopyFromCustomDelegate?)
+  href: api/SearchAThing.Ext.Toolkit.html#SearchAThing_Ext_Toolkit_CopyFromCustom__1___0___0_SearchAThing_Ext_CopyFromCustomDelegate_
+  commentId: M:SearchAThing.Ext.Toolkit.CopyFromCustom``1(``0,``0,SearchAThing.Ext.CopyFromCustomDelegate)
+  name.vb: CopyFromCustom(Of T)(T, T, CopyFromCustomDelegate)
+  fullName: SearchAThing.Ext.Toolkit.CopyFromCustom<T>(T, T, SearchAThing.Ext.CopyFromCustomDelegate?)
+  fullName.vb: SearchAThing.Ext.Toolkit.CopyFromCustom(Of T)(T, T, SearchAThing.Ext.CopyFromCustomDelegate)
+  nameWithType: Toolkit.CopyFromCustom<T>(T, T, CopyFromCustomDelegate?)
+  nameWithType.vb: Toolkit.CopyFromCustom(Of T)(T, T, CopyFromCustomDelegate)
+- uid: SearchAThing.Ext.Toolkit.CopyFromExclude*
+  name: CopyFromExclude
+  href: api/SearchAThing.Ext.Toolkit.html#SearchAThing_Ext_Toolkit_CopyFromExclude_
+  commentId: Overload:SearchAThing.Ext.Toolkit.CopyFromExclude
+  isSpec: "True"
+  fullName: SearchAThing.Ext.Toolkit.CopyFromExclude
+  nameWithType: Toolkit.CopyFromExclude
+- uid: SearchAThing.Ext.Toolkit.CopyFromExclude``1(``0,``0,System.String[])
+  name: CopyFromExclude<T>(T, T, params string[])
+  href: api/SearchAThing.Ext.Toolkit.html#SearchAThing_Ext_Toolkit_CopyFromExclude__1___0___0_System_String___
+  commentId: M:SearchAThing.Ext.Toolkit.CopyFromExclude``1(``0,``0,System.String[])
+  name.vb: CopyFromExclude(Of T)(T, T, ParamArray String())
+  fullName: SearchAThing.Ext.Toolkit.CopyFromExclude<T>(T, T, params string[])
+  fullName.vb: SearchAThing.Ext.Toolkit.CopyFromExclude(Of T)(T, T, ParamArray String())
+  nameWithType: Toolkit.CopyFromExclude<T>(T, T, params string[])
+  nameWithType.vb: Toolkit.CopyFromExclude(Of T)(T, T, ParamArray String())
+- uid: SearchAThing.Ext.Toolkit.CopyFromInclude*
+  name: CopyFromInclude
+  href: api/SearchAThing.Ext.Toolkit.html#SearchAThing_Ext_Toolkit_CopyFromInclude_
+  commentId: Overload:SearchAThing.Ext.Toolkit.CopyFromInclude
+  isSpec: "True"
+  fullName: SearchAThing.Ext.Toolkit.CopyFromInclude
+  nameWithType: Toolkit.CopyFromInclude
+- uid: SearchAThing.Ext.Toolkit.CopyFromInclude``1(``0,``0,System.String[])
+  name: CopyFromInclude<T>(T, T, params string[])
+  href: api/SearchAThing.Ext.Toolkit.html#SearchAThing_Ext_Toolkit_CopyFromInclude__1___0___0_System_String___
+  commentId: M:SearchAThing.Ext.Toolkit.CopyFromInclude``1(``0,``0,System.String[])
+  name.vb: CopyFromInclude(Of T)(T, T, ParamArray String())
+  fullName: SearchAThing.Ext.Toolkit.CopyFromInclude<T>(T, T, params string[])
+  fullName.vb: SearchAThing.Ext.Toolkit.CopyFromInclude(Of T)(T, T, ParamArray String())
+  nameWithType: Toolkit.CopyFromInclude<T>(T, T, params string[])
+  nameWithType.vb: Toolkit.CopyFromInclude(Of T)(T, T, ParamArray String())
+- uid: SearchAThing.Ext.Toolkit.CopyFrom``1(``0,``0,System.Func{System.Reflection.PropertyInfo,System.Boolean})
+  name: CopyFrom<T>(T, T, Func<PropertyInfo, bool>?)
+  href: api/SearchAThing.Ext.Toolkit.html#SearchAThing_Ext_Toolkit_CopyFrom__1___0___0_System_Func_System_Reflection_PropertyInfo_System_Boolean__
+  commentId: M:SearchAThing.Ext.Toolkit.CopyFrom``1(``0,``0,System.Func{System.Reflection.PropertyInfo,System.Boolean})
+  name.vb: CopyFrom(Of T)(T, T, Func(Of PropertyInfo, Boolean))
+  fullName: SearchAThing.Ext.Toolkit.CopyFrom<T>(T, T, System.Func<System.Reflection.PropertyInfo, bool>?)
+  fullName.vb: SearchAThing.Ext.Toolkit.CopyFrom(Of T)(T, T, System.Func(Of System.Reflection.PropertyInfo, Boolean))
+  nameWithType: Toolkit.CopyFrom<T>(T, T, Func<PropertyInfo, bool>?)
+  nameWithType.vb: Toolkit.CopyFrom(Of T)(T, T, Func(Of PropertyInfo, Boolean))
+- uid: SearchAThing.Ext.Toolkit.CreateComparer*
+  name: CreateComparer
+  href: api/SearchAThing.Ext.Toolkit.html#SearchAThing_Ext_Toolkit_CreateComparer_
+  commentId: Overload:SearchAThing.Ext.Toolkit.CreateComparer
+  isSpec: "True"
+  fullName: SearchAThing.Ext.Toolkit.CreateComparer
+  nameWithType: Toolkit.CreateComparer
+- uid: SearchAThing.Ext.Toolkit.CreateComparer``1(``0,System.Comparison{``0})
+  name: CreateComparer<T>(T, Comparison<T>)
+  href: api/SearchAThing.Ext.Toolkit.html#SearchAThing_Ext_Toolkit_CreateComparer__1___0_System_Comparison___0__
+  commentId: M:SearchAThing.Ext.Toolkit.CreateComparer``1(``0,System.Comparison{``0})
+  name.vb: CreateComparer(Of T)(T, Comparison(Of T))
+  fullName: SearchAThing.Ext.Toolkit.CreateComparer<T>(T, System.Comparison<T>)
+  fullName.vb: SearchAThing.Ext.Toolkit.CreateComparer(Of T)(T, System.Comparison(Of T))
+  nameWithType: Toolkit.CreateComparer<T>(T, Comparison<T>)
+  nameWithType.vb: Toolkit.CreateComparer(Of T)(T, Comparison(Of T))
+- uid: SearchAThing.Ext.Toolkit.DeflateEmbeddedResource(System.Reflection.Assembly,System.String)
+  name: DeflateEmbeddedResource(Assembly, string)
+  href: api/SearchAThing.Ext.Toolkit.html#SearchAThing_Ext_Toolkit_DeflateEmbeddedResource_System_Reflection_Assembly_System_String_
+  commentId: M:SearchAThing.Ext.Toolkit.DeflateEmbeddedResource(System.Reflection.Assembly,System.String)
+  name.vb: DeflateEmbeddedResource(Assembly, String)
+  fullName: SearchAThing.Ext.Toolkit.DeflateEmbeddedResource(System.Reflection.Assembly, string)
+  fullName.vb: SearchAThing.Ext.Toolkit.DeflateEmbeddedResource(System.Reflection.Assembly, String)
+  nameWithType: Toolkit.DeflateEmbeddedResource(Assembly, string)
+  nameWithType.vb: Toolkit.DeflateEmbeddedResource(Assembly, String)
+- uid: SearchAThing.Ext.Toolkit.DeflateEmbeddedResource*
+  name: DeflateEmbeddedResource
+  href: api/SearchAThing.Ext.Toolkit.html#SearchAThing_Ext_Toolkit_DeflateEmbeddedResource_
+  commentId: Overload:SearchAThing.Ext.Toolkit.DeflateEmbeddedResource
+  isSpec: "True"
+  fullName: SearchAThing.Ext.Toolkit.DeflateEmbeddedResource
+  nameWithType: Toolkit.DeflateEmbeddedResource
+- uid: SearchAThing.Ext.Toolkit.EnsureFolder(System.String)
+  name: EnsureFolder(string)
+  href: api/SearchAThing.Ext.Toolkit.html#SearchAThing_Ext_Toolkit_EnsureFolder_System_String_
+  commentId: M:SearchAThing.Ext.Toolkit.EnsureFolder(System.String)
+  name.vb: EnsureFolder(String)
+  fullName: SearchAThing.Ext.Toolkit.EnsureFolder(string)
+  fullName.vb: SearchAThing.Ext.Toolkit.EnsureFolder(String)
+  nameWithType: Toolkit.EnsureFolder(string)
+  nameWithType.vb: Toolkit.EnsureFolder(String)
+- uid: SearchAThing.Ext.Toolkit.EnsureFolder*
+  name: EnsureFolder
+  href: api/SearchAThing.Ext.Toolkit.html#SearchAThing_Ext_Toolkit_EnsureFolder_
+  commentId: Overload:SearchAThing.Ext.Toolkit.EnsureFolder
+  isSpec: "True"
+  fullName: SearchAThing.Ext.Toolkit.EnsureFolder
+  nameWithType: Toolkit.EnsureFolder
+- uid: SearchAThing.Ext.Toolkit.Exec(System.String,System.Collections.Generic.IEnumerable{System.String},System.Threading.CancellationToken,System.Boolean,System.Boolean,System.Boolean,System.Boolean)
+  name: Exec(string, IEnumerable<string>, CancellationToken, bool, bool, bool, bool)
+  href: api/SearchAThing.Ext.Toolkit.html#SearchAThing_Ext_Toolkit_Exec_System_String_System_Collections_Generic_IEnumerable_System_String__System_Threading_CancellationToken_System_Boolean_System_Boolean_System_Boolean_System_Boolean_
+  commentId: M:SearchAThing.Ext.Toolkit.Exec(System.String,System.Collections.Generic.IEnumerable{System.String},System.Threading.CancellationToken,System.Boolean,System.Boolean,System.Boolean,System.Boolean)
+  name.vb: Exec(String, IEnumerable(Of String), CancellationToken, Boolean, Boolean, Boolean, Boolean)
+  fullName: SearchAThing.Ext.Toolkit.Exec(string, System.Collections.Generic.IEnumerable<string>, System.Threading.CancellationToken, bool, bool, bool, bool)
+  fullName.vb: SearchAThing.Ext.Toolkit.Exec(String, System.Collections.Generic.IEnumerable(Of String), System.Threading.CancellationToken, Boolean, Boolean, Boolean, Boolean)
+  nameWithType: Toolkit.Exec(string, IEnumerable<string>, CancellationToken, bool, bool, bool, bool)
+  nameWithType.vb: Toolkit.Exec(String, IEnumerable(Of String), CancellationToken, Boolean, Boolean, Boolean, Boolean)
+- uid: SearchAThing.Ext.Toolkit.Exec*
+  name: Exec
+  href: api/SearchAThing.Ext.Toolkit.html#SearchAThing_Ext_Toolkit_Exec_
+  commentId: Overload:SearchAThing.Ext.Toolkit.Exec
+  isSpec: "True"
+  fullName: SearchAThing.Ext.Toolkit.Exec
+  nameWithType: Toolkit.Exec
+- uid: SearchAThing.Ext.Toolkit.ExecNoRedirect(System.String,System.Collections.Generic.IEnumerable{System.String},System.Threading.CancellationToken,System.Boolean,System.Boolean)
+  name: ExecNoRedirect(string, IEnumerable<string>, CancellationToken, bool, bool)
+  href: api/SearchAThing.Ext.Toolkit.html#SearchAThing_Ext_Toolkit_ExecNoRedirect_System_String_System_Collections_Generic_IEnumerable_System_String__System_Threading_CancellationToken_System_Boolean_System_Boolean_
+  commentId: M:SearchAThing.Ext.Toolkit.ExecNoRedirect(System.String,System.Collections.Generic.IEnumerable{System.String},System.Threading.CancellationToken,System.Boolean,System.Boolean)
+  name.vb: ExecNoRedirect(String, IEnumerable(Of String), CancellationToken, Boolean, Boolean)
+  fullName: SearchAThing.Ext.Toolkit.ExecNoRedirect(string, System.Collections.Generic.IEnumerable<string>, System.Threading.CancellationToken, bool, bool)
+  fullName.vb: SearchAThing.Ext.Toolkit.ExecNoRedirect(String, System.Collections.Generic.IEnumerable(Of String), System.Threading.CancellationToken, Boolean, Boolean)
+  nameWithType: Toolkit.ExecNoRedirect(string, IEnumerable<string>, CancellationToken, bool, bool)
+  nameWithType.vb: Toolkit.ExecNoRedirect(String, IEnumerable(Of String), CancellationToken, Boolean, Boolean)
+- uid: SearchAThing.Ext.Toolkit.ExecNoRedirect*
+  name: ExecNoRedirect
+  href: api/SearchAThing.Ext.Toolkit.html#SearchAThing_Ext_Toolkit_ExecNoRedirect_
+  commentId: Overload:SearchAThing.Ext.Toolkit.ExecNoRedirect
+  isSpec: "True"
+  fullName: SearchAThing.Ext.Toolkit.ExecNoRedirect
+  nameWithType: Toolkit.ExecNoRedirect
+- uid: SearchAThing.Ext.Toolkit.ExecRedirect(System.String,System.Collections.Generic.IEnumerable{System.String},System.Threading.CancellationToken,System.Boolean,System.Boolean)
+  name: ExecRedirect(string, IEnumerable<string>, CancellationToken, bool, bool)
+  href: api/SearchAThing.Ext.Toolkit.html#SearchAThing_Ext_Toolkit_ExecRedirect_System_String_System_Collections_Generic_IEnumerable_System_String__System_Threading_CancellationToken_System_Boolean_System_Boolean_
+  commentId: M:SearchAThing.Ext.Toolkit.ExecRedirect(System.String,System.Collections.Generic.IEnumerable{System.String},System.Threading.CancellationToken,System.Boolean,System.Boolean)
+  name.vb: ExecRedirect(String, IEnumerable(Of String), CancellationToken, Boolean, Boolean)
+  fullName: SearchAThing.Ext.Toolkit.ExecRedirect(string, System.Collections.Generic.IEnumerable<string>, System.Threading.CancellationToken, bool, bool)
+  fullName.vb: SearchAThing.Ext.Toolkit.ExecRedirect(String, System.Collections.Generic.IEnumerable(Of String), System.Threading.CancellationToken, Boolean, Boolean)
+  nameWithType: Toolkit.ExecRedirect(string, IEnumerable<string>, CancellationToken, bool, bool)
+  nameWithType.vb: Toolkit.ExecRedirect(String, IEnumerable(Of String), CancellationToken, Boolean, Boolean)
+- uid: SearchAThing.Ext.Toolkit.ExecRedirect*
+  name: ExecRedirect
+  href: api/SearchAThing.Ext.Toolkit.html#SearchAThing_Ext_Toolkit_ExecRedirect_
+  commentId: Overload:SearchAThing.Ext.Toolkit.ExecRedirect
+  isSpec: "True"
+  fullName: SearchAThing.Ext.Toolkit.ExecRedirect
+  nameWithType: Toolkit.ExecRedirect
+- uid: SearchAThing.Ext.Toolkit.ExecRedirectError(System.String,System.Collections.Generic.IEnumerable{System.String},System.Threading.CancellationToken,System.Boolean,System.Boolean)
+  name: ExecRedirectError(string, IEnumerable<string>, CancellationToken, bool, bool)
+  href: api/SearchAThing.Ext.Toolkit.html#SearchAThing_Ext_Toolkit_ExecRedirectError_System_String_System_Collections_Generic_IEnumerable_System_String__System_Threading_CancellationToken_System_Boolean_System_Boolean_
+  commentId: M:SearchAThing.Ext.Toolkit.ExecRedirectError(System.String,System.Collections.Generic.IEnumerable{System.String},System.Threading.CancellationToken,System.Boolean,System.Boolean)
+  name.vb: ExecRedirectError(String, IEnumerable(Of String), CancellationToken, Boolean, Boolean)
+  fullName: SearchAThing.Ext.Toolkit.ExecRedirectError(string, System.Collections.Generic.IEnumerable<string>, System.Threading.CancellationToken, bool, bool)
+  fullName.vb: SearchAThing.Ext.Toolkit.ExecRedirectError(String, System.Collections.Generic.IEnumerable(Of String), System.Threading.CancellationToken, Boolean, Boolean)
+  nameWithType: Toolkit.ExecRedirectError(string, IEnumerable<string>, CancellationToken, bool, bool)
+  nameWithType.vb: Toolkit.ExecRedirectError(String, IEnumerable(Of String), CancellationToken, Boolean, Boolean)
+- uid: SearchAThing.Ext.Toolkit.ExecRedirectError*
+  name: ExecRedirectError
+  href: api/SearchAThing.Ext.Toolkit.html#SearchAThing_Ext_Toolkit_ExecRedirectError_
+  commentId: Overload:SearchAThing.Ext.Toolkit.ExecRedirectError
+  isSpec: "True"
+  fullName: SearchAThing.Ext.Toolkit.ExecRedirectError
+  nameWithType: Toolkit.ExecRedirectError
+- uid: SearchAThing.Ext.Toolkit.FromUnixTimeAuto(System.Int64,SearchAThing.Ext.Toolkit.AllowedDateTimeOffsetRange,SearchAThing.Ext.Toolkit.AllowedDateTimeOffsetRange)
+  name: FromUnixTimeAuto(long, AllowedDateTimeOffsetRange, AllowedDateTimeOffsetRange?)
+  href: api/SearchAThing.Ext.Toolkit.html#SearchAThing_Ext_Toolkit_FromUnixTimeAuto_System_Int64_SearchAThing_Ext_Toolkit_AllowedDateTimeOffsetRange_SearchAThing_Ext_Toolkit_AllowedDateTimeOffsetRange_
+  commentId: M:SearchAThing.Ext.Toolkit.FromUnixTimeAuto(System.Int64,SearchAThing.Ext.Toolkit.AllowedDateTimeOffsetRange,SearchAThing.Ext.Toolkit.AllowedDateTimeOffsetRange)
+  name.vb: FromUnixTimeAuto(Long, AllowedDateTimeOffsetRange, AllowedDateTimeOffsetRange)
+  fullName: SearchAThing.Ext.Toolkit.FromUnixTimeAuto(long, SearchAThing.Ext.Toolkit.AllowedDateTimeOffsetRange, SearchAThing.Ext.Toolkit.AllowedDateTimeOffsetRange?)
+  fullName.vb: SearchAThing.Ext.Toolkit.FromUnixTimeAuto(Long, SearchAThing.Ext.Toolkit.AllowedDateTimeOffsetRange, SearchAThing.Ext.Toolkit.AllowedDateTimeOffsetRange)
+  nameWithType: Toolkit.FromUnixTimeAuto(long, Toolkit.AllowedDateTimeOffsetRange, Toolkit.AllowedDateTimeOffsetRange?)
+  nameWithType.vb: Toolkit.FromUnixTimeAuto(Long, Toolkit.AllowedDateTimeOffsetRange, Toolkit.AllowedDateTimeOffsetRange)
+- uid: SearchAThing.Ext.Toolkit.FromUnixTimeAuto*
+  name: FromUnixTimeAuto
+  href: api/SearchAThing.Ext.Toolkit.html#SearchAThing_Ext_Toolkit_FromUnixTimeAuto_
+  commentId: Overload:SearchAThing.Ext.Toolkit.FromUnixTimeAuto
+  isSpec: "True"
+  fullName: SearchAThing.Ext.Toolkit.FromUnixTimeAuto
+  nameWithType: Toolkit.FromUnixTimeAuto
+- uid: SearchAThing.Ext.Toolkit.GetEmbeddedFileContentBytes(System.Reflection.Assembly,System.String)
+  name: GetEmbeddedFileContentBytes(Assembly, string)
+  href: api/SearchAThing.Ext.Toolkit.html#SearchAThing_Ext_Toolkit_GetEmbeddedFileContentBytes_System_Reflection_Assembly_System_String_
+  commentId: M:SearchAThing.Ext.Toolkit.GetEmbeddedFileContentBytes(System.Reflection.Assembly,System.String)
+  name.vb: GetEmbeddedFileContentBytes(Assembly, String)
+  fullName: SearchAThing.Ext.Toolkit.GetEmbeddedFileContentBytes(System.Reflection.Assembly, string)
+  fullName.vb: SearchAThing.Ext.Toolkit.GetEmbeddedFileContentBytes(System.Reflection.Assembly, String)
+  nameWithType: Toolkit.GetEmbeddedFileContentBytes(Assembly, string)
+  nameWithType.vb: Toolkit.GetEmbeddedFileContentBytes(Assembly, String)
+- uid: SearchAThing.Ext.Toolkit.GetEmbeddedFileContentBytes*
+  name: GetEmbeddedFileContentBytes
+  href: api/SearchAThing.Ext.Toolkit.html#SearchAThing_Ext_Toolkit_GetEmbeddedFileContentBytes_
+  commentId: Overload:SearchAThing.Ext.Toolkit.GetEmbeddedFileContentBytes
+  isSpec: "True"
+  fullName: SearchAThing.Ext.Toolkit.GetEmbeddedFileContentBytes
+  nameWithType: Toolkit.GetEmbeddedFileContentBytes
+- uid: SearchAThing.Ext.Toolkit.GetEmbeddedFileContentString(System.Reflection.Assembly,System.String)
+  name: GetEmbeddedFileContentString(Assembly, string)
+  href: api/SearchAThing.Ext.Toolkit.html#SearchAThing_Ext_Toolkit_GetEmbeddedFileContentString_System_Reflection_Assembly_System_String_
+  commentId: M:SearchAThing.Ext.Toolkit.GetEmbeddedFileContentString(System.Reflection.Assembly,System.String)
+  name.vb: GetEmbeddedFileContentString(Assembly, String)
+  fullName: SearchAThing.Ext.Toolkit.GetEmbeddedFileContentString(System.Reflection.Assembly, string)
+  fullName.vb: SearchAThing.Ext.Toolkit.GetEmbeddedFileContentString(System.Reflection.Assembly, String)
+  nameWithType: Toolkit.GetEmbeddedFileContentString(Assembly, string)
+  nameWithType.vb: Toolkit.GetEmbeddedFileContentString(Assembly, String)
+- uid: SearchAThing.Ext.Toolkit.GetEmbeddedFileContentString*
+  name: GetEmbeddedFileContentString
+  href: api/SearchAThing.Ext.Toolkit.html#SearchAThing_Ext_Toolkit_GetEmbeddedFileContentString_
+  commentId: Overload:SearchAThing.Ext.Toolkit.GetEmbeddedFileContentString
+  isSpec: "True"
+  fullName: SearchAThing.Ext.Toolkit.GetEmbeddedFileContentString
+  nameWithType: Toolkit.GetEmbeddedFileContentString
+- uid: SearchAThing.Ext.Toolkit.GetEmbeddedFileContentString``1(System.String)
+  name: GetEmbeddedFileContentString<T>(string)
+  href: api/SearchAThing.Ext.Toolkit.html#SearchAThing_Ext_Toolkit_GetEmbeddedFileContentString__1_System_String_
+  commentId: M:SearchAThing.Ext.Toolkit.GetEmbeddedFileContentString``1(System.String)
+  name.vb: GetEmbeddedFileContentString(Of T)(String)
+  fullName: SearchAThing.Ext.Toolkit.GetEmbeddedFileContentString<T>(string)
+  fullName.vb: SearchAThing.Ext.Toolkit.GetEmbeddedFileContentString(Of T)(String)
+  nameWithType: Toolkit.GetEmbeddedFileContentString<T>(string)
+  nameWithType.vb: Toolkit.GetEmbeddedFileContentString(Of T)(String)
+- uid: SearchAThing.Ext.Toolkit.GetEmbeddedResourceNames(System.Reflection.Assembly)
+  name: GetEmbeddedResourceNames(Assembly?)
+  href: api/SearchAThing.Ext.Toolkit.html#SearchAThing_Ext_Toolkit_GetEmbeddedResourceNames_System_Reflection_Assembly_
+  commentId: M:SearchAThing.Ext.Toolkit.GetEmbeddedResourceNames(System.Reflection.Assembly)
+  name.vb: GetEmbeddedResourceNames(Assembly)
+  fullName: SearchAThing.Ext.Toolkit.GetEmbeddedResourceNames(System.Reflection.Assembly?)
+  fullName.vb: SearchAThing.Ext.Toolkit.GetEmbeddedResourceNames(System.Reflection.Assembly)
+  nameWithType: Toolkit.GetEmbeddedResourceNames(Assembly?)
+  nameWithType.vb: Toolkit.GetEmbeddedResourceNames(Assembly)
+- uid: SearchAThing.Ext.Toolkit.GetEmbeddedResourceNames*
+  name: GetEmbeddedResourceNames
+  href: api/SearchAThing.Ext.Toolkit.html#SearchAThing_Ext_Toolkit_GetEmbeddedResourceNames_
+  commentId: Overload:SearchAThing.Ext.Toolkit.GetEmbeddedResourceNames
+  isSpec: "True"
+  fullName: SearchAThing.Ext.Toolkit.GetEmbeddedResourceNames
+  nameWithType: Toolkit.GetEmbeddedResourceNames
+- uid: SearchAThing.Ext.Toolkit.GetEmbeddedResourcesList*
+  name: GetEmbeddedResourcesList
+  href: api/SearchAThing.Ext.Toolkit.html#SearchAThing_Ext_Toolkit_GetEmbeddedResourcesList_
+  commentId: Overload:SearchAThing.Ext.Toolkit.GetEmbeddedResourcesList
+  isSpec: "True"
+  fullName: SearchAThing.Ext.Toolkit.GetEmbeddedResourcesList
+  nameWithType: Toolkit.GetEmbeddedResourcesList
+- uid: SearchAThing.Ext.Toolkit.GetEmbeddedResourcesList``1
+  name: GetEmbeddedResourcesList<T>()
+  href: api/SearchAThing.Ext.Toolkit.html#SearchAThing_Ext_Toolkit_GetEmbeddedResourcesList__1
+  commentId: M:SearchAThing.Ext.Toolkit.GetEmbeddedResourcesList``1
+  name.vb: GetEmbeddedResourcesList(Of T)()
+  fullName: SearchAThing.Ext.Toolkit.GetEmbeddedResourcesList<T>()
+  fullName.vb: SearchAThing.Ext.Toolkit.GetEmbeddedResourcesList(Of T)()
+  nameWithType: Toolkit.GetEmbeddedResourcesList<T>()
+  nameWithType.vb: Toolkit.GetEmbeddedResourcesList(Of T)()
+- uid: SearchAThing.Ext.Toolkit.GetMemberName*
+  name: GetMemberName
+  href: api/SearchAThing.Ext.Toolkit.html#SearchAThing_Ext_Toolkit_GetMemberName_
+  commentId: Overload:SearchAThing.Ext.Toolkit.GetMemberName
+  isSpec: "True"
+  fullName: SearchAThing.Ext.Toolkit.GetMemberName
+  nameWithType: Toolkit.GetMemberName
+- uid: SearchAThing.Ext.Toolkit.GetMemberName``1(System.Linq.Expressions.Expression{System.Func{``0,System.Object}})
+  name: GetMemberName<T>(Expression<Func<T, object>>)
+  href: api/SearchAThing.Ext.Toolkit.html#SearchAThing_Ext_Toolkit_GetMemberName__1_System_Linq_Expressions_Expression_System_Func___0_System_Object___
+  commentId: M:SearchAThing.Ext.Toolkit.GetMemberName``1(System.Linq.Expressions.Expression{System.Func{``0,System.Object}})
+  name.vb: GetMemberName(Of T)(Expression(Of Func(Of T, Object)))
+  fullName: SearchAThing.Ext.Toolkit.GetMemberName<T>(System.Linq.Expressions.Expression<System.Func<T, object>>)
+  fullName.vb: SearchAThing.Ext.Toolkit.GetMemberName(Of T)(System.Linq.Expressions.Expression(Of System.Func(Of T, Object)))
+  nameWithType: Toolkit.GetMemberName<T>(Expression<Func<T, object>>)
+  nameWithType.vb: Toolkit.GetMemberName(Of T)(Expression(Of Func(Of T, Object)))
+- uid: SearchAThing.Ext.Toolkit.GetMemberName``1(``0,System.Linq.Expressions.Expression{System.Func{``0,System.Object}})
+  name: GetMemberName<T>(T, Expression<Func<T, object>>)
+  href: api/SearchAThing.Ext.Toolkit.html#SearchAThing_Ext_Toolkit_GetMemberName__1___0_System_Linq_Expressions_Expression_System_Func___0_System_Object___
+  commentId: M:SearchAThing.Ext.Toolkit.GetMemberName``1(``0,System.Linq.Expressions.Expression{System.Func{``0,System.Object}})
+  name.vb: GetMemberName(Of T)(T, Expression(Of Func(Of T, Object)))
+  fullName: SearchAThing.Ext.Toolkit.GetMemberName<T>(T, System.Linq.Expressions.Expression<System.Func<T, object>>)
+  fullName.vb: SearchAThing.Ext.Toolkit.GetMemberName(Of T)(T, System.Linq.Expressions.Expression(Of System.Func(Of T, Object)))
+  nameWithType: Toolkit.GetMemberName<T>(T, Expression<Func<T, object>>)
+  nameWithType.vb: Toolkit.GetMemberName(Of T)(T, Expression(Of Func(Of T, Object)))
+- uid: SearchAThing.Ext.Toolkit.GetMemberNames*
+  name: GetMemberNames
+  href: api/SearchAThing.Ext.Toolkit.html#SearchAThing_Ext_Toolkit_GetMemberNames_
+  commentId: Overload:SearchAThing.Ext.Toolkit.GetMemberNames
+  isSpec: "True"
+  fullName: SearchAThing.Ext.Toolkit.GetMemberNames
+  nameWithType: Toolkit.GetMemberNames
+- uid: SearchAThing.Ext.Toolkit.GetMemberNamesExt*
+  name: GetMemberNamesExt
+  href: api/SearchAThing.Ext.Toolkit.html#SearchAThing_Ext_Toolkit_GetMemberNamesExt_
+  commentId: Overload:SearchAThing.Ext.Toolkit.GetMemberNamesExt
+  isSpec: "True"
+  fullName: SearchAThing.Ext.Toolkit.GetMemberNamesExt
+  nameWithType: Toolkit.GetMemberNamesExt
+- uid: SearchAThing.Ext.Toolkit.GetMemberNamesExt``1(System.Linq.Expressions.Expression{System.Func{``0,System.Object}})
+  name: GetMemberNamesExt<T>(Expression<Func<T, object>>)
+  href: api/SearchAThing.Ext.Toolkit.html#SearchAThing_Ext_Toolkit_GetMemberNamesExt__1_System_Linq_Expressions_Expression_System_Func___0_System_Object___
+  commentId: M:SearchAThing.Ext.Toolkit.GetMemberNamesExt``1(System.Linq.Expressions.Expression{System.Func{``0,System.Object}})
+  name.vb: GetMemberNamesExt(Of T)(Expression(Of Func(Of T, Object)))
+  fullName: SearchAThing.Ext.Toolkit.GetMemberNamesExt<T>(System.Linq.Expressions.Expression<System.Func<T, object>>)
+  fullName.vb: SearchAThing.Ext.Toolkit.GetMemberNamesExt(Of T)(System.Linq.Expressions.Expression(Of System.Func(Of T, Object)))
+  nameWithType: Toolkit.GetMemberNamesExt<T>(Expression<Func<T, object>>)
+  nameWithType.vb: Toolkit.GetMemberNamesExt(Of T)(Expression(Of Func(Of T, Object)))
+- uid: SearchAThing.Ext.Toolkit.GetMemberNames``1(System.Linq.Expressions.Expression{System.Func{``0,System.Object}})
+  name: GetMemberNames<T>(Expression<Func<T, object>>)
+  href: api/SearchAThing.Ext.Toolkit.html#SearchAThing_Ext_Toolkit_GetMemberNames__1_System_Linq_Expressions_Expression_System_Func___0_System_Object___
+  commentId: M:SearchAThing.Ext.Toolkit.GetMemberNames``1(System.Linq.Expressions.Expression{System.Func{``0,System.Object}})
+  name.vb: GetMemberNames(Of T)(Expression(Of Func(Of T, Object)))
+  fullName: SearchAThing.Ext.Toolkit.GetMemberNames<T>(System.Linq.Expressions.Expression<System.Func<T, object>>)
+  fullName.vb: SearchAThing.Ext.Toolkit.GetMemberNames(Of T)(System.Linq.Expressions.Expression(Of System.Func(Of T, Object)))
+  nameWithType: Toolkit.GetMemberNames<T>(Expression<Func<T, object>>)
+  nameWithType.vb: Toolkit.GetMemberNames(Of T)(Expression(Of Func(Of T, Object)))
+- uid: SearchAThing.Ext.Toolkit.GetMemberNames``1(``0,System.Linq.Expressions.Expression{System.Func{``0,System.Object}})
+  name: GetMemberNames<T>(T, Expression<Func<T, object>>)
+  href: api/SearchAThing.Ext.Toolkit.html#SearchAThing_Ext_Toolkit_GetMemberNames__1___0_System_Linq_Expressions_Expression_System_Func___0_System_Object___
+  commentId: M:SearchAThing.Ext.Toolkit.GetMemberNames``1(``0,System.Linq.Expressions.Expression{System.Func{``0,System.Object}})
+  name.vb: GetMemberNames(Of T)(T, Expression(Of Func(Of T, Object)))
+  fullName: SearchAThing.Ext.Toolkit.GetMemberNames<T>(T, System.Linq.Expressions.Expression<System.Func<T, object>>)
+  fullName.vb: SearchAThing.Ext.Toolkit.GetMemberNames(Of T)(T, System.Linq.Expressions.Expression(Of System.Func(Of T, Object)))
+  nameWithType: Toolkit.GetMemberNames<T>(T, Expression<Func<T, object>>)
+  nameWithType.vb: Toolkit.GetMemberNames(Of T)(T, Expression(Of Func(Of T, Object)))
+- uid: SearchAThing.Ext.Toolkit.GetVarName*
+  name: GetVarName
+  href: api/SearchAThing.Ext.Toolkit.html#SearchAThing_Ext_Toolkit_GetVarName_
+  commentId: Overload:SearchAThing.Ext.Toolkit.GetVarName
+  isSpec: "True"
+  fullName: SearchAThing.Ext.Toolkit.GetVarName
+  nameWithType: Toolkit.GetVarName
+- uid: SearchAThing.Ext.Toolkit.GetVarName``1(System.Linq.Expressions.Expression{System.Func{``0}})
+  name: GetVarName<T>(Expression<Func<T>>)
+  href: api/SearchAThing.Ext.Toolkit.html#SearchAThing_Ext_Toolkit_GetVarName__1_System_Linq_Expressions_Expression_System_Func___0___
+  commentId: M:SearchAThing.Ext.Toolkit.GetVarName``1(System.Linq.Expressions.Expression{System.Func{``0}})
+  name.vb: GetVarName(Of T)(Expression(Of Func(Of T)))
+  fullName: SearchAThing.Ext.Toolkit.GetVarName<T>(System.Linq.Expressions.Expression<System.Func<T>>)
+  fullName.vb: SearchAThing.Ext.Toolkit.GetVarName(Of T)(System.Linq.Expressions.Expression(Of System.Func(Of T)))
+  nameWithType: Toolkit.GetVarName<T>(Expression<Func<T>>)
+  nameWithType.vb: Toolkit.GetVarName(Of T)(Expression(Of Func(Of T)))
+- uid: SearchAThing.Ext.Toolkit.ParentPath(System.String,System.String)
+  name: ParentPath(string, string)
+  href: api/SearchAThing.Ext.Toolkit.html#SearchAThing_Ext_Toolkit_ParentPath_System_String_System_String_
+  commentId: M:SearchAThing.Ext.Toolkit.ParentPath(System.String,System.String)
+  name.vb: ParentPath(String, String)
+  fullName: SearchAThing.Ext.Toolkit.ParentPath(string, string)
+  fullName.vb: SearchAThing.Ext.Toolkit.ParentPath(String, String)
+  nameWithType: Toolkit.ParentPath(string, string)
+  nameWithType.vb: Toolkit.ParentPath(String, String)
+- uid: SearchAThing.Ext.Toolkit.ParentPath*
+  name: ParentPath
+  href: api/SearchAThing.Ext.Toolkit.html#SearchAThing_Ext_Toolkit_ParentPath_
+  commentId: Overload:SearchAThing.Ext.Toolkit.ParentPath
+  isSpec: "True"
+  fullName: SearchAThing.Ext.Toolkit.ParentPath
+  nameWithType: Toolkit.ParentPath
+- uid: SearchAThing.Ext.Toolkit.RandomPassword(SearchAThing.Ext.RandomPasswordOptions)
+  name: RandomPassword(RandomPasswordOptions?)
+  href: api/SearchAThing.Ext.Toolkit.html#SearchAThing_Ext_Toolkit_RandomPassword_SearchAThing_Ext_RandomPasswordOptions_
+  commentId: M:SearchAThing.Ext.Toolkit.RandomPassword(SearchAThing.Ext.RandomPasswordOptions)
+  name.vb: RandomPassword(RandomPasswordOptions)
+  fullName: SearchAThing.Ext.Toolkit.RandomPassword(SearchAThing.Ext.RandomPasswordOptions?)
+  fullName.vb: SearchAThing.Ext.Toolkit.RandomPassword(SearchAThing.Ext.RandomPasswordOptions)
+  nameWithType: Toolkit.RandomPassword(RandomPasswordOptions?)
+  nameWithType.vb: Toolkit.RandomPassword(RandomPasswordOptions)
+- uid: SearchAThing.Ext.Toolkit.RandomPassword*
+  name: RandomPassword
+  href: api/SearchAThing.Ext.Toolkit.html#SearchAThing_Ext_Toolkit_RandomPassword_
+  commentId: Overload:SearchAThing.Ext.Toolkit.RandomPassword
+  isSpec: "True"
+  fullName: SearchAThing.Ext.Toolkit.RandomPassword
+  nameWithType: Toolkit.RandomPassword
+- uid: SearchAThing.Ext.Toolkit.SaveEmbeddedResourceToFile(System.String,System.String,System.Boolean)
+  name: SaveEmbeddedResourceToFile(string, string, bool)
+  href: api/SearchAThing.Ext.Toolkit.html#SearchAThing_Ext_Toolkit_SaveEmbeddedResourceToFile_System_String_System_String_System_Boolean_
+  commentId: M:SearchAThing.Ext.Toolkit.SaveEmbeddedResourceToFile(System.String,System.String,System.Boolean)
+  name.vb: SaveEmbeddedResourceToFile(String, String, Boolean)
+  fullName: SearchAThing.Ext.Toolkit.SaveEmbeddedResourceToFile(string, string, bool)
+  fullName.vb: SearchAThing.Ext.Toolkit.SaveEmbeddedResourceToFile(String, String, Boolean)
+  nameWithType: Toolkit.SaveEmbeddedResourceToFile(string, string, bool)
+  nameWithType.vb: Toolkit.SaveEmbeddedResourceToFile(String, String, Boolean)
+- uid: SearchAThing.Ext.Toolkit.SaveEmbeddedResourceToFile*
+  name: SaveEmbeddedResourceToFile
+  href: api/SearchAThing.Ext.Toolkit.html#SearchAThing_Ext_Toolkit_SaveEmbeddedResourceToFile_
+  commentId: Overload:SearchAThing.Ext.Toolkit.SaveEmbeddedResourceToFile
+  isSpec: "True"
+  fullName: SearchAThing.Ext.Toolkit.SaveEmbeddedResourceToFile
+  nameWithType: Toolkit.SaveEmbeddedResourceToFile
+- uid: SearchAThing.Ext.Toolkit.SearchInPath(System.String)
+  name: SearchInPath(string)
+  href: api/SearchAThing.Ext.Toolkit.html#SearchAThing_Ext_Toolkit_SearchInPath_System_String_
+  commentId: M:SearchAThing.Ext.Toolkit.SearchInPath(System.String)
+  name.vb: SearchInPath(String)
+  fullName: SearchAThing.Ext.Toolkit.SearchInPath(string)
+  fullName.vb: SearchAThing.Ext.Toolkit.SearchInPath(String)
+  nameWithType: Toolkit.SearchInPath(string)
+  nameWithType.vb: Toolkit.SearchInPath(String)
+- uid: SearchAThing.Ext.Toolkit.SearchInPath*
+  name: SearchInPath
+  href: api/SearchAThing.Ext.Toolkit.html#SearchAThing_Ext_Toolkit_SearchInPath_
+  commentId: Overload:SearchAThing.Ext.Toolkit.SearchInPath
+  isSpec: "True"
+  fullName: SearchAThing.Ext.Toolkit.SearchInPath
+  nameWithType: Toolkit.SearchInPath
+- uid: SearchAThing.Ext.Toolkit.Swap*
+  name: Swap
+  href: api/SearchAThing.Ext.Toolkit.html#SearchAThing_Ext_Toolkit_Swap_
+  commentId: Overload:SearchAThing.Ext.Toolkit.Swap
+  isSpec: "True"
+  fullName: SearchAThing.Ext.Toolkit.Swap
+  nameWithType: Toolkit.Swap
+- uid: SearchAThing.Ext.Toolkit.Swap``1(``0@,``0@)
+  name: Swap<T>(ref T, ref T)
+  href: api/SearchAThing.Ext.Toolkit.html#SearchAThing_Ext_Toolkit_Swap__1___0____0__
+  commentId: M:SearchAThing.Ext.Toolkit.Swap``1(``0@,``0@)
+  name.vb: Swap(Of T)(T, T)
+  fullName: SearchAThing.Ext.Toolkit.Swap<T>(ref T, ref T)
+  fullName.vb: SearchAThing.Ext.Toolkit.Swap(Of T)(T, T)
+  nameWithType: Toolkit.Swap<T>(ref T, ref T)
+  nameWithType.vb: Toolkit.Swap(Of T)(T, T)
+- uid: SearchAThing.Ext.Toolkit.TailLike(System.String,System.Boolean,System.Nullable{System.Threading.CancellationToken},System.Int32)
+  name: TailLike(string, bool, CancellationToken?, int)
+  href: api/SearchAThing.Ext.Toolkit.html#SearchAThing_Ext_Toolkit_TailLike_System_String_System_Boolean_System_Nullable_System_Threading_CancellationToken__System_Int32_
+  commentId: M:SearchAThing.Ext.Toolkit.TailLike(System.String,System.Boolean,System.Nullable{System.Threading.CancellationToken},System.Int32)
+  name.vb: TailLike(String, Boolean, CancellationToken?, Integer)
+  fullName: SearchAThing.Ext.Toolkit.TailLike(string, bool, System.Threading.CancellationToken?, int)
+  fullName.vb: SearchAThing.Ext.Toolkit.TailLike(String, Boolean, System.Threading.CancellationToken?, Integer)
+  nameWithType: Toolkit.TailLike(string, bool, CancellationToken?, int)
+  nameWithType.vb: Toolkit.TailLike(String, Boolean, CancellationToken?, Integer)
+- uid: SearchAThing.Ext.Toolkit.TailLike*
+  name: TailLike
+  href: api/SearchAThing.Ext.Toolkit.html#SearchAThing_Ext_Toolkit_TailLike_
+  commentId: Overload:SearchAThing.Ext.Toolkit.TailLike
+  isSpec: "True"
+  fullName: SearchAThing.Ext.Toolkit.TailLike
+  nameWithType: Toolkit.TailLike
+- uid: SearchAThing.Ext.Toolkit.UnixTimeAutoAmbiguityFrom
+  name: UnixTimeAutoAmbiguityFrom
+  href: api/SearchAThing.Ext.Toolkit.html#SearchAThing_Ext_Toolkit_UnixTimeAutoAmbiguityFrom
+  commentId: F:SearchAThing.Ext.Toolkit.UnixTimeAutoAmbiguityFrom
+  fullName: SearchAThing.Ext.Toolkit.UnixTimeAutoAmbiguityFrom
+  nameWithType: Toolkit.UnixTimeAutoAmbiguityFrom
+- uid: SearchAThing.Ext.Toolkit.UnixTimeAutoAmbiguityTo
+  name: UnixTimeAutoAmbiguityTo
+  href: api/SearchAThing.Ext.Toolkit.html#SearchAThing_Ext_Toolkit_UnixTimeAutoAmbiguityTo
+  commentId: F:SearchAThing.Ext.Toolkit.UnixTimeAutoAmbiguityTo
+  fullName: SearchAThing.Ext.Toolkit.UnixTimeAutoAmbiguityTo
+  nameWithType: Toolkit.UnixTimeAutoAmbiguityTo
+- uid: SearchAThing.Ext.Toolkit.XorNull(System.Object,System.Object)
+  name: XorNull(object, object)
+  href: api/SearchAThing.Ext.Toolkit.html#SearchAThing_Ext_Toolkit_XorNull_System_Object_System_Object_
+  commentId: M:SearchAThing.Ext.Toolkit.XorNull(System.Object,System.Object)
+  name.vb: XorNull(Object, Object)
+  fullName: SearchAThing.Ext.Toolkit.XorNull(object, object)
+  fullName.vb: SearchAThing.Ext.Toolkit.XorNull(Object, Object)
+  nameWithType: Toolkit.XorNull(object, object)
+  nameWithType.vb: Toolkit.XorNull(Object, Object)
+- uid: SearchAThing.Ext.Toolkit.XorNull*
+  name: XorNull
+  href: api/SearchAThing.Ext.Toolkit.html#SearchAThing_Ext_Toolkit_XorNull_
+  commentId: Overload:SearchAThing.Ext.Toolkit.XorNull
+  isSpec: "True"
+  fullName: SearchAThing.Ext.Toolkit.XorNull
+  nameWithType: Toolkit.XorNull
+- uid: SearchAThing.Ext.ValueObj`1
+  name: ValueObj<T>
+  href: api/SearchAThing.Ext.ValueObj-1.html
+  commentId: T:SearchAThing.Ext.ValueObj`1
+  name.vb: ValueObj(Of T)
+  fullName: SearchAThing.Ext.ValueObj<T>
+  fullName.vb: SearchAThing.Ext.ValueObj(Of T)
+  nameWithType: ValueObj<T>
+  nameWithType.vb: ValueObj(Of T)
+- uid: SearchAThing.Ext.ValueObj`1.#ctor(`0)
+  name: ValueObj(T)
+  href: api/SearchAThing.Ext.ValueObj-1.html#SearchAThing_Ext_ValueObj_1__ctor__0_
+  commentId: M:SearchAThing.Ext.ValueObj`1.#ctor(`0)
+  name.vb: New(T)
+  fullName: SearchAThing.Ext.ValueObj<T>.ValueObj(T)
+  fullName.vb: SearchAThing.Ext.ValueObj(Of T).New(T)
+  nameWithType: ValueObj<T>.ValueObj(T)
+  nameWithType.vb: ValueObj(Of T).New(T)
+- uid: SearchAThing.Ext.ValueObj`1.#ctor*
+  name: ValueObj
+  href: api/SearchAThing.Ext.ValueObj-1.html#SearchAThing_Ext_ValueObj_1__ctor_
+  commentId: Overload:SearchAThing.Ext.ValueObj`1.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: SearchAThing.Ext.ValueObj<T>.ValueObj
+  fullName.vb: SearchAThing.Ext.ValueObj(Of T).New
+  nameWithType: ValueObj<T>.ValueObj
+  nameWithType.vb: ValueObj(Of T).New
+- uid: SearchAThing.Ext.ValueObj`1.Value
+  name: Value
+  href: api/SearchAThing.Ext.ValueObj-1.html#SearchAThing_Ext_ValueObj_1_Value
+  commentId: P:SearchAThing.Ext.ValueObj`1.Value
+  fullName: SearchAThing.Ext.ValueObj<T>.Value
+  fullName.vb: SearchAThing.Ext.ValueObj(Of T).Value
+  nameWithType: ValueObj<T>.Value
+  nameWithType.vb: ValueObj(Of T).Value
+- uid: SearchAThing.Ext.ValueObj`1.Value*
+  name: Value
+  href: api/SearchAThing.Ext.ValueObj-1.html#SearchAThing_Ext_ValueObj_1_Value_
+  commentId: Overload:SearchAThing.Ext.ValueObj`1.Value
+  isSpec: "True"
+  fullName: SearchAThing.Ext.ValueObj<T>.Value
+  fullName.vb: SearchAThing.Ext.ValueObj(Of T).Value
+  nameWithType: ValueObj<T>.Value
+  nameWithType.vb: ValueObj(Of T).Value

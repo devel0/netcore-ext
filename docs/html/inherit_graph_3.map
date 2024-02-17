@@ -1,6 +1,0 @@
-<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$interface_search_a_thing_1_1_ext_1_1_i_notify_collection_changed2.html" title=" " alt="" coords="5,5,200,31"/>
-<area shape="rect" id="node2" href="$class_search_a_thing_1_1_ext_1_1_observable_collection2.html" title="ObservableCollection specialized with ItemsAdded, ItemsRemoved that allow to track for Clear,..." alt="" coords="253,5,460,31"/>
-<area shape="rect" id="node3" title=" " alt="" coords="22,55,183,80"/>
-<area shape="rect" id="node4" href="$class_search_a_thing_1_1_ext_1_1_h_s_observable_collection.html" title="ObservableCollection backed with hashset for the Contains test." alt="" coords="248,55,465,80"/>
-</map>
