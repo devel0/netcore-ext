@@ -6,7 +6,7 @@
 		<noWarn>1591</noWarn>
 		<GenerateDocumentationFile>true</GenerateDocumentationFile>
 		<PackageId>netcore-ext</PackageId>
-		<PackageVersion>2.6.0</PackageVersion>
+		<PackageVersion>2.7.0</PackageVersion>
 		<Title>net core ext</Title>
 		<Description></Description>
 		<Authors>Lorenzo Delana</Authors>
