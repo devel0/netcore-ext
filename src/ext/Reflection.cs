@@ -75,6 +75,6 @@ public static partial class Toolkit
     /// copy properties from other object including only those with given names
     /// </summary>        
     public static T CopyFromInclude<T>(T obj, T other, params string[] include_names) =>
-    CopyFrom(obj, other, (p) => include_names.Any(include_name => include_name == p.Name));
+        CopyFrom(obj, other, (p) => include_names.Any(include_name => include_name == p.Name));     
 
 }
