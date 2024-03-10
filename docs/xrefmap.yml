@@ -2064,6 +2064,66 @@ references:
   commentId: F:SearchAThing.Ext.PaperSizeEnum.Custom
   fullName: SearchAThing.Ext.PaperSizeEnum.Custom
   nameWithType: PaperSizeEnum.Custom
+- uid: SearchAThing.Ext.PropertyWalker
+  name: PropertyWalker
+  href: api/SearchAThing.Ext.PropertyWalker.html
+  commentId: T:SearchAThing.Ext.PropertyWalker
+  fullName: SearchAThing.Ext.PropertyWalker
+  nameWithType: PropertyWalker
+- uid: SearchAThing.Ext.PropertyWalker.EvalProperty(System.Object,System.Type,System.Object,System.Type,System.Reflection.PropertyInfo)
+  name: EvalProperty(object, Type, object, Type, PropertyInfo?)
+  href: api/SearchAThing.Ext.PropertyWalker.html#SearchAThing_Ext_PropertyWalker_EvalProperty_System_Object_System_Type_System_Object_System_Type_System_Reflection_PropertyInfo_
+  commentId: M:SearchAThing.Ext.PropertyWalker.EvalProperty(System.Object,System.Type,System.Object,System.Type,System.Reflection.PropertyInfo)
+  name.vb: EvalProperty(Object, Type, Object, Type, PropertyInfo)
+  fullName: SearchAThing.Ext.PropertyWalker.EvalProperty(object, System.Type, object, System.Type, System.Reflection.PropertyInfo?)
+  fullName.vb: SearchAThing.Ext.PropertyWalker.EvalProperty(Object, System.Type, Object, System.Type, System.Reflection.PropertyInfo)
+  nameWithType: PropertyWalker.EvalProperty(object, Type, object, Type, PropertyInfo?)
+  nameWithType.vb: PropertyWalker.EvalProperty(Object, Type, Object, Type, PropertyInfo)
+- uid: SearchAThing.Ext.PropertyWalker.EvalProperty*
+  name: EvalProperty
+  href: api/SearchAThing.Ext.PropertyWalker.html#SearchAThing_Ext_PropertyWalker_EvalProperty_
+  commentId: Overload:SearchAThing.Ext.PropertyWalker.EvalProperty
+  isSpec: "True"
+  fullName: SearchAThing.Ext.PropertyWalker.EvalProperty
+  nameWithType: PropertyWalker.EvalProperty
+- uid: SearchAThing.Ext.PropertyWalker.VisitedNodes
+  name: VisitedNodes
+  href: api/SearchAThing.Ext.PropertyWalker.html#SearchAThing_Ext_PropertyWalker_VisitedNodes
+  commentId: F:SearchAThing.Ext.PropertyWalker.VisitedNodes
+  fullName: SearchAThing.Ext.PropertyWalker.VisitedNodes
+  nameWithType: PropertyWalker.VisitedNodes
+- uid: SearchAThing.Ext.PropertyWalker.Walk(System.Object)
+  name: Walk(object)
+  href: api/SearchAThing.Ext.PropertyWalker.html#SearchAThing_Ext_PropertyWalker_Walk_System_Object_
+  commentId: M:SearchAThing.Ext.PropertyWalker.Walk(System.Object)
+  name.vb: Walk(Object)
+  fullName: SearchAThing.Ext.PropertyWalker.Walk(object)
+  fullName.vb: SearchAThing.Ext.PropertyWalker.Walk(Object)
+  nameWithType: PropertyWalker.Walk(object)
+  nameWithType.vb: PropertyWalker.Walk(Object)
+- uid: SearchAThing.Ext.PropertyWalker.Walk*
+  name: Walk
+  href: api/SearchAThing.Ext.PropertyWalker.html#SearchAThing_Ext_PropertyWalker_Walk_
+  commentId: Overload:SearchAThing.Ext.PropertyWalker.Walk
+  isSpec: "True"
+  fullName: SearchAThing.Ext.PropertyWalker.Walk
+  nameWithType: PropertyWalker.Walk
+- uid: SearchAThing.Ext.PropertyWalker.WalkInner(System.Object,System.Type,System.Object,System.Type,System.Reflection.PropertyInfo)
+  name: WalkInner(object, Type, object, Type, PropertyInfo?)
+  href: api/SearchAThing.Ext.PropertyWalker.html#SearchAThing_Ext_PropertyWalker_WalkInner_System_Object_System_Type_System_Object_System_Type_System_Reflection_PropertyInfo_
+  commentId: M:SearchAThing.Ext.PropertyWalker.WalkInner(System.Object,System.Type,System.Object,System.Type,System.Reflection.PropertyInfo)
+  name.vb: WalkInner(Object, Type, Object, Type, PropertyInfo)
+  fullName: SearchAThing.Ext.PropertyWalker.WalkInner(object, System.Type, object, System.Type, System.Reflection.PropertyInfo?)
+  fullName.vb: SearchAThing.Ext.PropertyWalker.WalkInner(Object, System.Type, Object, System.Type, System.Reflection.PropertyInfo)
+  nameWithType: PropertyWalker.WalkInner(object, Type, object, Type, PropertyInfo?)
+  nameWithType.vb: PropertyWalker.WalkInner(Object, Type, Object, Type, PropertyInfo)
+- uid: SearchAThing.Ext.PropertyWalker.WalkInner*
+  name: WalkInner
+  href: api/SearchAThing.Ext.PropertyWalker.html#SearchAThing_Ext_PropertyWalker_WalkInner_
+  commentId: Overload:SearchAThing.Ext.PropertyWalker.WalkInner
+  isSpec: "True"
+  fullName: SearchAThing.Ext.PropertyWalker.WalkInner
+  nameWithType: PropertyWalker.WalkInner
 - uid: SearchAThing.Ext.RStruct`1
   name: RStruct<T>
   href: api/SearchAThing.Ext.RStruct-1.html
