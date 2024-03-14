@@ -46,6 +46,17 @@ public abstract class PropertyWalker
                     WalkInner(property, propertyType, val2, prop2.PropertyType, prop2);
                 }
             }
+
+            else if (propertyType.IsGenericType && propertyType.GetGenericTypeDefinition() == typeof(KeyValuePair<,>))
+            {
+                var property2 = propertyType.GetProperty("Value");
+                var val2 = property2.GetValue(property, null);
+                var prop2Type = val2.GetType();
+
+                WalkInner(property, propertyType, val2, prop2Type, property2);
+
+                ;
+            }
         }
     }
 
