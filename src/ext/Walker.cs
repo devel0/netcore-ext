@@ -9,7 +9,14 @@ public abstract class PropertyWalker
     {
         var type = obj.GetType();
 
-        foreach (var prop in type.GetProperties(BindingFlags.Public | BindingFlags.Instance))
+        if (type.GetInterfaces().Any(w => w == tIEnumerable))
+        {
+            foreach (var x in (IEnumerable)obj)
+            {
+                WalkInner(obj, type, x, x.GetType(), null);
+            }
+        }
+        else foreach (var prop in type.GetProperties(BindingFlags.Public | BindingFlags.Instance))
         {
             var val = prop.GetValue(obj);
 
@@ -39,11 +46,18 @@ public abstract class PropertyWalker
 
             else if (property is not null && propertyType.IsClass)
             {
-                foreach (var prop2 in propertyType.GetProperties(BindingFlags.Public | BindingFlags.Instance))
+                foreach (var prop2 in propertyType.GetProperties(BindingFlags.Public | BindingFlags.Instance | BindingFlags.GetProperty))
                 {
-                    var val2 = prop2.GetValue(property);
+                    if (prop2.GetIndexParameters().Length != 0) continue; // REVIEW: walk through indexer not yet implemented
 
-                    WalkInner(property, propertyType, val2, prop2.PropertyType, prop2);
+                    if (TryReadProperty(property, propertyType, prop2.PropertyType, prop2))
+                    {
+
+                        var val2 = prop2.GetValue(property);
+
+                        WalkInner(property, propertyType, val2, prop2.PropertyType, prop2);
+
+                    }
                 }
             }
 
@@ -59,6 +73,8 @@ public abstract class PropertyWalker
             }
         }
     }
+
+    protected virtual bool TryReadProperty(object parent, Type parentType, Type propertyType, PropertyInfo? propertyInfo) => true;
 
     protected abstract bool EvalProperty(object parent, Type parentType, object property, Type propertyType, PropertyInfo? propertyInfo);
 
