@@ -6,7 +6,7 @@
 		<noWarn>1591</noWarn>
 		<GenerateDocumentationFile>true</GenerateDocumentationFile>
 		<PackageId>netcore-ext</PackageId>
-		<PackageVersion>2.7.2</PackageVersion>
+		<PackageVersion>2.7.3</PackageVersion>
 		<Title>net core ext</Title>
 		<Description></Description>
 		<Authors>Lorenzo Delana</Authors>
@@ -16,7 +16,7 @@
 	</PropertyGroup>
 
 	<ItemGroup>
-		<PackageReference Include="Newtonsoft.Json" Version="13.0.2" />
+		<PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
 		<PackageReference Include="System.Numerics.Vectors" Version="4.5.0" />
 	</ItemGroup>
 
