@@ -21,6 +21,8 @@ public partial class ReflectionTests
         [JsonIgnore]
         public List<SampleDataInner> DataList { get; set; } = new();
 
+        public List<object?> Some { get; set; } = new List<object?>();
+
         public Dictionary<string, SampleDataInner> DataDict { get; set; } = new();
 
         public SampleDataInner[] ArrayList { get; set; } = [];
@@ -100,6 +102,7 @@ public partial class ReflectionTests
         {
             NumVal = 10,
             Data = d0,
+            Some = [ null, "some" ],
             DataList = new List<SampleDataInner> { d1, d2 },
             DataDict = {
                 ["a"] = d1,

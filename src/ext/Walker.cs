@@ -13,15 +13,17 @@ public abstract class PropertyWalker
         {
             foreach (var x in (IEnumerable)obj)
             {
+                if (x is null) continue;
+
                 WalkInner(obj, type, x, x.GetType(), null);
             }
         }
         else foreach (var prop in type.GetProperties(BindingFlags.Public | BindingFlags.Instance))
-        {
-            var val = prop.GetValue(obj);
+            {
+                var val = prop.GetValue(obj);
 
-            WalkInner(obj, type, val, prop.PropertyType, prop);
-        }
+                WalkInner(obj, type, val, prop.PropertyType, prop);
+            }
     }
 
     static Type tIEnumerable = typeof(IEnumerable);
@@ -40,6 +42,8 @@ public abstract class PropertyWalker
             {
                 foreach (var x in (IEnumerable)property)
                 {
+                    if (x is null) continue;
+
                     WalkInner(property, propertyType, x, x.GetType(), null);
                 }
             }
