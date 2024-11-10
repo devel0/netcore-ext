@@ -386,7 +386,7 @@ public static partial class Ext
     /// <summary>
     /// compute MD5Sum of given input
     /// </summary>    
-    public static string ComputeMD5Sum(string input)
+    public static string ComputeMD5Sum(this string input)
     {
         var res = "";
 
