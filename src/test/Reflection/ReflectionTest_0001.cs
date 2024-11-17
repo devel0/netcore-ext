@@ -47,7 +47,7 @@ public partial class ReflectionTests
                 }
 
                 else if (property is SampleDataInner[] array)
-                {                    
+                {
                     array[0] = null;
 
                     return false; // don't walk their children
@@ -64,8 +64,8 @@ public partial class ReflectionTests
             // detect on enumerable child
 
             else if (
-                property is KeyValuePair<string, SampleDataInner> kvp && 
-                kvp.Value is SampleDataInner data && 
+                property is KeyValuePair<string, SampleDataInner> kvp &&
+                kvp.Value is SampleDataInner data &&
                 data.NumVal == 12)
             {
                 ((Dictionary<string, SampleDataInner>)parent)[kvp.Key] = null;
@@ -102,7 +102,7 @@ public partial class ReflectionTests
         {
             NumVal = 10,
             Data = d0,
-            Some = [ null, "some" ],
+            Some = [null, "some"],
             DataList = new List<SampleDataInner> { d1, d2 },
             DataDict = {
                 ["a"] = d1,
